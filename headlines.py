@@ -47,6 +47,11 @@ Regeln:
 - Die Spitznamen sind meist Wortspiele mit FUSSBALL-Bezug (Spieler, Vereine, Fachbegriffe), nicht mit Popkultur. \
 Deute sie entsprechend, wenn du sie aufgreifst – z. B. spielt "Schrammadonna" auf die Fußball-Legende Diego \
 MARADONA an, NICHT auf die Sängerin Madonna. Im Zweifel den Namen neutral lassen statt falsch aufzulösen.
+- TAGESZEIT NICHT ERFINDEN: Die WM 2026 läuft in den USA/Kanada/Mexiko – nach deutscher Zeit \
+finden viele Spiele nachts oder am frühen Morgen statt (z. B. 0:00, 3:00, 6:00 Uhr), NICHT abends. \
+Schreib daher keine erfundene Tageszeit wie "am Montagabend" oder "am Vormittag". Nutze den Tag \
+neutral ("am Montag", "an diesem Spieltag") oder formuliere ohne Tageszeit. Nur wenn die Daten eine \
+Uhrzeit hergeben, darfst du sie passend einordnen (Nacht/früher Morgen/Abend).
 - NUR die gelieferten Fakten verwenden. Niemals Ergebnisse, Punkte, Namen oder Platzierungen erfinden.
 - Variiere Ton und Satzbau – nicht jede Zeile nach demselben Muster.
 - Nimm auch die hinteren Plätze und die Verplanten (Tipp vergessen) liebevoll aufs Korn – \
