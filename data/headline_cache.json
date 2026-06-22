@@ -1,1 +1,459 @@
-{}
+{
+  "2026-06-12": {
+    "sig": "a6a05707ec01adec",
+    "headlines": [
+      {
+        "text": "Stockfish91 schachmatt für die Konkurrenz!",
+        "erklaerung": "Mit zwei ergebnisgenauen Tipps auf das Mexiko-2:0 und das Südkorea-2:1 sahnt Stockfish91 satte 8 Punkte ab. Der makellose Spieltag krönt ihn zum Tagessieger – beide Treffer saßen exakt auf den Millimeter.",
+        "type": "tagessieger",
+        "tipper": "Stockfish91"
+      },
+      {
+        "text": "Das Wunder von Südkorea: Nur fünf rochen den Braten!",
+        "erklaerung": "Beim 2:1 der Südkoreaner gegen Tschechien lagen nur 5 von 20 Tippern richtig – salvanize, Stockfish91 und BenzEma trafen sogar ergebnisgenau und kassierten die vollen 4 Punkte. LinkeKlebe (3) und Weckenbauer (2) hatten zumindest den Sieger auf dem Zettel.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "salvanize"
+      },
+      {
+        "text": "BenzEma riecht das Tor – Volltreffer im Außenseiter-Krimi!",
+        "erklaerung": "Während die halbe Liga beim 2:1 der Südkoreaner danebenlag, traf BenzEma das Ergebnis exakt und holte 4 Punkte. Nur fünf von zwanzig Tippern lagen bei diesem Spiel überhaupt richtig.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "BenzEma"
+      },
+      {
+        "text": "Vier Helden marschieren fehlerfrei durch die Nacht!",
+        "erklaerung": "Salvanize (6), LinkeKlebe (5) und Weckenbauer (4) legten neben Spitzenreiter Stockfish91 einen perfekten Spieltag hin und holten aus beiden Partien Zähler. Der makellose Auftakt sorgt für ein dichtes Verfolgerfeld hinter dem Tagessieger.",
+        "type": "perfekter_spieltag",
+        "tipper": "salvanize"
+      },
+      {
+        "text": "Philipp_Flink wird ausgeflinkt: null Punkte zum Auftakt!",
+        "erklaerung": "Während ringsum gepunktet wurde, ging Philipp_Flink an diesem Spieltag komplett leer aus. Beide Tipps daneben – das macht 0 Zähler und den undankbaren Titel des Pechvogels.",
+        "type": "pechvogel",
+        "tipper": "Philipp_Flink"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-13": {
+    "sig": "2875617ce5bc71ab",
+    "headlines": [
+      {
+        "text": "Zidanima zaubert wie Zidane – Doppelpack zum perfekten Tag!",
+        "erklaerung": "Bei Kanada–Bosnien (1:1) und USA–Paraguay (4:1) lag sie zweimal goldrichtig und sammelte volle 6 Punkte. Ein makelloser Spieltag, einen davon sogar ergebnisgenau.",
+        "type": "perfekter_spieltag",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Volltreffer im Blindflug: Nur 2 von 20 hatten das 1:1!",
+        "erklaerung": "Beim Remis zwischen Kanada und Bosnien-Herzegowina war kaum jemand auf der richtigen Spur. Zidanima gehörte zu den zwei Glücklichen und kassierte für den exakten 1:1-Tipp die vollen 4 Punkte.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "LinkeKlebe klebt am Ergebnis – und holt den Volltreffer!",
+        "erklaerung": "Auch er traf das knifflige 1:1 in Kanada–Bosnien punktgenau und reiht sich in den exklusiven Zweier-Club ein. Während 18 von 20 daneben lagen, klingelten bei ihm 4 Punkte.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "LinkeKlebe"
+      },
+      {
+        "text": "Tagessieg für Zidanima – die Konkurrenz schaut nur zu!",
+        "erklaerung": "Mit 6 Punkten und einem ergebnisgenauen Treffer thront sie an der Spitze des Spieltags. Keiner kam an ihrer Bilanz vorbei.",
+        "type": "tagessieger",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Don_Kuhbert geht baden – null Kühe im Stall!",
+        "erklaerung": "An diesem Spieltag sprang für ihn bei beiden Partien kein einziger Punkt heraus. Mit der dicken Null bildet er das Schlusslicht des Tages.",
+        "type": "pechvogel",
+        "tipper": "Don_Kuhbert"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-14": {
+    "sig": "bf1f7894fd87e8f6",
+    "headlines": [
+      {
+        "text": "Dreikampf an der Spitze – und keiner blinzelt!",
+        "erklaerung": "Schielotterbeck, Zidanima und salvanize teilen sich mit jeweils 6 Punkten den Tagessieg. Alle drei landeten dabei genau einen ergebnisgenauen Volltreffer.",
+        "type": "tagessieger",
+        "tipper": "salvanize"
+      },
+      {
+        "text": "Zidanima zaubert wie einst der Namensgeber!",
+        "erklaerung": "Beim 1:1 zwischen Brasilien und Marokko lag Zidanima goldrichtig und kassierte die vollen 4 Punkte. Nur 3 von 20 Tippern hatten dieses Remis auf dem Zettel.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Schielotterbeck schielt richtig nach Down Under!",
+        "erklaerung": "Beim überraschenden 2:0 Australiens gegen die Türkei hatte Schielotterbeck als eine von ganz wenigen den Ausgang richtig und sicherte sich 2 Punkte. Nur 2 von 20 Mitspielern lagen bei dieser Partie überhaupt richtig.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Schielotterbeck"
+      },
+      {
+        "text": "Weckenbauer baut sich Punkte gleich doppelt!",
+        "erklaerung": "Sowohl beim 2:0 in Australien als auch beim 1:1 in Brasilien hatte Weckenbauer die Tendenz richtig und holte jeweils 2 Zähler. Bei beiden Überraschungen lagen nur eine Handvoll Tipper überhaupt richtig.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Weckenbauer"
+      },
+      {
+        "text": "Tippmon hängt im Mittelfeld fest wie Kaugummi!",
+        "erklaerung": "Schon den dritten Tag in Folge parkt Tippmon auf Platz 9 der Tabelle. Weder rauf noch runter – der Dauergast im grauen Niemandsland.",
+        "type": "mittelfeld_dauergast",
+        "tipper": "Tippmon"
+      },
+      {
+        "text": "TorTippTeddy guckt in die Röhre – null Punkte!",
+        "erklaerung": "An diesem Spieltag blieb für TorTippTeddy nichts hängen, am Ende standen blanke 0 Punkte zu Buche. Da half auch kein Kuscheltier-Glück.",
+        "type": "pechvogel",
+        "tipper": "TorTippTeddy"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-15": {
+    "sig": "5c8c8e1566a67afd",
+    "headlines": [
+      {
+        "text": "Matthias trifft, wo alle blind sind!",
+        "erklaerung": "Beim 1:0 der Elfenbeinküste gegen Ecuador lag als Einziger Matthias richtig und kassierte den Volltreffer. Während die Konkurrenz im Dunkeln tappte, sahnte er die wertvollen Punkte ab.",
+        "type": "einsamer_volltreffer",
+        "tipper": "Matthias"
+      },
+      {
+        "text": "Matthias kürt sich zum Tageskönig!",
+        "erklaerung": "Mit 8 Punkten und einem ergebnisgenauen Treffer holt sich Matthias den Tagessieg an diesem Spieltag. Keiner kam an diesem Tag an seiner Trefferquote vorbei.",
+        "type": "tagessieger",
+        "tipper": "Matthias"
+      },
+      {
+        "text": "Zidanima verpennt – und rutscht vom Thron!",
+        "erklaerung": "Eben noch ganz oben mit dabei, vergaß Zidanima dieses Mal ihren Tipp und fällt auf Platz 3 zurück. So verschenkt sie leichtfertig den Vorsprung an die Verfolger.",
+        "type": "tipp_vergessen",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Weckenbauer im Keller – Tippzettel vergessen!",
+        "erklaerung": "Weckenbauer reichte ihren Tipp nicht ein und steht jetzt abgeschlagen auf Platz 16. Statt Aufholjagd gab's an diesem Spieltag null Zähler zu verbuchen.",
+        "type": "tipp_vergessen",
+        "tipper": "Weckenbauer"
+      },
+      {
+        "text": "Toritz schläft im Mittelfeld ein!",
+        "erklaerung": "Auch Toritz vergaß seinen Tipp und dümpelt nun auf Platz 8 herum. Mit ein bisschen mehr Wachsamkeit wäre an diesem Tag deutlich mehr drin gewesen.",
+        "type": "tipp_vergessen",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "GG ist der Pechvogel vom Dienst!",
+        "erklaerung": "Trotz abgegebenem Tipp sprangen für GG nur magere 2 Punkte heraus. An diesem Spieltag lief einfach nichts zusammen für ihn.",
+        "type": "pechvogel",
+        "tipper": "GG"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-16": {
+    "sig": "6e5ed87e49bb3ffa",
+    "headlines": [
+      {
+        "text": "TorTippTeddy bärenstark – der Tagessieg mit dem Volltreffer!",
+        "erklaerung": "Beim 1:1 zwischen Belgien und Ägypten lag nur der Teddy goldrichtig und kassierte als Einziger die vollen 4 Punkte. Mit einem exakten Treffer und der Tageshöchstwertung schnappt er sich die Krone des Spieltags.",
+        "type": "tagessieger",
+        "tipper": "TorTippTeddy"
+      },
+      {
+        "text": "Nur zwei trauten sich – Teddy traf voll ins Schwarze!",
+        "erklaerung": "Beim 1:1 in Belgien gegen Ägypten lagen von 20 Tippern nur zwei richtig. TorTippTeddy holte mit dem ergebnisgenauen Tipp die vollen 4 Punkte und ließ die Konkurrenz staunen.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "TorTippTeddy"
+      },
+      {
+        "text": "Zidanima zaubert beim Außenseiter-1:1 mit",
+        "erklaerung": "Beim 1:1 zwischen Belgien und Ägypten gehörte Zidanima zu nur zwei von 20 Tippern, die den Ausgang richtig hatten. Für die erkannte Tendenz gab es 2 verdiente Punkte.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Stockfish91 schachmatt setzt die Konkurrenz – von 6 auf 1!",
+        "erklaerung": "Mit einem Sprung um fünf Plätze rauscht Stockfish91 von Rang 6 an die Tabellenspitze. Beim 2:2 zwischen Iran und Neuseeland gehörte er zudem zu nur fünf Tippern mit der richtigen Tendenz.",
+        "type": "aufsteiger",
+        "tipper": "Stockfish91"
+      },
+      {
+        "text": "Toritz im freien Fall – acht Plätze in den Keller!",
+        "erklaerung": "Von Rang 8 ging es für Toritz steil bergab auf Platz 16. Ein rabenschwarzer Spieltag, der ihn aus den vorderen Regionen katapultiert.",
+        "type": "absteiger",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "Iran-Krimi: Fünf Hellseher beim 2:2 dabei",
+        "erklaerung": "Beim turbulenten 2:2 zwischen Iran und Neuseeland lagen nur fünf von 20 Tippern richtig – GG, LinkeKlebe, K_linsman_N und Don_Kuhbert mittendrin. Jeder von ihnen sackte für die richtige Tendenz 2 Punkte ein.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "GG"
+      },
+      {
+        "text": "BenzEma mit Vollbremsung – null Punkte am Spieltag",
+        "erklaerung": "An diesem Spieltag wollte für BenzEma einfach nichts gelingen und am Ende stand die bittere Null. Pech, Pannen, Pleite – der nächste Spieltag kann nur besser werden.",
+        "type": "pechvogel",
+        "tipper": "BenzEma"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-17": {
+    "sig": "12080ffbed487907",
+    "headlines": [
+      {
+        "text": "Schielotterbeck schießt den Tag ab – 13 Punkte!",
+        "erklaerung": "Mit zwei ergebnisgenauen Tipps und durchweg richtiger Tendenz krönt sich Schielotterbeck zum Tagessieger dieses Spieltags. 13 Punkte holte an diesem WM-Tag sonst niemand.",
+        "type": "tagessieger",
+        "tipper": "Schielotterbeck"
+      },
+      {
+        "text": "Toritz allein zu Haus: Österreich-Treffer voll versenkt",
+        "erklaerung": "Beim 3:1 Österreichs gegen Jordanien war Toritz der einzige Tipper mit dem exakten Endstand. Dieser einsame Volltreffer brachte ihm den vollen Punkte-Jackpot.",
+        "type": "einsamer_volltreffer",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "TippTommy und Toritz im Windschatten der Spitze",
+        "erklaerung": "Beide räumten an diesem Spieltag jeweils 12 Punkte ab und lauern damit direkt hinter Tagessiegerin Schielotterbeck. Stockfish91, Lochsocke und GG folgen mit je 11 Zählern dicht dahinter.",
+        "type": "perfekter_spieltag",
+        "tipper": "TippTommy"
+      },
+      {
+        "text": "K_linsman_N verpennt den Tipp – Platz 11 als Quittung",
+        "erklaerung": "K_linsman_N vergaß diesmal abzugeben und rutscht damit ins Mittelfeld auf Rang 11. Mit etwas mehr Wachsamkeit wäre an diesem üppigen Punkte-Tag deutlich mehr drin gewesen.",
+        "type": "tipp_vergessen",
+        "tipper": "K_linsman_N"
+      },
+      {
+        "text": "Schrammadonna klebt am Mittelfeld fest",
+        "erklaerung": "Mit 9 Punkten reicht es für Schrammadonna erneut nur zu Rang 15 – der vierte Tag in Folge in der grauen Tabellenmitte. Die große Aufholjagd lässt weiter auf sich warten.",
+        "type": "mittelfeld_dauergast",
+        "tipper": "Schrammadonna"
+      },
+      {
+        "text": "Pechvogel TorTippTeddy bleibt bei mageren 4 hängen",
+        "erklaerung": "Während rundum die Punkte purzelten, kam TorTippTeddy an diesem Spieltag über magere 4 Zähler nicht hinaus. Das Tipper-Glück machte heute einen großen Bogen um ihn.",
+        "type": "pechvogel",
+        "tipper": "TorTippTeddy"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-18": {
+    "sig": "3a2c5d9d476a9611",
+    "headlines": [
+      {
+        "text": "Schrammadonna kickt sich mit der Hand Gottes nach oben!",
+        "erklaerung": "Mit satten 10 Punkten und einem ergebnisgenauen Treffer schnappt sich Schrammadonna den Tagessieg. Vom 14. Platz geht's hoch auf Rang 7 – sieben Plätze in einer Nacht.",
+        "type": "tagessieger",
+        "tipper": "Schrammadonna"
+      },
+      {
+        "text": "Maradona-Style: Schrammadonna dribbelt von 14 auf 7!",
+        "erklaerung": "An diesem Spieltag macht Schrammadonna sieben Plätze gut und springt von Rang 14 auf 7. Der starke Auftritt rund um Portugal, England und Kolumbien zahlt sich voll aus.",
+        "type": "aufsteiger",
+        "tipper": "Schrammadonna"
+      },
+      {
+        "text": "K_linsman_N stürzt im freien Fall – acht Plätze weg!",
+        "erklaerung": "Von Rang 11 rutscht sie auf den 19. Platz ab und kassiert einen bitteren Tabellensturz. An diesem Spieltag lief beim Tippen so gut wie nichts zusammen.",
+        "type": "absteiger",
+        "tipper": "K_linsman_N"
+      },
+      {
+        "text": "Pechvogel des Tages: K_linsman_N kommt nur auf magere 2 Zähler!",
+        "erklaerung": "Bei vier Partien blieb für K_linsman_N am Ende nur eine müde Tendenz und ganze 2 Punkte. Mehr war an diesem rabenschwarzen Spieltag einfach nicht drin.",
+        "type": "pechvogel",
+        "tipper": "K_linsman_N"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-19": {
+    "sig": "bab67673e205889e",
+    "headlines": [
+      {
+        "text": "Toritz tanzt den perfekten Tipp-Tag!",
+        "erklaerung": "Bei allen vier Partien lag Toritz mit der Tendenz goldrichtig und sammelte satte 9 Punkte. Ergebnisgenaue Volltreffer waren nicht dabei – mussten sie auch nicht, denn die Konstanz reichte locker für den Tagessieg.",
+        "type": "perfekter_spieltag",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "Toritz schnappt sich die Tageskrone",
+        "erklaerung": "Mit 9 Punkten thront Toritz an der Spitze dieses Spieltags. Und das, obwohl kein einziger Tipp ergebnisgenau saß – pure Tendenz-Power.",
+        "type": "tagessieger",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "Stockfish91 stellt allein matt: 1:0 für Mexiko!",
+        "erklaerung": "Beim knappen 1:0 der Mexikaner gegen Südkorea behielt Stockfish91 als Einziger den exakten Durchblick. Während alle anderen leer ausgingen, kassierte er den einsamen Volltreffer.",
+        "type": "einsamer_volltreffer",
+        "tipper": "Stockfish91"
+      },
+      {
+        "text": "TorTippTeddy verpennt – ab in den Keller!",
+        "erklaerung": "Statt zu tippen ließ TorTippTeddy diesen Spieltag komplett sausen und rutscht auf Platz 19. Im Tabellenkeller hilft jetzt nur noch eine echte Aufholjagd.",
+        "type": "tipp_vergessen",
+        "tipper": "TorTippTeddy"
+      },
+      {
+        "text": "GG der Pechvogel: nur zwei magere Pünktchen",
+        "erklaerung": "Während andere abräumten, blieb für GG an diesem Spieltag nur ein einsames 2-Punkte-Trostpflaster. Da war an diesem Abend einfach kein Glück drin.",
+        "type": "pechvogel",
+        "tipper": "GG"
+      },
+      {
+        "text": "Gruppe A: Mexiko macht 14 Tipper glücklich",
+        "erklaerung": "Die Bonusfrage zu Gruppe A endete mit Mexiko an der Spitze – 14 von 20 lagen damit goldrichtig. Sechs gingen leer aus und schauen in die Röhre.",
+        "type": "bonus_aufloesung",
+        "tipper": "Gruppe A"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-20": {
+    "sig": "cec7f36a802216a0",
+    "headlines": [
+      {
+        "text": "Matthias macht's perfekt – 12 Punkte, keine Gnade!",
+        "erklaerung": "An diesem Spieltag holte Matthias bei allen vier Spielen die volle Punktzahl und kassierte 12 Zähler, davon zwei ergebnisgenaue Treffer. Damit krönt er sich zum Tagessieger und lässt der Konkurrenz keine Luft.",
+        "type": "tagessieger",
+        "tipper": "Matthias"
+      },
+      {
+        "text": "Vom Mittelmaß an die Macht: Matthias rast acht Plätze nach oben!",
+        "erklaerung": "Mit seinem makellosen Spieltag katapultiert sich Matthias von Rang 12 auf Platz 4. Acht Plätze in einer einzigen Nacht – das ist die Aufholjagd des Tages.",
+        "type": "aufsteiger",
+        "tipper": "Matthias"
+      },
+      {
+        "text": "Türkei–Paraguay: Das 0:1, an dem fast alle scheiterten",
+        "erklaerung": "Nur 4 von 19 Tippern lagen beim überraschenden 0:1 richtig – Matthias und LinkeKlebe trafen sogar ergebnisgenau und sackten je 4 Punkte ein. Reinoldo und K_linsman_N hatten immerhin den Ausgang richtig und holten je 3 Zähler.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "LinkeKlebe"
+      },
+      {
+        "text": "GG fällt wie ein Stein – fünf Plätze runter!",
+        "erklaerung": "Für GG lief der Spieltag bitter: Es ging von Rang 8 auf Platz 13 hinab. Fünf Plätze verloren – der freie Fall des Abends.",
+        "type": "absteiger",
+        "tipper": "GG"
+      },
+      {
+        "text": "Schrammadonna klebt auf der Sieben fest",
+        "erklaerung": "Schon den vierten Tag in Folge steht Schrammadonna auf Platz 7. Weder hoch noch runter – der ewige Dauergast im Niemandsland der Tabelle.",
+        "type": "mittelfeld_dauergast",
+        "tipper": "Schrammadonna"
+      },
+      {
+        "text": "Kicklberger als Pechvogel: starke Tipps, magere Ausbeute",
+        "erklaerung": "Trotz allem Engagement sprangen für Kicklberger an diesem Spieltag nur 4 Punkte heraus. Der Ertrag passte einfach nicht zum Aufwand – Pech pur.",
+        "type": "pechvogel",
+        "tipper": "Kicklberger"
+      },
+      {
+        "text": "Gruppe D: Nur drei trauten den USA den Sieg zu",
+        "erklaerung": "Die richtige Antwort lautete USA – doch von 20 Tippern hatten nur Schielotterbeck, Lochsocke und GG den Riecher. Satte 17 gingen bei dieser Bonusfrage leer aus.",
+        "type": "bonus_aufloesung",
+        "tipper": "Gruppe D"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-21": {
+    "sig": "08649c5631c7bea6",
+    "headlines": [
+      {
+        "text": "Lochsocke socke-t allen die Punkte weg!",
+        "erklaerung": "An diesem Spieltag tippte Lochsocke alle vier Partien richtig und sammelte makellose 8 Punkte. Damit steht ein perfekter Spieltag zu Buche – und das ohne einen einzigen exakten Volltreffer, nur mit purem Riecher für die Tendenz.",
+        "type": "perfekter_spieltag",
+        "tipper": "Lochsocke"
+      },
+      {
+        "text": "Die 0:0-Hellseherin von Ecuador!",
+        "erklaerung": "Beim torlosen Remis zwischen Ecuador und Curaçao lag nur 1 von 19 Tippern richtig – und das war ausgerechnet Lochsocke. Für den richtigen Riecher beim Remis gab es 2 verdiente Punkte.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Lochsocke"
+      },
+      {
+        "text": "Sechserpack an der Spitze – Stau auf dem Tagesthron!",
+        "erklaerung": "Gleich sechs Tipper landeten mit jeweils 8 Punkten ganz oben: Lochsocke, Schielotterbeck, Schrammadonna, TippTommy, Toritz und salvanize teilen sich den Tagessieg. Während Lochsocke ohne exakten Treffer auskam, hatten die anderen fünf jeweils einen Volltreffer auf dem Konto.",
+        "type": "tagessieger",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "Deutschland-Welle – nur einer paddelt dagegen!",
+        "erklaerung": "In der Bonusfrage zur Gruppe E setzten 19 von 20 Tippern auf Deutschland und lagen goldrichtig. Einzig LinkeKlebe verzockte sich mit der Elfenbeinküste und ging leer aus.",
+        "type": "bonus_aufloesung",
+        "tipper": "Gruppe E"
+      },
+      {
+        "text": "K_linsman_N im Klinsmann-Modus: viel Einsatz, magere Ausbeute",
+        "erklaerung": "Am Ende des Spieltags blieben für K_linsman_N nur magere 2 Punkte übrig. Damit ist der Pechvogel-Titel an diesem Tag sicher.",
+        "type": "pechvogel",
+        "tipper": "K_linsman_N"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "2026-06-22": {
+    "sig": "53a1d6bc01a3dc85",
+    "headlines": [
+      {
+        "text": "Toritz trifft ins Schwarze – und stürmt nach vorn!",
+        "erklaerung": "Beim 1:3 von Neuseeland gegen Ägypten lag Toritz als Einziger goldrichtig. Der Volltreffer spült ihn von Platz 11 auf Rang 6 – satte fünf Plätze nach oben.",
+        "type": "einsamer_volltreffer",
+        "tipper": "Toritz"
+      },
+      {
+        "text": "Doppel-Krone! Don Kuhbert und GG teilen sich den Thron",
+        "erklaerung": "Mit jeweils 8 Punkten und einem ergebnisgenauen Treffer schnappen sich Don_Kuhbert und GG gemeinsam den Tagessieg. Keiner der beiden ließ dem anderen auch nur einen Zähler Vorsprung.",
+        "type": "tagessieger",
+        "tipper": "Don_Kuhbert"
+      },
+      {
+        "text": "Das torlose Wunder von Belgien – nur drei sahen die Null kommen",
+        "erklaerung": "Beim 0:0 zwischen Belgien und Iran lagen nur 3 von 19 Tippern richtig, darunter Zidanima, Don_Kuhbert und K_linsman_N. Für die Mauer-Hellseher gab's je 2 verdiente Punkte.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Lochsocke stopft das 2:2-Loch, das fast alle übersahen",
+        "erklaerung": "Beim wilden 2:2 zwischen Uruguay und Kap Verde behielten nur 3 von 19 den Durchblick – Lochsocke, GG und K_linsman_N gehörten dazu. Macht jeweils 2 Punkte für den Riecher.",
+        "type": "unwahrscheinlicher_treffer",
+        "tipper": "Lochsocke"
+      },
+      {
+        "text": "Zidanima rutscht aus – drei Plätze den Hang hinunter",
+        "erklaerung": "Trotz Treffer beim Belgien-0:0 ging es für Zidanima von Rang 6 auf Platz 9 abwärts. Die Konkurrenz punktete an diesem Spieltag eben kräftiger.",
+        "type": "absteiger",
+        "tipper": "Zidanima"
+      },
+      {
+        "text": "Kicklberger geht baden – null Punkte am Spieltag",
+        "erklaerung": "An diesem Tag sprang für Kicklberger absolut nichts heraus, das Konto blieb auf der dicken Null stehen. Vier Spiele, vier Mal danebengelegen – das muss erstmal jemand nachmachen.",
+        "type": "pechvogel",
+        "tipper": "Kicklberger"
+      },
+      {
+        "text": "Schielotterbeck schraubt sich vom Keller fast an die Spitze",
+        "erklaerung": "Was für eine Saison-Rakete: Von Platz 18 hoch auf Rang 2 sind es sage und schreibe 16 Plätze. Jetzt fehlen nur noch 4 Punkte auf den Thron.",
+        "type": "saison_aufsteiger",
+        "tipper": "Schielotterbeck"
+      }
+    ],
+    "published_at": "2026-06-22T18:36"
+  },
+  "fazit:g:1": {
+    "sig": "4b3b2dea0888ed5c",
+    "headline": {
+      "text": "Stockfish91 fischt sich den ersten Spieltag – satte 36 Punkte zum Auftakt!",
+      "erklaerung": "Mit famosen 36 Punkten schnappt sich Stockfish91 den Tagessieg am 1. Spieltag und thront direkt an der Tabellenspitze. Eine Ansage an die gesamte Konkurrenz, der er gleich zum Start die Angelschnur ausgeworfen hat."
+    }
+  }
+}
