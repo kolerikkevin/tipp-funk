@@ -4,11 +4,8 @@
       "name": "Stockfish91",
       "rank": 1,
       "matchday_points": {
-        "1": 10,
-        "2": 9,
-        "3": 17,
-        "4": 13,
-        "5": 13
+        "g1": 36,
+        "g2": 26
       },
       "total": 70,
       "active": true,
@@ -18,11 +15,8 @@
       "name": "Schielotterbeck",
       "rank": 2,
       "matchday_points": {
-        "1": 10,
-        "2": 4,
-        "3": 18,
-        "4": 10,
-        "5": 12
+        "g1": 32,
+        "g2": 22
       },
       "total": 66,
       "active": true,
@@ -32,11 +26,8 @@
       "name": "Lochsocke",
       "rank": 3,
       "matchday_points": {
-        "1": 9,
-        "2": 2,
-        "3": 17,
-        "4": 13,
-        "5": 12
+        "g1": 28,
+        "g2": 25
       },
       "total": 65,
       "active": true,
@@ -46,11 +37,8 @@
       "name": "TippTommy",
       "rank": 4,
       "matchday_points": {
-        "1": 10,
-        "2": 4,
-        "3": 19,
-        "4": 10,
-        "5": 12
+        "g1": 33,
+        "g2": 22
       },
       "total": 63,
       "active": true,
@@ -60,11 +48,8 @@
       "name": "Schrammadonna",
       "rank": 5,
       "matchday_points": {
-        "1": 6,
-        "2": 4,
-        "3": 19,
-        "4": 13,
-        "5": 12
+        "g1": 29,
+        "g2": 25
       },
       "total": 62,
       "active": true,
@@ -74,11 +59,8 @@
       "name": "Matthias",
       "rank": 6,
       "matchday_points": {
-        "1": 6,
-        "2": 8,
-        "3": 10,
-        "4": 19,
-        "5": 10
+        "g1": 24,
+        "g2": 29
       },
       "total": 61,
       "active": true,
@@ -88,11 +70,8 @@
       "name": "Toritz",
       "rank": 6,
       "matchday_points": {
-        "1": 8,
-        "2": 0,
-        "3": 16,
-        "4": 15,
-        "5": 14
+        "g1": 24,
+        "g2": 29
       },
       "total": 61,
       "active": true,
@@ -102,11 +81,8 @@
       "name": "salvanize",
       "rank": 8,
       "matchday_points": {
-        "1": 12,
-        "2": 5,
-        "3": 13,
-        "4": 10,
-        "5": 13
+        "g1": 30,
+        "g2": 23
       },
       "total": 61,
       "active": true,
@@ -116,11 +92,8 @@
       "name": "Zidanima",
       "rank": 9,
       "matchday_points": {
-        "1": 16,
-        "2": 2,
-        "3": 16,
-        "4": 12,
-        "5": 10
+        "g1": 34,
+        "g2": 22
       },
       "total": 60,
       "active": true,
@@ -130,11 +103,8 @@
       "name": "Tippmon",
       "rank": 10,
       "matchday_points": {
-        "1": 7,
-        "2": 4,
-        "3": 17,
-        "4": 14,
-        "5": 10
+        "g1": 28,
+        "g2": 24
       },
       "total": 60,
       "active": true,
@@ -144,11 +114,8 @@
       "name": "LinkeKlebe",
       "rank": 10,
       "matchday_points": {
-        "1": 11,
-        "2": 5,
-        "3": 14,
-        "4": 16,
-        "5": 10
+        "g1": 30,
+        "g2": 26
       },
       "total": 60,
       "active": true,
@@ -158,11 +125,8 @@
       "name": "Don_Kuhbert",
       "rank": 12,
       "matchday_points": {
-        "1": 4,
-        "2": 7,
-        "3": 15,
-        "4": 12,
-        "5": 13
+        "g1": 26,
+        "g2": 25
       },
       "total": 59,
       "active": true,
@@ -172,11 +136,8 @@
       "name": "GG",
       "rank": 13,
       "matchday_points": {
-        "1": 7,
-        "2": 4,
-        "3": 14,
-        "4": 8,
-        "5": 12
+        "g1": 25,
+        "g2": 20
       },
       "total": 57,
       "active": true,
@@ -186,11 +147,8 @@
       "name": "Kicklberger",
       "rank": 14,
       "matchday_points": {
-        "1": 7,
-        "2": 7,
-        "3": 10,
-        "4": 11,
-        "5": 6
+        "g1": 24,
+        "g2": 17
       },
       "total": 49,
       "active": true,
@@ -200,11 +158,8 @@
       "name": "BenzEma",
       "rank": 14,
       "matchday_points": {
-        "1": 9,
-        "2": 5,
-        "3": 13,
-        "4": 11,
-        "5": 7
+        "g1": 27,
+        "g2": 18
       },
       "total": 49,
       "active": true,
@@ -214,11 +169,8 @@
       "name": "Philipp_Flink",
       "rank": 16,
       "matchday_points": {
-        "1": 2,
-        "2": 4,
-        "3": 18,
-        "4": 10,
-        "5": 8
+        "g1": 24,
+        "g2": 18
       },
       "total": 46,
       "active": true,
@@ -228,11 +180,8 @@
       "name": "Reinoldo",
       "rank": 17,
       "matchday_points": {
-        "1": 4,
-        "2": 4,
-        "3": 12,
-        "4": 12,
-        "5": 8
+        "g1": 20,
+        "g2": 20
       },
       "total": 44,
       "active": true,
@@ -242,11 +191,8 @@
       "name": "Weckenbauer",
       "rank": 18,
       "matchday_points": {
-        "1": 8,
-        "2": 0,
-        "3": 12,
-        "4": 10,
-        "5": 8
+        "g1": 20,
+        "g2": 18
       },
       "total": 42,
       "active": true,
@@ -256,11 +202,8 @@
       "name": "K_linsman_N",
       "rank": 19,
       "matchday_points": {
-        "1": 5,
-        "2": 6,
-        "3": 2,
-        "4": 11,
-        "5": 8
+        "g1": 13,
+        "g2": 19
       },
       "total": 40,
       "active": true,
@@ -270,11 +213,8 @@
       "name": "TorTippTeddy",
       "rank": 20,
       "matchday_points": {
-        "1": 2,
-        "2": 8,
-        "3": 7,
-        "4": 0,
-        "5": 0
+        "g1": 17,
+        "g2": 0
       },
       "total": 21,
       "active": true,
@@ -283,13 +223,7 @@
     {
       "name": "LaraB",
       "rank": 21,
-      "matchday_points": {
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0
-      },
+      "matchday_points": {},
       "total": 0,
       "active": false,
       "bonus": null
@@ -300,10 +234,15 @@
     "LaraB"
   ],
   "spieltage": [
-    1,
-    2,
-    3,
-    4,
-    5
+    {
+      "key": "g1",
+      "kurz": "1",
+      "lang": "Gruppenphase · 1. Spieltag"
+    },
+    {
+      "key": "g2",
+      "kurz": "2",
+      "lang": "Gruppenphase · 2. Spieltag"
+    }
   ]
 }

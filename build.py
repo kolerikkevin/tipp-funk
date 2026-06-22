@@ -413,6 +413,43 @@ def detect_season_events(history, standings, active):
 
 
 # --------------------------------------------------------------------------- #
+# Tabellen-Spalten nach OFFIZIELLEM WM-Spieltag (statt Kicktipps interner Zählung)
+# --------------------------------------------------------------------------- #
+_KO_ORDER = ["Sechzehntelfinale", "Achtelfinale", "Viertelfinale", "Halbfinale",
+             "Spiel um Platz 3", "Finale"]
+_KO_KURZ = {"Sechzehntelfinale": "S16", "Achtelfinale": "AF", "Viertelfinale": "VF",
+            "Halbfinale": "HF", "Spiel um Platz 3": "P3", "Finale": "FIN"}
+
+
+def official_matchday_table(games, active):
+    """Punkte je Tipper nach OFFIZIELLEM WM-Spieltag bzw. K.-o.-Runde – neu aus den
+    Einzelspiel-Punkten aggregiert, nicht aus Kicktipps 8-Spiele-Blöcken.
+    Liefert (spalten, punkte): spalten = [{key, kurz, lang}], punkte = {name: {key: pkt}}."""
+    cols = {}                       # key -> (kurz, lang, sortindex)
+    pts = {nm: {} for nm in active}
+    for g in games:                 # games = nur gespielte Spiele (flatten_games)
+        if g.get("phase_kind") == "ko":
+            rnd = g.get("round") or "K.-o.-Runde"
+            key = "k:" + rnd
+            if key not in cols:
+                cols[key] = (_KO_KURZ.get(rnd, rnd[:3]), rnd,
+                             100 + (_KO_ORDER.index(rnd) if rnd in _KO_ORDER else 99))
+        elif g.get("official_md"):
+            md = g["official_md"]
+            key = f"g{md}"
+            if key not in cols:
+                cols[key] = (str(md), f"Gruppenphase · {md}. Spieltag", md)
+        else:
+            continue
+        for nm, p in g["tippers"].items():
+            if nm in pts:
+                pts[nm][key] = pts[nm].get(key, 0) + p["points"]
+    spalten = [{"key": k, "kurz": v[0], "lang": v[1]}
+               for k, v in sorted(cols.items(), key=lambda kv: kv[1][2])]
+    return spalten, pts
+
+
+# --------------------------------------------------------------------------- #
 # Tipp-Matrix pro Kicktipp-Spieltag (Referenz-Ansicht)
 # --------------------------------------------------------------------------- #
 def build_tipps(matchdays, active):
@@ -761,11 +798,14 @@ def run():
                   "editions": editions, "spieltage": spieltage}
 
     bonus_pts = {t["name"]: t["bonus_points"] for t in (site_bonus["tippers"] if site_bonus else [])}
-    table = [{**t, "active": t["name"] in active, "bonus": bonus_pts.get(t["name"])}
+    # Tabellen-Spalten nach offiziellem WM-Spieltag (nicht Kicktipps interne Spieltage)
+    md_cols, md_pts = official_matchday_table(games, active)
+    table = [{**t, "active": t["name"] in active, "bonus": bonus_pts.get(t["name"]),
+              "matchday_points": md_pts.get(t["name"], {})}
              for t in standings["tippers"]]
     (SITE_DATA / "standings.json").write_text(json.dumps(
         {"tippers": table, "scraped_at": meta["scraped_at"], "inactive": inactive,
-         "spieltage": meta["played_matchdays"]}, ensure_ascii=False, indent=2), "utf-8")
+         "spieltage": md_cols}, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "tipps.json").write_text(json.dumps(
         {"matchdays": build_tipps(matchdays, active)}, ensure_ascii=False, indent=2), "utf-8")

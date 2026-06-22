@@ -262,16 +262,18 @@ function renderStandingsFull() {
   const byName = Object.fromEntries(state.history.series.map(s => [s.name, s]));
   const rows = state.standings.tippers.filter(t => t.active !== false);
   const hasBonus = rows.some(t => t.bonus != null);
+  // Spalten = offizielle WM-Spieltage / K.-o.-Runden ({key,kurz,lang}); altes Zahlenformat abfangen
+  const cols = sp.map(u => (typeof u === 'object' && u) ? u : { key: u, kurz: String(u), lang: `Spieltag ${u}` });
   const head = `<thead><tr><th class="pos">#</th><th class="mv"></th><th class="nm">Name</th>` +
-    sp.map(n => `<th class="md" title="Spieltag ${n}">${n}</th>`).join('') +
+    cols.map(u => `<th class="md" title="${u.lang}">${u.kurz}</th>`).join('') +
     (hasBonus ? `<th class="bn" title="Bonuspunkte bisher">B</th>` : '') +
     `<th class="tot">Σ</th></tr></thead>`;
   const body = rows.map((t, i) => {
     const s = byName[t.name];
     const mv = s ? movement(s) : { cls: 'same', sym: '–' };
     const cls = i < 3 ? `top${i + 1}` : '';
-    const mds = sp.map(n => {
-      const p = (t.matchday_points || {})[n];
+    const mds = cols.map(u => {
+      const p = (t.matchday_points || {})[u.key];
       return `<td class="md">${p == null ? '·' : p}</td>`;
     }).join('');
     const bn = hasBonus ? `<td class="bn">${t.bonus ? t.bonus : '·'}</td>` : '';
