@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
 <div class="app">
@@ -85,10 +85,16 @@
     <div class="card">
       <div class="card-head">
         <h2>🏆 Aktueller Stand</h2>
-        <span class="src-badge" id="tabUpdate"></span>
+        <div class="card-tools">
+          <div class="toggle" id="tableView">
+            <button data-tv="spieltage" class="active">Spieltage</button>
+            <button data-tv="tage">Tage</button>
+          </div>
+          <span class="src-badge" id="tabUpdate"></span>
+        </div>
       </div>
       <div class="table-wrap"><table class="standings-full" id="standingsFull"></table></div>
-      <p class="hint">Punkte je Spieltag · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.</p>
+      <p class="hint" id="tabHint">Punkte je <b>WM-Spieltag</b> · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.</p>
     </div>
   </section>
 
@@ -132,6 +138,6 @@
     <button class="link-btn" id="backBtn" hidden>← zurück zur Übersicht</button>
   </footer>
 </div>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

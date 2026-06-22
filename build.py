@@ -449,6 +449,19 @@ def official_matchday_table(games, active):
     return spalten, pts
 
 
+def daily_table(games, game_days, active):
+    """Punkte je Tipper pro Ausgabe-/Kalendertag (wie im Feed gruppiert: Nachtspiele
+    zählen zum Vorabend). Liefert (spalten, punkte) für die Tag-Ansicht der Tabelle."""
+    pts = {nm: {} for nm in active}
+    for g in games:
+        D = g["date"]
+        for nm, p in g["tippers"].items():
+            if nm in pts:
+                pts[nm][D] = pts[nm].get(D, 0) + p["points"]
+    spalten = [{"key": D, "kurz": day_short(D), "lang": day_long(D)} for D in game_days]
+    return spalten, pts
+
+
 # --------------------------------------------------------------------------- #
 # Tipp-Matrix pro Kicktipp-Spieltag (Referenz-Ansicht)
 # --------------------------------------------------------------------------- #
@@ -798,14 +811,16 @@ def run():
                   "editions": editions, "spieltage": spieltage}
 
     bonus_pts = {t["name"]: t["bonus_points"] for t in (site_bonus["tippers"] if site_bonus else [])}
-    # Tabellen-Spalten nach offiziellem WM-Spieltag (nicht Kicktipps interne Spieltage)
+    # Tabellen-Spalten: offizieller WM-Spieltag UND pro Kalendertag (umschaltbar im Frontend)
     md_cols, md_pts = official_matchday_table(games, active)
+    day_cols, day_pts = daily_table(games, game_days, active)
     table = [{**t, "active": t["name"] in active, "bonus": bonus_pts.get(t["name"]),
-              "matchday_points": md_pts.get(t["name"], {})}
+              "matchday_points": md_pts.get(t["name"], {}),
+              "tag_points": day_pts.get(t["name"], {})}
              for t in standings["tippers"]]
     (SITE_DATA / "standings.json").write_text(json.dumps(
         {"tippers": table, "scraped_at": meta["scraped_at"], "inactive": inactive,
-         "spieltage": md_cols}, ensure_ascii=False, indent=2), "utf-8")
+         "spieltage": md_cols, "tage": day_cols}, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "tipps.json").write_text(json.dumps(
         {"matchdays": build_tipps(matchdays, active)}, ensure_ascii=False, indent=2), "utf-8")

@@ -11,7 +11,7 @@ const TYPE_ICON = {
 };
 
 const state = { chart: null, history: null, standings: null, headlines: null, tipps: null, bonus: null,
-                colors: {}, selected: new Set(), chartView: 'tage' };
+                colors: {}, selected: new Set(), chartView: 'tage', tableView: 'spieltage' };
 
 // distinct, pleasant palette via golden-angle HSL
 function palette(n) {
@@ -240,6 +240,12 @@ function wireUI() {
   $('#tippSel').addEventListener('change', e => renderTippMatrix(+e.target.value));
   $('#tippPrev').addEventListener('click', () => stepTipp(+1));  // +1 = älterer Spieltag (Liste absteigend)
   $('#tippNext').addEventListener('click', () => stepTipp(-1));
+  // Tabelle: Spieltage / Tage umschalten
+  $$('#tableView button').forEach(b => b.addEventListener('click', () => {
+    state.tableView = b.dataset.tv;
+    $$('#tableView button').forEach(x => x.classList.toggle('active', x === b));
+    renderStandingsFull();
+  }));
 
   setView('feed');  // Startseite = Schlagzeilen
 }
@@ -258,11 +264,14 @@ function setView(view) {
 
 // ---------- Tabelle (voller Stand) ----------
 function renderStandingsFull() {
-  const sp = state.standings.spieltage || [];   // echte Kicktipp-Spieltage
+  // Umschaltbar: offizielle WM-Spieltage (Standard) oder pro Kalendertag
+  const mode = state.tableView === 'tage' ? 'tage' : 'spieltage';
+  const ptsKey = mode === 'tage' ? 'tag_points' : 'matchday_points';
+  const sp = (mode === 'tage' ? state.standings.tage : state.standings.spieltage) || [];
   const byName = Object.fromEntries(state.history.series.map(s => [s.name, s]));
   const rows = state.standings.tippers.filter(t => t.active !== false);
   const hasBonus = rows.some(t => t.bonus != null);
-  // Spalten = offizielle WM-Spieltage / K.-o.-Runden ({key,kurz,lang}); altes Zahlenformat abfangen
+  // Spalten = {key,kurz,lang}; altes Zahlenformat abfangen
   const cols = sp.map(u => (typeof u === 'object' && u) ? u : { key: u, kurz: String(u), lang: `Spieltag ${u}` });
   const head = `<thead><tr><th class="pos">#</th><th class="mv"></th><th class="nm">Name</th>` +
     cols.map(u => `<th class="md" title="${u.lang}">${u.kurz}</th>`).join('') +
@@ -273,7 +282,7 @@ function renderStandingsFull() {
     const mv = s ? movement(s) : { cls: 'same', sym: '–' };
     const cls = i < 3 ? `top${i + 1}` : '';
     const mds = cols.map(u => {
-      const p = (t.matchday_points || {})[u.key];
+      const p = (t[ptsKey] || {})[u.key];
       return `<td class="md">${p == null ? '·' : p}</td>`;
     }).join('');
     const bn = hasBonus ? `<td class="bn">${t.bonus ? t.bonus : '·'}</td>` : '';
@@ -282,6 +291,10 @@ function renderStandingsFull() {
       `<td class="nm">${dot}${t.name}</td>${mds}${bn}<td class="tot">${t.total ?? ''}</td></tr>`;
   }).join('');
   $('#standingsFull').innerHTML = head + '<tbody>' + body + '</tbody>';
+  const hint = $('#tabHint');
+  if (hint) hint.innerHTML = mode === 'tage'
+    ? 'Punkte je <b>Kalendertag</b> (Spiele zählen zum Abend, an dem sie starten) · Gesamt rechts.'
+    : 'Punkte je <b>WM-Spieltag</b> · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.';
   $('#tabUpdate').textContent = 'STAND ' + (state.standings.scraped_at || '').replace('T', ' ').slice(0, 16);
 }
 
