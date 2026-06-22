@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-06-22T15:55:50",
+  "generated_for": "2026-06-22T14:49:50",
   "latest": "Mo, 22.06.",
   "editions": [
     {
@@ -25,17 +25,6 @@
           "type": "perfekter_spieltag",
           "date": "Do, 11.06.",
           "edition": 1,
-          "primary": "LinkeKlebe",
-          "facts": {
-            "spiele": 2,
-            "punkte": 5
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Do, 11.06.",
-          "edition": 1,
           "primary": "salvanize",
           "facts": {
             "spiele": 2,
@@ -51,6 +40,17 @@
           "facts": {
             "spiele": 2,
             "punkte": 4
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 2,
+            "punkte": 5
           },
           "score": 0.95
         },
@@ -224,7 +224,7 @@
           "type": "pechvogel",
           "date": "Fr, 12.06.",
           "edition": 2,
-          "primary": "Don_Kuhbert",
+          "primary": "Matthias",
           "facts": {
             "punkte": 0
           },
@@ -289,7 +289,7 @@
           "type": "tagessieger",
           "date": "Sa, 13.06.",
           "edition": 3,
-          "primary": "Zidanima",
+          "primary": "salvanize",
           "facts": {
             "punkte": 6,
             "exakte_treffer": 1
@@ -311,7 +311,7 @@
           "type": "tagessieger",
           "date": "Sa, 13.06.",
           "edition": 3,
-          "primary": "salvanize",
+          "primary": "Zidanima",
           "facts": {
             "punkte": 6,
             "exakte_treffer": 1
@@ -422,18 +422,6 @@
           "type": "tipp_vergessen",
           "date": "Mo, 15.06.",
           "edition": 4,
-          "primary": "Zidanima",
-          "facts": {
-            "jetzt_platz": 3,
-            "lage": "war_oben"
-          },
-          "score": 0.85,
-          "lage": "war_oben"
-        },
-        {
-          "type": "tipp_vergessen",
-          "date": "Mo, 15.06.",
-          "edition": 4,
           "primary": "Toritz",
           "facts": {
             "jetzt_platz": 8,
@@ -453,6 +441,18 @@
           },
           "score": 0.85,
           "lage": "keller"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 15.06.",
+          "edition": 4,
+          "primary": "Zidanima",
+          "facts": {
+            "jetzt_platz": 3,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
         },
         {
           "type": "tagessieger",
@@ -556,10 +556,10 @@
           "type": "aufsteiger",
           "date": "Di, 16.06.",
           "edition": 5,
-          "primary": "Don_Kuhbert",
+          "primary": "Matthias",
           "facts": {
-            "von": 16,
-            "auf": 11,
+            "von": 12,
+            "auf": 7,
             "plaetze": 5
           },
           "score": 0.8
@@ -645,7 +645,7 @@
           "type": "pechvogel",
           "date": "Mo, 15.06.",
           "edition": 5,
-          "primary": "BenzEma",
+          "primary": "Matthias",
           "facts": {
             "punkte": 0
           },
@@ -684,65 +684,21 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 4,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
           "primary": "BenzEma",
           "facts": {
             "spiele": 4,
             "punkte": 9
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Zidanima",
-          "facts": {
-            "spiele": 4,
-            "punkte": 8
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Lochsocke",
-          "facts": {
-            "spiele": 4,
-            "punkte": 11
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Reinoldo",
-          "facts": {
-            "spiele": 4,
-            "punkte": 9
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Toritz",
-          "facts": {
-            "spiele": 4,
-            "punkte": 12
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Schielotterbeck",
-          "facts": {
-            "spiele": 4,
-            "punkte": 13
           },
           "score": 0.95
         },
@@ -761,10 +717,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Philipp_Flink",
+          "primary": "Lochsocke",
           "facts": {
             "spiele": 4,
-            "punkte": 10
+            "punkte": 11
           },
           "score": 0.95
         },
@@ -783,10 +739,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Stockfish91",
+          "primary": "Schielotterbeck",
           "facts": {
             "spiele": 4,
-            "punkte": 11
+            "punkte": 13
           },
           "score": 0.95
         },
@@ -794,7 +750,7 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "TippTommy",
+          "primary": "Toritz",
           "facts": {
             "spiele": 4,
             "punkte": 12
@@ -816,10 +772,54 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Tippmon",
+          "primary": "Reinoldo",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Philipp_Flink",
           "facts": {
             "spiele": 4,
             "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Zidanima",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
           },
           "score": 0.95
         },
@@ -946,7 +946,7 @@
           "type": "pechvogel",
           "date": "Mi, 17.06.",
           "edition": 7,
-          "primary": "Kicklberger",
+          "primary": "K_linsman_N",
           "facts": {
             "punkte": 2
           },
@@ -1285,7 +1285,18 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "Toritz",
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Schrammadonna",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1307,18 +1318,7 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "salvanize",
-          "facts": {
-            "punkte": 8,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
-          "type": "tagessieger",
-          "date": "Sa, 20.06.",
-          "edition": 10,
-          "primary": "Schrammadonna",
+          "primary": "Toritz",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1410,7 +1410,7 @@
           "type": "tagessieger",
           "date": "So, 21.06.",
           "edition": 11,
-          "primary": "Don_Kuhbert",
+          "primary": "GG",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1421,7 +1421,7 @@
           "type": "tagessieger",
           "date": "So, 21.06.",
           "edition": 11,
-          "primary": "GG",
+          "primary": "Don_Kuhbert",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1

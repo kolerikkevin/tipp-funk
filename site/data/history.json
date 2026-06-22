@@ -184,25 +184,6 @@
       "total": 62
     },
     {
-      "name": "Toritz",
-      "positions": [
-        13,
-        11,
-        8,
-        17,
-        16,
-        14,
-        12,
-        12,
-        11,
-        11,
-        6,
-        6
-      ],
-      "rank": 6,
-      "total": 61
-    },
-    {
       "name": "Matthias",
       "positions": [
         5,
@@ -215,6 +196,25 @@
         14,
         4,
         8,
+        6,
+        6
+      ],
+      "rank": 6,
+      "total": 61
+    },
+    {
+      "name": "Toritz",
+      "positions": [
+        13,
+        11,
+        8,
+        17,
+        16,
+        14,
+        12,
+        12,
+        11,
+        11,
         6,
         6
       ],
@@ -260,25 +260,6 @@
       "total": 60
     },
     {
-      "name": "LinkeKlebe",
-      "positions": [
-        3,
-        2,
-        9,
-        6,
-        10,
-        6,
-        10,
-        3,
-        8,
-        3,
-        10,
-        10
-      ],
-      "rank": 10,
-      "total": 60
-    },
-    {
       "name": "Tippmon",
       "positions": [
         12,
@@ -291,6 +272,25 @@
         8,
         8,
         9,
+        10,
+        10
+      ],
+      "rank": 10,
+      "total": 60
+    },
+    {
+      "name": "LinkeKlebe",
+      "positions": [
+        3,
+        2,
+        9,
+        6,
+        10,
+        6,
+        10,
+        3,
+        8,
+        3,
         10,
         10
       ],
@@ -531,7 +531,7 @@
         "total": 62
       },
       {
-        "name": "Toritz",
+        "name": "Matthias",
         "positions": [
           12,
           6
@@ -540,7 +540,7 @@
         "total": 61
       },
       {
-        "name": "Matthias",
+        "name": "Toritz",
         "positions": [
           12,
           6
@@ -567,18 +567,18 @@
         "total": 60
       },
       {
-        "name": "LinkeKlebe",
+        "name": "Tippmon",
         "positions": [
-          10,
+          9,
           10
         ],
         "rank": 10,
         "total": 60
       },
       {
-        "name": "Tippmon",
+        "name": "LinkeKlebe",
         "positions": [
-          9,
+          10,
           10
         ],
         "rank": 10,
