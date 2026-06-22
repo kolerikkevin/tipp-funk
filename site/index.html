@@ -4,6 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>BR Tipp-Funk · PortfolioundEntwicklung</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="apple-touch-icon" href="favicon.svg" />
+<meta name="theme-color" content="#1488bc" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,7 +52,7 @@
   </header>
 
   <nav class="views" id="views">
-    <button class="view-btn active" data-view="feed"><span>📰</span> Schlagzeilen</button>
+    <button class="view-btn active" data-view="feed"><span>📰</span> News</button>
     <button class="view-btn" data-view="chart"><span>📈</span> Platz-Verlauf</button>
     <button class="view-btn" data-view="tabelle"><span>🏆</span> Tabelle</button>
     <button class="view-btn" data-view="tipps"><span>📋</span> Tipp-Historie</button>
@@ -72,15 +75,16 @@
       <div class="card-head">
         <h2>📈 Platz-Verlauf</h2>
         <div class="card-tools">
-          <input id="chartSearch" class="search" type="search" placeholder="Tipper suchen …" />
-          <button class="chip-btn" data-chart="all">Alle</button>
+          <div class="toggle" id="chartView">
+            <button data-cv="tage" class="active">Tage</button>
+            <button data-cv="spieltage">Spieltage</button>
+          </div>
           <button class="chip-btn" data-chart="top5">Top 5</button>
-          <button class="chip-btn" data-chart="none">Keiner</button>
+          <button class="chip-btn" data-chart="all">Alle</button>
         </div>
       </div>
-      <div class="legend-row" id="legendRow"></div>
       <div class="chart-wrap"><div id="chart"></div></div>
-      <p class="hint">Über einen <b>Namen</b> in der Legende fahren zeigt nur diesen Verlauf · Klick blendet ihn aus · Alle / Top 5 / Keiner zum Filtern.</p>
+      <p class="hint">Auf eine <b>Linie</b> oder einen <b>Namen</b> (rechts) fahren = hervorheben · anklicken = auswählen (mehrere möglich) · „Alle" setzt zurück.</p>
     </section>
   </main>
   </section>

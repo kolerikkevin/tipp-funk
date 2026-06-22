@@ -107,6 +107,12 @@ h1 { font-family: var(--display); font-weight: 400; font-size: 34px; margin: 0;
 .chip-btn { border: 2px solid var(--ink); background: var(--paper); color: var(--ink);
   padding: 5px 11px; font-size: 12px; cursor: pointer; font-family: var(--mono); text-transform: uppercase; }
 .chip-btn:hover { background: var(--br); color: #fff; }
+.toggle { display: inline-flex; border: 2px solid var(--ink); }
+.toggle button { border: 0; border-right: 2px solid var(--ink); background: var(--paper); color: var(--ink);
+  font-family: var(--mono); font-size: 13px; text-transform: uppercase; padding: 4px 12px; cursor: pointer; }
+.toggle button:last-child { border-right: 0; }
+.toggle button.active { background: var(--br); color: #fff; }
+.toggle button:hover:not(.active) { background: var(--amber); }
 .search, .sel { border: 2px solid var(--ink); background: #fff; color: var(--ink);
   padding: 5px 9px; font-size: 14px; font-family: var(--mono); outline: none; }
 .search { width: 150px; }
@@ -156,13 +162,22 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .src-badge { font-family: var(--mono); font-size: 12px; border: 1.5px solid var(--amber);
   color: var(--amber); padding: 0 7px; letter-spacing: .08em; }
 
-.news { display: flex; flex-direction: column; gap: 26px; }
-.news-block-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 3px solid var(--ink);
-  padding-bottom: 5px; margin-bottom: 14px; }
+.news { display: flex; flex-direction: column; gap: 16px; }
+.news-block-head { display: flex; align-items: center; gap: 12px; border-bottom: 3px solid var(--ink);
+  padding-bottom: 5px; margin-bottom: 14px; cursor: pointer; user-select: none; }
 .news-block-head .st { font-family: var(--display); font-size: 19px; text-transform: uppercase;
   background: var(--br); color: #fff; padding: 2px 10px; }
 .news-block-head .dt { font-family: var(--mono); font-size: 15px; color: var(--ink-2); }
+.news-block-head .span { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); }
+.news-block-head .phase { font-family: var(--mono); font-size: 13px; background: var(--teal); color: #fff;
+  padding: 1px 9px; text-transform: uppercase; letter-spacing: .03em; }
 .news-block-head .badge { font-family: var(--mono); font-size: 12px; background: var(--red); color: #fff; padding: 1px 8px; }
+.news-block-head .time { font-family: var(--mono); font-size: 13px; color: var(--ink-3); margin-left: auto; }
+.news-block-head .caret { font-family: var(--mono); font-size: 14px; color: var(--ink-2);
+  display: inline-block; transition: transform .15s; width: 14px; }
+.news-block.collapsed .caret { transform: rotate(-90deg); }
+.news-block.collapsed .clips { display: none; }
+.news-block.collapsed .news-block-head { border-bottom-style: dashed; margin-bottom: 0; }
 
 .clips { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .clip { background: var(--paper-2); border: 3px solid var(--ink); box-shadow: var(--hard-sm);
@@ -181,6 +196,22 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .clip.lead .dek { font-size: 17px; }
 .quiet { color: var(--ink-2); font-family: var(--mono); font-size: 15px; border: 2px dashed var(--ink);
   padding: 14px; grid-column: 1 / -1; }
+
+/* ---------- Spieltag-Gruppen + Fazit (extra) ---------- */
+.spieltag-head { display: flex; align-items: center; gap: 10px; cursor: pointer; user-select: none;
+  background: var(--ink); color: var(--paper); border: 3px solid var(--ink); box-shadow: var(--hard-sm); padding: 5px 14px; }
+.sp-caret { font-family: var(--mono); font-size: 13px; color: var(--amber); transition: transform .15s; }
+.sp-badge { font-family: var(--display); font-size: 19px; text-transform: uppercase; letter-spacing: .02em; color: #fff; }
+.sp-sub { font-family: var(--mono); font-size: 13px; color: var(--amber); text-transform: uppercase; letter-spacing: .06em; }
+.spieltag-body { display: flex; flex-direction: column; gap: 22px; margin-top: 16px; }
+.spieltag-group.collapsed .spieltag-body { display: none; }
+.spieltag-group.collapsed .sp-caret { transform: rotate(-90deg); }
+.clip.fazit { background: #fff; border: 4px solid var(--ink); box-shadow: var(--hard); padding: 18px 20px 20px;
+  display: flex; flex-direction: column; }
+.clip.fazit .kicker { background: var(--amber); color: var(--ink); font-size: 15px; }
+.clip.fazit .head { font-family: var(--display); font-weight: 400; text-transform: uppercase; letter-spacing: .005em;
+  margin: 0; font-size: clamp(26px, 3.8vw, 40px); line-height: 1.0; }
+.clip.fazit .dek { font-size: 16px; }
 
 /* ---------- Tabelle (volle Ansicht) ---------- */
 table.standings-full { width: 100%; border-collapse: collapse; font-size: 14px; }

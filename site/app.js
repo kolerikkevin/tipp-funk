@@ -5,12 +5,13 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
 const TYPE_ICON = {
   perfekter_spieltag: '🎯', einsamer_volltreffer: '🔮', unwahrscheinlicher_treffer: '🎲',
-  tagessieger: '🥇', tipp_vergessen: '😴', aufsteiger: '🚀', absteiger: '📉',
-  pechvogel: '🌧️', fuehrungsserie: '👑', enges_rennen: '🔥', saison_aufsteiger: '📈',
+  tagessieger: '🥇', spieltag_fazit: '🏁', tipp_vergessen: '😴', aufsteiger: '🚀', absteiger: '📉',
+  pechvogel: '🌧️', mittelfeld_dauergast: '🛋️', fuehrungsserie: '👑', enges_rennen: '🔥', saison_aufsteiger: '📈',
   rote_laterne: '🪫', default: '⚽',
 };
 
-const state = { chart: null, history: null, standings: null, headlines: null, colors: {}, selected: {}, isolated: null };
+const state = { chart: null, history: null, standings: null, headlines: null, tipps: null,
+                colors: {}, selected: new Set(), chartView: 'tage' };
 
 // distinct, pleasant palette via golden-angle HSL
 function palette(n) {
@@ -38,11 +39,10 @@ async function init() {
     ]);
     state.history = history; state.standings = standings; state.headlines = headlines; state.tipps = tipps;
     const cols = palette(history.series.length);
-    history.series.forEach((s, i) => { state.colors[s.name] = cols[i]; state.selected[s.name] = true; });
+    history.series.forEach((s, i) => { state.colors[s.name] = cols[i]; });
 
     renderHeader();
     renderFeed();
-    renderLegend();
     initChart();
     renderStandingsFull();
     setupTipps();
@@ -71,180 +71,177 @@ function renderHeader() {
 }
 
 function movement(series) {
-  // letzte vs. vorletzte Position
-  const p = series.positions.filter(x => x != null);
+  // Trend des letzten aktiven Tages: heutigen Snapshot (kein Spiel = gleich wie gestern)
+  // überspringen, dann den letzten Spieltag-Tag mit dem davor vergleichen.
+  const p = (series.positions || []).filter(x => x != null);
   if (p.length < 2) return { cls: 'same', sym: '–' };
-  const d = p[p.length - 2] - p[p.length - 1];
-  if (d > 0) return { cls: 'up', sym: '▲' };
-  if (d < 0) return { cls: 'down', sym: '▼' };
-  return { cls: 'same', sym: '–' };
-}
-
-function renderTable() {
-  const byName = Object.fromEntries(state.history.series.map(s => [s.name, s]));
-  const rows = state.standings.tippers.filter(t => t.active !== false);
-  $('#standings').innerHTML = rows.map((t, i) => {
-    const s = byName[t.name];
-    const mv = s ? movement(s) : { cls: 'same', sym: '–' };
-    const cls = i < 3 ? ` top${i + 1}` : '';
-    const dot = `<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${state.colors[t.name] || '#bbb'};margin-right:7px;vertical-align:-1px"></span>`;
-    return `<tr data-name="${t.name}" class="row${cls}">
-      <td class="pos">${i + 1}</td>
-      <td class="mv ${mv.cls}">${mv.sym}</td>
-      <td class="nm">${dot}${t.name}</td>
-      <td class="pts">${t.total ?? ''}</td></tr>`;
-  }).join('');
-  $$('#standings tr').forEach(tr => tr.addEventListener('click', () => toggleIsolate(tr.dataset.name)));
+  let i = p.length - 1;
+  if (p[i] === p[i - 1]) i--;
+  if (i < 1) return { cls: 'same', sym: '–' };
+  const cur = p[i], prev = p[i - 1];
+  if (cur === prev) return { cls: 'same', sym: '–' };
+  return cur < prev ? { cls: 'up', sym: '▲' } : { cls: 'down', sym: '▼' };
 }
 
 const TYPE_LABEL = {
   perfekter_spieltag: 'VOLLTREFFER-TAG', einsamer_volltreffer: 'HELLSEHER', unwahrscheinlicher_treffer: 'SENSATIONS-TIPP',
-  tagessieger: 'TAGESSIEGER', tipp_vergessen: 'VERPENNT', aufsteiger: 'AUFSTEIGER', absteiger: 'ABSTURZ',
-  pechvogel: 'PECHVOGEL', fuehrungsserie: 'DAUER-CHEF', enges_rennen: 'KRIMI AN DER SPITZE',
+  tagessieger: 'TAGESSIEGER', spieltag_fazit: 'SPIELTAG-FAZIT', tipp_vergessen: 'VERPENNT', aufsteiger: 'AUFSTEIGER', absteiger: 'ABSTURZ',
+  pechvogel: 'PECHVOGEL', mittelfeld_dauergast: 'DAUERGAST MITTELFELD', fuehrungsserie: 'DAUER-CHEF', enges_rennen: 'KRIMI AN DER SPITZE',
   saison_aufsteiger: 'AUFHOLJAGD', rote_laterne: 'ROTE LATERNE', default: 'TIPP-TICKER',
 };
 
+function editionHTML(b, bi) {
+  const clips = (b.headlines || []).map((h, hi) => {
+    const txt = typeof h === 'string' ? h : h.text;
+    const dek = (typeof h === 'object' && h.erklaerung) || '';
+    const type = (typeof h === 'object' && h.type) || 'default';
+    const ic = TYPE_ICON[type] || TYPE_ICON.default;
+    const kicker = TYPE_LABEL[type] || TYPE_LABEL.default;
+    const lead = bi === 0 && hi === 0;
+    return `<article class="clip${lead ? ' lead' : ''}">
+      <div class="kicker"><span class="ic">${ic}</span>${kicker}</div>
+      <p class="head">${txt}</p>${dek ? `<p class="dek">${dek}</p>` : ''}</article>`;
+  }).join('') || `<div class="quiet">Spielfreier Tag – die letzten Schlagzeilen bleiben stehen.</div>`;
+  const collapsed = bi >= 3 ? ' collapsed' : '';   // nur die letzten 3 Tage offen
+  const span = b.span ? `<span class="span">Spiele ${b.span}</span>` : '';
+  const time = b.published_at ? `<span class="time">online ${b.published_at.slice(11, 16)} Uhr</span>` : '';
+  return `<section class="news-block${collapsed}">
+    <div class="news-block-head">
+      <span class="caret">▾</span><span class="st">AUSGABE</span>
+      <span class="dt">${b.label || b.date || ''}</span>${span}${time}
+    </div>
+    <div class="clips">${clips}</div></section>`;
+}
+
 function renderFeed() {
   const blocks = state.headlines.blocks || [];
+  const spMap = Object.fromEntries((state.headlines.spieltage || []).map(s => [s.key, s]));
   const latest = blocks[0];
   if (latest) { $('#newsDate').textContent = latest.label || latest.date || ''; $('#newsIssue').textContent = 'NR. ' + blocks.length; }
   if (state.headlines.source) {
-    const b = $('#srcBadge'); b.hidden = false;
-    b.textContent = state.headlines.source === 'llm' ? 'KI-REDAKTION' : 'ENTWURF';
+    const sb = $('#srcBadge'); sb.hidden = false;
+    sb.textContent = state.headlines.source === 'llm' ? 'KI-REDAKTION' : 'ENTWURF';
   }
   if (!blocks.length) { $('#newsFeed').innerHTML = '<div class="quiet">Noch keine Schlagzeilen.</div>'; return; }
 
-  $('#newsFeed').innerHTML = blocks.map((b, bi) => {
-    const clips = (b.headlines || []).map((h, hi) => {
-      const txt = typeof h === 'string' ? h : h.text;
-      const dek = (typeof h === 'object' && h.erklaerung) || '';
-      const type = (typeof h === 'object' && h.type) || 'default';
-      const ic = TYPE_ICON[type] || TYPE_ICON.default;
-      const kicker = TYPE_LABEL[type] || TYPE_LABEL.default;
-      const lead = bi === 0 && hi === 0;
-      return `<article class="clip${lead ? ' lead' : ''}">
-        <div class="kicker"><span class="ic">${ic}</span>${kicker}</div>
-        <p class="head">${txt}</p>
-        ${dek ? `<p class="dek">${dek}</p>` : ''}</article>`;
-    }).join('') || `<div class="quiet">Spielfreier Tag – die letzten Schlagzeilen bleiben stehen.</div>`;
-    const tag = b.complete === false ? '<span class="badge">läuft noch</span>' : '';
-    return `<section class="news-block">
-      <div class="news-block-head"><span class="st">AUSGABE</span><span class="dt">${b.label || b.date || ''}</span>${tag}</div>
-      <div class="clips">${clips}</div></section>`;
+  // Ausgaben zu Spieltag-Gruppen bündeln (Reihenfolge = neueste zuerst)
+  const groups = [];
+  blocks.forEach((b, bi) => {
+    let g = groups[groups.length - 1];
+    if (!g || g.key !== b.group_key) { g = { key: b.group_key, label: b.group, gruppenphase: b.gruppenphase, items: [] }; groups.push(g); }
+    g.items.push({ b, bi });
+  });
+
+  $('#newsFeed').innerHTML = groups.map((g, gi) => {
+    const sp = spMap[g.key] || {};
+    const fazit = sp.fazit_headline
+      ? `<article class="clip fazit"><div class="kicker"><span class="ic">🏁</span>SPIELTAG-FAZIT</div>
+          <p class="head">${sp.fazit_headline.text}</p>${sp.fazit_headline.erklaerung ? `<p class="dek">${sp.fazit_headline.erklaerung}</p>` : ''}</article>`
+      : '';
+    const body = fazit + g.items.map(({ b, bi }) => editionHTML(b, bi)).join('');
+    const sub = g.gruppenphase ? '<span class="sp-sub">Gruppenphase</span>' : '';
+    const open = gi === 0 ? '' : ' collapsed';   // neuester Spieltag offen, ältere zu
+    return `<section class="spieltag-group${open}">
+      <div class="spieltag-head"><span class="sp-caret">▾</span><span class="sp-badge">${g.label || ''}</span>${sub}</div>
+      <div class="spieltag-body">${body}</div>
+    </section>`;
   }).join('');
+
+  $$('#newsFeed .spieltag-head').forEach(h =>
+    h.addEventListener('click', () => h.parentElement.classList.toggle('collapsed')));
+  $$('#newsFeed .news-block-head').forEach(h =>
+    h.addEventListener('click', () => h.parentElement.classList.toggle('collapsed')));
 }
 
-function renderLegend() {
-  $('#legendRow').innerHTML = state.history.series.map(s =>
-    `<span class="leg" data-name="${s.name}"><span class="swatch" style="background:${state.colors[s.name]}"></span>${s.name}</span>`
-  ).join('');
-  $$('#legendRow .leg').forEach(el => {
-    el.addEventListener('click', () => toggleSeries(el.dataset.name));
-    // Über einen Namen fahren = nur dessen Verlauf hervorheben (stabil, kein Flackern)
-    el.addEventListener('mouseenter', () => emphasizeSeries(el.dataset.name));
-    el.addEventListener('mouseleave', () => emphasizeSeries(null));
-  });
-}
+// ---------- Platz-Verlauf (Bump-Chart) ----------
+function getCSS(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#888'; }
 
-// Hebt eine Linie hervor, indem alle anderen ausgegraut werden (manuell, silent-sicher)
-function emphasizeSeries(name) {
-  const series = state.history.series.map(s => {
-    const dim = name && s.name !== name;
-    return {
-      lineStyle: { width: s.name === name ? (s.rank === 1 ? 4.5 : 3.4) : (s.rank === 1 ? 3.4 : 2), opacity: dim ? 0.1 : 1 },
-      endLabel: { opacity: dim ? 0.1 : 1 },
-    };
-  });
-  state.chart.setOption({ series });
+function currentSeries() {
+  return state.chartView === 'spieltage' ? state.history.spieltage : state.history;
 }
 
 function seriesOption(s) {
+  const bright = state.selected.size === 0 || state.selected.has(s.name);
   return {
     name: s.name, type: 'line', smooth: 0.25, connectNulls: true,
-    symbol: 'circle', symbolSize: 6, sampling: 'none',
-    data: s.positions, color: state.colors[s.name],
-    silent: true,  // Linien reagieren nicht auf Maus-Hover -> kein Flackern; Hervorheben läuft über die Legende
-    lineStyle: { width: s.rank === 1 ? 3.4 : 2, opacity: 1 },
-    endLabel: { show: true, formatter: '{a}', fontSize: 11, color: 'inherit', distance: 6, opacity: 1 },
+    symbol: 'circle', symbolSize: 7, data: s.positions, color: state.colors[s.name],
+    triggerLineEvent: true,  // Klick/Hover auch direkt auf der LINIE (nicht nur auf Punkten/Namen)
+    lineStyle: { width: s.rank === 1 ? 3.4 : 2, opacity: bright ? 1 : 0.12 },
+    endLabel: { show: true, formatter: '{a}', fontSize: 11, color: 'inherit', distance: 6,
+                opacity: bright ? 1 : 0.12, triggerEvent: true },
     labelLayout: { moveOverlap: 'shiftY', hideOverlap: false },
-    emphasis: { disabled: true },
+    emphasis: { disabled: true }, z: bright ? 3 : 1,
   };
+}
+
+// aktuellen Auswahlzustand (oder voll) auf alle Linien anwenden
+function renderChart() {
+  const v = currentSeries();
+  state.chart.setOption({ xAxis: { data: v.axis.map(a => a.label) }, series: v.series.map(seriesOption) });
+}
+
+// transientes Hervorheben einer Linie (Hover) – Rest grau, ohne die Auswahl zu verändern
+function highlight(name) {
+  const v = currentSeries();
+  state.chart.setOption({ series: v.series.map(s => {
+    const on = s.name === name;
+    return { lineStyle: { width: on ? (s.rank === 1 ? 4.6 : 3.4) : (s.rank === 1 ? 3.4 : 2), opacity: on ? 1 : 0.08 },
+             endLabel: { opacity: on ? 1 : 0.08 }, z: on ? 6 : 1 };
+  }) });
 }
 
 function initChart() {
-  const el = $('#chart');
-  state.chart = echarts.init(el, null, { renderer: 'canvas' });
-  const h = state.history;
-  const opt = {
-    animationDuration: 600,
-    grid: { left: 44, right: 96, top: 16, bottom: 36 },
+  state.chart = echarts.init($('#chart'), null, { renderer: 'canvas' });
+  const v = currentSeries();
+  state.chart.setOption({
+    animationDuration: 500,
+    grid: { left: 42, right: 112, top: 16, bottom: 34 },
     tooltip: {
-      trigger: 'item',
-      formatter: (p) => `<b>${p.seriesName}</b><br/>${h.axis[p.dataIndex].label} · ${h.axis[p.dataIndex].date || ''}<br/>Platz <b>${p.value}</b>`,
+      trigger: 'item', confine: true,
+      formatter: (p) => {
+        const a = currentSeries().axis[p.dataIndex] || {};
+        const tag = state.chartView === 'tage' ? (a.official ? ' · offiziell' : ' · geschätzt') : '';
+        return `<b>${p.seriesName}</b><br/>${a.date || a.label || ''}${tag}<br/>Platz <b>${p.value}</b>`;
+      },
     },
-    legend: { show: false, data: h.series.map(s => s.name), selected: state.selected },
     xAxis: {
-      type: 'category', boundaryGap: false,
-      data: h.axis.map(a => a.label),
-      axisLine: { lineStyle: { color: '#cfd6e0' } }, axisTick: { show: false },
-      axisLabel: { color: getCSS('--ink-2') },
+      type: 'category', boundaryGap: false, data: v.axis.map(a => a.label),
+      axisLine: { lineStyle: { color: getCSS('--ink-3') } }, axisTick: { show: false },
+      axisLabel: { color: getCSS('--ink-2'), fontFamily: 'VT323, monospace', fontSize: 15 },
     },
     yAxis: {
-      type: 'value', inverse: true, min: 1, max: h.max_rank || h.n_tippers, interval: 1, name: 'Platz',
+      type: 'value', inverse: true, min: 1, max: state.history.max_rank, interval: 1, name: 'Platz',
       nameTextStyle: { color: getCSS('--ink-3'), align: 'right' },
-      axisLabel: { color: getCSS('--ink-2') },
-      splitLine: { lineStyle: { color: getCSS('--line') } },
+      axisLabel: { color: getCSS('--ink-2') }, splitLine: { lineStyle: { color: getCSS('--line') } },
     },
-    series: h.series.map(seriesOption),
-  };
-  state.chart.setOption(opt);
+    series: v.series.map(seriesOption),
+  });
+  // Hover hebt hervor; Klick wählt aus (mehrere möglich) – auf Linie wie auf Namen
+  state.chart.on('mouseover', (p) => { if (p.seriesName) highlight(p.seriesName); });
+  state.chart.on('mouseout', () => renderChart());
+  state.chart.on('click', (p) => {
+    if (!p.seriesName) return;
+    state.selected.has(p.seriesName) ? state.selected.delete(p.seriesName) : state.selected.add(p.seriesName);
+    renderChart();
+  });
   window.addEventListener('resize', () => state.chart.resize());
 }
-
-function getCSS(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#888'; }
-
-function toggleSeries(name) {
-  state.selected[name] = !state.selected[name];
-  state.chart.dispatchAction({ type: state.selected[name] ? 'legendSelect' : 'legendUnSelect', name });
-  const el = $(`#legendRow .leg[data-name="${cssEsc(name)}"]`);
-  if (el) el.classList.toggle('off', !state.selected[name]);
-}
-
-function setVisibility(pred) {
-  state.history.series.forEach(s => {
-    const on = pred(s);
-    state.selected[s.name] = on;
-    state.chart.dispatchAction({ type: on ? 'legendSelect' : 'legendUnSelect', name: s.name });
-    const el = $(`#legendRow .leg[data-name="${cssEsc(s.name)}"]`);
-    if (el) el.classList.toggle('off', !on);
-  });
-}
-
-function toggleIsolate(name) {
-  state.isolated = state.isolated === name ? null : name;
-  if (state.isolated) setVisibility(s => s.name === name);
-  else setVisibility(() => true);
-  $$('#standings tr').forEach(tr => tr.classList.toggle('active-row', state.isolated && tr.dataset.name === name));
-  if (state.isolated) state.chart.dispatchAction({ type: 'highlight', seriesName: name });
-}
-
-function cssEsc(s) { return (window.CSS && CSS.escape) ? CSS.escape(s) : s.replace(/"/g, '\\"'); }
 
 function wireUI() {
   // Top-Navigation: jede Funktion direkt erreichbar
   $$('.view-btn').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
-  // Chart-Quickbuttons
-  $$('[data-chart]').forEach(b => b.addEventListener('click', () => {
-    const m = b.dataset.chart;
-    if (m === 'all') setVisibility(() => true);
-    else if (m === 'none') setVisibility(() => false);
-    else if (m === 'top5') setVisibility(s => s.rank <= 5);
+  // Chart: Tage / Spieltage umschalten
+  $$('#chartView button').forEach(b => b.addEventListener('click', () => {
+    state.chartView = b.dataset.cv;
+    $$('#chartView button').forEach(x => x.classList.toggle('active', x === b));
+    renderChart();
   }));
-  // Legenden-Suche
-  $('#chartSearch').addEventListener('input', e => {
-    const q = e.target.value.toLowerCase();
-    $$('#legendRow .leg').forEach(el => { el.style.display = el.dataset.name.toLowerCase().includes(q) ? '' : 'none'; });
-  });
+  // Chart-Quickauswahl
+  $$('[data-chart]').forEach(b => b.addEventListener('click', () => {
+    if (b.dataset.chart === 'all') state.selected.clear();
+    else if (b.dataset.chart === 'top5') state.selected = new Set(state.history.series.filter(s => s.rank <= 5).map(s => s.name));
+    renderChart();
+  }));
   // Tipp-Historie Navigation
   $('#tippSel').addEventListener('change', e => renderTippMatrix(+e.target.value));
   $('#tippPrev').addEventListener('click', () => stepTipp(+1));  // +1 = älterer Spieltag (Liste absteigend)

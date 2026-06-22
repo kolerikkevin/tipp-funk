@@ -14,6 +14,7 @@ Schreibt nur über echte Tipper (Nicht-Tipper sind in build.py schon raus).
 """
 from __future__ import annotations
 
+import datetime as dt
 import hashlib
 import json
 import os
@@ -25,6 +26,7 @@ import anthropic
 ROOT = Path(__file__).resolve().parent
 SITE_DATA = ROOT / "site" / "data"
 CACHE = ROOT / "data" / "headline_cache.json"
+GENDERS = ROOT / "genders.json"
 
 MODEL = os.environ.get("HEADLINE_MODEL", "claude-opus-4-8")
 MIN_HEADLINES = 3
@@ -48,6 +50,11 @@ Regeln:
 nie beleidigend, immer mit Humor, sodass sich jeder freut, vorzukommen.
 - Wer seinen Tipp vergessen hat: aufziehen, dass er verpennt/verplant war (nicht, dass er schlecht tippt) – \
 je nach Lage "war eigentlich gut dabei und verschenkt's" oder "im Keller, verspielt die Aufholjagd".
+- Beim Typ "spieltag_fazit": schreib eine zusammenfassende Schlagzeile, die den abgeschlossenen Kicktipp-Spieltag bilanziert (Spieltagssieger + Lage an der Spitze) – das ist die Abschluss-Story des Spieltags.
+- GESCHLECHT: Hinter den Spitznamen stecken echte Personen. Nutze die mitgelieferte Zuordnung "geschlechter" \
+(m = männlich → er/sein, w = weiblich → sie/ihr). Bei "neutral" oder fehlender Angabe formuliere strikt \
+geschlechtsneutral – keine geschlechtsspezifischen Pronomen oder Endungen (kein "Sieger/Siegerin", lieber \
+"holt den Tagessieg"; kein "er/sie").
 - Deutsch. Keine Hashtags, keine Emojis."""
 
 
@@ -85,9 +92,21 @@ def load_env_key() -> str | None:
     return None
 
 
-def edition_context(ed, season_events, standings):
+def load_genders(standings):
+    """Spitzname -> 'm' | 'w' | 'neutral'. Legt Vorlage an, falls nicht vorhanden."""
+    if GENDERS.exists():
+        return json.loads(GENDERS.read_text("utf-8"))
+    g = {t["name"]: "neutral" for t in standings["tippers"] if t.get("active", True)}
+    GENDERS.write_text(json.dumps(g, ensure_ascii=False, indent=2), "utf-8")
+    return g
+
+
+def edition_context(ed, season_events, standings, genders):
+    names = {e["primary"] for e in ed["events"]} | {e["primary"] for e in (season_events or [])}
     ctx = {
         "ausgabe": ed["label"],
+        "phase": ed.get("phase"),
+        "geschlechter": {nm: genders.get(nm, "neutral") for nm in names},
         "spiele_des_tages": ed.get("games", []),
         "erkannte_ereignisse": [{"typ": e["type"], "tipper": e["primary"], "fakten": e["facts"]}
                                 for e in ed["events"]],
@@ -115,7 +134,8 @@ def generate(client, ctx):
         f"Wähle die {MIN_HEADLINES}–6 besten Geschichten (mindestens {MIN_HEADLINES}) und texte je: "
         "eine fette Schlagzeile (text) PLUS zwei Sätze Unterzeile (erklaerung), die die Fakten nachliefert. "
         "Streue verschiedene Tipper – nicht nur die Spitze. "
-        "Gib zu jedem Eintrag Ereignis-Typ (type) und gemeinten Tipper (tipper) an.\n\n"
+        "Gib zu jedem Eintrag den EXAKTEN Ereignis-Typ (type = 'typ' aus erkannte_ereignisse) und den "
+        "gemeinten Tipper (tipper) an. 'spieltag_fazit' NUR, wenn ein Ereignis dieses Typs vorliegt.\n\n"
         + json.dumps(ctx, ensure_ascii=False, indent=2)
     )
     resp = client.messages.create(
@@ -130,6 +150,47 @@ def generate(client, ctx):
     return json.loads(text)["headlines"]
 
 
+FAZIT_SCHEMA = {
+    "type": "object",
+    "properties": {"text": {"type": "string"}, "erklaerung": {"type": "string"}},
+    "required": ["text", "erklaerung"], "additionalProperties": False,
+}
+
+
+def generate_fazit(client, fazit, genders):
+    names = {fazit.get("sieger"), fazit.get("fuehrender")}
+    for kk in ("groesster_aufsteiger", "groesster_absteiger"):
+        if fazit.get(kk):
+            names.add(fazit[kk]["name"])
+    ctx = {**fazit, "geschlechter": {n: genders.get(n, "neutral") for n in names if n}}
+    user = (
+        "Schreib EINE zugespitzte Boulevard-Schlagzeile (text) PLUS zwei Sätze Unterzeile (erklaerung), die den "
+        "abgeschlossenen Spieltag INSGESAMT bilanziert – Spieltagssieger, Lage an der Spitze und die größten "
+        "Bewegungen über den ganzen Spieltag. Nur diese Fakten verwenden:\n\n"
+        + json.dumps(ctx, ensure_ascii=False, indent=2)
+    )
+    resp = client.messages.create(
+        model=MODEL, max_tokens=700, thinking={"type": "adaptive"},
+        output_config={"effort": "medium", "format": {"type": "json_schema", "schema": FAZIT_SCHEMA}},
+        system=SYSTEM, messages=[{"role": "user", "content": user}],
+    )
+    text = next(b.text for b in resp.content if b.type == "text")
+    return json.loads(text)
+
+
+def ground_types(headlines, events):
+    """Erdet den Schlagzeilen-Typ an den ECHTEN Ereignissen des Tages.
+    Verhindert z. B. ein 'spieltag_fazit'-Etikett an Tagen ohne echten Spieltag-Abschluss."""
+    valid = {e["type"] for e in events}
+    top_by_tipper = {}
+    for e in sorted(events, key=lambda e: -e.get("score", 0)):
+        top_by_tipper.setdefault(e["primary"], e["type"])
+    for h in headlines:
+        if h.get("type") not in valid:
+            h["type"] = top_by_tipper.get(h.get("tipper"), "default")
+    return headlines
+
+
 def run():
     key = load_env_key()
     if not key:
@@ -140,31 +201,60 @@ def run():
 
     events = json.loads((SITE_DATA / "events.json").read_text("utf-8"))
     standings = json.loads((SITE_DATA / "standings.json").read_text("utf-8"))
+    genders = load_genders(standings)
     cache = json.loads(CACHE.read_text("utf-8")) if CACHE.exists() else {}
 
+    run_now = dt.datetime.now().isoformat(timespec="minutes")
     blocks = []
     for ed in events.get("editions", []):
         if not ed.get("events"):
             continue  # spielfreier Tag -> keine neue Ausgabe
         D = ed["date"]
-        ctx = edition_context(ed, ed.get("season_events"), standings)
+        ctx = edition_context(ed, ed.get("season_events"), standings, genders)
         sig = signature(ctx)
         cached = cache.get(D)
         if cached and cached.get("sig") == sig:
-            headlines, status = cached["headlines"], "cache"
+            headlines = cached["headlines"]
+            cached.setdefault("published_at", run_now)  # Online-Zeit einmal setzen, dann stabil
+            published, status = cached["published_at"], "cache"
         else:
             print(f"  {ed['label']}: generiere Schlagzeilen mit {MODEL} …")
             headlines = generate(client, ctx)
-            cache[D] = {"sig": sig, "headlines": headlines}
+            published = run_now
+            cache[D] = {"sig": sig, "headlines": headlines, "published_at": published}
             status = "neu"
-        blocks.append({"date": D, "label": ed["label"], "complete": True, "headlines": headlines})
+        headlines = ground_types(headlines, ed["events"] + (ed.get("season_events") or []))
+        blocks.append({"date": D, "label": ed["label"], "phase": ed.get("phase"), "span": ed.get("span"),
+                       "group_key": ed.get("group_key"), "group": ed.get("group"), "gruppenphase": ed.get("gruppenphase"),
+                       "published_at": published, "complete": True, "headlines": headlines})
         print(f"  {ed['label']}: {len(headlines)} Schlagzeilen ({status})")
 
     blocks.sort(key=lambda b: b["date"], reverse=True)  # neuester Tag oben
+
+    # Eigene Fazit-Schlagzeile je abgeschlossenem Spieltag (EXTRA, ersetzt keine Tages-Schlagzeile)
+    spieltage_out = []
+    for s in events.get("spieltage", []):
+        entry = {k: s.get(k) for k in ("key", "label", "gruppenphase", "complete", "end_date")}
+        if s.get("complete") and s.get("fazit"):
+            ck = "fazit:" + s["key"]
+            sig = signature(s["fazit"])
+            cached = cache.get(ck)
+            if cached and cached.get("sig") == sig:
+                entry["fazit_headline"] = cached["headline"]
+            else:
+                print(f"  Spieltag-Fazit {s['label']}: generiere …")
+                hl = generate_fazit(client, s["fazit"], genders)
+                cache[ck] = {"sig": sig, "headline": hl}
+                entry["fazit_headline"] = hl
+        spieltage_out.append(entry)
+
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "headlines.json").write_text(
-        json.dumps({"source": "llm", "model": MODEL, "blocks": blocks}, ensure_ascii=False, indent=2), "utf-8")
-    print(f"✓ {sum(len(b['headlines']) for b in blocks)} Schlagzeilen über {len(blocks)} Tagesausgaben → site/data/headlines.json")
+        json.dumps({"source": "llm", "model": MODEL, "blocks": blocks, "spieltage": spieltage_out},
+                   ensure_ascii=False, indent=2), "utf-8")
+    nf = sum(1 for s in spieltage_out if s.get("fazit_headline"))
+    print(f"✓ {sum(len(b['headlines']) for b in blocks)} Schlagzeilen über {len(blocks)} Tagesausgaben "
+          f"+ {nf} Spieltag-Fazits → site/data/headlines.json")
 
 
 if __name__ == "__main__":

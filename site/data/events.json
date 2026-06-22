@@ -1,10 +1,15 @@
 {
   "generated_for": "2026-06-22T13:23:37",
-  "latest": "So, 21.06.",
+  "latest": "Mo, 22.06.",
   "editions": [
     {
-      "date": "2026-06-11",
-      "label": "Do, 11.06.",
+      "date": "2026-06-12",
+      "label": "Fr, 12.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "11.–12.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Mexiko–Südafrika",
@@ -20,21 +25,10 @@
           "type": "perfekter_spieltag",
           "date": "Do, 11.06.",
           "edition": 1,
-          "primary": "LinkeKlebe",
+          "primary": "salvanize",
           "facts": {
             "spiele": 2,
-            "punkte": 5
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Do, 11.06.",
-          "edition": 1,
-          "primary": "Stockfish91",
-          "facts": {
-            "spiele": 2,
-            "punkte": 8
+            "punkte": 6
           },
           "score": 0.95
         },
@@ -53,10 +47,21 @@
           "type": "perfekter_spieltag",
           "date": "Do, 11.06.",
           "edition": 1,
-          "primary": "salvanize",
+          "primary": "Stockfish91",
           "facts": {
             "spiele": 2,
-            "punkte": 6
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 2,
+            "punkte": 5
           },
           "score": 0.95
         },
@@ -149,8 +154,13 @@
       ]
     },
     {
-      "date": "2026-06-12",
-      "label": "Fr, 12.06.",
+      "date": "2026-06-13",
+      "label": "Sa, 13.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "12.–13.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Kanada–Bosnien-Herzegowina",
@@ -214,7 +224,7 @@
           "type": "pechvogel",
           "date": "Fr, 12.06.",
           "edition": 2,
-          "primary": "Matthias",
+          "primary": "salvanize",
           "facts": {
             "punkte": 0
           },
@@ -223,8 +233,13 @@
       ]
     },
     {
-      "date": "2026-06-13",
-      "label": "Sa, 13.06.",
+      "date": "2026-06-14",
+      "label": "So, 14.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "13.–14.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Katar–Schweiz",
@@ -274,6 +289,17 @@
           "type": "tagessieger",
           "date": "Sa, 13.06.",
           "edition": 3,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 13.06.",
+          "edition": 3,
           "primary": "Zidanima",
           "facts": {
             "punkte": 6,
@@ -286,17 +312,6 @@
           "date": "Sa, 13.06.",
           "edition": 3,
           "primary": "Schielotterbeck",
-          "facts": {
-            "punkte": 6,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
-          "type": "tagessieger",
-          "date": "Sa, 13.06.",
-          "edition": 3,
-          "primary": "salvanize",
           "facts": {
             "punkte": 6,
             "exakte_treffer": 1
@@ -343,6 +358,17 @@
           "score": 0.7999999999999999
         },
         {
+          "type": "mittelfeld_dauergast",
+          "date": "So, 14.06.",
+          "edition": 3,
+          "primary": "Tippmon",
+          "facts": {
+            "platz": 9,
+            "tage": 3
+          },
+          "score": 0.5
+        },
+        {
           "type": "pechvogel",
           "date": "Sa, 13.06.",
           "edition": 3,
@@ -355,8 +381,13 @@
       ]
     },
     {
-      "date": "2026-06-14",
-      "label": "So, 14.06.",
+      "date": "2026-06-15",
+      "label": "Mo, 15.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "14.–15.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Deutschland–Curaçao",
@@ -389,19 +420,7 @@
         },
         {
           "type": "tipp_vergessen",
-          "date": "So, 14.06.",
-          "edition": 4,
-          "primary": "Zidanima",
-          "facts": {
-            "jetzt_platz": 3,
-            "lage": "war_oben"
-          },
-          "score": 0.85,
-          "lage": "war_oben"
-        },
-        {
-          "type": "tipp_vergessen",
-          "date": "So, 14.06.",
+          "date": "Mo, 15.06.",
           "edition": 4,
           "primary": "Toritz",
           "facts": {
@@ -413,7 +432,7 @@
         },
         {
           "type": "tipp_vergessen",
-          "date": "So, 14.06.",
+          "date": "Mo, 15.06.",
           "edition": 4,
           "primary": "Weckenbauer",
           "facts": {
@@ -422,6 +441,18 @@
           },
           "score": 0.85,
           "lage": "keller"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 15.06.",
+          "edition": 4,
+          "primary": "Zidanima",
+          "facts": {
+            "jetzt_platz": 3,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
         },
         {
           "type": "tagessieger",
@@ -447,8 +478,13 @@
       ]
     },
     {
-      "date": "2026-06-15",
-      "label": "Mo, 15.06.",
+      "date": "2026-06-16",
+      "label": "Di, 16.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "15.–16.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Spanien–Kap Verde",
@@ -518,19 +554,19 @@
         },
         {
           "type": "aufsteiger",
-          "date": "Mo, 15.06.",
+          "date": "Di, 16.06.",
           "edition": 5,
-          "primary": "Matthias",
+          "primary": "Don_Kuhbert",
           "facts": {
-            "von": 12,
-            "auf": 7,
+            "von": 16,
+            "auf": 11,
             "plaetze": 5
           },
           "score": 0.8
         },
         {
           "type": "absteiger",
-          "date": "Mo, 15.06.",
+          "date": "Di, 16.06.",
           "edition": 5,
           "primary": "Toritz",
           "facts": {
@@ -609,7 +645,7 @@
           "type": "pechvogel",
           "date": "Mo, 15.06.",
           "edition": 5,
-          "primary": "Matthias",
+          "primary": "BenzEma",
           "facts": {
             "punkte": 0
           },
@@ -618,8 +654,13 @@
       ]
     },
     {
-      "date": "2026-06-16",
-      "label": "Di, 16.06.",
+      "date": "2026-06-17",
+      "label": "Mi, 17.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "16.–17.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Frankreich–Senegal",
@@ -643,87 +684,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Zidanima",
-          "facts": {
-            "spiele": 4,
-            "punkte": 8
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Reinoldo",
-          "facts": {
-            "spiele": 4,
-            "punkte": 9
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "TippTommy",
-          "facts": {
-            "spiele": 4,
-            "punkte": 12
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
           "primary": "BenzEma",
           "facts": {
             "spiele": 4,
             "punkte": 9
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Tippmon",
-          "facts": {
-            "spiele": 4,
-            "punkte": 10
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Philipp_Flink",
-          "facts": {
-            "spiele": 4,
-            "punkte": 10
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Kicklberger",
-          "facts": {
-            "spiele": 4,
-            "punkte": 8
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Lochsocke",
-          "facts": {
-            "spiele": 4,
-            "punkte": 11
           },
           "score": 0.95
         },
@@ -742,10 +706,21 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Stockfish91",
+          "primary": "Lochsocke",
           "facts": {
             "spiele": 4,
             "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
           },
           "score": 0.95
         },
@@ -764,6 +739,72 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 4,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "spiele": 4,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Zidanima",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
           "primary": "Schielotterbeck",
           "facts": {
             "spiele": 4,
@@ -775,7 +816,7 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Schrammadonna",
+          "primary": "Reinoldo",
           "facts": {
             "spiele": 4,
             "punkte": 9
@@ -795,7 +836,7 @@
         },
         {
           "type": "tipp_vergessen",
-          "date": "Di, 16.06.",
+          "date": "Mi, 17.06.",
           "edition": 6,
           "primary": "K_linsman_N",
           "facts": {
@@ -817,6 +858,17 @@
           "score": 0.8
         },
         {
+          "type": "mittelfeld_dauergast",
+          "date": "Mi, 17.06.",
+          "edition": 6,
+          "primary": "Schrammadonna",
+          "facts": {
+            "platz": 15,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
           "type": "pechvogel",
           "date": "Di, 16.06.",
           "edition": 6,
@@ -829,8 +881,13 @@
       ]
     },
     {
-      "date": "2026-06-17",
-      "label": "Mi, 17.06.",
+      "date": "2026-06-18",
+      "label": "Do, 18.06.",
+      "phase": "Gruppenphase · 1. Spieltag",
+      "span": "17.–18.06.",
+      "group_key": "g:1",
+      "group": "1. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Portugal–DR Kongo",
@@ -852,7 +909,7 @@
       "events": [
         {
           "type": "aufsteiger",
-          "date": "Mi, 17.06.",
+          "date": "Do, 18.06.",
           "edition": 7,
           "primary": "Schrammadonna",
           "facts": {
@@ -875,7 +932,7 @@
         },
         {
           "type": "absteiger",
-          "date": "Mi, 17.06.",
+          "date": "Do, 18.06.",
           "edition": 7,
           "primary": "K_linsman_N",
           "facts": {
@@ -898,8 +955,13 @@
       ]
     },
     {
-      "date": "2026-06-18",
-      "label": "Do, 18.06.",
+      "date": "2026-06-19",
+      "label": "Fr, 19.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "18.–19.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Tschechien–Südafrika",
@@ -943,7 +1005,7 @@
         },
         {
           "type": "tipp_vergessen",
-          "date": "Do, 18.06.",
+          "date": "Fr, 19.06.",
           "edition": 8,
           "primary": "TorTippTeddy",
           "facts": {
@@ -977,8 +1039,13 @@
       ]
     },
     {
-      "date": "2026-06-19",
-      "label": "Fr, 19.06.",
+      "date": "2026-06-20",
+      "label": "Sa, 20.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "19.–20.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "USA–Australien",
@@ -1000,7 +1067,7 @@
       "events": [
         {
           "type": "aufsteiger",
-          "date": "Fr, 19.06.",
+          "date": "Sa, 20.06.",
           "edition": 9,
           "primary": "Matthias",
           "facts": {
@@ -1020,18 +1087,6 @@
             "punkte": 12
           },
           "score": 0.95
-        },
-        {
-          "type": "tipp_vergessen",
-          "date": "Fr, 19.06.",
-          "edition": 9,
-          "primary": "TorTippTeddy",
-          "facts": {
-            "jetzt_platz": 20,
-            "lage": "keller"
-          },
-          "score": 0.85,
-          "lage": "keller"
         },
         {
           "type": "tagessieger",
@@ -1098,7 +1153,7 @@
         },
         {
           "type": "absteiger",
-          "date": "Fr, 19.06.",
+          "date": "Sa, 20.06.",
           "edition": 9,
           "primary": "GG",
           "facts": {
@@ -1109,10 +1164,21 @@
           "score": 0.65
         },
         {
+          "type": "mittelfeld_dauergast",
+          "date": "Sa, 20.06.",
+          "edition": 9,
+          "primary": "Schrammadonna",
+          "facts": {
+            "platz": 7,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
           "type": "pechvogel",
           "date": "Fr, 19.06.",
           "edition": 9,
-          "primary": "Philipp_Flink",
+          "primary": "salvanize",
           "facts": {
             "punkte": 4
           },
@@ -1121,8 +1187,13 @@
       ]
     },
     {
-      "date": "2026-06-20",
-      "label": "Sa, 20.06.",
+      "date": "2026-06-21",
+      "label": "So, 21.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "20.–21.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Niederlande–Schweden",
@@ -1167,22 +1238,10 @@
           "score": 0.8973684210526316
         },
         {
-          "type": "tipp_vergessen",
-          "date": "Sa, 20.06.",
-          "edition": 10,
-          "primary": "TorTippTeddy",
-          "facts": {
-            "jetzt_platz": 20,
-            "lage": "keller"
-          },
-          "score": 0.85,
-          "lage": "keller"
-        },
-        {
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "TippTommy",
+          "primary": "salvanize",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1215,18 +1274,7 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "Schielotterbeck",
-          "facts": {
-            "punkte": 8,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
-          "type": "tagessieger",
-          "date": "Sa, 20.06.",
-          "edition": 10,
-          "primary": "salvanize",
+          "primary": "TippTommy",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1238,6 +1286,17 @@
           "date": "Sa, 20.06.",
           "edition": 10,
           "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Schielotterbeck",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1257,8 +1316,13 @@
       ]
     },
     {
-      "date": "2026-06-21",
-      "label": "So, 21.06.",
+      "date": "2026-06-22",
+      "label": "Mo, 22.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "21.–22.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
       "games": [
         {
           "partie": "Spanien–Saudi-Arabien",
@@ -1290,16 +1354,15 @@
           "score": 0.9
         },
         {
-          "type": "tipp_vergessen",
+          "type": "tagessieger",
           "date": "So, 21.06.",
           "edition": 11,
-          "primary": "TorTippTeddy",
+          "primary": "GG",
           "facts": {
-            "jetzt_platz": 20,
-            "lage": "keller"
+            "punkte": 8,
+            "exakte_treffer": 1
           },
-          "score": 0.85,
-          "lage": "keller"
+          "score": 0.8
         },
         {
           "type": "tagessieger",
@@ -1313,19 +1376,8 @@
           "score": 0.8
         },
         {
-          "type": "tagessieger",
-          "date": "So, 21.06.",
-          "edition": 11,
-          "primary": "GG",
-          "facts": {
-            "punkte": 8,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
           "type": "aufsteiger",
-          "date": "So, 21.06.",
+          "date": "Mo, 22.06.",
           "edition": 11,
           "primary": "Toritz",
           "facts": {
@@ -1415,7 +1467,7 @@
         },
         {
           "type": "absteiger",
-          "date": "So, 21.06.",
+          "date": "Mo, 22.06.",
           "edition": 11,
           "primary": "Zidanima",
           "facts": {
@@ -1440,10 +1492,10 @@
         {
           "type": "fuehrungsserie",
           "date": "Mo, 22.06.",
-          "edition": 6,
+          "edition": 12,
           "primary": "Stockfish91",
           "facts": {
-            "tage": 5,
+            "tage": 9,
             "punkte": 70
           },
           "score": 0.8
@@ -1451,7 +1503,7 @@
         {
           "type": "enges_rennen",
           "date": "Mo, 22.06.",
-          "edition": 6,
+          "edition": 12,
           "primary": "Stockfish91",
           "facts": {
             "erster": "Stockfish91",
@@ -1463,27 +1515,38 @@
         {
           "type": "saison_aufsteiger",
           "date": "Mo, 22.06.",
-          "edition": 6,
-          "primary": "Schrammadonna",
+          "edition": 12,
+          "primary": "Schielotterbeck",
           "facts": {
-            "von": 12,
-            "auf": 5,
-            "plaetze": 7
+            "von": 18,
+            "auf": 2,
+            "plaetze": 16
           },
           "score": 0.6
-        },
-        {
-          "type": "rote_laterne",
-          "date": "Mo, 22.06.",
-          "edition": 6,
-          "primary": "TorTippTeddy",
-          "facts": {
-            "platz": 20,
-            "punkte": 21
-          },
-          "score": 0.35
         }
       ]
+    }
+  ],
+  "spieltage": [
+    {
+      "key": "g:2",
+      "label": "2. Spieltag",
+      "gruppenphase": true,
+      "complete": false,
+      "end_date": "2026-06-21"
+    },
+    {
+      "key": "g:1",
+      "label": "1. Spieltag",
+      "gruppenphase": true,
+      "complete": true,
+      "end_date": "2026-06-17",
+      "fazit": {
+        "spieltag": "1. Spieltag",
+        "sieger": "Stockfish91",
+        "sieger_punkte": 36,
+        "fuehrender": "Stockfish91"
+      }
     }
   ]
 }
