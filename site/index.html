@@ -3,45 +3,27 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>BR Tipp-Funk · PortfolioundEntwicklung</title>
+<title>PFM Kicktipp Daily · BR Tipp-Funk</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="apple-touch-icon" href="favicon.svg" />
 <meta name="theme-color" content="#1488bc" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-<link rel="stylesheet" href="styles.css?v=2" />
+<link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
 <div class="app">
-  <header class="topbar">
-    <div class="brand">
-      <div class="brand-mark" aria-label="BR">
-        <svg viewBox="0 0 100 100" role="img">
-          <rect x="6" y="6" width="88" height="88" fill="#fff" stroke="#1488bc" stroke-width="8"/>
-          <g fill="none" stroke="#1488bc" stroke-width="9">
-            <path d="M30 28 A14 11 0 0 1 30 50"/>
-            <path d="M30 50 A14 11 0 0 1 30 72"/>
-            <path d="M62 28 A14 11 0 0 1 62 50"/>
-          </g>
-          <rect x="20" y="28" width="10" height="44" fill="#1488bc"/>
-          <rect x="52" y="28" width="10" height="44" fill="#1488bc"/>
-          <path d="M61 50 L80 72" stroke="#1488bc" stroke-width="10" stroke-linecap="square"/>
-        </svg>
-      </div>
-    </div>
-    <div class="topbar-right">
-      <div class="leader-chip" id="leaderChip" hidden>
-        <span class="crown">👑</span>
-        <div>
-          <div class="leader-name" id="leaderName">–</div>
-          <div class="leader-sub" id="leaderSub">Spitzenreiter</div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <!-- Header (Logo, Brand, Spitzenreiter) entfernt. Versteckte Stubs bleiben nur,
+       damit das geteilte app.js die Spitzenreiter-Elemente findet und nicht abstürzt.
+       Der hidden-Wrapper hält alles unsichtbar, auch wenn app.js #leaderChip einblendet. -->
+  <div hidden aria-hidden="true">
+    <span id="leaderChip"></span>
+    <span id="leaderName"></span>
+    <span id="leaderSub"></span>
+  </div>
 
   <nav class="views" id="views">
     <button class="view-btn active" data-view="feed"><span>📰</span> News</button>
@@ -51,10 +33,12 @@
     <button class="view-btn" data-view="bonus"><span>🎲</span> Bonus</button>
   </nav>
 
-  <!-- View: Schlagzeilen (Startseite, Boulevard-Look) -->
+  <!-- View: Schlagzeilen (Startseite) -->
   <section class="view" id="view-feed">
     <div class="news-masthead">
-      <h2 class="news-title">PFM Tippkick Daily</h2>
+      <span class="mast-eyebrow">★ Frische Ausgabe jeden Morgen um 8:30 Uhr ★</span>
+      <h2 class="news-title">PFM Kicktipp <em>Daily</em></h2>
+      <p class="news-sub">Wer kann Fußball – und wer rät nur gut? Das tägliche Duell um Platz 1.</p>
     </div>
     <div class="news" id="newsFeed"></div>
   </section>
@@ -87,14 +71,17 @@
         <h2>🏆 Aktueller Stand</h2>
         <div class="card-tools">
           <div class="toggle" id="tableView">
-            <button data-tv="spieltage" class="active">Spieltage</button>
-            <button data-tv="tage">Tage</button>
+            <button data-tv="spieltage">Spieltage</button>
+            <button data-tv="tage" class="active">Tage</button>
           </div>
           <span class="src-badge" id="tabUpdate"></span>
         </div>
       </div>
-      <div class="table-wrap"><table class="standings-full" id="standingsFull"></table></div>
-      <p class="hint" id="tabHint">Punkte je <b>WM-Spieltag</b> · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.</p>
+      <div class="scroll-shell" id="tabScroll">
+        <div class="table-wrap"><table class="standings-full" id="standingsFull"></table></div>
+        <button type="button" class="scroll-next" aria-label="Weiter zu neueren Tagen">›</button>
+      </div>
+      <p class="hint" id="tabHint">Punkte je <b>Ausgabe-Tag</b> · Gesamt rechts · bei vielen Tagen nach rechts scrollen (Pfeil rechts).</p>
     </div>
   </section>
 
@@ -104,14 +91,17 @@
       <div class="card-head">
         <h2>📋 Tipps</h2>
         <div class="card-tools">
-          <button class="icon-btn" id="tippPrev" title="Vorheriger Spieltag">◄</button>
+          <button class="icon-btn" id="tippPrev" title="Ältere Tipps">◄</button>
           <select id="tippSel" class="sel"></select>
-          <button class="icon-btn" id="tippNext" title="Nächster Spieltag">►</button>
+          <button class="icon-btn" id="tippNext" title="Neuere Tipps">►</button>
         </div>
       </div>
       <div class="tippmeta" id="tippMeta"></div>
-      <div class="tipps-wrap"><table class="tippmatrix" id="tippMatrix"></table></div>
-      <p class="hint">Grün = Punkte geholt · <b>fett</b> = exakter Volltreffer (4 P) · grau = kein Tipp abgegeben.</p>
+      <div class="scroll-shell" id="tippScroll">
+        <div class="tipps-wrap"><table class="tippmatrix" id="tippMatrix"></table></div>
+        <button type="button" class="scroll-next" aria-label="Weiter zu späteren Spielen">›</button>
+      </div>
+      <p class="hint">Blau = Punkte geholt · <b>fett</b> = exakter Volltreffer (4 P) · grau = kein Tipp abgegeben.</p>
     </div>
   </section>
 
@@ -128,8 +118,11 @@
     </div>
     <div class="card">
       <div class="card-head"><h2>📋 Alle Bonus-Tipps</h2></div>
-      <div class="tipps-wrap"><table class="tippmatrix bonusmatrix" id="bonusMatrix"></table></div>
-      <p class="hint">Grün = Punkt geholt · rot = daneben (entschieden) · grau = noch offen · <b>B</b> = Bonuspunkte bisher.</p>
+      <div class="scroll-shell" id="bonusScroll">
+        <div class="tipps-wrap"><table class="tippmatrix bonusmatrix" id="bonusMatrix"></table></div>
+        <button type="button" class="scroll-next" aria-label="Weiter zu weiteren Fragen">›</button>
+      </div>
+      <p class="hint">Blau = Punkt geholt · rot = daneben (entschieden) · grau = noch offen · <b>B</b> = Bonuspunkte bisher.</p>
     </div>
   </section>
 
@@ -138,6 +131,6 @@
     <button class="link-btn" id="backBtn" hidden>← zurück zur Übersicht</button>
   </footer>
 </div>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

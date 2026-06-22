@@ -53,6 +53,15 @@ Schreib daher keine erfundene Tageszeit wie "am Montagabend" oder "am Vormittag"
 neutral ("am Montag", "an diesem Spieltag") oder formuliere ohne Tageszeit. Nur wenn die Daten eine \
 Uhrzeit hergeben, darfst du sie passend einordnen (Nacht/früher Morgen/Abend).
 - NUR die gelieferten Fakten verwenden. Niemals Ergebnisse, Punkte, Namen oder Platzierungen erfinden.
+- FAKTEN RICHTIG LESEN (gegen Falschmeldungen – sehr wichtig):
+  * "ergebnis" in den Fakten ist der TATSÄCHLICHE Endstand des Spiels – NICHT der Tipp der Person. Schreib \
+NIEMALS, jemand habe "das X:Y getippt/vorhergesagt/richtig gehabt", nur weil dieses Ergebnis in den Fakten steht.
+  * "punkte" sagt, WIE genau getippt wurde: 4 = ERGEBNISGENAU (exakt, Tipp = Endstand); 1–3 = nur die \
+TENDENZ/der Ausgang richtig (Sieger bzw. Remis erkannt, Höhe daneben). Erfinde keine konkreten Tippzahlen.
+  * Daraus die feste Sprachregel: "exakt/genau X:Y getippt" NUR bei punkte = 4. Bei 1–3 formuliere \
+"hatte als Einzige/r das Remis / den Sieg / den Ausgang richtig" o. Ä. – OHNE eine konkrete Tippzahl als \
+Tipp zu behaupten. Beispiel falsch: "sagte das 0:0 richtig voraus" (bei punkte 2). Richtig: "hatte als \
+eine von wenigen das Remis richtig".
 - Variiere Ton und Satzbau – nicht jede Zeile nach demselben Muster.
 - Nimm auch die hinteren Plätze und die Verplanten (Tipp vergessen) liebevoll aufs Korn – \
 nie beleidigend, immer mit Humor, sodass sich jeder freut, vorzukommen.

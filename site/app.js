@@ -11,7 +11,7 @@ const TYPE_ICON = {
 };
 
 const state = { chart: null, history: null, standings: null, headlines: null, tipps: null, bonus: null,
-                colors: {}, selected: new Set(), chartView: 'tage', tableView: 'spieltage' };
+                colors: {}, selected: new Set(), chartView: 'tage', tableView: 'tage' };
 
 // distinct, pleasant palette via golden-angle HSL
 function palette(n) {
@@ -88,6 +88,26 @@ const TYPE_LABEL = {
 
 const blockHasBonus = b => (b.headlines || []).some(h => typeof h === 'object' && h.type === 'bonus_aufloesung');
 
+// STUDIO-Variante: Tipper-Namen in Schlagzeilen stylish unterstreichen.
+// Wrappt jedes Vorkommen eines bekannten Tipper-Namens in <span class="tipper">.
+let _tipperRe;
+function tipperRegex() {
+  if (_tipperRe !== undefined) return _tipperRe;
+  const names = [...new Set((state.standings?.tippers || []).map(t => t.name).filter(Boolean))]
+    .sort((a, b) => b.length - a.length);                       // längere Namen zuerst matchen
+  if (!names.length) { _tipperRe = null; return null; }
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Name + optionale dt. Endung (Genitiv-s, 's/’s, n, en) mitnehmen → "Schielotterbecks" wird erkannt.
+  const body = names.map(esc).join('|');
+  _tipperRe = new RegExp(`(?<![\\p{L}\\p{N}_])((?:${body})(?:['’]s|s|en|n)?)(?![\\p{L}\\p{N}_])`, 'gu');
+  return _tipperRe;
+}
+function markTippers(text) {
+  if (!text) return text;
+  try { const re = tipperRegex(); return re ? text.replace(re, '<span class="tipper">$1</span>') : text; }
+  catch (e) { return text; }   // ältere Browser ohne Lookbehind: lieber unverändert als kaputt
+}
+
 function editionHTML(b, bi, ii) {
   const clips = (b.headlines || []).map((h, hi) => {
     const txt = typeof h === 'string' ? h : h.text;
@@ -98,7 +118,7 @@ function editionHTML(b, bi, ii) {
     const lead = bi === 0 && hi === 0;
     return `<article class="clip${lead ? ' lead' : ''}">
       <div class="kicker"><span class="ic">${ic}</span>${kicker}</div>
-      <p class="head">${txt}</p>${dek ? `<p class="dek">${dek}</p>` : ''}</article>`;
+      <p class="head">${markTippers(txt)}</p>${dek ? `<p class="dek">${dek}</p>` : ''}</article>`;
   }).join('') || `<div class="quiet">Spielfreier Tag – die letzten Schlagzeilen bleiben stehen.</div>`;
   // pro Spieltag-Gruppe nur die neueste Ausgabe offen (ii === 0); ältere zu –
   // Ausgaben mit Bonus-Auflösung bleiben immer offen
@@ -128,7 +148,7 @@ function renderFeed() {
     const sp = spMap[g.key] || {};
     const fazit = sp.fazit_headline
       ? `<article class="clip fazit"><div class="kicker"><span class="ic">🏁</span>SPIELTAG-FAZIT</div>
-          <p class="head">${sp.fazit_headline.text}</p>${sp.fazit_headline.erklaerung ? `<p class="dek">${sp.fazit_headline.erklaerung}</p>` : ''}</article>`
+          <p class="head">${markTippers(sp.fazit_headline.text)}</p>${sp.fazit_headline.erklaerung ? `<p class="dek">${sp.fazit_headline.erklaerung}</p>` : ''}</article>`
       : '';
     const body = fazit + g.items.map(({ b, bi }, ii) => editionHTML(b, bi, ii)).join('');
     const sub = g.gruppenphase ? '<span class="sp-sub">Gruppenphase</span>' : '';
@@ -247,6 +267,7 @@ function wireUI() {
     renderStandingsFull();
   }));
 
+  wireScrollShells();  // Horizontal-Scroll-Hinweise (Pfeil/Fade) für alle Tabellen aktivieren
   setView('feed');  // Startseite = Schlagzeilen
 }
 
@@ -258,8 +279,36 @@ function setView(view) {
   $('#view-tipps').hidden = view !== 'tipps';
   $('#view-bonus').hidden = view !== 'bonus';
   if (view === 'tipps' && state.tippCurrent != null) renderTippMatrix(state.tippCurrent);
+  if (view === 'tabelle' || view === 'tipps' || view === 'bonus')
+    requestAnimationFrame(updateAllShells);  // jetzt sichtbar → Breiten messbar
   window.scrollTo({ top: 0 });
   if (view === 'chart') setTimeout(() => state.chart && state.chart.resize(), 60);
+}
+
+// ---------- Schönes Horizontal-Scrollen für ALLE Tabellen (mehr Spalten = scrollbar) ----------
+function updateShellScroll(shell) {
+  const wrap = shell.querySelector('.table-wrap, .tipps-wrap');
+  if (!wrap || wrap.offsetParent === null) return;   // View unsichtbar → später erneut messen
+  const max = wrap.scrollWidth - wrap.clientWidth;
+  const overflow = max > 4;
+  shell.classList.toggle('has-scroll', overflow);
+  shell.classList.toggle('at-end', !overflow || wrap.scrollLeft >= max - 4);
+  shell.classList.toggle('at-start', wrap.scrollLeft <= 4);
+}
+function updateAllShells() { document.querySelectorAll('.scroll-shell').forEach(updateShellScroll); }
+let _shellsWired = false;
+function wireScrollShells() {
+  if (_shellsWired) return;
+  _shellsWired = true;
+  document.querySelectorAll('.scroll-shell').forEach(shell => {
+    const wrap = shell.querySelector('.table-wrap, .tipps-wrap');
+    if (!wrap) return;
+    wrap.addEventListener('scroll', () => updateShellScroll(shell), { passive: true });
+    const next = shell.querySelector('.scroll-next');
+    if (next) next.addEventListener('click', () =>
+      wrap.scrollBy({ left: Math.round(wrap.clientWidth * 0.7), behavior: 'smooth' }));
+  });
+  window.addEventListener('resize', updateAllShells);
 }
 
 // ---------- Tabelle (voller Stand) ----------
@@ -296,14 +345,17 @@ function renderStandingsFull() {
     ? 'Punkte je <b>Ausgabe-Tag</b> – Abend, Nacht und Morgen zählen als <b>eine Schicht</b> (gleicher Tag wie im News-Feed) · Gesamt rechts.'
     : 'Punkte je <b>WM-Spieltag</b> · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.';
   $('#tabUpdate').textContent = 'STAND ' + (state.standings.scraped_at || '').replace('T', ' ').slice(0, 16);
+  requestAnimationFrame(updateAllShells);
 }
 
 // ---------- Tipp-Historie (Matrix) ----------
 function setupTipps() {
-  const mds = (state.tipps.matchdays || []).map(m => m.matchday).sort((a, b) => b - a);
-  state.tippMds = mds;
-  $('#tippSel').innerHTML = mds.map(m => `<option value="${m}">Spieltag ${m}</option>`).join('');
-  state.tippCurrent = mds[0] ?? null;
+  // Seiten = Tipprunden, neueste zuerst. Beschriftet nach Datum (NICHT Kicktipps interne Spieltag-Nr.).
+  const sorted = (state.tipps.matchdays || []).slice().sort((a, b) => b.matchday - a.matchday);
+  state.tippMds = sorted.map(m => m.matchday);
+  $('#tippSel').innerHTML = sorted.map((m, i) =>
+    `<option value="${m.matchday}">${m.date}${i === 0 ? ' · neueste' : ''}</option>`).join('');
+  state.tippCurrent = state.tippMds[0] ?? null;
 }
 
 function stepTipp(dir) {
@@ -337,8 +389,11 @@ function renderTippMatrix(md) {
       `<td class="pts">${r.spieltag_points ?? ''}</td></tr>`;
   }).join('');
   $('#tippMatrix').innerHTML = head + '<tbody>' + body + '</tbody>';
-  $('#tippMeta').textContent = `${data.games.length} Spiele · ${data.rows.length} Tipper · ${data.date}` +
+  const idx = (state.tippMds || []).indexOf(md);
+  const page = idx >= 0 ? `Seite ${idx + 1}/${state.tippMds.length} · ` : '';
+  $('#tippMeta').textContent = `${page}${data.games.length} Spiele · ${data.rows.length} Tipper · ${data.date}` +
     (data.complete ? '' : ' · läuft noch');
+  requestAnimationFrame(updateAllShells);
 }
 
 // ---------- Bonus (Langfrist-Tipps) ----------

@@ -2,7 +2,8 @@
 
 > **Lies das zuerst.** Dieses Dokument enthält alles, was man braucht, um am Tool
 > sauber weiterzuarbeiten — Architektur, Deploy-Runbook, Domänen-Logik, Stolperfallen.
-> Stand: 2026-06-22 (komplett live geschaltet & mehrfach iteriert).
+> Stand: 2026-06-22 (live & mehrfach iteriert; Frontend auf das „Studio/Hipster"-Design umgestellt —
+> weiß-blauer Bayern/BR-Look, „PFM Kicktipp Daily", siehe §5).
 
 ---
 
@@ -44,7 +45,7 @@ Der normale Loop, wenn Kevin etwas verbessern will:
    Determinismus-Check), bei Frontend-Änderungen Vorschau-Server (`python3 -m http.server -d site 8011`).
 3. **Bei JS/CSS-Änderungen: Cache-Version bumpen** in `site/index.html`
    (`app.js?v=N` / `styles.css?v=N`, N hochzählen) — sonst laden Browser das alte File aus dem Cache
-   (Symptom: `[object Object]` o. kaputte Tabelle). Aktuell: `app.js?v=3`.
+   (Symptom: `[object Object]` o. kaputte Tabelle). Aktuell: `styles.css?v=3` / `app.js?v=4`.
 4. **Committen auf `main` + pushen** (`git push origin main`). Push-Auth liegt im macOS-Schlüsselbund
    (PAT „tipp-funk-push", siehe §4). Kein Token-Tippen mehr nötig.
 5. **Deploy anstoßen:** Ein reiner Push deployt NICHT. Auf github.com → Repo → **Actions** →
@@ -83,8 +84,17 @@ update.py    →  alles nacheinander         der EINE tägliche Befehl
 
 - Frontend: eine Single-Page-App (`app.js`), lädt die `site/data/*.json` per fetch (cache-bust `?t=`).
   Views: News (Start), Tabelle, Tipps, Platz-Verlauf, Bonus.
-- Look: 80er-BR-Retro (BR-Blau `#1488bc`, Creme, Fonts Anton+VT323+Archivo, Scanlines, Hard-Shadows).
-  Titel-Banner: **„PFM Tippkick Daily"**. Menü-Reihenfolge: News / Tabelle / Tipps / Platz-Verlauf / Bonus.
+- Look: **„Studio/Hipster"** — weiß-blaues Bayern/BR-Design (cremig-weiße Karten auf Hellblau, BR-Blau
+  `#1488bc` als Leitfarbe, Marineblau-Ink, Gelb/Rot nur als gezielte Akzente). Kein Header/Logo mehr,
+  Einstieg direkt über die Pill-Navigation. Fonts: **Fraunces** (Display/Headlines), **Space Grotesk**
+  (Body/UI), **Space Mono** (Labels/Badges). Abgerundete Sticker-Cards, weiche Schatten, Hover-Lifts.
+  Titel-Banner im News-Masthead: **„PFM Kicktipp Daily"** (Eyebrow rot: „Frische Ausgabe jeden Morgen um
+  8:30 Uhr"). Menü-Reihenfolge: News / Tabelle / Tipps / Platz-Verlauf / Bonus.
+  - Frühere Varianten (80er-Retro, Blau-Weiß-Pixel) sind raus; der alte Look liegt nur noch in der Git-Historie.
+- Frontend-Besonderheiten in `app.js`: Tipper-Namen werden in den Schlagzeilen erkannt und mit BR-blauem
+  Textmarker hervorgehoben (`markTippers`, Namensliste aus `state.standings.tippers`). Die Tabelle scrollt
+  horizontal mit Fade-Hinweis + rundem „›"-Button + sticky Namensspalte (`updateTabScroll`/`wireTabScroll`),
+  wenn bei vielen Tagen mehr Spalten dazukommen.
 
 ## 6. Lokal testen
 
@@ -115,11 +125,12 @@ WM 2026 ist in den USA → Spiele laufen oft in der **deutschen Nacht**. Zwei Ac
   Kicktipp bündelt ~8 Spiele pro „Spieltag" (1–15) = nur Tipp-Runden. Wir leiten die echten ab:
   pro Gruppe Spiele nach Anstoß sortiert, je 2 = 1 offizieller Spieltag (Gruppenphase 1–3);
   K.-o. = Runden-Name. Funktionen: `assign_official_md()`, `unit_key()`.
-  - **Tabelle „Spieltage"-Ansicht** (Standard): Spalten = offizielle Spieltage (1, 2, … / AF/VF/HF/FIN),
+  - **Tabelle „Spieltage"-Ansicht**: Spalten = offizielle Spieltage (1, 2, … / AF/VF/HF/FIN),
     Punkte aus Einzelspielen neu aggregiert (`official_matchday_table()`). Kicktipps 8er-Blöcke
     werden NICHT mehr angezeigt.
   - News-Feed-Gruppenkopf: „N. SPIELTAG · Gruppenphase". Chart-Modus „Spieltage" = offizielle Spieltage.
-- **Tabelle hat einen Umschalter „Spieltage / Tage"** (oben rechts, wie der Chart). Spalten-Format
+- **Tabelle hat einen Umschalter „Spieltage / Tage"** (oben rechts, wie der Chart); **Default = „Tage"**
+  (`state.tableView` in `app.js` + `class="active"` am Tage-Button in `index.html`). Spalten-Format
   ist `{key, kurz, lang}`; pro Tipper `matchday_points` (Spieltage) und `tag_points` (Tage).
   Beides summiert zu den Einzelspiel-Punkten; **Gesamt = Einzelspiel-Punkte + Bonus** (B-Spalte).
 
