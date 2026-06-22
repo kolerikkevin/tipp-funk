@@ -1,5 +1,8 @@
 # Tippspiel-Chronik
 
+> 🟢 **LIVE:** https://kolerikkevin.github.io/tipp-funk/ — aktualisiert sich täglich um 08:30 automatisch.
+> 📘 **Weiterarbeiten? Zuerst [`CONTEXT.md`](CONTEXT.md) lesen** (Architektur, Deploy-Runbuch, Domänen-Logik, Stolperfallen).
+
 Tägliches Dashboard für die Kicktipp-Tipprunde **„PortfolioundEntwicklung"** (Arbeits-Tippspiel, WM 2026).
 Zieht die öffentlichen Kicktipp-Seiten, erkennt kleine Geschichten in den Daten und zeigt den
 Platz-Verlauf aller Tipper als interaktives Liniendiagramm.
@@ -33,5 +36,5 @@ python3 -m http.server -d site 8000   # → http://localhost:8000
 ```
 
 ## Status
-🧪 Experiment / im Aufbau. Automatik zunächst lokal, später GitHub Action (Cron) + Pages.
-Schlagzeilen brauchen einen LLM-Key (Anthropic bevorzugt, OpenAI-Fallback).
+🟢 **Live & automatisiert.** GitHub Action (Cron 08:30) → Pages, Schlagzeilen via Claude Opus 4.8
+(Key als Repo-Secret). Vollständiges Handoff: [`CONTEXT.md`](CONTEXT.md). Erst-Setup-Schritte: [`DEPLOY.md`](DEPLOY.md).
