@@ -11,7 +11,8 @@
         "5": 13
       },
       "total": 70,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "Schielotterbeck",
@@ -24,7 +25,8 @@
         "5": 12
       },
       "total": 66,
-      "active": true
+      "active": true,
+      "bonus": 12
     },
     {
       "name": "Lochsocke",
@@ -37,7 +39,8 @@
         "5": 12
       },
       "total": 65,
-      "active": true
+      "active": true,
+      "bonus": 12
     },
     {
       "name": "TippTommy",
@@ -50,7 +53,8 @@
         "5": 12
       },
       "total": 63,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "Schrammadonna",
@@ -63,7 +67,8 @@
         "5": 12
       },
       "total": 62,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "Matthias",
@@ -76,7 +81,8 @@
         "5": 10
       },
       "total": 61,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "Toritz",
@@ -89,7 +95,8 @@
         "5": 14
       },
       "total": 61,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "salvanize",
@@ -102,7 +109,8 @@
         "5": 13
       },
       "total": 61,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "Zidanima",
@@ -115,7 +123,8 @@
         "5": 10
       },
       "total": 60,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "Tippmon",
@@ -128,7 +137,8 @@
         "5": 10
       },
       "total": 60,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "LinkeKlebe",
@@ -141,7 +151,8 @@
         "5": 10
       },
       "total": 60,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "Don_Kuhbert",
@@ -154,7 +165,8 @@
         "5": 13
       },
       "total": 59,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "GG",
@@ -167,7 +179,8 @@
         "5": 12
       },
       "total": 57,
-      "active": true
+      "active": true,
+      "bonus": 12
     },
     {
       "name": "Kicklberger",
@@ -180,7 +193,8 @@
         "5": 6
       },
       "total": 49,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "BenzEma",
@@ -193,7 +207,8 @@
         "5": 7
       },
       "total": 49,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "Philipp_Flink",
@@ -206,7 +221,8 @@
         "5": 8
       },
       "total": 46,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "Reinoldo",
@@ -219,7 +235,8 @@
         "5": 8
       },
       "total": 44,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "Weckenbauer",
@@ -232,7 +249,8 @@
         "5": 8
       },
       "total": 42,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "K_linsman_N",
@@ -245,7 +263,8 @@
         "5": 8
       },
       "total": 40,
-      "active": true
+      "active": true,
+      "bonus": 8
     },
     {
       "name": "TorTippTeddy",
@@ -258,7 +277,8 @@
         "5": 0
       },
       "total": 21,
-      "active": true
+      "active": true,
+      "bonus": 4
     },
     {
       "name": "LaraB",
@@ -271,10 +291,11 @@
         "5": 0
       },
       "total": 0,
-      "active": false
+      "active": false,
+      "bonus": null
     }
   ],
-  "scraped_at": "2026-06-22T13:23:37",
+  "scraped_at": "2026-06-22T15:55:50",
   "inactive": [
     "LaraB"
   ],

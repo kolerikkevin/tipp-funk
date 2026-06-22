@@ -260,25 +260,6 @@
       "total": 60
     },
     {
-      "name": "Tippmon",
-      "positions": [
-        12,
-        10,
-        9,
-        11,
-        11,
-        11,
-        9,
-        8,
-        8,
-        9,
-        10,
-        10
-      ],
-      "rank": 10,
-      "total": 60
-    },
-    {
       "name": "LinkeKlebe",
       "positions": [
         3,
@@ -291,6 +272,25 @@
         3,
         8,
         3,
+        10,
+        10
+      ],
+      "rank": 10,
+      "total": 60
+    },
+    {
+      "name": "Tippmon",
+      "positions": [
+        12,
+        10,
+        9,
+        11,
+        11,
+        11,
+        9,
+        8,
+        8,
+        9,
         10,
         10
       ],
@@ -567,18 +567,18 @@
         "total": 60
       },
       {
-        "name": "Tippmon",
+        "name": "LinkeKlebe",
         "positions": [
-          9,
+          10,
           10
         ],
         "rank": 10,
         "total": 60
       },
       {
-        "name": "LinkeKlebe",
+        "name": "Tippmon",
         "positions": [
-          10,
+          9,
           10
         ],
         "rank": 10,

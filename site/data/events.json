@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-06-22T13:23:37",
+  "generated_for": "2026-06-22T15:55:50",
   "latest": "Mo, 22.06.",
   "editions": [
     {
@@ -21,6 +21,17 @@
         }
       ],
       "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 2,
+            "punkte": 5
+          },
+          "score": 0.95
+        },
         {
           "type": "perfekter_spieltag",
           "date": "Do, 11.06.",
@@ -51,17 +62,6 @@
           "facts": {
             "spiele": 2,
             "punkte": 8
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Do, 11.06.",
-          "edition": 1,
-          "primary": "LinkeKlebe",
-          "facts": {
-            "spiele": 2,
-            "punkte": 5
           },
           "score": 0.95
         },
@@ -224,7 +224,7 @@
           "type": "pechvogel",
           "date": "Fr, 12.06.",
           "edition": 2,
-          "primary": "salvanize",
+          "primary": "Don_Kuhbert",
           "facts": {
             "punkte": 0
           },
@@ -289,17 +289,6 @@
           "type": "tagessieger",
           "date": "Sa, 13.06.",
           "edition": 3,
-          "primary": "salvanize",
-          "facts": {
-            "punkte": 6,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
-          "type": "tagessieger",
-          "date": "Sa, 13.06.",
-          "edition": 3,
           "primary": "Zidanima",
           "facts": {
             "punkte": 6,
@@ -312,6 +301,17 @@
           "date": "Sa, 13.06.",
           "edition": 3,
           "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "salvanize",
           "facts": {
             "punkte": 6,
             "exakte_treffer": 1
@@ -422,6 +422,18 @@
           "type": "tipp_vergessen",
           "date": "Mo, 15.06.",
           "edition": 4,
+          "primary": "Zidanima",
+          "facts": {
+            "jetzt_platz": 3,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 15.06.",
+          "edition": 4,
           "primary": "Toritz",
           "facts": {
             "jetzt_platz": 8,
@@ -441,18 +453,6 @@
           },
           "score": 0.85,
           "lage": "keller"
-        },
-        {
-          "type": "tipp_vergessen",
-          "date": "Mo, 15.06.",
-          "edition": 4,
-          "primary": "Zidanima",
-          "facts": {
-            "jetzt_platz": 3,
-            "lage": "war_oben"
-          },
-          "score": 0.85,
-          "lage": "war_oben"
         },
         {
           "type": "tagessieger",
@@ -695,10 +695,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "GG",
+          "primary": "Zidanima",
           "facts": {
             "spiele": 4,
-            "punkte": 11
+            "punkte": 8
           },
           "score": 0.95
         },
@@ -717,10 +717,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Kicklberger",
+          "primary": "Reinoldo",
           "facts": {
             "spiele": 4,
-            "punkte": 8
+            "punkte": 9
           },
           "score": 0.95
         },
@@ -739,10 +739,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Tippmon",
+          "primary": "Schielotterbeck",
           "facts": {
             "spiele": 4,
-            "punkte": 10
+            "punkte": 13
           },
           "score": 0.95
         },
@@ -750,32 +750,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "TippTommy",
-          "facts": {
-            "spiele": 4,
-            "punkte": 12
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Stockfish91",
+          "primary": "GG",
           "facts": {
             "spiele": 4,
             "punkte": 11
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Schrammadonna",
-          "facts": {
-            "spiele": 4,
-            "punkte": 9
           },
           "score": 0.95
         },
@@ -794,7 +772,40 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Zidanima",
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Kicklberger",
           "facts": {
             "spiele": 4,
             "punkte": 8
@@ -805,21 +816,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Schielotterbeck",
+          "primary": "Tippmon",
           "facts": {
             "spiele": 4,
-            "punkte": 13
-          },
-          "score": 0.95
-        },
-        {
-          "type": "perfekter_spieltag",
-          "date": "Di, 16.06.",
-          "edition": 6,
-          "primary": "Reinoldo",
-          "facts": {
-            "spiele": 4,
-            "punkte": 9
+            "punkte": 10
           },
           "score": 0.95
         },
@@ -1027,6 +1027,20 @@
           "score": 0.8
         },
         {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe A",
+          "facts": {
+            "was": "Gruppe A",
+            "ergebnis": "Mexiko",
+            "treffer": 14,
+            "leer": 6,
+            "gesamt": 20
+          },
+          "score": 0.72,
+          "date": "Fr, 19.06.",
+          "edition": 8
+        },
+        {
           "type": "pechvogel",
           "date": "Do, 18.06.",
           "edition": 8,
@@ -1152,6 +1166,25 @@
           "score": 0.7394736842105263
         },
         {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe D",
+          "facts": {
+            "was": "Gruppe D",
+            "ergebnis": "USA",
+            "treffer": 3,
+            "leer": 17,
+            "gesamt": 20,
+            "treffer_namen": [
+              "Schielotterbeck",
+              "Lochsocke",
+              "GG"
+            ]
+          },
+          "score": 0.72,
+          "date": "Sa, 20.06.",
+          "edition": 9
+        },
+        {
           "type": "absteiger",
           "date": "Sa, 20.06.",
           "edition": 9,
@@ -1241,17 +1274,6 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "salvanize",
-          "facts": {
-            "punkte": 8,
-            "exakte_treffer": 1
-          },
-          "score": 0.8
-        },
-        {
-          "type": "tagessieger",
-          "date": "Sa, 20.06.",
-          "edition": 10,
           "primary": "Lochsocke",
           "facts": {
             "punkte": 8,
@@ -1274,7 +1296,18 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "TippTommy",
+          "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "salvanize",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1296,12 +1329,32 @@
           "type": "tagessieger",
           "date": "Sa, 20.06.",
           "edition": 10,
-          "primary": "Schielotterbeck",
+          "primary": "TippTommy",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
           },
           "score": 0.8
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe E",
+          "facts": {
+            "was": "Gruppe E",
+            "ergebnis": "Deutschland",
+            "treffer": 19,
+            "leer": 1,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "LinkeKlebe",
+                "tipp": "Elfenbeinküste"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "So, 21.06.",
+          "edition": 10
         },
         {
           "type": "pechvogel",
@@ -1357,7 +1410,7 @@
           "type": "tagessieger",
           "date": "So, 21.06.",
           "edition": 11,
-          "primary": "GG",
+          "primary": "Don_Kuhbert",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1
@@ -1368,7 +1421,7 @@
           "type": "tagessieger",
           "date": "So, 21.06.",
           "edition": 11,
-          "primary": "Don_Kuhbert",
+          "primary": "GG",
           "facts": {
             "punkte": 8,
             "exakte_treffer": 1

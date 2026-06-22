@@ -30,6 +30,39 @@ import requests
 BASE = "https://www.kicktipp.de"
 ROUND = "portfolioundentwicklung"
 TOTAL_MATCHDAYS_FALLBACK = 15
+EXACT_BONUS = 4  # Punkte pro richtiger Bonus-Antwort (einheitlich, laut Spielregeln)
+
+# Kürzel -> deutscher Vollname (für die Bonus-Anzeige). Robust gegen unbekannte
+# Kürzel: fehlt eins, wird einfach das Kürzel angezeigt (siehe team_full()).
+TEAM_FULL = {
+    "ARG": "Argentinien", "AUS": "Australien", "AUT": "Österreich", "BEL": "Belgien",
+    "BIH": "Bosnien-Herz.", "BRA": "Brasilien", "CH": "Schweiz", "CIV": "Elfenbeinküste",
+    "CZE": "Tschechien", "DEU": "Deutschland", "ENG": "England", "FRA": "Frankreich",
+    "IRN": "Iran", "JAP": "Japan", "KAN": "Kanada", "KRO": "Kroatien", "MAR": "Marokko",
+    "MEX": "Mexiko", "NIE": "Niederlande", "NOR": "Norwegen", "PAR": "Paraguay",
+    "POR": "Portugal", "SAFR": "Südafrika", "SCO": "Schottland", "SEN": "Senegal",
+    "SKOR": "Südkorea", "SPA": "Spanien", "SWE": "Schweden", "TUR": "Türkei", "USA": "USA",
+}
+
+
+def team_full(abbr: str | None) -> str | None:
+    if not abbr:
+        return None
+    return TEAM_FULL.get(abbr, abbr)
+
+
+def bonus_type(kurz: str) -> tuple[str, str | None]:
+    """Klassifiziert eine Bonusfrage am Kurz-Label. -> (type, gruppe|None)."""
+    k = (kurz or "").strip()
+    if k == "Tor":
+        return "tor", None
+    if k == "HF":
+        return "hf", None
+    if k == "WM":
+        return "wm", None
+    if k.startswith("Gr "):
+        return "group", k[3:].strip()
+    return "sonst", None
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -224,6 +257,103 @@ def parse_tippuebersicht(doc: str, spieltag_index: int) -> dict:
 
 
 # --------------------------------------------------------------------------- #
+# Parser: Bonus-Fragen (Langfrist-Tipps: Torschützen-Nation, Halbfinalisten,
+# Gruppensieger A–L, Weltmeister). Gleiche Zell-Mechanik wie die Spieltags-Matrix:
+#   - " <n>"-Suffix in einer Zelle = richtig (Punkte vergeben)
+#   - CSS-Klasse 'f' = entschieden & falsch
+#   - schmucklos = noch offen
+# Die Header-Zeile (headerErgebnis) ist die autoritative Quelle für die Spalten
+# und das je Frage feststehende Ergebnis (headerbox: Kürzel oder '---').
+# --------------------------------------------------------------------------- #
+def parse_bonus(doc: str) -> dict:
+    rows = _rows(doc)
+
+    # 1) Fragetexte je tippfrageId (Tabelle A, klickbare Zeilen mit Datum)
+    qtext = {}
+    for row in rows:
+        m = re.search(r"tippfrageId=(\d+)", row)
+        if m and "clickable" in row:
+            vals = [_clean(inner) for _, inner in _cells(row)]
+            if len(vals) >= 3 and re.match(r"\d{2}\.\d{2}\.\d{2}", vals[0]):
+                qtext[m.group(1)] = {"termin": vals[0], "frage": vals[1], "abk": vals[2]}
+
+    # 2) Header -> geordnete Spalten (autoritativ inkl. Ergebnis je Spalte)
+    header = next((r for r in rows if "headerErgebnis" in r), "")
+    questions = []
+    for attrs, inner in re.findall(r"<th([^>]*ereignis\d+[^>]*)>(.*?)</th>", header, re.S):
+        ei = re.search(r"ereignis(\d+)", attrs)
+        fid = re.search(r'data-frageid="(\d+)"', attrs)
+        fidx = re.search(r'data-frageindex="(\d+)"', attrs)
+        kurz = re.search(r'kurzfrage">(.*?)</div>', inner, re.S)
+        box = re.search(r'headerbox">(.*?)</div>', inner, re.S)
+        kurz_s = _clean(kurz.group(1)) if kurz else ""
+        res = _clean(box.group(1)) if box else "---"
+        result = None if res in ("---", "") else res
+        typ, grp = bonus_type(kurz_s)
+        questions.append({
+            "slot": int(ei.group(1)),
+            "kurz": kurz_s,
+            "type": typ,
+            "group": grp,
+            "frageid": fid.group(1) if fid else None,
+            "frageindex": int(fidx.group(1)) if fidx else 0,
+            "frage": qtext.get(fid.group(1), {}).get("frage") if fid else None,
+            "result": result,
+            "result_full": team_full(result),
+            "decided": result is not None,
+            "points_each": EXACT_BONUS,
+        })
+    questions.sort(key=lambda q: q["slot"])
+
+    # 3) Tipper-Zeilen (eine je Teilnehmer, mit ereignis-Zellen)
+    tippers = []
+    for row in rows:
+        if "ereignis" not in row or "headerErgebnis" in row:
+            continue
+        cells = _cells(row)
+        name = next((_clean(inner) for cls, inner in cells if "mg_class" in cls), None)
+        if not name:
+            continue
+        posm = re.search(r"kicktipp-pos(\d+)", row)
+        position = int(posm.group(1)) if posm else None
+        bonus = next((_int(_clean(inner)) for cls, inner in cells if "bonus" in cls.split()), None)
+        picks = []
+        for cls, inner in cells:
+            if "ereignis" not in cls:
+                continue
+            k = re.search(r"ereignis(\d+)", cls)
+            slot = int(k.group(1)) if k else len(picks)
+            text = _clean(inner)
+            abbr = re.sub(r"\s*\d+$", "", text).strip() or None
+            ptsm = re.search(r"\s(\d+)$", text)
+            points = int(ptsm.group(1)) if ptsm else 0
+            picks.append({
+                "slot": slot,
+                "abbr": abbr,
+                "points": points,
+                "correct": points > 0,
+                "wrong": "f" in cls.split(),
+            })
+        picks.sort(key=lambda p: p["slot"])
+        tippers.append({
+            "name": name,
+            "position": position,
+            "bonus_points": bonus,
+            "picks": picks,
+        })
+
+    n_decided = sum(1 for q in questions if q["decided"])
+    return {
+        "n_questions": len(questions),
+        "n_decided": n_decided,
+        "points_each": EXACT_BONUS,
+        "questions": questions,
+        "tippers": tippers,
+        "teams": TEAM_FULL,
+    }
+
+
+# --------------------------------------------------------------------------- #
 # Orchestrierung
 # --------------------------------------------------------------------------- #
 def discover_matchday_count(tippueb_doc: str) -> int:
@@ -241,6 +371,16 @@ def run() -> dict:
     ges_doc = fetch("gesamtuebersicht")
     (raw_dir / "gesamtuebersicht.html").write_text(ges_doc, encoding="utf-8")
     standings = parse_gesamtuebersicht(ges_doc)
+
+    # 1b) Bonus-Fragen (Langfrist-Tipps) – eigene öffentliche Ansicht
+    bonus = None
+    try:
+        bonus_doc = fetch("tippuebersicht", {"bonus": "true"})
+        (raw_dir / "bonus.html").write_text(bonus_doc, encoding="utf-8")
+        bonus = parse_bonus(bonus_doc)
+        bonus["scraped_at"] = _dt.datetime.now().isoformat(timespec="seconds")
+    except requests.HTTPError as e:
+        print(f"  Bonus-Seite nicht erreichbar ({e}) – überspringe Bonus.", file=sys.stderr)
 
     # 2) Tippübersicht: erst Default holen, Spieltag-Zahl ermitteln
     first_doc = fetch("tippuebersicht")
@@ -273,6 +413,17 @@ def run() -> dict:
         json.dumps({"date": today, "tippers": standings["tippers"]}, ensure_ascii=False, indent=2),
         "utf-8",
     )
+
+    if bonus is not None:
+        (PARSED / "bonus.json").write_text(json.dumps(bonus, ensure_ascii=False, indent=2), "utf-8")
+        # täglicher Snapshot der ENTSCHIEDENEN Fragen -> "erstmals entschieden"-Datum
+        # für die Auflösungs-Schlagzeilen (robust auch für HF/WM ohne Spiel-Bezug).
+        decided = {q["frageid"] + ":" + str(q["frageindex"]): q["result"]
+                   for q in bonus["questions"] if q["decided"] and q["frageid"]}
+        (HISTORY / f"bonus_{today}.json").write_text(
+            json.dumps({"date": today, "decided": decided}, ensure_ascii=False, indent=2), "utf-8")
+        print(f"  Bonus: {bonus['n_decided']}/{bonus['n_questions']} Fragen entschieden, "
+              f"{len(bonus['tippers'])} Tipper")
 
     print(f"\n✓ {len(standings['tippers'])} Tipper, {len(played)}/{n_md} Spieltage gespielt.")
     print(f"  Rohdaten: {raw_dir.relative_to(ROOT)}")

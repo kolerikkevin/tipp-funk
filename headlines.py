@@ -135,7 +135,14 @@ def generate(client, ctx):
         "eine fette Schlagzeile (text) PLUS zwei Sätze Unterzeile (erklaerung), die die Fakten nachliefert. "
         "Streue verschiedene Tipper – nicht nur die Spitze. "
         "Gib zu jedem Eintrag den EXAKTEN Ereignis-Typ (type = 'typ' aus erkannte_ereignisse) und den "
-        "gemeinten Tipper (tipper) an. 'spieltag_fazit' NUR, wenn ein Ereignis dieses Typs vorliegt.\n\n"
+        "gemeinten Tipper (tipper) an. 'spieltag_fazit' NUR, wenn ein Ereignis dieses Typs vorliegt. "
+        "WICHTIG: Für JEDE Bonus-Auflösung (typ 'bonus_aufloesung') MUSST du eine eigene Schlagzeile "
+        "schreiben – zusätzlich zu den anderen Geschichten, im selben Stil. Bei 'bonus_aufloesung' ist "
+        "'tipper' das Frage-Label (z. B. 'Gruppe E'), kein Personenname. "
+        "ACHTUNG zu 'leer_detail': Wer leer ausging, hat NICHT zwingend vergessen zu tippen! Steht bei "
+        "'tipp' ein Land, hat die Person genau DARAUF (falsch) gesetzt – schreib dann z. B. 'setzte auf X' "
+        "oder 'verzockte sich mit X', NIEMALS 'vergaß zu tippen'. Nur wenn 'tipp' null ist, hat die Person "
+        "diese Frage gar nicht getippt.\n\n"
         + json.dumps(ctx, ensure_ascii=False, indent=2)
     )
     resp = client.messages.create(
@@ -176,6 +183,38 @@ def generate_fazit(client, fazit, genders):
     )
     text = next(b.text for b in resp.content if b.type == "text")
     return json.loads(text)
+
+
+def bonus_fallback(ev):
+    """Deterministische Bonus-Schlagzeile aus den Fakten (gleicher Clip-Look),
+    falls der LLM die Auflösung mal nicht selbst getextet hat."""
+    f = ev["facts"]
+    was, erg = f.get("was", "Bonus"), f.get("ergebnis", "")
+    treffer, leer = f.get("treffer", 0), f.get("leer", 0)
+    text = f"Bonus {was}: {erg} steht fest"
+    teil = f"{was} ist aufgelöst – {erg} bringt {treffer} Tippern je 4 Punkte."
+    det = f.get("leer_detail")
+    if det:
+        teil_namen = [f"{d['name']} (kein Tipp)" if not d.get("tipp")
+                      else f"{d['name']} (tippte {d['tipp']})" for d in det]
+        teil += " Leer ausgegangen: " + ", ".join(teil_namen) + "."
+    elif leer:
+        teil += f" {leer} gingen leer aus."
+    return {"text": text, "erklaerung": teil, "type": "bonus_aufloesung",
+            "tipper": ev.get("primary", was)}
+
+
+def ensure_bonus(headlines, events):
+    """Garantiert für JEDE Bonus-Auflösung des Tages eine Schlagzeile (additiv).
+    Liefert eine neue Liste, mutiert die Eingabe (Cache) nicht."""
+    out = list(headlines)
+    have = {h.get("tipper") for h in out
+            if isinstance(h, dict) and h.get("type") == "bonus_aufloesung"}
+    for ev in events:
+        if ev.get("type") == "bonus_aufloesung" and ev.get("primary") not in have:
+            out.append(bonus_fallback(ev))
+            have.add(ev.get("primary"))
+    return out
 
 
 def ground_types(headlines, events):
@@ -224,6 +263,7 @@ def run():
             cache[D] = {"sig": sig, "headlines": headlines, "published_at": published}
             status = "neu"
         headlines = ground_types(headlines, ed["events"] + (ed.get("season_events") or []))
+        headlines = ensure_bonus(headlines, ed["events"])  # jede Bonus-Auflösung garantiert
         blocks.append({"date": D, "label": ed["label"], "phase": ed.get("phase"), "span": ed.get("span"),
                        "group_key": ed.get("group_key"), "group": ed.get("group"), "gruppenphase": ed.get("gruppenphase"),
                        "published_at": published, "complete": True, "headlines": headlines})

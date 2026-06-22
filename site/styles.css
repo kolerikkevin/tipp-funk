@@ -42,7 +42,7 @@ body::after {
   background: repeating-linear-gradient(to bottom, rgba(0,0,0,.035) 0 1px, transparent 1px 3px);
   mix-blend-mode: multiply;
 }
-.app { max-width: 1320px; margin: 0 auto; padding: 0 clamp(12px, 3vw, 30px) 50px; }
+.app { max-width: 1320px; margin: 0 auto; padding: clamp(16px, 2.5vw, 30px) clamp(12px, 3vw, 30px) 50px; }
 
 /* ---------- 80er Farbbalken ---------- */
 .colorbars { display: flex; height: 9px; margin: 0 -4px; }
@@ -225,7 +225,8 @@ table.standings-full { width: 100%; border-collapse: collapse; font-size: 14px; 
 .standings-full td.tot { font-family: var(--display); font-size: 17px; }
 .standings-full tr.top1 { background: #fff6d6; } .standings-full tr.top1 td.pos { color: var(--amber); }
 .standings-full tr.top2 td.pos { color: var(--br); } .standings-full tr.top3 td.pos { color: var(--red); }
-.standings-full tbody tr:hover { background: #fff3cf; }
+.standings-full tbody tr { transition: background .1s; }
+.standings-full tbody tr:hover td { background: #ffe7a0; }
 
 /* ---------- Tipp-Historie (Matrix) ---------- */
 .tippmeta { font-family: var(--mono); font-size: 14px; color: var(--ink-2); margin: 4px 2px 12px; }
@@ -251,6 +252,9 @@ table.tippmatrix { border-collapse: collapse; font-size: 13px; min-width: 100%; 
 .tippmatrix td.tip.miss { color: var(--ink-3); }
 .tippmatrix td.tip.none { color: var(--ink-3); background: repeating-linear-gradient(45deg, transparent 0 4px, rgba(0,0,0,.05) 4px 6px); }
 .tippmatrix td.pts { font-family: var(--display); font-size: 16px; background: var(--paper-2); }
+/* Zeilen-Hover: amberfarbener Schleier über die ganze Reihe – farbige Treffer-Zellen
+   (grün/rot) bleiben sichtbar, weil der Schleier nur überlagert statt zu ersetzen. */
+.tippmatrix tbody tr:hover td { box-shadow: inset 0 0 0 999px rgba(241,177,44,.16); }
 
 /* ---------- Fokus-Modus (Dashboard) ---------- */
 .grid.focus .card { display: none; }
@@ -259,6 +263,37 @@ table.tippmatrix { border-collapse: collapse; font-size: 13px; min-width: 100%; 
 
 .foot { margin-top: 26px; color: var(--ink-3); font-family: var(--mono); font-size: 13px;
   display: flex; gap: 10px; align-items: center; border-top: 3px solid var(--ink); padding-top: 12px; }
+
+/* ---------- Bonus (Langfrist-Tipps) ---------- */
+#view-bonus .card + .card { margin-top: 18px; }
+.bonus-h { font-family: var(--display); text-transform: uppercase; font-size: 16px; letter-spacing: .5px;
+  margin: 18px 0 10px; padding-bottom: 5px; border-bottom: 3px solid var(--ink); }
+.bonus-decided { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+.bdec { border: 2px solid var(--ink); background: var(--paper); padding: 9px 11px; box-shadow: var(--hard-sm); }
+.bdec-q { font-family: var(--mono); font-size: 13px; text-transform: uppercase; color: var(--ink-2); }
+.bdec-r { font-family: var(--display); font-size: 20px; color: var(--br-deep); line-height: 1.05; margin: 1px 0 4px; }
+.bdec-s { font-size: 13px; } .bdec-s b { color: var(--green); font-size: 15px; }
+.bdec-s .leer { color: var(--red); }
+.bdec-miss { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin-top: 3px; }
+.bonus-dists { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.dist-card { border: 2px solid var(--ink); background: var(--paper); padding: 10px 12px; box-shadow: var(--hard-sm); }
+.dist-t { font-family: var(--display); text-transform: uppercase; font-size: 14px; margin-bottom: 8px;
+  color: var(--br-deep); }
+.bar-row { display: grid; grid-template-columns: 84px 1fr 22px; align-items: center; gap: 7px; margin: 3px 0;
+  font-size: 13px; }
+.bar-lab { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-track { height: 13px; background: #e5d8b4; border: 1.5px solid var(--ink); }
+.bar-fill { display: block; height: 100%; background: var(--br); }
+.bar-row.hit .bar-fill { background: var(--green); }
+.bar-n { font-family: var(--mono); text-align: right; color: var(--ink-2); }
+.standings-full th.bn, .standings-full td.bn { font-variant-numeric: tabular-nums; color: var(--teal);
+  font-family: var(--mono); border-left: 2px solid var(--border); }
+.standings-full td.bn { font-weight: 600; }
+.bonusmatrix th.game .g-teams { font-size: 12px; }
+.bonusmatrix th.game .g-res { display: block; color: var(--amber); font-size: 13px; margin-top: 2px; }
+.bonusmatrix td.tip.exact { background: var(--green); color: #fff; font-weight: 700; }
+.bonusmatrix td.tip.missx { background: #f3d3cd; color: var(--red); }
+.bonusmatrix td.tip.open { color: var(--ink-2); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 880px) {

@@ -435,6 +435,162 @@ def build_tipps(matchdays, active):
 
 
 # --------------------------------------------------------------------------- #
+# Bonus-Layer (Langfrist-Tipps: Torschützen-Nation, Halbfinalisten,
+# Gruppensieger A–L, Weltmeister). Punkte fließen "nach und nach" – jede Frage,
+# sobald ihr Ergebnis feststeht. Dieser Layer macht NUR sichtbar, was Kicktipp
+# bereits gewertet hat (steckt schon in Gesamtpunkten + kicktipp-pos).
+# --------------------------------------------------------------------------- #
+def load_bonus():
+    f = PARSED / "bonus.json"
+    return json.loads(f.read_text("utf-8")) if f.exists() else None
+
+
+def bonus_first_seen():
+    """frageid:frageindex -> erstes Datum, an dem die Frage entschieden war
+    (aus den täglichen Bonus-Snapshots). Für Auflösungen ohne Spiel-Bezug (HF/WM/Tor)."""
+    seen = {}
+    histdir = ROOT / "data" / "history"
+    if histdir.exists():
+        for f in sorted(histdir.glob("bonus_*.json")):
+            snap = json.loads(f.read_text("utf-8"))
+            D = snap.get("date")
+            for key in (snap.get("decided") or {}):
+                seen.setdefault(key, D)
+    return seen
+
+
+def group_end_date(matchdays, letter):
+    """Session-Datum des letzten gespielten Spiels einer Gruppe = wann der
+    Gruppensieger feststand. None, falls (noch) nicht gespielt."""
+    best, grp = None, f"Gruppe {letter}"
+    for m in matchdays:
+        for g in m["games"]:
+            if g.get("group") == grp and g.get("played"):
+                d = session_date(g["kickoff"])
+                if best is None or d > best:
+                    best = d
+    return best
+
+
+_BONUS_WAS = {"group": "Gruppe {grp}", "tor": "Torschützenkönig-Nation",
+              "hf": "Halbfinale", "wm": "Weltmeister"}
+
+
+def bonus_label(q):
+    if q["type"] == "group":
+        return f"Gruppe {q['group']}"
+    return _BONUS_WAS.get(q["type"], q.get("kurz") or "Bonusfrage")
+
+
+def build_bonus(bonus, matchdays, active, game_days):
+    """Reichert die geparsten Bonus-Daten fürs Frontend an: Verteilung je Frage
+    (wer setzt auf wen), Punktestand je Tipper, Auflösungs-Events für den Feed.
+    Liefert (site_bonus_dict, {session_date: [event,...]})."""
+    if not bonus:
+        return None, {}
+    teams = bonus.get("teams", {})
+    full = lambda ab: (teams.get(ab, ab) if ab else None)
+    first_seen = bonus_first_seen()
+    latest_day = game_days[-1] if game_days else None
+
+    btip = [t for t in bonus["tippers"] if t["name"] in active]
+    picks_by_name = {t["name"]: {p["slot"]: p for p in t["picks"]} for t in btip}
+    pos = {t["name"]: t.get("position") for t in btip}
+    bpts = {t["name"]: (t.get("bonus_points") or 0) for t in btip}
+
+    questions_out = []
+    res_events = defaultdict(list)
+    for q in bonus["questions"]:
+        slot = q["slot"]
+        counter = defaultdict(list)
+        for t in btip:
+            p = picks_by_name[t["name"]].get(slot)
+            if p and p.get("abbr"):
+                counter[p["abbr"]].append(t["name"])
+        dist = sorted(
+            [{"abbr": ab, "full": full(ab), "count": len(names), "names": names,
+              "is_result": (ab == q["result"])} for ab, names in counter.items()],
+            key=lambda d: (-d["count"], d["abbr"]))
+        qo = {k: q[k] for k in ("slot", "kurz", "type", "group", "frage",
+                                "result", "result_full", "decided", "points_each")}
+        qo["label"] = bonus_label(q)
+        qo["distribution"] = dist
+        qo["n_tipped"] = sum(d["count"] for d in dist)
+        if q["decided"]:
+            scorers = [t["name"] for t in btip
+                       if (picks_by_name[t["name"]].get(slot) or {}).get("correct")]
+            missed = [t["name"] for t in btip
+                      if picks_by_name[t["name"]].get(slot)
+                      and not picks_by_name[t["name"]][slot]["correct"]]
+            qo["scorers"], qo["missed"] = scorers, missed
+            if q["type"] == "group" and q["group"]:
+                rd = group_end_date(matchdays, q["group"])
+            else:
+                rd = first_seen.get(f'{q["frageid"]}:{q["frageindex"]}') or latest_day
+            qo["resolved_date"] = rd
+            if rd:
+                res_events[rd].append(qo)
+        questions_out.append(qo)
+
+    # Auflösungs-Events: pro Frage eine Meldung am Tag, an dem sie feststand
+    events_by_date = defaultdict(list)
+    for rd, qs in res_events.items():
+        for qo in qs:
+            sc, ms = qo.get("scorers", []), qo.get("missed", [])
+            facts = {"was": qo["label"], "ergebnis": qo["result_full"] or qo["result"],
+                     "treffer": len(sc), "leer": len(ms), "gesamt": len(sc) + len(ms)}
+            # WICHTIG: "leer" heißt FALSCH getippt ODER gar nicht getippt – nicht "vergessen".
+            # Detail mitliefern, damit die Schlagzeile korrekt ist (tipp=None = kein Tipp abgegeben).
+            if 0 < len(ms) <= 3:
+                det = []
+                for nm in ms:
+                    p = picks_by_name[nm].get(qo["slot"])
+                    det.append({"name": nm,
+                                "tipp": full(p["abbr"]) if p and p.get("abbr") else None})
+                facts["leer_detail"] = det
+            if 0 < len(sc) <= 3:
+                facts["treffer_namen"] = sc
+            events_by_date[rd].append(
+                {"type": "bonus_aufloesung", "primary": qo["label"],
+                 "facts": facts, "score": 0.72})
+
+    # Tipper-Übersicht (aktiv), sortiert nach aktueller Position
+    tippers_out = sorted(
+        [{"name": t["name"], "position": pos.get(t["name"]),
+          "bonus_points": bpts.get(t["name"], 0),
+          "picks": [{"slot": p["slot"], "abbr": p["abbr"], "full": full(p["abbr"]),
+                     "correct": p["correct"], "wrong": p.get("wrong", False)}
+                    for p in t["picks"]]}
+         for t in btip],
+        key=lambda t: (t["position"] or 999, t["name"]))
+
+    # Highlights: WM/Torschützen-Verteilung + HF-Aggregat (über alle 4 Slots)
+    def dist_of(typ):
+        q = next((x for x in questions_out if x["type"] == typ), None)
+        return q["distribution"] if q else []
+
+    hf_counter = defaultdict(int)
+    for x in questions_out:
+        if x["type"] == "hf":
+            for d in x["distribution"]:
+                hf_counter[d["abbr"]] += d["count"]
+    hf_agg = sorted([{"abbr": ab, "full": full(ab), "count": c}
+                     for ab, c in hf_counter.items()], key=lambda d: (-d["count"], d["abbr"]))
+
+    site_bonus = {
+        "scraped_at": bonus.get("scraped_at"),
+        "n_questions": bonus["n_questions"], "n_decided": bonus["n_decided"],
+        "points_each": bonus["points_each"],
+        "max_per_tipper": bonus["n_questions"] * bonus["points_each"],
+        "teams": teams,
+        "questions": questions_out,
+        "tippers": tippers_out,
+        "highlights": {"wm": dist_of("wm"), "tor": dist_of("tor"), "hf": hf_agg},
+    }
+    return site_bonus, events_by_date
+
+
+# --------------------------------------------------------------------------- #
 # Schlagzeilen-Vorlage (Fallback, falls kein LLM)
 # --------------------------------------------------------------------------- #
 _TEMPLATES = {
@@ -443,6 +599,7 @@ _TEMPLATES = {
     "unwahrscheinlicher_treffer": "{primary} traut sich was: {spiel} {ergebnis} – {quote}.",
     "tagessieger": "{primary} räumt ab: Tagessieg mit {punkte} Punkten.",
     "spieltag_fazit": "{spieltag} ist Geschichte: {sieger} schnappt sich den Spieltagssieg.",
+    "bonus_aufloesung": "Bonus-Auflösung {was}: {ergebnis} steht fest – {treffer} kassieren, {leer} gehen leer aus.",
     "tipp_vergessen": "Verplant! {primary} vergisst heute glatt zu tippen.",
     "aufsteiger": "Raketenstart: {primary} klettert von Platz {von} auf {auf}.",
     "absteiger": "Absturz: {primary} rutscht von Platz {von} auf {auf}.",
@@ -495,6 +652,10 @@ def run():
     # Übergeordnete Spieltag-Gruppen + Fazit über den GANZEN Spieltag (separat, ersetzt keine Tages-Schlagzeile)
     spieltage = build_spieltage(matchdays, games, active)
 
+    # Bonus-Layer (Langfrist-Tipps): Verteilung, Punktestand, Auflösungs-Events
+    bonus_parsed = load_bonus()
+    site_bonus, bonus_events_by_date = build_bonus(bonus_parsed, matchdays, active, game_days)
+
     pos_by_day = {D: (nodes[D] if D in nodes else daily_reconstruction(games, D, active)) for D in game_days}
 
     editions = []
@@ -516,6 +677,11 @@ def run():
 
         for typ, prim, facts, score in pos_ev.get(D, []):
             evs.append({"type": typ, "date": pub_label, "edition": i, "primary": prim, "facts": facts, "score": score})
+
+        # Bonus-Auflösungen, die an diesem Tag feststanden (z. B. Gruppensieger nach
+        # letztem Gruppenspiel) – tröpfeln passend zum Spieltag in den Feed.
+        for be in bonus_events_by_date.get(D, []):
+            evs.append({**be, "date": pub_label, "edition": i})
 
         auth = {}
         for TD in timeline_days:
@@ -591,7 +757,9 @@ def run():
                   "latest": editions[-1]["label"] if editions else None,
                   "editions": editions, "spieltage": spieltage}
 
-    table = [{**t, "active": t["name"] in active} for t in standings["tippers"]]
+    bonus_pts = {t["name"]: t["bonus_points"] for t in (site_bonus["tippers"] if site_bonus else [])}
+    table = [{**t, "active": t["name"] in active, "bonus": bonus_pts.get(t["name"])}
+             for t in standings["tippers"]]
     (SITE_DATA / "standings.json").write_text(json.dumps(
         {"tippers": table, "scraped_at": meta["scraped_at"], "inactive": inactive,
          "spieltage": meta["played_matchdays"]}, ensure_ascii=False, indent=2), "utf-8")
@@ -599,6 +767,8 @@ def run():
     (SITE_DATA / "tipps.json").write_text(json.dumps(
         {"matchdays": build_tipps(matchdays, active)}, ensure_ascii=False, indent=2), "utf-8")
     (SITE_DATA / "events.json").write_text(json.dumps(events_out, ensure_ascii=False, indent=2), "utf-8")
+    if site_bonus:
+        (SITE_DATA / "bonus.json").write_text(json.dumps(site_bonus, ensure_ascii=False, indent=2), "utf-8")
 
     hl = SITE_DATA / "headlines.json"
     if not hl.exists():
@@ -609,6 +779,10 @@ def run():
     print(f"✓ aktiv:   {len(active)} Tipper · ignoriert: {inactive or '–'}")
     print(f"✓ history: {history['n_tippers']} Tipper, {len(timeline_days)} authoritative Stände (Verlauf)")
     print(f"✓ events:  {n_ev} Ereignisse über {len(editions)} Tagesausgaben + {len(season)} Saison-Storylines")
+    if site_bonus:
+        nbe = sum(len(v) for v in bonus_events_by_date.values())
+        print(f"✓ bonus:   {site_bonus['n_decided']}/{site_bonus['n_questions']} entschieden, "
+              f"{len(site_bonus['tippers'])} Tipper, {nbe} Auflösungs-Events")
     return events_out
 
 

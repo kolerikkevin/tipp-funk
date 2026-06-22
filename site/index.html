@@ -16,7 +16,6 @@
 </head>
 <body>
 <div class="app">
-  <div class="colorbars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
   <header class="topbar">
     <div class="brand">
       <div class="brand-mark" aria-label="BR">
@@ -32,10 +31,6 @@
           <path d="M61 50 L80 72" stroke="#1488bc" stroke-width="10" stroke-linecap="square"/>
         </svg>
       </div>
-      <div>
-        <h1>BR Tipp-Funk</h1>
-        <p class="motto">Zwischen Funkhaus und Fortuna · <b>PortfolioundEntwicklung</b></p>
-      </div>
     </div>
     <div class="topbar-right">
       <div class="leader-chip" id="leaderChip" hidden>
@@ -45,25 +40,21 @@
           <div class="leader-sub" id="leaderSub">Spitzenreiter</div>
         </div>
       </div>
-      <div class="status" id="statusBox">
-        <span class="dot"></span><span id="statusText">lade …</span>
-      </div>
     </div>
   </header>
 
   <nav class="views" id="views">
     <button class="view-btn active" data-view="feed"><span>📰</span> News</button>
-    <button class="view-btn" data-view="chart"><span>📈</span> Platz-Verlauf</button>
     <button class="view-btn" data-view="tabelle"><span>🏆</span> Tabelle</button>
-    <button class="view-btn" data-view="tipps"><span>📋</span> Tipp-Historie</button>
+    <button class="view-btn" data-view="tipps"><span>📋</span> Tipps</button>
+    <button class="view-btn" data-view="chart"><span>📈</span> Platz-Verlauf</button>
+    <button class="view-btn" data-view="bonus"><span>🎲</span> Bonus</button>
   </nav>
 
   <!-- View: Schlagzeilen (Startseite, Boulevard-Look) -->
   <section class="view" id="view-feed">
     <div class="news-masthead">
-      <div class="news-strap">DAS WM-TIPP-BLATT · AUSGABE <span id="newsIssue">–</span></div>
-      <h2 class="news-title">DER TIPP-ANZEIGER</h2>
-      <div class="news-sub">Alles aus der Tipprunde PortfolioundEntwicklung · <span id="newsDate">–</span> · <span class="src-badge" id="srcBadge" hidden></span></div>
+      <h2 class="news-title">PFM Tippkick Daily</h2>
     </div>
     <div class="news" id="newsFeed"></div>
   </section>
@@ -105,7 +96,7 @@
   <section class="view" id="view-tipps" hidden>
     <div class="card">
       <div class="card-head">
-        <h2>📋 Tipp-Historie</h2>
+        <h2>📋 Tipps</h2>
         <div class="card-tools">
           <button class="icon-btn" id="tippPrev" title="Vorheriger Spieltag">◄</button>
           <select id="tippSel" class="sel"></select>
@@ -115,6 +106,24 @@
       <div class="tippmeta" id="tippMeta"></div>
       <div class="tipps-wrap"><table class="tippmatrix" id="tippMatrix"></table></div>
       <p class="hint">Grün = Punkte geholt · <b>fett</b> = exakter Volltreffer (4 P) · grau = kein Tipp abgegeben.</p>
+    </div>
+  </section>
+
+  <!-- View: Bonus (Langfrist-Tipps) -->
+  <section class="view" id="view-bonus" hidden>
+    <div class="card">
+      <div class="card-head">
+        <h2>🎲 Bonus-Tipps</h2>
+      </div>
+      <h3 class="bonus-h">✅ Schon entschieden</h3>
+      <div class="bonus-decided" id="bonusDecided"></div>
+      <h3 class="bonus-h">🔮 Wer setzt auf wen</h3>
+      <div class="bonus-dists" id="bonusDists"></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h2>📋 Alle Bonus-Tipps</h2></div>
+      <div class="tipps-wrap"><table class="tippmatrix bonusmatrix" id="bonusMatrix"></table></div>
+      <p class="hint">Grün = Punkt geholt · rot = daneben (entschieden) · grau = noch offen · <b>B</b> = Bonuspunkte bisher.</p>
     </div>
   </section>
 
