@@ -293,7 +293,7 @@ function renderStandingsFull() {
   $('#standingsFull').innerHTML = head + '<tbody>' + body + '</tbody>';
   const hint = $('#tabHint');
   if (hint) hint.innerHTML = mode === 'tage'
-    ? 'Punkte je <b>Kalendertag</b> (Spiele zählen zum Abend, an dem sie starten) · Gesamt rechts.'
+    ? 'Punkte je <b>Ausgabe-Tag</b> – Abend, Nacht und Morgen zählen als <b>eine Schicht</b> (gleicher Tag wie im News-Feed) · Gesamt rechts.'
     : 'Punkte je <b>WM-Spieltag</b> · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.';
   $('#tabUpdate').textContent = 'STAND ' + (state.standings.scraped_at || '').replace('T', ' ').slice(0, 16);
 }

@@ -450,15 +450,19 @@ def official_matchday_table(games, active):
 
 
 def daily_table(games, game_days, active):
-    """Punkte je Tipper pro Ausgabe-/Kalendertag (wie im Feed gruppiert: Nachtspiele
-    zählen zum Vorabend). Liefert (spalten, punkte) für die Tag-Ansicht der Tabelle."""
+    """Punkte je Tipper pro Ausgabe-Schicht (Abend->Nacht->Morgen = EINE Einheit, wie
+    im News-Feed). Beschriftung = Ausgabe-Tag (nächster Morgen), damit dieselbe Schicht
+    in Tabelle und Feed denselben Tag trägt. Liefert (spalten, punkte)."""
+    def pub_of(D):
+        return (dt.date.fromisoformat(D) + dt.timedelta(days=1)).isoformat()
     pts = {nm: {} for nm in active}
     for g in games:
-        D = g["date"]
+        pub = pub_of(g["date"])
         for nm, p in g["tippers"].items():
             if nm in pts:
-                pts[nm][D] = pts[nm].get(D, 0) + p["points"]
-    spalten = [{"key": D, "kurz": day_short(D), "lang": day_long(D)} for D in game_days]
+                pts[nm][pub] = pts[nm].get(pub, 0) + p["points"]
+    spalten = [{"key": pub_of(D), "kurz": day_short(pub_of(D)), "lang": day_long(pub_of(D))}
+               for D in game_days]
     return spalten, pts
 
 
