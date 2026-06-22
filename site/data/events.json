@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-22T16:30:33",
-  "latest": "Mo, 22.06.",
+  "generated_for": "2026-06-22T18:20:57",
+  "latest": "Di, 23.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -1540,6 +1540,319 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "label": "Di, 23.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "22.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
+      "games": [
+        {
+          "partie": "Argentinien–Österreich",
+          "ergebnis": "1:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Zidanima",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "salvanize",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "GG",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Matthias",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "BenzEma",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Reinoldo",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "GG",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Reinoldo",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "TippTommy",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Tippmon",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Toritz",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "mittelfeld_dauergast",
+          "date": "Di, 23.06.",
+          "edition": 12,
+          "primary": "Toritz",
+          "facts": {
+            "platz": 6,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
+          "type": "pechvogel",
+          "date": "Mo, 22.06.",
+          "edition": 12,
+          "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
@@ -1586,7 +1899,7 @@
       "label": "2. Spieltag",
       "gruppenphase": true,
       "complete": false,
-      "end_date": "2026-06-21"
+      "end_date": "2026-06-22"
     },
     {
       "key": "g:1",
