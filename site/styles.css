@@ -77,13 +77,12 @@ h1 { font-family: var(--display); font-weight: 400; font-size: 34px; margin: 0;
 .status .dot { width: 9px; height: 9px; background: var(--green); border: 1.5px solid var(--ink); }
 
 /* ---------- View-Navigation ---------- */
-.views { display: flex; gap: 0; flex-wrap: wrap; border: 3px solid var(--ink);
-  background: var(--paper-2); box-shadow: var(--hard); margin-bottom: 22px; }
-.view-btn { flex: 1 1 auto; border: 0; border-right: 3px solid var(--ink); background: transparent;
+.views { display: flex; gap: 3px; flex-wrap: wrap; border: 3px solid var(--ink);
+  background: var(--ink); box-shadow: var(--hard); margin-bottom: 22px; }
+.view-btn { flex: 1 1 auto; border: 0; background: var(--paper-2);
   color: var(--ink); font-family: var(--display); font-size: 15px; text-transform: uppercase;
   letter-spacing: .04em; padding: 13px 14px; cursor: pointer; display: flex; align-items: center;
   justify-content: center; gap: 8px; transition: background .12s; }
-.view-btn:last-child { border-right: 0; }
 .view-btn span { font-family: var(--body); }
 .view-btn:hover { background: var(--amber); }
 .view-btn.active { background: var(--br); color: #fff; }
@@ -227,6 +226,10 @@ table.standings-full { width: 100%; border-collapse: collapse; font-size: 14px; 
 .standings-full tr.top2 td.pos { color: var(--br); } .standings-full tr.top3 td.pos { color: var(--red); }
 .standings-full tbody tr { transition: background .1s; }
 .standings-full tbody tr:hover td { background: #ffe7a0; }
+/* Namensspalte fixieren – bleibt beim Horizontal-Scrollen (v. a. mobil) stehen */
+.standings-full th.nm, .standings-full td.nm { position: sticky; left: 0; z-index: 1;
+  background: var(--paper-2); box-shadow: 2px 0 0 var(--border); }
+.standings-full th.nm { z-index: 3; }
 
 /* ---------- Tipp-Historie (Matrix) ---------- */
 .tippmeta { font-family: var(--mono); font-size: 14px; color: var(--ink-2); margin: 4px 2px 12px; }

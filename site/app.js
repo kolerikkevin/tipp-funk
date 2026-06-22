@@ -18,8 +18,8 @@ function palette(n) {
   const out = [];
   for (let i = 0; i < n; i++) {
     const h = (i * 137.508) % 360;
-    const s = 64 + (i % 3) * 8;
-    const l = 42 + (i % 2) * 7;
+    const s = 70 + (i % 3) * 7;
+    const l = 38 + (i % 2) * 5;
     out.push(`hsl(${h.toFixed(0)} ${s}% ${l}%)`);
   }
   return out;

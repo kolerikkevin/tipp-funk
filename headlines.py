@@ -44,6 +44,9 @@ wirklich passiert ist – ruhiger Ton als die Schlagzeile, aber immer noch leben
 
 Regeln:
 - Nutze die (oft witzigen) Tipper-Namen für Wortspiele, wenn es sich anbietet.
+- Die Spitznamen sind meist Wortspiele mit FUSSBALL-Bezug (Spieler, Vereine, Fachbegriffe), nicht mit Popkultur. \
+Deute sie entsprechend, wenn du sie aufgreifst – z. B. spielt "Schrammadonna" auf die Fußball-Legende Diego \
+MARADONA an, NICHT auf die Sängerin Madonna. Im Zweifel den Namen neutral lassen statt falsch aufzulösen.
 - NUR die gelieferten Fakten verwenden. Niemals Ergebnisse, Punkte, Namen oder Platzierungen erfinden.
 - Variiere Ton und Satzbau – nicht jede Zeile nach demselben Muster.
 - Nimm auch die hinteren Plätze und die Verplanten (Tipp vergessen) liebevoll aufs Korn – \
