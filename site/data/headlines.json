@@ -10,42 +10,42 @@
       "group_key": "g:2",
       "group": "2. Spieltag",
       "gruppenphase": true,
-      "published_at": "2026-06-22T15:55",
+      "published_at": "2026-06-22T17:58",
       "complete": true,
       "headlines": [
         {
-          "text": "Doppel-Sieg im Doppelpack: Don_Kuhbert und GG teilen sich die Krone!",
-          "erklaerung": "Beide räumten am Montag jeweils 8 Punkte ab und landeten je einen exakten Treffer. Mehr ging an diesem Spieltag nicht – die Tagessiegertrophäe wird brüderlich geteilt.",
+          "text": "Doppel-Sieg im Doppelpack: Don_Kuhbert und GG teilen sich den Tagesthron!",
+          "erklaerung": "Mit jeweils 8 Punkten und je einem exakten Treffer setzten sich beide an die Spitze des Spieltags. Keiner wollte dem anderen den Tagessieg überlassen – am Ende stand ein gerechtes Remis ganz oben.",
           "type": "tagessieger",
           "tipper": "Don_Kuhbert"
         },
         {
-          "text": "Toritz trifft, wo alle blind sind!",
-          "erklaerung": "Beim 1:3 in Neuseeland–Ägypten lag Toritz als Einziger goldrichtig. Der einsame Volltreffer war der Treibstoff für einen Raketenstart durch die Tabelle.",
+          "text": "Toritz allein zu Haus: Als Einziger das 1:3 in Ägypten kassiert!",
+          "erklaerung": "Beim 1:3 von Neuseeland gegen Ägypten lag Toritz als Einziger goldrichtig. Der Volltreffer katapultierte ihn von Platz 11 auf Rang 6 – ein Sprung von fünf Plätzen.",
           "type": "einsamer_volltreffer",
           "tipper": "Toritz"
         },
         {
-          "text": "Fahrstuhl nach oben: Toritz braust von 11 auf 6!",
-          "erklaerung": "Mit fünf Plätzen gutgemacht ist Toritz der große Kletterer des Abends. Vom Mittelfeld direkt ran an die Spitzengruppe – und das mit nur einem mutigen Tipp.",
-          "type": "aufsteiger",
-          "tipper": "Toritz"
-        },
-        {
-          "text": "Null-Nummer als Volltreffer: Zidanima knackt das Belgien-Rätsel!",
-          "erklaerung": "Beim 0:0 zwischen Belgien und Iran lagen nur 3 von 19 richtig – Zidanima war eine davon und kassierte 2 wertvolle Punkte. Ein Mauer-Tipp, den fast keiner wagte.",
-          "type": "unwahrscheinlicher_treffer",
+          "text": "Zidanima im freien Fall: Drei Plätze runter trotz Glückstipp!",
+          "erklaerung": "Obwohl Zidanima das überraschende 0:0 zwischen Belgien und Iran richtig vorhersagte, ging es in der Tabelle von Platz 6 auf Platz 9 abwärts. Die Konkurrenz punktete eben kräftiger.",
+          "type": "absteiger",
           "tipper": "Zidanima"
         },
         {
-          "text": "Punkt-Pleite für Kicklberger: Die große Nullrunde!",
-          "erklaerung": "Am Montagabend blieb Kicklberger als einzige komplett ohne Zähler. Null Punkte, null Trost – da hilft nur der Blick nach vorn auf den nächsten Spieltag.",
+          "text": "Kicklberger geht baden: Null Punkte, null Jubel!",
+          "erklaerung": "An diesem Spieltag sprang für Kicklberger kein einziger Zähler heraus. Bei vier Partien blieb das Tippkonto blank – ein Tag zum Vergessen.",
           "type": "pechvogel",
           "tipper": "Kicklberger"
         },
         {
-          "text": "Schielotterbeck stürmt von Platz 18 auf 2 – und atmet Stockfish im Nacken!",
-          "erklaerung": "Sagenhafte 16 Plätze hat Schielotterbeck in dieser Saison gutgemacht und sitzt nun mit 66 Punkten direkt hinter Dauerführer Stockfish91 (70). Nur noch 4 Zähler trennen die beiden – das Rennen an der Spitze brennt lichterloh.",
+          "text": "Stockfish91 thront seit neun Tagen – aber der Atem im Nacken wird heißer!",
+          "erklaerung": "Mit 70 Punkten führt Stockfish91 den Gesamtklassement seit neun Tagen an. Doch Verfolgerin Schielotterbeck ist bei 66 Zählern nur noch vier Punkte entfernt.",
+          "type": "enges_rennen",
+          "tipper": "Stockfish91"
+        },
+        {
+          "text": "Vom Keller aufs Treppchen: Schielotterbecks Wahnsinns-Rallye von 18 auf 2!",
+          "erklaerung": "Schielotterbeck hat sich von Platz 18 auf den zweiten Rang hochgearbeitet – sagenhafte 16 Plätze. Jetzt fehlen nur noch vier Punkte zur Spitze.",
           "type": "saison_aufsteiger",
           "tipper": "Schielotterbeck"
         }
