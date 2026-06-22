@@ -41,7 +41,10 @@ def compute_active(matchdays):
             if t["name"] not in submitted:
                 names.append(t["name"])
             submitted[t["name"]] += sum(1 for p in t["picks"] if p["tip"])
-    return {nm for nm in names if submitted[nm] > 0}
+    # Liste (nicht set!) – stabile Reihenfolge = deterministische Story-Erkennung,
+    # sonst kippen Positionen/Zuordnungen bei Gleichständen je Lauf und der
+    # Schlagzeilen-Cache verfehlt bei jedem Deploy.
+    return [nm for nm in names if submitted[nm] > 0]
 
 
 def _kickoff_dt(kickoff: str) -> dt.datetime:
@@ -188,7 +191,7 @@ def build_history(days, pos_by_day, standings, active):
     rank_now = {t["name"]: t["rank"] for t in standings["tippers"]}
     total_now = {t["name"]: t["total"] for t in standings["tippers"]}
     series = []
-    for nm in sorted(active, key=lambda n: rank_now.get(n, 99)):
+    for nm in sorted(active, key=lambda n: (rank_now.get(n, 99), n)):
         series.append({"name": nm, "positions": [pos_by_day[D].get(nm) for D in days],
                        "rank": rank_now.get(nm), "total": total_now.get(nm)})
     return {"axis": axis, "n_tippers": len(series), "max_rank": len(standings["tippers"]), "series": series}
@@ -215,7 +218,7 @@ def build_history_tage(games, game_days, nodes, standings, active):
     rank_now = {t["name"]: t["rank"] for t in standings["tippers"]}
     total_now = {t["name"]: t["total"] for t in standings["tippers"]}
     series = []
-    for nm in sorted(active, key=lambda n: rank_now.get(n, 99)):
+    for nm in sorted(active, key=lambda n: (rank_now.get(n, 99), n)):
         series.append({"name": nm, "positions": [pos[D].get(nm) for D in all_days],
                        "rank": rank_now.get(nm), "total": total_now.get(nm)})
     return {"axis": axis, "n_tippers": len(series), "max_rank": len(standings["tippers"]), "series": series}
@@ -242,7 +245,7 @@ def build_history_spieltag(matchdays, standings, active):
     nodes.append(rank_now)
 
     series = []
-    for nm in sorted(active, key=lambda n: rank_now.get(n, 99)):
+    for nm in sorted(active, key=lambda n: (rank_now.get(n, 99), n)):
         series.append({"name": nm, "positions": [nd.get(nm) for nd in nodes],
                        "rank": rank_now.get(nm), "total": total_now.get(nm)})
     return {"axis": axis, "series": series}
@@ -324,7 +327,7 @@ def detect_day_events(D, idx, games_today, active):
     if tipped_today:
         mx = max(daily_pts[nm] for nm in tipped_today)
         if mx > 0:
-            for nm in tipped_today:
+            for nm in sorted(tipped_today):
                 if daily_pts[nm] == mx:
                     ev("tagessieger", nm, {"punkte": mx, "exakte_treffer": exact_cnt[nm]}, 0.8)
 
@@ -357,7 +360,7 @@ def detect_day_events(D, idx, games_today, active):
 
     # Pechvogel (schwächster, der heute getippt hat)
     if tipped_today:
-        worst = min(tipped_today, key=lambda nm: daily_pts[nm])
+        worst = min(tipped_today, key=lambda nm: (daily_pts[nm], nm))
         ev("pechvogel", worst, {"punkte": daily_pts[worst]}, 0.4)
 
     return events, tipped_today
