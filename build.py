@@ -715,12 +715,24 @@ def run():
 
     pos_by_day = {D: (nodes[D] if D in nodes else daily_reconstruction(games, D, active)) for D in game_days}
 
+    # Eine Ausgabe erst veröffentlichen, wenn ihre SCHICHT KOMPLETT ist (alle Spiele der Session
+    # gespielt). Verhindert verfrühte „Schlagzeilen für morgen", wenn der Build mitten in einer
+    # laufenden Session läuft (z. B. erstes Nachtspiel schon fertig). So erscheint die Ausgabe erst,
+    # wenn alle Spiele der Schicht durch sind – unabhängig davon, wann der Build läuft (≈ 08:30-Lauf).
+    session_games = defaultdict(list)
+    for m in matchdays:
+        for g in m["games"]:
+            session_games[session_date(g["kickoff"])].append(g)
+    session_complete = {D: all(g["played"] for g in gs) for D, gs in session_games.items()}
+
     editions = []
     tipped_ever = set()
     miss_streak = defaultdict(int)
     last_dropped = set()
     field = len(active)
     for i, D in enumerate(game_days, start=1):
+        if not session_complete.get(D, True):
+            continue  # Schicht läuft noch / unvollständig → Ausgabe noch nicht veröffentlichen
         games_today = [g for g in games if g["date"] == D]
         pub = (dt.date.fromisoformat(D) + dt.timedelta(days=1)).isoformat()  # Ausgabe = nächster Morgen
         pub_label = day_long(pub)

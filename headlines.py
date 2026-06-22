@@ -72,6 +72,9 @@ je nach Lage "war eigentlich gut dabei und verschenkt's" oder "im Keller, verspi
 (m = männlich → er/sein, w = weiblich → sie/ihr). Bei "neutral" oder fehlender Angabe formuliere strikt \
 geschlechtsneutral – keine geschlechtsspezifischen Pronomen oder Endungen (kein "Sieger/Siegerin", lieber \
 "holt den Tagessieg"; kein "er/sie").
+- NORMALE SCHREIBWEISE: Schlagzeile und Unterzeile in normaler deutscher Groß-/Kleinschreibung. \
+NIEMALS ganze Wörter oder ganze Sätze in GROSSBUCHSTABEN (kein All-Caps-Geschrei) – die Betonung kommt \
+aus Wortwahl und Zuspitzung, nicht aus Großschreibung.
 - Deutsch. Keine Hashtags, keine Emojis."""
 
 
