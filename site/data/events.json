@@ -1,0 +1,1489 @@
+{
+  "generated_for": "2026-06-22T13:23:37",
+  "latest": "So, 21.06.",
+  "editions": [
+    {
+      "date": "2026-06-11",
+      "label": "Do, 11.06.",
+      "games": [
+        {
+          "partie": "Mexiko–Südafrika",
+          "ergebnis": "2:0"
+        },
+        {
+          "partie": "Südkorea–Tschechien",
+          "ergebnis": "2:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 2,
+            "punkte": 5
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 2,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiele": 2,
+            "punkte": 4
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "salvanize",
+          "facts": {
+            "spiele": 2,
+            "punkte": 6
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tagessieger",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "Stockfish91",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "salvanize",
+          "facts": {
+            "spiel": "Südkorea–Tschechien",
+            "ergebnis": "2:1",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiel": "Südkorea–Tschechien",
+            "ergebnis": "2:1",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "Südkorea–Tschechien",
+            "ergebnis": "2:1",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "BenzEma",
+          "facts": {
+            "spiel": "Südkorea–Tschechien",
+            "ergebnis": "2:1",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiel": "Südkorea–Tschechien",
+            "ergebnis": "2:1",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "pechvogel",
+          "date": "Do, 11.06.",
+          "edition": 1,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "label": "Fr, 12.06.",
+      "games": [
+        {
+          "partie": "Kanada–Bosnien-Herzegowina",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "USA–Paraguay",
+          "ergebnis": "4:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Fr, 12.06.",
+          "edition": 2,
+          "primary": "Zidanima",
+          "facts": {
+            "spiele": 2,
+            "punkte": 6
+          },
+          "score": 0.95
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 12.06.",
+          "edition": 2,
+          "primary": "Zidanima",
+          "facts": {
+            "spiel": "Kanada–Bosnien-Herzegowina",
+            "ergebnis": "1:1",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.85
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 12.06.",
+          "edition": 2,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "Kanada–Bosnien-Herzegowina",
+            "ergebnis": "1:1",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.85
+        },
+        {
+          "type": "tagessieger",
+          "date": "Fr, 12.06.",
+          "edition": 2,
+          "primary": "Zidanima",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "pechvogel",
+          "date": "Fr, 12.06.",
+          "edition": 2,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "label": "Sa, 13.06.",
+      "games": [
+        {
+          "partie": "Katar–Schweiz",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Brasilien–Marokko",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Haiti–Schottland",
+          "ergebnis": "0:1"
+        },
+        {
+          "partie": "Australien–Türkei",
+          "ergebnis": "2:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "spiel": "Australien–Türkei",
+            "ergebnis": "2:0",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.85
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiel": "Australien–Türkei",
+            "ergebnis": "2:0",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.85
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Zidanima",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 6,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Zidanima",
+          "facts": {
+            "spiel": "Brasilien–Marokko",
+            "ergebnis": "1:1",
+            "quote": "nur 3 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7999999999999999
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "salvanize",
+          "facts": {
+            "spiel": "Brasilien–Marokko",
+            "ergebnis": "1:1",
+            "quote": "nur 3 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7999999999999999
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiel": "Brasilien–Marokko",
+            "ergebnis": "1:1",
+            "quote": "nur 3 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7999999999999999
+        },
+        {
+          "type": "pechvogel",
+          "date": "Sa, 13.06.",
+          "edition": 3,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "label": "So, 14.06.",
+      "games": [
+        {
+          "partie": "Deutschland–Curaçao",
+          "ergebnis": "7:1"
+        },
+        {
+          "partie": "Niederlande–Japan",
+          "ergebnis": "2:2"
+        },
+        {
+          "partie": "Elfenbeinküste–Ecuador",
+          "ergebnis": "1:0"
+        },
+        {
+          "partie": "Schweden–Tunesien",
+          "ergebnis": "5:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "einsamer_volltreffer",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "Matthias",
+          "facts": {
+            "spiel": "Elfenbeinküste–Ecuador",
+            "ergebnis": "1:0"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "Zidanima",
+          "facts": {
+            "jetzt_platz": 3,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "Toritz",
+          "facts": {
+            "jetzt_platz": 8,
+            "lage": "mittelfeld"
+          },
+          "score": 0.85,
+          "lage": "mittelfeld"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "Weckenbauer",
+          "facts": {
+            "jetzt_platz": 16,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "pechvogel",
+          "date": "So, 14.06.",
+          "edition": 4,
+          "primary": "GG",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Mo, 15.06.",
+      "games": [
+        {
+          "partie": "Spanien–Kap Verde",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Belgien–Ägypten",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Saudi-Arabien–Uruguay",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Iran–Neuseeland",
+          "ergebnis": "2:2"
+        }
+      ],
+      "events": [
+        {
+          "type": "einsamer_volltreffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "spiel": "Belgien–Ägypten",
+            "ergebnis": "1:1"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Zidanima",
+          "facts": {
+            "spiel": "Belgien–Ägypten",
+            "ergebnis": "1:1",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.85
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "spiel": "Belgien–Ägypten",
+            "ergebnis": "1:1",
+            "quote": "nur 2 von 20 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.85
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "punkte": 4,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Matthias",
+          "facts": {
+            "von": 12,
+            "auf": 7,
+            "plaetze": 5
+          },
+          "score": 0.8
+        },
+        {
+          "type": "absteiger",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Toritz",
+          "facts": {
+            "von": 8,
+            "auf": 16,
+            "plaetze": 8
+          },
+          "score": 0.77
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiel": "Iran–Neuseeland",
+            "ergebnis": "2:2",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "GG",
+          "facts": {
+            "spiel": "Iran–Neuseeland",
+            "ergebnis": "2:2",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "Iran–Neuseeland",
+            "ergebnis": "2:2",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiel": "Iran–Neuseeland",
+            "ergebnis": "2:2",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "spiel": "Iran–Neuseeland",
+            "ergebnis": "2:2",
+            "quote": "nur 5 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7
+        },
+        {
+          "type": "pechvogel",
+          "date": "Mo, 15.06.",
+          "edition": 5,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "label": "Di, 16.06.",
+      "games": [
+        {
+          "partie": "Frankreich–Senegal",
+          "ergebnis": "3:1"
+        },
+        {
+          "partie": "Irak–Norwegen",
+          "ergebnis": "1:4"
+        },
+        {
+          "partie": "Argentinien–Algerien",
+          "ergebnis": "3:0"
+        },
+        {
+          "partie": "Österreich–Jordanien",
+          "ergebnis": "3:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Zidanima",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Reinoldo",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "BenzEma",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 4,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "spiele": 4,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "GG",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 4,
+            "punkte": 11
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "spiele": 4,
+            "punkte": 13
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "einsamer_volltreffer",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Toritz",
+          "facts": {
+            "spiel": "Österreich–Jordanien",
+            "ergebnis": "3:1"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "K_linsman_N",
+          "facts": {
+            "jetzt_platz": 11,
+            "lage": "mittelfeld"
+          },
+          "score": 0.85,
+          "lage": "mittelfeld"
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 13,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "pechvogel",
+          "date": "Di, 16.06.",
+          "edition": 6,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "punkte": 4
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "label": "Mi, 17.06.",
+      "games": [
+        {
+          "partie": "Portugal–DR Kongo",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "England–Kroatien",
+          "ergebnis": "4:2"
+        },
+        {
+          "partie": "Ghana–Panama",
+          "ergebnis": "1:0"
+        },
+        {
+          "partie": "Usbekistan–Kolumbien",
+          "ergebnis": "1:3"
+        }
+      ],
+      "events": [
+        {
+          "type": "aufsteiger",
+          "date": "Mi, 17.06.",
+          "edition": 7,
+          "primary": "Schrammadonna",
+          "facts": {
+            "von": 14,
+            "auf": 7,
+            "plaetze": 7
+          },
+          "score": 0.9000000000000001
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mi, 17.06.",
+          "edition": 7,
+          "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 10,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "absteiger",
+          "date": "Mi, 17.06.",
+          "edition": 7,
+          "primary": "K_linsman_N",
+          "facts": {
+            "von": 11,
+            "auf": 19,
+            "plaetze": 8
+          },
+          "score": 0.77
+        },
+        {
+          "type": "pechvogel",
+          "date": "Mi, 17.06.",
+          "edition": 7,
+          "primary": "Kicklberger",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "label": "Do, 18.06.",
+      "games": [
+        {
+          "partie": "Tschechien–Südafrika",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Schweiz–Bosnien-Herzegowina",
+          "ergebnis": "4:1"
+        },
+        {
+          "partie": "Kanada–Katar",
+          "ergebnis": "6:0"
+        },
+        {
+          "partie": "Mexiko–Südkorea",
+          "ergebnis": "1:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Do, 18.06.",
+          "edition": 8,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 4,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "einsamer_volltreffer",
+          "date": "Do, 18.06.",
+          "edition": 8,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiel": "Mexiko–Südkorea",
+            "ergebnis": "1:0"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Do, 18.06.",
+          "edition": 8,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "jetzt_platz": 19,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "Do, 18.06.",
+          "edition": 8,
+          "primary": "Toritz",
+          "facts": {
+            "punkte": 9,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "pechvogel",
+          "date": "Do, 18.06.",
+          "edition": 8,
+          "primary": "GG",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "label": "Fr, 19.06.",
+      "games": [
+        {
+          "partie": "USA–Australien",
+          "ergebnis": "2:0"
+        },
+        {
+          "partie": "Schottland–Marokko",
+          "ergebnis": "0:1"
+        },
+        {
+          "partie": "Brasilien–Haiti",
+          "ergebnis": "3:0"
+        },
+        {
+          "partie": "Türkei–Paraguay",
+          "ergebnis": "0:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "aufsteiger",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Matthias",
+          "facts": {
+            "von": 12,
+            "auf": 4,
+            "plaetze": 8
+          },
+          "score": 0.9500000000000001
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Matthias",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "jetzt_platz": 20,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 12,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Matthias",
+          "facts": {
+            "spiel": "Türkei–Paraguay",
+            "ergebnis": "0:1",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "Türkei–Paraguay",
+            "ergebnis": "0:1",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Reinoldo",
+          "facts": {
+            "spiel": "Türkei–Paraguay",
+            "ergebnis": "0:1",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiel": "Türkei–Paraguay",
+            "ergebnis": "0:1",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "absteiger",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "GG",
+          "facts": {
+            "von": 8,
+            "auf": 13,
+            "plaetze": 5
+          },
+          "score": 0.65
+        },
+        {
+          "type": "pechvogel",
+          "date": "Fr, 19.06.",
+          "edition": 9,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "punkte": 4
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "label": "Sa, 20.06.",
+      "games": [
+        {
+          "partie": "Niederlande–Schweden",
+          "ergebnis": "5:1"
+        },
+        {
+          "partie": "Deutschland–Elfenbeinküste",
+          "ergebnis": "2:1"
+        },
+        {
+          "partie": "Ecuador–Curaçao",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Tunesien–Japan",
+          "ergebnis": "0:4"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiele": 4,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiel": "Ecuador–Curaçao",
+            "ergebnis": "0:0",
+            "quote": "nur 1 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.8973684210526316
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "jetzt_platz": 20,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "TippTommy",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Lochsocke",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Toritz",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "pechvogel",
+          "date": "Sa, 20.06.",
+          "edition": 10,
+          "primary": "K_linsman_N",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "label": "So, 21.06.",
+      "games": [
+        {
+          "partie": "Spanien–Saudi-Arabien",
+          "ergebnis": "4:0"
+        },
+        {
+          "partie": "Belgien–Iran",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Uruguay–Kap Verde",
+          "ergebnis": "2:2"
+        },
+        {
+          "partie": "Neuseeland–Ägypten",
+          "ergebnis": "1:3"
+        }
+      ],
+      "events": [
+        {
+          "type": "einsamer_volltreffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Toritz",
+          "facts": {
+            "spiel": "Neuseeland–Ägypten",
+            "ergebnis": "1:3"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "jetzt_platz": 20,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "GG",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Toritz",
+          "facts": {
+            "von": 11,
+            "auf": 6,
+            "plaetze": 5
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Zidanima",
+          "facts": {
+            "spiel": "Belgien–Iran",
+            "ergebnis": "0:0",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "spiel": "Belgien–Iran",
+            "ergebnis": "0:0",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiel": "Belgien–Iran",
+            "ergebnis": "0:0",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiel": "Uruguay–Kap Verde",
+            "ergebnis": "2:2",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "GG",
+          "facts": {
+            "spiel": "Uruguay–Kap Verde",
+            "ergebnis": "2:2",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiel": "Uruguay–Kap Verde",
+            "ergebnis": "2:2",
+            "quote": "nur 3 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7921052631578946
+        },
+        {
+          "type": "absteiger",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Zidanima",
+          "facts": {
+            "von": 6,
+            "auf": 9,
+            "plaetze": 3
+          },
+          "score": 0.5700000000000001
+        },
+        {
+          "type": "pechvogel",
+          "date": "So, 21.06.",
+          "edition": 11,
+          "primary": "Kicklberger",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
+      ],
+      "season_events": [
+        {
+          "type": "fuehrungsserie",
+          "date": "Mo, 22.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "tage": 5,
+            "punkte": 70
+          },
+          "score": 0.8
+        },
+        {
+          "type": "enges_rennen",
+          "date": "Mo, 22.06.",
+          "edition": 6,
+          "primary": "Stockfish91",
+          "facts": {
+            "erster": "Stockfish91",
+            "zweiter": "Schielotterbeck",
+            "abstand": 4
+          },
+          "score": 0.65
+        },
+        {
+          "type": "saison_aufsteiger",
+          "date": "Mo, 22.06.",
+          "edition": 6,
+          "primary": "Schrammadonna",
+          "facts": {
+            "von": 12,
+            "auf": 5,
+            "plaetze": 7
+          },
+          "score": 0.6
+        },
+        {
+          "type": "rote_laterne",
+          "date": "Mo, 22.06.",
+          "edition": 6,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "platz": 20,
+            "punkte": 21
+          },
+          "score": 0.35
+        }
+      ]
+    }
+  ]
+}

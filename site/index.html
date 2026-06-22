@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BR Tipp-Funk · PortfolioundEntwicklung</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+  <div class="colorbars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-label="BR">
+        <svg viewBox="0 0 100 100" role="img">
+          <rect x="6" y="6" width="88" height="88" fill="#fff" stroke="#1488bc" stroke-width="8"/>
+          <g fill="none" stroke="#1488bc" stroke-width="9">
+            <path d="M30 28 A14 11 0 0 1 30 50"/>
+            <path d="M30 50 A14 11 0 0 1 30 72"/>
+            <path d="M62 28 A14 11 0 0 1 62 50"/>
+          </g>
+          <rect x="20" y="28" width="10" height="44" fill="#1488bc"/>
+          <rect x="52" y="28" width="10" height="44" fill="#1488bc"/>
+          <path d="M61 50 L80 72" stroke="#1488bc" stroke-width="10" stroke-linecap="square"/>
+        </svg>
+      </div>
+      <div>
+        <h1>BR Tipp-Funk</h1>
+        <p class="motto">Zwischen Funkhaus und Fortuna · <b>PortfolioundEntwicklung</b></p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="leader-chip" id="leaderChip" hidden>
+        <span class="crown">👑</span>
+        <div>
+          <div class="leader-name" id="leaderName">–</div>
+          <div class="leader-sub" id="leaderSub">Spitzenreiter</div>
+        </div>
+      </div>
+      <div class="status" id="statusBox">
+        <span class="dot"></span><span id="statusText">lade …</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="views" id="views">
+    <button class="view-btn active" data-view="feed"><span>📰</span> Schlagzeilen</button>
+    <button class="view-btn" data-view="chart"><span>📈</span> Platz-Verlauf</button>
+    <button class="view-btn" data-view="tabelle"><span>🏆</span> Tabelle</button>
+    <button class="view-btn" data-view="tipps"><span>📋</span> Tipp-Historie</button>
+  </nav>
+
+  <!-- View: Schlagzeilen (Startseite, Boulevard-Look) -->
+  <section class="view" id="view-feed">
+    <div class="news-masthead">
+      <div class="news-strap">DAS WM-TIPP-BLATT · AUSGABE <span id="newsIssue">–</span></div>
+      <h2 class="news-title">DER TIPP-ANZEIGER</h2>
+      <div class="news-sub">Alles aus der Tipprunde PortfolioundEntwicklung · <span id="newsDate">–</span> · <span class="src-badge" id="srcBadge" hidden></span></div>
+    </div>
+    <div class="news" id="newsFeed"></div>
+  </section>
+
+  <!-- View: Platz-Verlauf -->
+  <section class="view" id="view-chart" hidden>
+  <main class="grid" id="grid">
+    <section class="card span-2" data-panel="chart">
+      <div class="card-head">
+        <h2>📈 Platz-Verlauf</h2>
+        <div class="card-tools">
+          <input id="chartSearch" class="search" type="search" placeholder="Tipper suchen …" />
+          <button class="chip-btn" data-chart="all">Alle</button>
+          <button class="chip-btn" data-chart="top5">Top 5</button>
+          <button class="chip-btn" data-chart="none">Keiner</button>
+        </div>
+      </div>
+      <div class="legend-row" id="legendRow"></div>
+      <div class="chart-wrap"><div id="chart"></div></div>
+      <p class="hint">Über einen <b>Namen</b> in der Legende fahren zeigt nur diesen Verlauf · Klick blendet ihn aus · Alle / Top 5 / Keiner zum Filtern.</p>
+    </section>
+  </main>
+  </section>
+
+  <!-- View: Tabelle -->
+  <section class="view" id="view-tabelle" hidden>
+    <div class="card">
+      <div class="card-head">
+        <h2>🏆 Aktueller Stand</h2>
+        <span class="src-badge" id="tabUpdate"></span>
+      </div>
+      <div class="table-wrap"><table class="standings-full" id="standingsFull"></table></div>
+      <p class="hint">Punkte je Spieltag · Gesamt rechts · Bewegung = Veränderung zum Vorspieltag.</p>
+    </div>
+  </section>
+
+  <!-- View: Tipp-Historie -->
+  <section class="view" id="view-tipps" hidden>
+    <div class="card">
+      <div class="card-head">
+        <h2>📋 Tipp-Historie</h2>
+        <div class="card-tools">
+          <button class="icon-btn" id="tippPrev" title="Vorheriger Spieltag">◄</button>
+          <select id="tippSel" class="sel"></select>
+          <button class="icon-btn" id="tippNext" title="Nächster Spieltag">►</button>
+        </div>
+      </div>
+      <div class="tippmeta" id="tippMeta"></div>
+      <div class="tipps-wrap"><table class="tippmatrix" id="tippMatrix"></table></div>
+      <p class="hint">Grün = Punkte geholt · <b>fett</b> = exakter Volltreffer (4 P) · grau = kein Tipp abgegeben.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span id="footUpdate">–</span> · gebaut aus den öffentlichen Kicktipp-Daten ·
+    <button class="link-btn" id="backBtn" hidden>← zurück zur Übersicht</button>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

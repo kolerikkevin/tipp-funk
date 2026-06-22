@@ -1,0 +1,98 @@
+{
+  "scraped_at": "2026-06-22T13:23:37",
+  "round": "portfolioundentwicklung",
+  "total_matchdays": 15,
+  "played_matchdays": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "tippers": [
+    {
+      "name": "Stockfish91",
+      "rank": 1
+    },
+    {
+      "name": "Schielotterbeck",
+      "rank": 2
+    },
+    {
+      "name": "Lochsocke",
+      "rank": 3
+    },
+    {
+      "name": "TippTommy",
+      "rank": 4
+    },
+    {
+      "name": "Schrammadonna",
+      "rank": 5
+    },
+    {
+      "name": "Matthias",
+      "rank": 6
+    },
+    {
+      "name": "Toritz",
+      "rank": 6
+    },
+    {
+      "name": "salvanize",
+      "rank": 8
+    },
+    {
+      "name": "Zidanima",
+      "rank": 9
+    },
+    {
+      "name": "Tippmon",
+      "rank": 10
+    },
+    {
+      "name": "LinkeKlebe",
+      "rank": 10
+    },
+    {
+      "name": "Don_Kuhbert",
+      "rank": 12
+    },
+    {
+      "name": "GG",
+      "rank": 13
+    },
+    {
+      "name": "Kicklberger",
+      "rank": 14
+    },
+    {
+      "name": "BenzEma",
+      "rank": 14
+    },
+    {
+      "name": "Philipp_Flink",
+      "rank": 16
+    },
+    {
+      "name": "Reinoldo",
+      "rank": 17
+    },
+    {
+      "name": "Weckenbauer",
+      "rank": 18
+    },
+    {
+      "name": "K_linsman_N",
+      "rank": 19
+    },
+    {
+      "name": "TorTippTeddy",
+      "rank": 20
+    },
+    {
+      "name": "LaraB",
+      "rank": 21
+    }
+  ]
+}

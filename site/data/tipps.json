@@ -1,0 +1,4989 @@
+{
+  "matchdays": [
+    {
+      "matchday": 1,
+      "date": "14.06.26",
+      "complete": true,
+      "games": [
+        {
+          "home": "Mexiko",
+          "away": "Südafrika",
+          "group": "Gruppe A",
+          "result": "2:0"
+        },
+        {
+          "home": "Südkorea",
+          "away": "Tschechien",
+          "group": "Gruppe A",
+          "result": "2:1"
+        },
+        {
+          "home": "Kanada",
+          "away": "Bosnien-Herzegowina",
+          "group": "Gruppe B",
+          "result": "1:1"
+        },
+        {
+          "home": "USA",
+          "away": "Paraguay",
+          "group": "Gruppe D",
+          "result": "4:1"
+        },
+        {
+          "home": "Katar",
+          "away": "Schweiz",
+          "group": "Gruppe B",
+          "result": "1:1"
+        },
+        {
+          "home": "Brasilien",
+          "away": "Marokko",
+          "group": "Gruppe C",
+          "result": "1:1"
+        },
+        {
+          "home": "Haiti",
+          "away": "Schottland",
+          "group": "Gruppe C",
+          "result": "0:1"
+        },
+        {
+          "home": "Australien",
+          "away": "Türkei",
+          "group": "Gruppe D",
+          "result": "2:0"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Schielotterbeck",
+          "position": 1,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Lochsocke",
+          "position": 2,
+          "spieltag_points": 9,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "0:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Zidanima",
+          "position": 3,
+          "spieltag_points": 16,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "salvanize",
+          "position": 4,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:4",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "GG",
+          "position": 5,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TippTommy",
+          "position": 6,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Stockfish91",
+          "position": 6,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Toritz",
+          "position": 8,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:5",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Kicklberger",
+          "position": 9,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Tippmon",
+          "position": 9,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:4",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "LinkeKlebe",
+          "position": 9,
+          "spieltag_points": 11,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:4",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Schrammadonna",
+          "position": 12,
+          "spieltag_points": 6,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Matthias",
+          "position": 12,
+          "spieltag_points": 6,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:5",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "BenzEma",
+          "position": 14,
+          "spieltag_points": 9,
+          "picks": [
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "K_linsman_N",
+          "position": 14,
+          "spieltag_points": 5,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Weckenbauer",
+          "position": 16,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Don_Kuhbert",
+          "position": 16,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Reinoldo",
+          "position": 18,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:5",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Philipp_Flink",
+          "position": 19,
+          "spieltag_points": 2,
+          "picks": [
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TorTippTeddy",
+          "position": 19,
+          "spieltag_points": 2,
+          "picks": [
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "matchday": 2,
+      "date": "16.06.26",
+      "complete": true,
+      "games": [
+        {
+          "home": "Deutschland",
+          "away": "Curaçao",
+          "group": "Gruppe E",
+          "result": "7:1"
+        },
+        {
+          "home": "Niederlande",
+          "away": "Japan",
+          "group": "Gruppe F",
+          "result": "2:2"
+        },
+        {
+          "home": "Elfenbeinküste",
+          "away": "Ecuador",
+          "group": "Gruppe E",
+          "result": "1:0"
+        },
+        {
+          "home": "Schweden",
+          "away": "Tunesien",
+          "group": "Gruppe F",
+          "result": "5:1"
+        },
+        {
+          "home": "Spanien",
+          "away": "Kap Verde",
+          "group": "Gruppe H",
+          "result": "0:0"
+        },
+        {
+          "home": "Belgien",
+          "away": "Ägypten",
+          "group": "Gruppe G",
+          "result": "1:1"
+        },
+        {
+          "home": "Saudi-Arabien",
+          "away": "Uruguay",
+          "group": "Gruppe H",
+          "result": "1:1"
+        },
+        {
+          "home": "Iran",
+          "away": "Neuseeland",
+          "group": "Gruppe G",
+          "result": "2:2"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Stockfish91",
+          "position": 1,
+          "spieltag_points": 9,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schielotterbeck",
+          "position": 2,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "salvanize",
+          "position": 3,
+          "spieltag_points": 5,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "GG",
+          "position": 4,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:0",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Lochsocke",
+          "position": 4,
+          "spieltag_points": 2,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Zidanima",
+          "position": 6,
+          "spieltag_points": 2,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "8:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:4",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Kicklberger",
+          "position": 7,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Matthias",
+          "position": 7,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "6:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TippTommy",
+          "position": 7,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "LinkeKlebe",
+          "position": 10,
+          "spieltag_points": 5,
+          "picks": [
+            {
+              "tip": "6:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "8:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:0",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Tippmon",
+          "position": 11,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "K_linsman_N",
+          "position": 11,
+          "spieltag_points": 6,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Don_Kuhbert",
+          "position": 11,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:0",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schrammadonna",
+          "position": 14,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "BenzEma",
+          "position": 14,
+          "spieltag_points": 5,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Toritz",
+          "position": 16,
+          "spieltag_points": 0,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "6:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TorTippTeddy",
+          "position": 17,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Weckenbauer",
+          "position": 18,
+          "spieltag_points": 0,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "5:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "5:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Reinoldo",
+          "position": 18,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:4",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Philipp_Flink",
+          "position": 20,
+          "spieltag_points": 4,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "matchday": 3,
+      "date": "18.06.26",
+      "complete": true,
+      "games": [
+        {
+          "home": "Frankreich",
+          "away": "Senegal",
+          "group": "Gruppe I",
+          "result": "3:1"
+        },
+        {
+          "home": "Irak",
+          "away": "Norwegen",
+          "group": "Gruppe I",
+          "result": "1:4"
+        },
+        {
+          "home": "Argentinien",
+          "away": "Algerien",
+          "group": "Gruppe J",
+          "result": "3:0"
+        },
+        {
+          "home": "Österreich",
+          "away": "Jordanien",
+          "group": "Gruppe J",
+          "result": "3:1"
+        },
+        {
+          "home": "Portugal",
+          "away": "DR Kongo",
+          "group": "Gruppe K",
+          "result": "1:1"
+        },
+        {
+          "home": "England",
+          "away": "Kroatien",
+          "group": "Gruppe L",
+          "result": "4:2"
+        },
+        {
+          "home": "Ghana",
+          "away": "Panama",
+          "group": "Gruppe L",
+          "result": "1:0"
+        },
+        {
+          "home": "Usbekistan",
+          "away": "Kolumbien",
+          "group": "Gruppe K",
+          "result": "1:3"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Stockfish91",
+          "position": 1,
+          "spieltag_points": 17,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schielotterbeck",
+          "position": 2,
+          "spieltag_points": 18,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "TippTommy",
+          "position": 3,
+          "spieltag_points": 19,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Lochsocke",
+          "position": 4,
+          "spieltag_points": 17,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 4,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Zidanima",
+          "position": 5,
+          "spieltag_points": 16,
+          "picks": [
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:4",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "salvanize",
+          "position": 6,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schrammadonna",
+          "position": 7,
+          "spieltag_points": 19,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "GG",
+          "position": 8,
+          "spieltag_points": 14,
+          "picks": [
+            {
+              "tip": "5:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Tippmon",
+          "position": 9,
+          "spieltag_points": 17,
+          "picks": [
+            {
+              "tip": "4:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "LinkeKlebe",
+          "position": 10,
+          "spieltag_points": 14,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Don_Kuhbert",
+          "position": 10,
+          "spieltag_points": 15,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 4,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Kicklberger",
+          "position": 12,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Matthias",
+          "position": 12,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:4",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Toritz",
+          "position": 12,
+          "spieltag_points": 16,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "BenzEma",
+          "position": 15,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Philipp_Flink",
+          "position": 16,
+          "spieltag_points": 18,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Weckenbauer",
+          "position": 17,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:5",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:4",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Reinoldo",
+          "position": 17,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "4:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:3",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "K_linsman_N",
+          "position": 19,
+          "spieltag_points": 2,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "TorTippTeddy",
+          "position": 19,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "matchday": 4,
+      "date": "20.06.26",
+      "complete": true,
+      "games": [
+        {
+          "home": "Tschechien",
+          "away": "Südafrika",
+          "group": "Gruppe A",
+          "result": "1:1"
+        },
+        {
+          "home": "Schweiz",
+          "away": "Bosnien-Herzegowina",
+          "group": "Gruppe B",
+          "result": "4:1"
+        },
+        {
+          "home": "Kanada",
+          "away": "Katar",
+          "group": "Gruppe B",
+          "result": "6:0"
+        },
+        {
+          "home": "Mexiko",
+          "away": "Südkorea",
+          "group": "Gruppe A",
+          "result": "1:0"
+        },
+        {
+          "home": "USA",
+          "away": "Australien",
+          "group": "Gruppe D",
+          "result": "2:0"
+        },
+        {
+          "home": "Schottland",
+          "away": "Marokko",
+          "group": "Gruppe C",
+          "result": "0:1"
+        },
+        {
+          "home": "Brasilien",
+          "away": "Haiti",
+          "group": "Gruppe C",
+          "result": "3:0"
+        },
+        {
+          "home": "Türkei",
+          "away": "Paraguay",
+          "group": "Gruppe D",
+          "result": "0:1"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Stockfish91",
+          "position": 1,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "5:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Schielotterbeck",
+          "position": 2,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Lochsocke",
+          "position": 3,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Matthias",
+          "position": 4,
+          "spieltag_points": 19,
+          "picks": [
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "TippTommy",
+          "position": 5,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Zidanima",
+          "position": 6,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Schrammadonna",
+          "position": 7,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Tippmon",
+          "position": 8,
+          "spieltag_points": 14,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "LinkeKlebe",
+          "position": 8,
+          "spieltag_points": 16,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "salvanize",
+          "position": 10,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Toritz",
+          "position": 11,
+          "spieltag_points": 15,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Don_Kuhbert",
+          "position": 12,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "GG",
+          "position": 13,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Kicklberger",
+          "position": 14,
+          "spieltag_points": 11,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "BenzEma",
+          "position": 15,
+          "spieltag_points": 11,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Philipp_Flink",
+          "position": 16,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "6:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Reinoldo",
+          "position": 17,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Weckenbauer",
+          "position": 18,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "K_linsman_N",
+          "position": 19,
+          "spieltag_points": 11,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "TorTippTeddy",
+          "position": 20,
+          "spieltag_points": 0,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "matchday": 5,
+      "date": "22.06.26",
+      "complete": true,
+      "games": [
+        {
+          "home": "Niederlande",
+          "away": "Schweden",
+          "group": "Gruppe F",
+          "result": "5:1"
+        },
+        {
+          "home": "Deutschland",
+          "away": "Elfenbeinküste",
+          "group": "Gruppe E",
+          "result": "2:1"
+        },
+        {
+          "home": "Ecuador",
+          "away": "Curaçao",
+          "group": "Gruppe E",
+          "result": "0:0"
+        },
+        {
+          "home": "Tunesien",
+          "away": "Japan",
+          "group": "Gruppe F",
+          "result": "0:4"
+        },
+        {
+          "home": "Spanien",
+          "away": "Saudi-Arabien",
+          "group": "Gruppe H",
+          "result": "4:0"
+        },
+        {
+          "home": "Belgien",
+          "away": "Iran",
+          "group": "Gruppe G",
+          "result": "0:0"
+        },
+        {
+          "home": "Uruguay",
+          "away": "Kap Verde",
+          "group": "Gruppe H",
+          "result": "2:2"
+        },
+        {
+          "home": "Neuseeland",
+          "away": "Ägypten",
+          "group": "Gruppe G",
+          "result": "1:3"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Stockfish91",
+          "position": 1,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schielotterbeck",
+          "position": 2,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Lochsocke",
+          "position": 3,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TippTommy",
+          "position": 4,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Schrammadonna",
+          "position": 5,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Matthias",
+          "position": 6,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "1:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "5:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Toritz",
+          "position": 6,
+          "spieltag_points": 14,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 4,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "salvanize",
+          "position": 8,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:2",
+              "points": 3,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Zidanima",
+          "position": 9,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Tippmon",
+          "position": 10,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "LinkeKlebe",
+          "position": 10,
+          "spieltag_points": 10,
+          "picks": [
+            {
+              "tip": "1:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:3",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Don_Kuhbert",
+          "position": 12,
+          "spieltag_points": 13,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "GG",
+          "position": 13,
+          "spieltag_points": 12,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            }
+          ]
+        },
+        {
+          "name": "Kicklberger",
+          "position": 14,
+          "spieltag_points": 6,
+          "picks": [
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "BenzEma",
+          "position": 14,
+          "spieltag_points": 7,
+          "picks": [
+            {
+              "tip": "2:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "5:1",
+              "points": 3,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Philipp_Flink",
+          "position": 16,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "2:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:2",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Reinoldo",
+          "position": 17,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "4:0",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "Weckenbauer",
+          "position": 18,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "0:2",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:1",
+              "points": 4,
+              "correct": true
+            },
+            {
+              "tip": "2:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "0:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "3:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "4:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:3",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:2",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "K_linsman_N",
+          "position": 19,
+          "spieltag_points": 8,
+          "picks": [
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "3:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "1:1",
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": "2:0",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "1:1",
+              "points": 2,
+              "correct": true
+            },
+            {
+              "tip": "2:0",
+              "points": 0,
+              "correct": false
+            }
+          ]
+        },
+        {
+          "name": "TorTippTeddy",
+          "position": 20,
+          "spieltag_points": 0,
+          "picks": [
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            },
+            {
+              "tip": null,
+              "points": 0,
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
