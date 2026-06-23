@@ -2,8 +2,15 @@ name: Tägliches Tipp-Funk Update
 
 on:
   schedule:
-    # 06:30 UTC = 08:30 Sommerzeit (CEST). Im Winter (CET) läuft es 07:30 Ortszeit – bei Bedarf anpassen.
-    - cron: "30 6 * * *"
+    # GitHub-Cron ist "best effort": Läufe zur vollen/halben Stunde werden unter Last
+    # verzögert ODER ganz verworfen. Deshalb KRUMME Minuten + MEHRFACH gestaffelt:
+    # feuert GitHub einen Slot nicht, fängt der nächste die Morgen-Ausgabe.
+    # Dank Headline-Cache + "nichts Neues"-Commit sind Zusatzläufe billige No-Ops,
+    # die concurrency-Gruppe serialisiert sie. Zeiten in UTC (Sommer = +2 = CEST):
+    - cron: "23 6 * * *"   # ~08:23 CEST  (primär, knapp vor 8:30)
+    - cron: "47 6 * * *"   # ~08:47 CEST  (Backup, falls primärer Slot verworfen)
+    - cron: "19 7 * * *"   # ~09:19 CEST  (letztes Sicherheitsnetz)
+    # Im Winter (CET = +1) liegt alles eine Stunde früher (07:23/07:47/08:19 Ortszeit).
   workflow_dispatch: {}   # erlaubt manuelles Auslösen per Knopf
 
 permissions:
