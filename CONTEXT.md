@@ -22,7 +22,15 @@ texten. Plus Platz-Verlauf-Chart, Tabelle, Tipp-Matrix, Bonus-Layer.
 ## 2. Wie es betrieben wird (vollautomatisch)
 
 GitHub Actions Workflow `.github/workflows/daily.yml`:
-- **Cron `30 6 * * *`** = 06:30 UTC = **08:30 Sommerzeit / 07:30 Winterzeit** (GitHub kann nur UTC).
+- **Cron GESTAFFELT auf krummen Minuten:** `23 6` / `47 6` / `19 7` (UTC) = **08:23 / 08:47 / 09:19 CEST**
+  (Winter je −1 h). **Warum drei und nicht ein `30 6`?** GitHub-`schedule` ist *best effort* und
+  **verwirft/verzögert Läufe zur vollen & halben Stunde** (`:00`/`:30` = überlastetste Slots) — am
+  2026-06-23 ist deshalb der allererste geplante `:30`-Lauf komplett ausgefallen (alle 8 vorherigen Runs
+  waren manuell). Drei gestaffelte krumme Minuten = feuert GitHub einen Slot nicht, fängt der nächste die
+  Ausgabe. Mehrfachläufe sind durch Headline-Cache + „nichts Neues"-Commit billige No-Ops, `concurrency`
+  serialisiert sie. **NICHT wieder auf einen einzelnen `:30`-Cron zurückbauen.** Für echte Garantie
+  (Mac aus) optional ein externer Cron-Dienst (cron-job.org o. Ä.), der täglich die `workflow_dispatch`-API
+  feuert (`POST .../actions/workflows/daily.yml/dispatches`, Body `{"ref":"main"}`, Header `Authorization: Bearer <PAT>`).
 - Job `update`: `pip install` → `python update.py` → committet neuen Stand zurück → lädt `site/` als Artifact.
 - Job `deploy`: published `site/` zu GitHub Pages.
 - Läuft in der Cloud, der Mac kann aus sein. Pages-Quelle = **GitHub Actions** (Settings → Pages).
