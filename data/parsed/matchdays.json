@@ -8976,8 +8976,11 @@
         "home": "Portugal",
         "away": "Usbekistan",
         "group": "Gruppe K",
-        "result": null,
-        "played": false
+        "result": {
+          "home": 5,
+          "away": 0
+        },
+        "played": true
       },
       {
         "idx": 5,
@@ -8985,8 +8988,11 @@
         "home": "England",
         "away": "Ghana",
         "group": "Gruppe L",
-        "result": null,
-        "played": false
+        "result": {
+          "home": 0,
+          "away": 0
+        },
+        "played": true
       },
       {
         "idx": 6,
@@ -8994,8 +9000,11 @@
         "home": "Panama",
         "away": "Kroatien",
         "group": "Gruppe L",
-        "result": null,
-        "played": false
+        "result": {
+          "home": 0,
+          "away": 1
+        },
+        "played": true
       },
       {
         "idx": 7,
@@ -9003,8 +9012,11 @@
         "home": "Kolumbien",
         "away": "DR Kongo",
         "group": "Gruppe K",
-        "result": null,
-        "played": false
+        "result": {
+          "home": 1,
+          "away": 0
+        },
+        "played": true
       }
     ],
     "n_games": 8,
@@ -9014,7 +9026,7 @@
         "name": "Stockfish91",
         "position": 1,
         "matchday_winner": false,
-        "spieltag_points": 9,
+        "spieltag_points": 15,
         "bonus": 12,
         "picks": [
           {
@@ -9055,27 +9067,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 4,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 4,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9084,7 +9108,7 @@
         "name": "Schielotterbeck",
         "position": 2,
         "matchday_winner": false,
-        "spieltag_points": 12,
+        "spieltag_points": 18,
         "bonus": 16,
         "picks": [
           {
@@ -9125,27 +9149,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9154,7 +9190,7 @@
         "name": "TippTommy",
         "position": 3,
         "matchday_winner": false,
-        "spieltag_points": 11,
+        "spieltag_points": 18,
         "bonus": 12,
         "picks": [
           {
@@ -9195,27 +9231,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 4,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9224,7 +9272,7 @@
         "name": "Lochsocke",
         "position": 4,
         "matchday_winner": false,
-        "spieltag_points": 8,
+        "spieltag_points": 15,
         "bonus": 16,
         "picks": [
           {
@@ -9265,27 +9313,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 3,
+            "correct": true
           }
         ]
       },
@@ -9294,7 +9354,7 @@
         "name": "Toritz",
         "position": 5,
         "matchday_winner": false,
-        "spieltag_points": 9,
+        "spieltag_points": 16,
         "bonus": 12,
         "picks": [
           {
@@ -9335,27 +9395,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9364,7 +9436,7 @@
         "name": "Tippmon",
         "position": 6,
         "matchday_winner": false,
-        "spieltag_points": 10,
+        "spieltag_points": 16,
         "bonus": 12,
         "picks": [
           {
@@ -9405,27 +9477,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 3
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9434,7 +9518,7 @@
         "name": "LinkeKlebe",
         "position": 6,
         "matchday_winner": false,
-        "spieltag_points": 10,
+        "spieltag_points": 16,
         "bonus": 8,
         "picks": [
           {
@@ -9475,95 +9559,37 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
-        "matchday_winner": false,
-        "spieltag_points": 11,
-        "bonus": 12,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": {
-              "home": 3,
-              "away": 1
-            },
-            "points": 3,
-            "correct": true
-          },
-          {
-            "game_idx": 1,
             "tip": {
               "home": 3,
               "away": 0
             },
-            "points": 4,
+            "points": 2,
             "correct": true
           },
           {
-            "game_idx": 2,
+            "game_idx": 5,
             "tip": {
-              "home": 3,
+              "home": 1,
               "away": 1
             },
             "points": 2,
             "correct": true
           },
           {
-            "game_idx": 3,
+            "game_idx": 6,
             "tip": {
-              "home": 1,
+              "home": 0,
               "away": 3
             },
             "points": 2,
             "correct": true
           },
           {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           }
@@ -9572,9 +9598,9 @@
       {
         "id": "74510267",
         "name": "Schrammadonna",
-        "position": 9,
+        "position": 8,
         "matchday_winner": false,
-        "spieltag_points": 7,
+        "spieltag_points": 13,
         "bonus": 12,
         "picks": [
           {
@@ -9615,36 +9641,212 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 7,
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": "79885202",
+        "name": "Don_Kuhbert",
+        "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 15,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 3,
+            "correct": true
+          },
+          {
+            "game_idx": 1,
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 4,
+            "correct": true
+          },
+          {
+            "game_idx": 2,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 3,
+            "tip": {
+              "home": 1,
+              "away": 3
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 4,
+            "tip": {
+              "home": 4,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 5,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
+            "game_idx": 6,
+            "tip": {
+              "home": 0,
+              "away": 3
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           }
         ]
       },
       {
-        "id": "80388926",
-        "name": "Zidanima",
+        "id": "74510865",
+        "name": "salvanize",
         "position": 10,
         "matchday_winner": false,
-        "spieltag_points": 8,
+        "spieltag_points": 12,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 1,
+            "tip": {
+              "home": 5,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 2,
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": {
+              "home": 0,
+              "away": 3
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 4,
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 5,
+            "tip": {
+              "home": 4,
+              "away": 1
+            },
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 6,
+            "tip": {
+              "home": 0,
+              "away": 3
+            },
+            "points": 2,
+            "correct": true
+          },
+          {
+            "game_idx": 7,
+            "tip": {
+              "home": 4,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": "80388926",
+        "name": "Zidanima",
+        "position": 11,
+        "matchday_winner": false,
+        "spieltag_points": 12,
         "bonus": 8,
         "picks": [
           {
@@ -9685,95 +9887,37 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
-        "position": 11,
-        "matchday_winner": false,
-        "spieltag_points": 6,
-        "bonus": 12,
-        "picks": [
-          {
-            "game_idx": 0,
             "tip": {
-              "home": 2,
-              "away": 1
-            },
-            "points": 2,
-            "correct": true
-          },
-          {
-            "game_idx": 1,
-            "tip": {
-              "home": 5,
+              "home": 3,
               "away": 0
             },
             "points": 2,
             "correct": true
           },
           {
-            "game_idx": 2,
-            "tip": {
-              "home": 1,
-              "away": 2
-            },
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": {
-              "home": 0,
-              "away": 3
-            },
-            "points": 2,
-            "correct": true
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           }
@@ -9784,7 +9928,7 @@
         "name": "Kicklberger",
         "position": 12,
         "matchday_winner": true,
-        "spieltag_points": 14,
+        "spieltag_points": 22,
         "bonus": 12,
         "picks": [
           {
@@ -9825,27 +9969,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 3,
+            "correct": true
           }
         ]
       },
@@ -9854,7 +10010,7 @@
         "name": "Matthias",
         "position": 12,
         "matchday_winner": false,
-        "spieltag_points": 6,
+        "spieltag_points": 14,
         "bonus": 8,
         "picks": [
           {
@@ -9895,27 +10051,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 1
+            },
+            "points": 4,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -9924,7 +10092,7 @@
         "name": "GG",
         "position": 14,
         "matchday_winner": false,
-        "spieltag_points": 4,
+        "spieltag_points": 11,
         "bonus": 16,
         "picks": [
           {
@@ -9965,27 +10133,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 3,
+            "correct": true
           }
         ]
       },
@@ -9994,7 +10174,7 @@
         "name": "BenzEma",
         "position": 15,
         "matchday_winner": false,
-        "spieltag_points": 9,
+        "spieltag_points": 15,
         "bonus": 8,
         "picks": [
           {
@@ -10035,25 +10215,37 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 1
+            },
+            "points": 4,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 0,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           }
@@ -10062,9 +10254,9 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
-        "spieltag_points": 12,
+        "spieltag_points": 17,
         "bonus": 8,
         "picks": [
           {
@@ -10105,25 +10297,37 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 4,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 2,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           }
@@ -10134,7 +10338,7 @@
         "name": "K_linsman_N",
         "position": 17,
         "matchday_winner": false,
-        "spieltag_points": 10,
+        "spieltag_points": 18,
         "bonus": 12,
         "picks": [
           {
@@ -10175,36 +10379,48 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 3,
+            "correct": true
           }
         ]
       },
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
-        "spieltag_points": 6,
+        "spieltag_points": 12,
         "bonus": 8,
         "picks": [
           {
@@ -10245,27 +10461,39 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 2,
+              "away": 1
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 3,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           }
         ]
       },
@@ -10274,7 +10502,7 @@
         "name": "Weckenbauer",
         "position": 19,
         "matchday_winner": false,
-        "spieltag_points": 7,
+        "spieltag_points": 12,
         "bonus": 4,
         "picks": [
           {
@@ -10315,25 +10543,37 @@
           },
           {
             "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 4,
+              "away": 0
+            },
+            "points": 2,
+            "correct": true
           },
           {
             "game_idx": 5,
-            "tip": null,
+            "tip": {
+              "home": 1,
+              "away": 3
+            },
             "points": 0,
             "correct": false
           },
           {
             "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
+            "tip": {
+              "home": 1,
+              "away": 2
+            },
+            "points": 3,
+            "correct": true
           },
           {
             "game_idx": 7,
-            "tip": null,
+            "tip": {
+              "home": 0,
+              "away": 2
+            },
             "points": 0,
             "correct": false
           }
@@ -10456,7 +10696,7 @@
         ]
       }
     ],
-    "all_played": false,
+    "all_played": true,
     "any_played": true,
     "date": "24.06.26"
   },
@@ -10843,9 +11083,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -10889,9 +11129,55 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -10937,56 +11223,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -11213,7 +11453,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -11305,7 +11545,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -11874,9 +12114,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -11920,9 +12160,55 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -11968,56 +12254,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -12244,7 +12484,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -12336,7 +12576,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -12905,9 +13145,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -12951,9 +13191,55 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -12999,56 +13285,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -13275,7 +13515,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -13367,7 +13607,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -13936,9 +14176,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -13982,9 +14222,55 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -14030,56 +14316,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -14306,7 +14546,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -14398,7 +14638,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -15332,9 +15572,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -15438,9 +15678,115 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 6,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 7,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 8,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 9,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 10,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 11,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 12,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 13,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 14,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 15,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -15546,116 +15892,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 8,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 9,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 10,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 11,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 12,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 13,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 14,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 15,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -16182,7 +16422,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -16394,7 +16634,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -17232,9 +17472,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -17290,9 +17530,67 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 4,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 5,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 6,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 7,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -17350,68 +17648,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 4,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 5,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 6,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 7,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -17698,7 +17938,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -17814,7 +18054,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -18292,9 +18532,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -18326,9 +18566,43 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 2,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 3,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -18362,44 +18636,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 2,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 3,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -18566,7 +18806,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -18634,7 +18874,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -18932,9 +19172,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -18954,9 +19194,31 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -18978,32 +19240,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -19110,7 +19350,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -19154,7 +19394,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -19404,9 +19644,9 @@
         ]
       },
       {
-        "id": "79885202",
-        "name": "Don_Kuhbert",
-        "position": 6,
+        "id": "74510267",
+        "name": "Schrammadonna",
+        "position": 8,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -19426,9 +19666,31 @@
         ]
       },
       {
-        "id": "74510267",
-        "name": "Schrammadonna",
+        "id": "79885202",
+        "name": "Don_Kuhbert",
         "position": 9,
+        "matchday_winner": false,
+        "spieltag_points": 0,
+        "bonus": 12,
+        "picks": [
+          {
+            "game_idx": 0,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          },
+          {
+            "game_idx": 1,
+            "tip": null,
+            "points": 0,
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "74510865",
+        "name": "salvanize",
+        "position": 10,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 12,
@@ -19450,32 +19712,10 @@
       {
         "id": "80388926",
         "name": "Zidanima",
-        "position": 10,
-        "matchday_winner": false,
-        "spieltag_points": 0,
-        "bonus": 8,
-        "picks": [
-          {
-            "game_idx": 0,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          },
-          {
-            "game_idx": 1,
-            "tip": null,
-            "points": 0,
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": "74510865",
-        "name": "salvanize",
         "position": 11,
         "matchday_winner": false,
         "spieltag_points": 0,
-        "bonus": 12,
+        "bonus": 8,
         "picks": [
           {
             "game_idx": 0,
@@ -19582,7 +19822,7 @@
       {
         "id": "78684963",
         "name": "Philipp_Flink",
-        "position": 15,
+        "position": 16,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,
@@ -19626,7 +19866,7 @@
       {
         "id": "79930905",
         "name": "Reinoldo",
-        "position": 17,
+        "position": 18,
         "matchday_winner": false,
         "spieltag_points": 0,
         "bonus": 8,

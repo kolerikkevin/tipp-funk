@@ -3,6 +3,55 @@
   "model": "claude-opus-4-8",
   "blocks": [
     {
+      "date": "2026-06-24",
+      "label": "Mi, 24.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "23.–24.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
+      "published_at": "2026-06-24T07:35",
+      "complete": true,
+      "headlines": [
+        {
+          "text": "Dreikampf an der Tagesspitze – und keiner trifft ins Schwarze!",
+          "erklaerung": "K_linsman_N, Kicklberger und Matthias teilen sich mit jeweils 8 Punkten den Tagessieg. Während Matthias dabei immerhin einen ergebnisgenauen Treffer landete, holten die beiden anderen ihre Punkte komplett ohne Volltreffer.",
+          "type": "tagessieger",
+          "tipper": "Matthias"
+        },
+        {
+          "text": "LinkeKlebe klebt am Glück: 0:0 als einziger Punktgewinner!",
+          "erklaerung": "Beim torlosen Remis zwischen England und Ghana lag nur 1 von 19 Tippern richtig – und der hieß LinkeKlebe. Für die richtige Remis-Tendenz gab es 2 Punkte, während der Rest der Liga leer ausging.",
+          "type": "unwahrscheinlicher_treffer",
+          "tipper": "LinkeKlebe"
+        },
+        {
+          "text": "Don_Kuhbert stürmt von 12 auf 6 – und ärgert sich trotzdem!",
+          "erklaerung": "Mit einem Satz um sechs Plätze macht Don_Kuhbert den größten Sprung des Tages und parkt nun auf Rang 6. Trotz solider 4 Punkte bleibt das Gefühl des Pechvogels, weil zum ganz großen Wurf noch etwas fehlte.",
+          "type": "aufsteiger",
+          "tipper": "Don_Kuhbert"
+        },
+        {
+          "text": "Matthias im Fahrstuhl: Tagessieg oben, Tabellensturz unten!",
+          "erklaerung": "Ausgerechnet am Tag seines geteilten Tagessiegs rauscht Matthias in der Gesamtwertung von Platz 6 auf Platz 12 ab. Sechs Plätze nach unten – der Tagesglanz konnte den Rutsch nicht aufhalten.",
+          "type": "absteiger",
+          "tipper": "Matthias"
+        },
+        {
+          "text": "Stockfish91 thront seit 11 Tagen – doch der Hai im Nacken naht!",
+          "erklaerung": "Mit 89 Punkten führt Stockfish91 die Tabelle seit elf Tagen ununterbrochen an. Der Vorsprung auf Verfolger Schielotterbeck beträgt aber nur noch hauchdünne 1 Punkt.",
+          "type": "enges_rennen",
+          "tipper": "Stockfish91"
+        },
+        {
+          "text": "Schielotterbeck dribbelt von 18 auf 2 – die Aufholjagd des Jahres!",
+          "erklaerung": "Sage und schreibe 16 Plätze hat sich Schielotterbeck nach oben gearbeitet und steht nun auf Rang 2. Mit 88 Punkten sitzt der Verfolger dem Spitzenreiter Stockfish91 im Genick.",
+          "type": "saison_aufsteiger",
+          "tipper": "Schielotterbeck"
+        }
+      ]
+    },
+    {
       "date": "2026-06-23",
       "label": "Di, 23.06.",
       "phase": "Gruppenphase · 2. Spieltag",
@@ -10,54 +59,48 @@
       "group_key": "g:2",
       "group": "2. Spieltag",
       "gruppenphase": true,
-      "published_at": "2026-06-23T06:54",
+      "published_at": "2026-06-24T07:35",
       "complete": true,
       "headlines": [
         {
-          "text": "Kicklberger kickt alle in Grund und Boden!",
-          "erklaerung": "Mit satten 14 Punkten und drei ergebnisgenauen Treffern schnappt sich Kicklberger den Tagessieg dieses Spieltags. Kein anderer kam an dieser Galavorstellung vorbei.",
+          "text": "Kicklberger kickt alle weg – 14 Punkte und ein Hattrick der Exaktheit!",
+          "erklaerung": "Mit drei ergebnisgenauen Tipps und satten 14 Punkten holt sich Kicklberger den Tagessieg an diesem Spieltag. Kein anderer kam an diese Ausbeute heran.",
           "type": "tagessieger",
           "tipper": "Kicklberger"
         },
         {
-          "text": "TippTommy ganz allein auf weiter Flur!",
-          "erklaerung": "Beim wilden 3:2 zwischen Norwegen und Senegal hatte TippTommy als Einziger den exakten Riecher und kassierte den einsamen Volltreffer. Während die Konkurrenz rätselte, räumte er ab.",
+          "text": "Schielotterbeck schwimmt durch alle vier Spiele!",
+          "erklaerung": "Bei allen vier Partien lag Schielotterbeck mit der Tendenz richtig und sammelte glatte 12 Punkte ein. Ein makelloser Spieltag ohne einen einzigen Ausrutscher.",
+          "type": "perfekter_spieltag",
+          "tipper": "Schielotterbeck"
+        },
+        {
+          "text": "TippTommy allein im Norden – der einsame Norwegen-Coup!",
+          "erklaerung": "Beim wilden 3:2 zwischen Norwegen und Senegal lag TippTommy als Einziger goldrichtig. Dazu fuhr er an allen vier Spielen vorbei keinen Punkt-Patzer ein und landete bei 11 Zählern.",
           "type": "einsamer_volltreffer",
           "tipper": "TippTommy"
         },
         {
-          "text": "Matthias schießt sich von 12 auf 6 nach vorne!",
-          "erklaerung": "An diesem Spieltag macht Matthias sechs Plätze gut und klettert von Rang 12 auf Rang 6. Eine Aufholjagd, die sich sehen lassen kann.",
+          "text": "Matthias macht den Aufzug – sechs Plätze in einer Nacht!",
+          "erklaerung": "Von Rang 12 katapultiert sich Matthias auf Platz 6 nach oben und ist der große Kletterer des Spieltags. Nur beim Argentinien-Gruppensieg verzockte er sich mit Österreich.",
           "type": "aufsteiger",
           "tipper": "Matthias"
         },
         {
-          "text": "Schielotterbeck pirscht sich an die Spitze ran!",
-          "erklaerung": "Von Platz 18 auf Platz 2 – die Saison-Rakete Schielotterbeck hat 16 Plätze gutgemacht und sitzt mit 82 Punkten nur einen Zähler hinter Stockfish91. Das Rennen um Platz eins ist ein Krimi.",
-          "type": "saison_aufsteiger",
-          "tipper": "Schielotterbeck"
-        },
-        {
-          "text": "Stockfish91 thront seit 10 Tagen ganz oben!",
-          "erklaerung": "Mit 83 Punkten verteidigt Stockfish91 die Tabellenführung und hält sie nun schon den zehnten Tag in Folge. Doch Verfolger Schielotterbeck sitzt ihm mit nur einem Punkt Rückstand im Nacken.",
-          "type": "fuehrungsserie",
-          "tipper": "Stockfish91"
-        },
-        {
-          "text": "GG sieht nur Bahnhof – und vier mickrige Punkte!",
-          "erklaerung": "Während rundherum Treffer fielen, brachte GG an diesem Spieltag gerade einmal 4 Punkte zusammen. Pechvogel des Tages, da half kein Jammern.",
-          "type": "pechvogel",
-          "tipper": "GG"
-        },
-        {
-          "text": "Tippmon klebt auf Platz 10 wie Kaugummi am Schuh!",
-          "erklaerung": "Schon den vierten Tag in Folge findet sich Tippmon auf dem zehnten Rang wieder. Auch die soliden 10 Punkte an diesem Spieltag rütteln am Dauerquartier nicht.",
+          "text": "Tippmon klebt auf der Zehn fest – Stammplatz im Niemandsland!",
+          "erklaerung": "Schon den vierten Tag in Folge parkt Tippmon auf Rang 10 der Tabelle. Immerhin: Mit 10 Punkten erwischte er auch diesmal alle vier Tendenzen.",
           "type": "mittelfeld_dauergast",
           "tipper": "Tippmon"
         },
         {
-          "text": "Argentinien räumt ab – nur zwei setzen aufs falsche Pferd!",
-          "erklaerung": "Bei der Bonusfrage zum Sieger der Gruppe J lagen 18 von 20 Tippern mit Argentinien goldrichtig. Nur Matthias und Weckenbauer verzockten sich mit Österreich und gingen leer aus.",
+          "text": "GG geht auf den Sack – nur magere 4 Punkte!",
+          "erklaerung": "Während ringsum die Punkte sprudelten, blieb GG mit nur 4 Zählern das Pech des Spieltags. Da lief einfach nichts zusammen.",
+          "type": "pechvogel",
+          "tipper": "GG"
+        },
+        {
+          "text": "Gruppe J: Argentinien räumt ab – zwei verschätzen sich mit Österreich!",
+          "erklaerung": "18 von 20 Tippern setzten richtig auf Argentinien als Sieger der Gruppe J. Nur Matthias und Weckenbauer verzockten sich mit Österreich und gingen leer aus.",
           "type": "bonus_aufloesung",
           "tipper": "Gruppe J"
         }
@@ -596,8 +639,12 @@
       "key": "g:2",
       "label": "2. Spieltag",
       "gruppenphase": true,
-      "complete": false,
-      "end_date": "2026-06-22"
+      "complete": true,
+      "end_date": "2026-06-23",
+      "fazit_headline": {
+        "text": "Toritz schießt sich mit 45 Punkten an die Spitzengruppe – und ballert sieben Plätze nach oben!",
+        "erklaerung": "Mit starken 45 Zählern krallte sich Toritz den Tagessieg und kletterte gleich sieben Ränge hinauf. An der Tabellenspitze thront weiter Stockfish91, während Zidanima nach sechs Plätzen Absturz den bittersten Sturz des Spieltags hinnehmen musste."
+      }
     },
     {
       "key": "g:1",

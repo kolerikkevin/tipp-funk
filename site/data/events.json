@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-23T10:45:15",
-  "latest": "Di, 23.06.",
+  "generated_for": "2026-06-24T07:35:19",
+  "latest": "Mi, 24.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -1714,23 +1714,132 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "label": "Mi, 24.06.",
+      "phase": "Gruppenphase · 2. Spieltag",
+      "span": "23.–24.06.",
+      "group_key": "g:2",
+      "group": "2. Spieltag",
+      "gruppenphase": true,
+      "games": [
+        {
+          "partie": "Portugal–Usbekistan",
+          "ergebnis": "5:0"
+        },
+        {
+          "partie": "England–Ghana",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Panama–Kroatien",
+          "ergebnis": "0:1"
+        },
+        {
+          "partie": "Kolumbien–DR Kongo",
+          "ergebnis": "1:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Di, 23.06.",
+          "edition": 13,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "England–Ghana",
+            "ergebnis": "0:0",
+            "quote": "nur 1 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.8973684210526316
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Mi, 24.06.",
+          "edition": 13,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "von": 12,
+            "auf": 6,
+            "plaetze": 6
+          },
+          "score": 0.8500000000000001
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 23.06.",
+          "edition": 13,
+          "primary": "K_linsman_N",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 23.06.",
+          "edition": 13,
+          "primary": "Kicklberger",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 23.06.",
+          "edition": 13,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 8,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "absteiger",
+          "date": "Mi, 24.06.",
+          "edition": 13,
+          "primary": "Matthias",
+          "facts": {
+            "von": 6,
+            "auf": 12,
+            "plaetze": 6
+          },
+          "score": 0.69
+        },
+        {
+          "type": "pechvogel",
+          "date": "Di, 23.06.",
+          "edition": 13,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "punkte": 4
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "Di, 23.06.",
-          "edition": 13,
+          "date": "Mi, 24.06.",
+          "edition": 14,
           "primary": "Stockfish91",
           "facts": {
-            "tage": 10,
-            "punkte": 83
+            "tage": 11,
+            "punkte": 89
           },
           "score": 0.8
         },
         {
           "type": "enges_rennen",
-          "date": "Di, 23.06.",
-          "edition": 13,
+          "date": "Mi, 24.06.",
+          "edition": 14,
           "primary": "Stockfish91",
           "facts": {
             "erster": "Stockfish91",
@@ -1741,8 +1850,8 @@
         },
         {
           "type": "saison_aufsteiger",
-          "date": "Di, 23.06.",
-          "edition": 13,
+          "date": "Mi, 24.06.",
+          "edition": 14,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -1759,8 +1868,22 @@
       "key": "g:2",
       "label": "2. Spieltag",
       "gruppenphase": true,
-      "complete": false,
-      "end_date": "2026-06-22"
+      "complete": true,
+      "end_date": "2026-06-23",
+      "fazit": {
+        "spieltag": "2. Spieltag",
+        "sieger": "Toritz",
+        "sieger_punkte": 45,
+        "fuehrender": "Stockfish91",
+        "groesster_aufsteiger": {
+          "name": "Toritz",
+          "plaetze": 7
+        },
+        "groesster_absteiger": {
+          "name": "Zidanima",
+          "plaetze": 6
+        }
+      }
     },
     {
       "key": "g:1",
