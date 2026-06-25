@@ -2,8 +2,9 @@
 
 > **Lies das zuerst.** Dieses Dokument enthält alles, was man braucht, um am Tool
 > sauber weiterzuarbeiten — Architektur, Deploy-Runbook, Domänen-Logik, Stolperfallen.
-> Stand: 2026-06-22 (live & mehrfach iteriert; Frontend auf das „Studio/Hipster"-Design umgestellt —
-> weiß-blauer Bayern/BR-Look, „PFM Kicktipp Daily", siehe §5).
+> Stand: 2026-06-25 (live & mehrfach iteriert; Frontend „Studio/Hipster" — weiß-blauer Bayern/BR-Look,
+> „PFM Kicktipp Daily", siehe §5. NEU 2026-06-25: **cron-job.org** als verlässlicher Primär-Trigger
+> eingerichtet, GitHub-`schedule` nur noch Fallback — siehe §2, Diagnose-Playbook in §2).
 
 ---
 
@@ -21,16 +22,29 @@ texten. Plus Platz-Verlauf-Chart, Tabelle, Tipp-Matrix, Bonus-Layer.
 
 ## 2. Wie es betrieben wird (vollautomatisch)
 
-GitHub Actions Workflow `.github/workflows/daily.yml`:
-- **Cron GESTAFFELT auf krummen Minuten:** `23 6` / `47 6` / `19 7` (UTC) = **08:23 / 08:47 / 09:19 CEST**
-  (Winter je −1 h). **Warum drei und nicht ein `30 6`?** GitHub-`schedule` ist *best effort* und
-  **verwirft/verzögert Läufe zur vollen & halben Stunde** (`:00`/`:30` = überlastetste Slots) — am
-  2026-06-23 ist deshalb der allererste geplante `:30`-Lauf komplett ausgefallen (alle 8 vorherigen Runs
-  waren manuell). Drei gestaffelte krumme Minuten = feuert GitHub einen Slot nicht, fängt der nächste die
-  Ausgabe. Mehrfachläufe sind durch Headline-Cache + „nichts Neues"-Commit billige No-Ops, `concurrency`
-  serialisiert sie. **NICHT wieder auf einen einzelnen `:30`-Cron zurückbauen.** Für echte Garantie
-  (Mac aus) optional ein externer Cron-Dienst (cron-job.org o. Ä.), der täglich die `workflow_dispatch`-API
-  feuert (`POST .../actions/workflows/daily.yml/dispatches`, Body `{"ref":"main"}`, Header `Authorization: Bearer <PAT>`).
+**Trigger-Architektur (Stand 2026-06-25): cron-job.org = PRIMÄR, GitHub-`schedule` = Fallback.**
+
+- **PRIMÄR — externer Cron bei cron-job.org** (Kevins Account, eingeloggt im Browser).
+  Feuert **täglich 08:00 Europe/Berlin** die `workflow_dispatch`-API und startet damit den Workflow
+  garantiert — **läuft auch, wenn Kevins Mac aus ist.** Job-Details (zum Wiederfinden/Bearbeiten):
+  - Job-Titel „TIppspiel", Job-ID **7907703** → `https://console.cron-job.org/jobs/7907703`
+  - **Methode** `POST`, **URL** `https://api.github.com/repos/kolerikkevin/tipp-funk/actions/workflows/daily.yml/dispatches`
+  - **Body** `{"ref":"main"}`
+  - **Header:** `Authorization: Bearer <PAT>` · `Accept: application/vnd.github+json` · `Content-Type: application/json`
+  - Erfolgreicher Lauf = **HTTP 204 No Content** (cron-job.org „Verlauf" zeigt das). Test im Editor: „TESTLAUF".
+  - ⚠️ **Token-Kopplung:** Es liegt derselbe PAT drin wie für die Pushes (`tipp-funk-push`, läuft ~22.07.2026 ab).
+    Beim Token-Erneuern MUSS er an ZWEI Orten aktualisiert werden: macOS-Schlüsselbund **und** dieser
+    cron-job.org-Header. Sauberer Dauerfix → eigener ablauffreier Fine-grained Token nur mit
+    `Actions: read/write` auf `tipp-funk` (siehe §4).
+- **FALLBACK — GitHub `schedule`** (`.github/workflows/daily.yml`): drei gestaffelte krumme Minuten
+  `23 6` / `47 6` / `19 7` (UTC) = **08:23 / 08:47 / 09:19 CEST** (Winter je −1 h). Bleibt drin als
+  Sicherheitsnetz, falls cron-job.org mal hakt — kostet nichts (Mehrfachläufe sind dank Headline-Cache +
+  „nichts Neues"-Commit billige No-Ops, `concurrency` serialisiert sie).
+  - **Warum reicht GitHub-`schedule` allein NICHT?** Es ist *best effort* und **verwirft ODER verzögert
+    Läufe massiv** — Belege aus der Historie: 2026-06-23 fiel der `:30`-Lauf komplett aus → daraufhin auf
+    drei krumme Minuten gestaffelt; 2026-06-24 liefen alle drei, aber ~3–4 h zu spät (erst ~12:00 CEST);
+    2026-06-25 wurden **alle drei Slots komplett gedroppt** → daraufhin cron-job.org als verlässlicher
+    Primär-Trigger eingerichtet. **NICHT auf einen einzelnen `:30`-Cron zurückbauen.**
 - Job `update`: `pip install` → `python update.py` → committet neuen Stand zurück → lädt `site/` als Artifact.
 - Job `deploy`: published `site/` zu GitHub Pages.
 - Läuft in der Cloud, der Mac kann aus sein. Pages-Quelle = **GitHub Actions** (Settings → Pages).
@@ -43,6 +57,28 @@ vorhandenen Schlagzeilen (kein harter Abbruch).
 **Inaktivitäts-Falle:** Geplante Workflows pausieren nach ~60 Tagen ohne *menschliche* Aktivität
 (Bot-Commits zählen evtl. nicht). GitHub mailt vorher einen „Re-enable"-Knopf. Jeder echte Push
 setzt die Uhr zurück. Die Seite selbst bleibt online (statisch), nur das Auto-Update pausiert.
+
+### Diagnose-Playbook: „Die Ausgabe kam heute Morgen nicht" (kein `gh` installiert → REST-API)
+
+Token aus dem Schlüsselbund holen und die letzten Läufe ansehen:
+```bash
+cd tools/tippspiel-chronik
+TOKEN=$(printf "protocol=https\nhost=github.com\nusername=kolerikkevin\n\n" | git credential-osxkeychain get | sed -n 's/^password=//p')
+curl -s -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+  "https://api.github.com/repos/kolerikkevin/tipp-funk/actions/workflows/daily.yml/runs?per_page=12" \
+  | python3 -c "import sys,json;[print(r['created_at'],r['event'],r['status'],r['conclusion']) for r in json.load(sys.stdin)['workflow_runs']]"
+```
+- `event=schedule` fehlt heute / liegt Stunden daneben → **normal**, GitHub hat gedroppt/verzögert (kein Bug).
+  Der cron-job.org-Trigger (`event=workflow_dispatch` ~06:00 UTC) sollte es abfangen.
+- **Sofort manuell auslösen** (erzeugt die heutige Ausgabe; No-Op falls schon da):
+```bash
+curl -s -o /dev/null -w "%{http_code}\n" -X POST -H "Authorization: Bearer $TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  "https://api.github.com/repos/kolerikkevin/tipp-funk/actions/workflows/daily.yml/dispatches" -d '{"ref":"main"}'
+# 204 = ausgelöst.  401 = Token abgelaufen → §4.
+```
+- **War der cron-job.org-Trigger selbst still?** → console.cron-job.org → Job 7907703 → „Verlauf".
+  Letzter Lauf ≠ 204 (z. B. 401) ⇒ Token im Header abgelaufen → §4 (an BEIDEN Orten erneuern).
 
 ## 3. Änderungen machen & live bringen (RUNBUCH)
 
@@ -68,11 +104,21 @@ Der normale Loop, wenn Kevin etwas verbessern will:
   (wird nie gepusht). Auf GitHub als Repo-Secret hinterlegt. Modell: `claude-opus-4-8`
   (überschreibbar via Env `HEADLINE_MODEL`).
 - **Push-Token (PAT classic „tipp-funk-push"):** liegt im macOS-Schlüsselbund (`osxkeychain`),
-  Scopes `repo` + `workflow`. **Läuft ~2026-07-22 ab** → dann hakt der nächste Push.
-  Erneuern: github.com → Settings → Developer settings → Personal access tokens (classic) →
-  tipp-funk-push → **Regenerate token** → neuen Wert kopieren → einmal
-  `printf "protocol=https\nhost=github.com\nusername=kolerikkevin\npassword=<TOKEN>\n\n" | git credential-osxkeychain store`.
-  (Langfristig sauberer: SSH-Key einrichten, läuft nie ab — Kevin wollte das vorerst nicht.)
+  Scopes `repo` + `workflow`. **Läuft ~2026-07-22 15:20 UTC ab** (bestätigt per Response-Header
+  `github-authentication-token-expiration` beim cron-job.org-Testlauf). Dieser EINE Token treibt jetzt
+  **ZWEI Dinge**: lokale Pushes **und** den cron-job.org-Trigger. Läuft er ab, hakt BEIDES (Push schlägt
+  fehl, cron-job.org bekommt 401 statt 204).
+  - **Erneuern (classic, beide Orte!):** github.com → Settings → Developer settings → Personal access
+    tokens (classic) → tipp-funk-push → **Regenerate token** → neuen Wert kopieren → (1) Schlüsselbund:
+    `printf "protocol=https\nhost=github.com\nusername=kolerikkevin\npassword=<TOKEN>\n\n" | git credential-osxkeychain store`
+    **und** (2) cron-job.org Job 7907703 → Erweitert → Header `Authorization: Bearer <TOKEN>` ersetzen → Speichern.
+  - **Dauerfix (empfohlen, entkoppelt cron-job.org vom Push-Token):** eigener **Fine-grained PAT**,
+    github.com → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** →
+    „Generate new token" → Repository access = nur `kolerikkevin/tipp-funk` → Permissions →
+    **Actions: Read and write** (genügt für `workflow_dispatch`) → Expiration = „No expiration" →
+    generieren → nur in den cron-job.org-Header eintragen. Dann ist die Morgen-Automatik dauerhaft
+    unabhängig vom 90-Tage-Push-Token. (Token-Erzeugung braucht GitHub-Passwort/2FA → macht Kevin selbst.)
+  - (Noch sauberer für Pushes: SSH-Key, läuft nie ab — Kevin wollte das vorerst nicht.)
 - **GitHub-User:** `kolerikkevin`.
 
 ## 5. Architektur & Datenfluss
@@ -194,12 +240,14 @@ Spieltag; „Tage" = ein Punkt pro Spielabend (Enden+Snapshots exakt, dazwischen
 ## 12. Stolperfallen-Checkliste
 
 - [ ] **Frontend-JS/CSS geändert?** → `?v=N` in `index.html` bumpen, sonst Cache-Leichen.
-- [ ] **Push deployt nicht** → danach „Run workflow" in Actions (oder auf 08:30 warten).
+- [ ] **Push deployt nicht** → danach „Run workflow" in Actions (oder auf den nächsten Auto-Lauf warten).
+- [ ] **Ausgabe kam morgens nicht** → Diagnose-Playbook in §2 (cron-job.org = Primär, GitHub-Cron = Fallback).
 - [ ] **Determinismus** nicht brechen (kein `set`-Iterieren / untie-Sortieren über Tipper).
-- [ ] **Push schlägt fehl** → Token abgelaufen (~22.07.) → regenerieren (§4).
+- [ ] **Push ODER cron-job.org-Lauf schlägt fehl (401)** → Token abgelaufen (~22.07.) → an BEIDEN Orten regenerieren (§4).
 - [ ] **„Texten bei jedem Lauf"** → Determinismus kaputt (§8) ODER `ctx`-Feld geändert (invalidiert Cache).
 - [ ] **Tabellen-Daten** = generiert; nur `build.py` ändern, nicht `standings.json` von Hand.
-- [ ] **Zeitzone**: Cron ist UTC → Sommer 08:30 / Winter 07:30 Ortszeit. Kein Bug, GitHub-Eigenheit.
+- [ ] **Zeitzone**: cron-job.org steht auf Europe/Berlin (DST automatisch); GitHub-Fallback-Cron ist UTC
+      (Sommer 08:23 / Winter 07:23 Ortszeit) — kein Bug, GitHub-Eigenheit.
 
 ## 13. Offene Punkte / mögliche nächste Schritte
 
