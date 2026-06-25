@@ -97,6 +97,13 @@
       "date": "Mi, 24.06.",
       "iso": "2026-06-24",
       "official": true
+    },
+    {
+      "index": 15,
+      "label": "25.06.",
+      "date": "Do, 25.06.",
+      "iso": "2026-06-25",
+      "official": true
     }
   ],
   "n_tippers": 20,
@@ -107,7 +114,8 @@
       "positions": [
         1,
         3,
-        6,
+        3,
+        1,
         1,
         1,
         1,
@@ -121,7 +129,7 @@
         1
       ],
       "rank": 1,
-      "total": 89
+      "total": 108
     },
     {
       "name": "Schielotterbeck",
@@ -139,31 +147,55 @@
         2,
         2,
         2,
+        2,
         2
       ],
       "rank": 2,
-      "total": 88
+      "total": 108
     },
     {
-      "name": "TippTommy",
+      "name": "Tippmon",
       "positions": [
+        12,
+        10,
         7,
-        5,
+        11,
         6,
+        11,
+        5,
+        8,
+        4,
         9,
-        7,
-        3,
-        3,
-        4,
-        4,
-        2,
-        4,
-        4,
-        3,
+        5,
+        10,
+        6,
+        6,
         3
       ],
       "rank": 3,
-      "total": 85
+      "total": 101
+    },
+    {
+      "name": "Toritz",
+      "positions": [
+        13,
+        11,
+        5,
+        17,
+        13,
+        14,
+        11,
+        12,
+        8,
+        11,
+        4,
+        6,
+        5,
+        5,
+        4
+      ],
+      "rank": 4,
+      "total": 98
     },
     {
       "name": "Lochsocke",
@@ -172,103 +204,130 @@
         9,
         2,
         10,
-        4,
+        3,
         10,
-        4,
+        3,
         9,
         3,
         7,
         3,
         3,
         4,
-        4
-      ],
-      "rank": 4,
-      "total": 84
-    },
-    {
-      "name": "Toritz",
-      "positions": [
-        13,
-        11,
-        8,
-        17,
-        16,
-        14,
-        12,
-        12,
-        11,
-        11,
-        6,
-        6,
-        5,
+        4,
         5
       ],
       "rank": 5,
-      "total": 81
+      "total": 98
     },
     {
       "name": "LinkeKlebe",
       "positions": [
         3,
         2,
-        9,
+        7,
         6,
-        9,
+        5,
         6,
-        10,
-        3,
         7,
         3,
-        9,
+        4,
+        3,
+        5,
         10,
+        6,
         6,
         6
       ],
       "rank": 6,
-      "total": 80
-    },
-    {
-      "name": "Tippmon",
-      "positions": [
-        12,
-        10,
-        9,
-        11,
-        10,
-        11,
-        9,
-        8,
-        7,
-        9,
-        9,
-        10,
-        6,
-        6
-      ],
-      "rank": 6,
-      "total": 80
+      "total": 98
     },
     {
       "name": "Schrammadonna",
       "positions": [
         6,
         14,
-        12,
-        12,
         13,
+        12,
         15,
-        7,
+        15,
+        9,
         6,
-        6,
+        10,
         5,
-        5,
+        8,
         5,
         9,
+        8,
+        7
+      ],
+      "rank": 7,
+      "total": 96
+    },
+    {
+      "name": "TippTommy",
+      "positions": [
+        7,
+        5,
+        10,
+        9,
+        10,
+        3,
+        4,
+        4,
+        7,
+        2,
+        7,
+        4,
+        3,
+        3,
         8
       ],
       "rank": 8,
-      "total": 79
+      "total": 95
+    },
+    {
+      "name": "Matthias",
+      "positions": [
+        5,
+        12,
+        13,
+        7,
+        10,
+        13,
+        14,
+        14,
+        6,
+        8,
+        9,
+        6,
+        12,
+        12,
+        9
+      ],
+      "rank": 9,
+      "total": 92
+    },
+    {
+      "name": "salvanize",
+      "positions": [
+        2,
+        6,
+        5,
+        2,
+        4,
+        5,
+        7,
+        7,
+        11,
+        10,
+        10,
+        8,
+        11,
+        10,
+        10
+      ],
+      "rank": 10,
+      "total": 92
     },
     {
       "name": "Don_Kuhbert",
@@ -277,175 +336,139 @@
         16,
         15,
         13,
-        10,
+        14,
         12,
-        10,
+        13,
         11,
         12,
         12,
-        11,
+        12,
         12,
         6,
-        9
-      ],
-      "rank": 9,
-      "total": 78
-    },
-    {
-      "name": "salvanize",
-      "positions": [
-        2,
-        6,
-        4,
-        2,
-        3,
-        5,
-        6,
-        7,
         9,
-        10,
-        7,
-        8,
-        11,
-        10
+        11
       ],
-      "rank": 10,
-      "total": 77
+      "rank": 11,
+      "total": 90
     },
     {
       "name": "Zidanima",
       "positions": [
         9,
         1,
-        3,
-        3,
-        6,
         4,
-        5,
+        3,
+        9,
+        4,
+        6,
         2,
-        5,
+        9,
         6,
-        8,
+        11,
         9,
         10,
-        11
-      ],
-      "rank": 11,
-      "total": 76
-    },
-    {
-      "name": "Kicklberger",
-      "positions": [
-        16,
-        8,
-        9,
-        5,
-        7,
-        9,
-        12,
-        13,
-        14,
-        14,
-        14,
-        14,
-        12,
+        11,
         12
       ],
       "rank": 12,
-      "total": 75
-    },
-    {
-      "name": "Matthias",
-      "positions": [
-        5,
-        12,
-        16,
-        7,
-        13,
-        13,
-        15,
-        14,
-        10,
-        8,
-        12,
-        6,
-        12,
-        12
-      ],
-      "rank": 12,
-      "total": 75
-    },
-    {
-      "name": "GG",
-      "positions": [
-        10,
-        7,
-        5,
-        14,
-        4,
-        8,
-        8,
-        16,
-        13,
-        16,
-        13,
-        13,
-        14,
-        14
-      ],
-      "rank": 14,
-      "total": 72
+      "total": 87
     },
     {
       "name": "BenzEma",
       "positions": [
         4,
         4,
-        13,
+        11,
         4,
-        13,
-        7,
-        14,
         10,
-        15,
+        7,
+        12,
+        10,
+        12,
         13,
         14,
         14,
         15,
-        15
+        15,
+        13
       ],
-      "rank": 15,
-      "total": 68
+      "rank": 13,
+      "total": 86
+    },
+    {
+      "name": "Kicklberger",
+      "positions": [
+        16,
+        8,
+        17,
+        5,
+        15,
+        9,
+        16,
+        13,
+        17,
+        14,
+        17,
+        14,
+        12,
+        12,
+        14
+      ],
+      "rank": 14,
+      "total": 81
     },
     {
       "name": "Philipp_Flink",
       "positions": [
         19,
         20,
+        18,
         19,
-        19,
-        19,
+        18,
         17,
+        14,
+        15,
+        15,
         15,
         15,
         16,
         15,
         16,
+        15
+      ],
+      "rank": 15,
+      "total": 80
+    },
+    {
+      "name": "GG",
+      "positions": [
+        10,
+        7,
+        7,
+        14,
+        6,
+        8,
+        10,
         16,
-        15,
+        14,
+        16,
+        13,
+        13,
+        14,
+        14,
         16
       ],
       "rank": 16,
-      "total": 67
+      "total": 79
     },
     {
       "name": "K_linsman_N",
       "positions": [
         15,
         17,
-        13,
+        11,
         15,
-        10,
+        6,
         20,
         18,
         19,
@@ -454,40 +477,40 @@
         18,
         19,
         17,
-        17
+        17,
+        16
       ],
-      "rank": 17,
-      "total": 62
+      "rank": 16,
+      "total": 79
     },
     {
       "name": "Reinoldo",
       "positions": [
         17,
         18,
+        15,
+        16,
         17,
         16,
+        16,
+        17,
+        16,
+        17,
+        16,
+        17,
+        17,
         18,
-        16,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
-        17,
         18
       ],
       "rank": 18,
-      "total": 60
+      "total": 75
     },
     {
       "name": "Weckenbauer",
       "positions": [
         8,
         15,
-        17,
-        18,
-        20,
+        19,
         18,
         20,
         18,
@@ -495,22 +518,26 @@
         18,
         19,
         18,
+        19,
+        18,
+        19,
         19,
         19
       ],
       "rank": 19,
-      "total": 54
+      "total": 63
     },
     {
       "name": "TorTippTeddy",
       "positions": [
         20,
         19,
+        20,
+        20,
+        19,
         19,
         20,
-        17,
-        19,
-        18,
+        20,
         20,
         20,
         20,
@@ -553,7 +580,7 @@
           1
         ],
         "rank": 1,
-        "total": 89
+        "total": 108
       },
       {
         "name": "Schielotterbeck",
@@ -563,182 +590,182 @@
           2
         ],
         "rank": 2,
-        "total": 88
-      },
-      {
-        "name": "TippTommy",
-        "positions": [
-          3,
-          3,
-          3
-        ],
-        "rank": 3,
-        "total": 85
-      },
-      {
-        "name": "Lochsocke",
-        "positions": [
-          4,
-          4,
-          4
-        ],
-        "rank": 4,
-        "total": 84
-      },
-      {
-        "name": "Toritz",
-        "positions": [
-          12,
-          5,
-          5
-        ],
-        "rank": 5,
-        "total": 81
-      },
-      {
-        "name": "LinkeKlebe",
-        "positions": [
-          10,
-          6,
-          6
-        ],
-        "rank": 6,
-        "total": 80
+        "total": 108
       },
       {
         "name": "Tippmon",
         "positions": [
-          9,
+          5,
+          6,
+          3
+        ],
+        "rank": 3,
+        "total": 101
+      },
+      {
+        "name": "Toritz",
+        "positions": [
+          11,
+          4,
+          4
+        ],
+        "rank": 4,
+        "total": 98
+      },
+      {
+        "name": "Lochsocke",
+        "positions": [
+          3,
+          3,
+          5
+        ],
+        "rank": 5,
+        "total": 98
+      },
+      {
+        "name": "LinkeKlebe",
+        "positions": [
+          7,
           6,
           6
         ],
         "rank": 6,
-        "total": 80
+        "total": 98
       },
       {
         "name": "Schrammadonna",
         "positions": [
-          7,
-          8,
+          9,
+          9,
+          7
+        ],
+        "rank": 7,
+        "total": 96
+      },
+      {
+        "name": "TippTommy",
+        "positions": [
+          4,
+          5,
           8
         ],
         "rank": 8,
-        "total": 79
-      },
-      {
-        "name": "Don_Kuhbert",
-        "positions": [
-          10,
-          9,
-          9
-        ],
-        "rank": 9,
-        "total": 78
-      },
-      {
-        "name": "salvanize",
-        "positions": [
-          6,
-          10,
-          10
-        ],
-        "rank": 10,
-        "total": 77
-      },
-      {
-        "name": "Zidanima",
-        "positions": [
-          5,
-          11,
-          11
-        ],
-        "rank": 11,
-        "total": 76
-      },
-      {
-        "name": "Kicklberger",
-        "positions": [
-          12,
-          12,
-          12
-        ],
-        "rank": 12,
-        "total": 75
+        "total": 95
       },
       {
         "name": "Matthias",
         "positions": [
-          15,
+          14,
+          8,
+          9
+        ],
+        "rank": 9,
+        "total": 92
+      },
+      {
+        "name": "salvanize",
+        "positions": [
+          7,
+          11,
+          10
+        ],
+        "rank": 10,
+        "total": 92
+      },
+      {
+        "name": "Don_Kuhbert",
+        "positions": [
+          13,
+          10,
+          11
+        ],
+        "rank": 11,
+        "total": 90
+      },
+      {
+        "name": "Zidanima",
+        "positions": [
+          6,
           12,
           12
         ],
         "rank": 12,
-        "total": 75
-      },
-      {
-        "name": "GG",
-        "positions": [
-          8,
-          14,
-          14
-        ],
-        "rank": 14,
-        "total": 72
+        "total": 87
       },
       {
         "name": "BenzEma",
         "positions": [
-          14,
-          15,
-          15
+          12,
+          13,
+          13
         ],
-        "rank": 15,
-        "total": 68
+        "rank": 13,
+        "total": 86
+      },
+      {
+        "name": "Kicklberger",
+        "positions": [
+          16,
+          15,
+          14
+        ],
+        "rank": 14,
+        "total": 81
       },
       {
         "name": "Philipp_Flink",
         "positions": [
-          15,
+          14,
           16,
+          15
+        ],
+        "rank": 15,
+        "total": 80
+      },
+      {
+        "name": "GG",
+        "positions": [
+          10,
+          13,
           16
         ],
         "rank": 16,
-        "total": 67
+        "total": 79
       },
       {
         "name": "K_linsman_N",
         "positions": [
           18,
           17,
-          17
+          16
         ],
-        "rank": 17,
-        "total": 62
+        "rank": 16,
+        "total": 79
       },
       {
         "name": "Reinoldo",
         "positions": [
-          17,
+          16,
           18,
           18
         ],
         "rank": 18,
-        "total": 60
+        "total": 75
       },
       {
         "name": "Weckenbauer",
         "positions": [
-          20,
+          19,
           19,
           19
         ],
         "rank": 19,
-        "total": 54
+        "total": 63
       },
       {
         "name": "TorTippTeddy",
         "positions": [
-          18,
+          20,
           20,
           20
         ],
