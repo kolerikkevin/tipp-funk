@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-25T10:22:20",
-  "latest": "Do, 25.06.",
+  "generated_for": "2026-06-26T06:00:59",
+  "latest": "Fr, 26.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -363,7 +363,7 @@
           "edition": 3,
           "primary": "Schrammadonna",
           "facts": {
-            "platz": 13,
+            "platz": 12,
             "tage": 3
           },
           "score": 0.5
@@ -556,25 +556,13 @@
           "type": "aufsteiger",
           "date": "Di, 16.06.",
           "edition": 5,
-          "primary": "K_linsman_N",
+          "primary": "Matthias",
           "facts": {
-            "von": 11,
-            "auf": 6,
-            "plaetze": 5
+            "von": 17,
+            "auf": 14,
+            "plaetze": 3
           },
-          "score": 0.8
-        },
-        {
-          "type": "absteiger",
-          "date": "Di, 16.06.",
-          "edition": 5,
-          "primary": "Toritz",
-          "facts": {
-            "von": 5,
-            "auf": 13,
-            "plaetze": 8
-          },
-          "score": 0.77
+          "score": 0.7000000000000001
         },
         {
           "type": "unwahrscheinlicher_treffer",
@@ -640,6 +628,18 @@
             "punkte": 2
           },
           "score": 0.7
+        },
+        {
+          "type": "absteiger",
+          "date": "Di, 16.06.",
+          "edition": 5,
+          "primary": "Toritz",
+          "facts": {
+            "von": 5,
+            "auf": 11,
+            "plaetze": 6
+          },
+          "score": 0.69
         },
         {
           "type": "pechvogel",
@@ -840,11 +840,11 @@
           "edition": 6,
           "primary": "K_linsman_N",
           "facts": {
-            "jetzt_platz": 6,
-            "lage": "war_oben"
+            "jetzt_platz": 12,
+            "lage": "mittelfeld"
           },
           "score": 0.85,
-          "lage": "war_oben"
+          "lage": "mittelfeld"
         },
         {
           "type": "tagessieger",
@@ -861,9 +861,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Mi, 17.06.",
           "edition": 6,
-          "primary": "Matthias",
+          "primary": "Schrammadonna",
           "facts": {
-            "platz": 13,
+            "platz": 15,
             "tage": 4
           },
           "score": 0.5
@@ -908,30 +908,6 @@
       ],
       "events": [
         {
-          "type": "absteiger",
-          "date": "Do, 18.06.",
-          "edition": 7,
-          "primary": "K_linsman_N",
-          "facts": {
-            "von": 6,
-            "auf": 18,
-            "plaetze": 12
-          },
-          "score": 0.9299999999999999
-        },
-        {
-          "type": "aufsteiger",
-          "date": "Do, 18.06.",
-          "edition": 7,
-          "primary": "TippTommy",
-          "facts": {
-            "von": 10,
-            "auf": 4,
-            "plaetze": 6
-          },
-          "score": 0.8500000000000001
-        },
-        {
           "type": "tagessieger",
           "date": "Mi, 17.06.",
           "edition": 7,
@@ -941,6 +917,30 @@
             "exakte_treffer": 1
           },
           "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Do, 18.06.",
+          "edition": 7,
+          "primary": "TippTommy",
+          "facts": {
+            "von": 9,
+            "auf": 4,
+            "plaetze": 5
+          },
+          "score": 0.8
+        },
+        {
+          "type": "absteiger",
+          "date": "Do, 18.06.",
+          "edition": 7,
+          "primary": "K_linsman_N",
+          "facts": {
+            "von": 12,
+            "auf": 18,
+            "plaetze": 6
+          },
+          "score": 0.69
         },
         {
           "type": "pechvogel",
@@ -1066,18 +1066,6 @@
       ],
       "events": [
         {
-          "type": "aufsteiger",
-          "date": "Sa, 20.06.",
-          "edition": 9,
-          "primary": "Matthias",
-          "facts": {
-            "von": 14,
-            "auf": 6,
-            "plaetze": 8
-          },
-          "score": 0.9500000000000001
-        },
-        {
           "type": "perfekter_spieltag",
           "date": "Fr, 19.06.",
           "edition": 9,
@@ -1098,6 +1086,18 @@
             "exakte_treffer": 2
           },
           "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Sa, 20.06.",
+          "edition": 9,
+          "primary": "Toritz",
+          "facts": {
+            "von": 11,
+            "auf": 7,
+            "plaetze": 4
+          },
+          "score": 0.75
         },
         {
           "type": "unwahrscheinlicher_treffer",
@@ -1152,32 +1152,13 @@
           "score": 0.7394736842105263
         },
         {
-          "type": "bonus_aufloesung",
-          "primary": "Gruppe D",
-          "facts": {
-            "was": "Gruppe D",
-            "ergebnis": "USA",
-            "treffer": 3,
-            "leer": 17,
-            "gesamt": 20,
-            "treffer_namen": [
-              "Schielotterbeck",
-              "Lochsocke",
-              "GG"
-            ]
-          },
-          "score": 0.72,
-          "date": "Sa, 20.06.",
-          "edition": 9
-        },
-        {
           "type": "absteiger",
           "date": "Sa, 20.06.",
           "edition": 9,
-          "primary": "salvanize",
+          "primary": "GG",
           "facts": {
-            "von": 7,
-            "auf": 11,
+            "von": 10,
+            "auf": 14,
             "plaetze": 4
           },
           "score": 0.61
@@ -1188,7 +1169,7 @@
           "edition": 9,
           "primary": "Schrammadonna",
           "facts": {
-            "platz": 10,
+            "platz": 9,
             "tage": 4
           },
           "score": 0.5
@@ -1321,26 +1302,6 @@
             "exakte_treffer": 1
           },
           "score": 0.8
-        },
-        {
-          "type": "bonus_aufloesung",
-          "primary": "Gruppe E",
-          "facts": {
-            "was": "Gruppe E",
-            "ergebnis": "Deutschland",
-            "treffer": 19,
-            "leer": 1,
-            "gesamt": 20,
-            "leer_detail": [
-              {
-                "name": "LinkeKlebe",
-                "tipp": "Elfenbeinküste"
-              }
-            ]
-          },
-          "score": 0.72,
-          "date": "So, 21.06.",
-          "edition": 10
         },
         {
           "type": "pechvogel",
@@ -1498,23 +1459,23 @@
           "edition": 11,
           "primary": "Toritz",
           "facts": {
-            "von": 8,
+            "von": 7,
             "auf": 4,
-            "plaetze": 4
+            "plaetze": 3
           },
-          "score": 0.75
+          "score": 0.7000000000000001
         },
         {
           "type": "absteiger",
           "date": "Mo, 22.06.",
           "edition": 11,
-          "primary": "Matthias",
+          "primary": "Zidanima",
           "facts": {
-            "von": 6,
-            "auf": 9,
-            "plaetze": 3
+            "von": 8,
+            "auf": 10,
+            "plaetze": 2
           },
-          "score": 0.5700000000000001
+          "score": 0.53
         },
         {
           "type": "pechvogel",
@@ -1633,6 +1594,18 @@
           "score": 0.9
         },
         {
+          "type": "aufsteiger",
+          "date": "Di, 23.06.",
+          "edition": 12,
+          "primary": "Matthias",
+          "facts": {
+            "von": 12,
+            "auf": 6,
+            "plaetze": 6
+          },
+          "score": 0.8500000000000001
+        },
+        {
           "type": "tagessieger",
           "date": "Mo, 22.06.",
           "edition": 12,
@@ -1666,18 +1639,6 @@
           "score": 0.72,
           "date": "Di, 23.06.",
           "edition": 12
-        },
-        {
-          "type": "aufsteiger",
-          "date": "Di, 23.06.",
-          "edition": 12,
-          "primary": "TippTommy",
-          "facts": {
-            "von": 7,
-            "auf": 4,
-            "plaetze": 3
-          },
-          "score": 0.7000000000000001
         },
         {
           "type": "absteiger",
@@ -1968,40 +1929,250 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "label": "Fr, 26.06.",
+      "phase": "Gruppenphase · 3. Spieltag",
+      "span": "25.–26.06.",
+      "group_key": "g:3",
+      "group": "3. Spieltag",
+      "gruppenphase": true,
+      "games": [
+        {
+          "partie": "Curaçao–Elfenbeinküste",
+          "ergebnis": "0:2"
+        },
+        {
+          "partie": "Ecuador–Deutschland",
+          "ergebnis": "2:1"
+        },
+        {
+          "partie": "Japan–Schweden",
+          "ergebnis": "1:1"
+        },
+        {
+          "partie": "Tunesien–Niederlande",
+          "ergebnis": "1:3"
+        },
+        {
+          "partie": "Paraguay–Australien",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Türkei–USA",
+          "ergebnis": "3:2"
+        }
       ],
-      "season_events": [
+      "events": [
         {
-          "type": "fuehrungsserie",
+          "type": "einsamer_volltreffer",
           "date": "Do, 25.06.",
           "edition": 15,
-          "primary": "Stockfish91",
+          "primary": "Don_Kuhbert",
           "facts": {
-            "tage": 12,
-            "punkte": 108
+            "spiel": "Ecuador–Deutschland",
+            "ergebnis": "2:1"
           },
-          "score": 0.8
+          "score": 0.9
         },
         {
-          "type": "enges_rennen",
-          "date": "Do, 25.06.",
-          "edition": 15,
-          "primary": "Stockfish91",
-          "facts": {
-            "erster": "Stockfish91",
-            "zweiter": "Schielotterbeck",
-            "abstand": 0
-          },
-          "score": 0.65
-        },
-        {
-          "type": "saison_aufsteiger",
+          "type": "einsamer_volltreffer",
           "date": "Do, 25.06.",
           "edition": 15,
           "primary": "Schielotterbeck",
           "facts": {
+            "spiel": "Paraguay–Australien",
+            "ergebnis": "0:0"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "spiel": "Ecuador–Deutschland",
+            "ergebnis": "2:1",
+            "quote": "nur 1 von 19 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.8973684210526316
+        },
+        {
+          "type": "tagessieger",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "punkte": 18,
+            "exakte_treffer": 4
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "spiel": "Türkei–USA",
+            "ergebnis": "3:2",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiel": "Türkei–USA",
+            "ergebnis": "3:2",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 4
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Tippmon",
+          "facts": {
+            "spiel": "Türkei–USA",
+            "ergebnis": "3:2",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiel": "Türkei–USA",
+            "ergebnis": "3:2",
+            "quote": "nur 4 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.7394736842105263
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe D",
+          "facts": {
+            "was": "Gruppe D",
+            "ergebnis": "USA",
+            "treffer": 3,
+            "leer": 17,
+            "gesamt": 20,
+            "treffer_namen": [
+              "Schielotterbeck",
+              "Lochsocke",
+              "GG"
+            ]
+          },
+          "score": 0.72,
+          "date": "Fr, 26.06.",
+          "edition": 15
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe E",
+          "facts": {
+            "was": "Gruppe E",
+            "ergebnis": "Deutschland",
+            "treffer": 19,
+            "leer": 1,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "LinkeKlebe",
+                "tipp": "Elfenbeinküste"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "Fr, 26.06.",
+          "edition": 15
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe F",
+          "facts": {
+            "was": "Gruppe F",
+            "ergebnis": "Niederlande",
+            "treffer": 16,
+            "leer": 4,
+            "gesamt": 20
+          },
+          "score": 0.72,
+          "date": "Fr, 26.06.",
+          "edition": 15
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Fr, 26.06.",
+          "edition": 15,
+          "primary": "Tippmon",
+          "facts": {
+            "von": 6,
+            "auf": 3,
+            "plaetze": 3
+          },
+          "score": 0.7000000000000001
+        },
+        {
+          "type": "absteiger",
+          "date": "Fr, 26.06.",
+          "edition": 15,
+          "primary": "TippTommy",
+          "facts": {
+            "von": 3,
+            "auf": 8,
+            "plaetze": 5
+          },
+          "score": 0.65
+        },
+        {
+          "type": "mittelfeld_dauergast",
+          "date": "Fr, 26.06.",
+          "edition": 15,
+          "primary": "Zidanima",
+          "facts": {
+            "platz": 12,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
+          "type": "pechvogel",
+          "date": "Do, 25.06.",
+          "edition": 15,
+          "primary": "K_linsman_N",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
+      ],
+      "season_events": [
+        {
+          "type": "saison_aufsteiger",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "Schielotterbeck",
+          "facts": {
             "von": 18,
-            "auf": 2,
-            "plaetze": 16
+            "auf": 1,
+            "plaetze": 17
           },
           "score": 0.6
         }
@@ -2014,7 +2185,7 @@
       "label": "3. Spieltag",
       "gruppenphase": true,
       "complete": false,
-      "end_date": "2026-06-24"
+      "end_date": "2026-06-25"
     },
     {
       "key": "g:2",
@@ -2033,7 +2204,7 @@
         },
         "groesster_absteiger": {
           "name": "Zidanima",
-          "plaetze": 6
+          "plaetze": 5
         }
       }
     },
