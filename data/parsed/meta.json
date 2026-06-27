@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-26T10:30:44",
+  "scraped_at": "2026-06-27T06:00:49",
   "round": "portfolioundentwicklung",
   "total_matchdays": 15,
   "played_matchdays": [
@@ -10,7 +10,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "tippers": [
     {
@@ -22,19 +23,19 @@
       "rank": 2
     },
     {
-      "name": "Tippmon",
+      "name": "LinkeKlebe",
       "rank": 3
     },
     {
-      "name": "LinkeKlebe",
+      "name": "Tippmon",
       "rank": 4
     },
     {
-      "name": "Toritz",
+      "name": "Schrammadonna",
       "rank": 5
     },
     {
-      "name": "Schrammadonna",
+      "name": "Toritz",
       "rank": 6
     },
     {
@@ -42,48 +43,48 @@
       "rank": 7
     },
     {
-      "name": "Don_Kuhbert",
+      "name": "TippTommy",
       "rank": 8
     },
     {
-      "name": "TippTommy",
+      "name": "GG",
       "rank": 9
     },
     {
-      "name": "BenzEma",
+      "name": "Don_Kuhbert",
       "rank": 10
+    },
+    {
+      "name": "BenzEma",
+      "rank": 11
     },
     {
       "name": "salvanize",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Matthias",
-      "rank": 12
-    },
-    {
-      "name": "Zidanima",
       "rank": 13
     },
     {
-      "name": "GG",
+      "name": "Zidanima",
       "rank": 14
     },
     {
-      "name": "Kicklberger",
+      "name": "Philipp_Flink",
       "rank": 15
     },
     {
-      "name": "Philipp_Flink",
+      "name": "Kicklberger",
       "rank": 16
+    },
+    {
+      "name": "K_linsman_N",
+      "rank": 17
     },
     {
       "name": "Reinoldo",
       "rank": 17
-    },
-    {
-      "name": "K_linsman_N",
-      "rank": 18
     },
     {
       "name": "Weckenbauer",

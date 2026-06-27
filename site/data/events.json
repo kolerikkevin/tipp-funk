@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-26T10:30:44",
-  "latest": "Fr, 26.06.",
+  "generated_for": "2026-06-27T06:00:49",
+  "latest": "Sa, 27.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -2162,12 +2162,192 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "label": "Sa, 27.06.",
+      "phase": "Gruppenphase · 3. Spieltag",
+      "span": "26.–27.06.",
+      "group_key": "g:3",
+      "group": "3. Spieltag",
+      "gruppenphase": true,
+      "games": [
+        {
+          "partie": "Norwegen–Frankreich",
+          "ergebnis": "1:4"
+        },
+        {
+          "partie": "Senegal–Irak",
+          "ergebnis": "5:0"
+        },
+        {
+          "partie": "Uruguay–Spanien",
+          "ergebnis": "0:1"
+        },
+        {
+          "partie": "Kap Verde–Saudi-Arabien",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Neuseeland–Belgien",
+          "ergebnis": "1:5"
+        },
+        {
+          "partie": "Ägypten–Iran",
+          "ergebnis": "1:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "GG",
+          "facts": {
+            "spiele": 6,
+            "punkte": 17
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 6,
+            "punkte": 14
+          },
+          "score": 0.95
+        },
+        {
+          "type": "einsamer_volltreffer",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiel": "Uruguay–Spanien",
+            "ergebnis": "0:1"
+          },
+          "score": 0.9
+        },
+        {
+          "type": "tagessieger",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "GG",
+          "facts": {
+            "punkte": 17,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe G",
+          "facts": {
+            "was": "Gruppe G",
+            "ergebnis": "Belgien",
+            "treffer": 19,
+            "leer": 1,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "Weckenbauer",
+                "tipp": "Iran"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "Sa, 27.06.",
+          "edition": 16
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe H",
+          "facts": {
+            "was": "Gruppe H",
+            "ergebnis": "Spanien",
+            "treffer": 20,
+            "leer": 0,
+            "gesamt": 20
+          },
+          "score": 0.72,
+          "date": "Sa, 27.06.",
+          "edition": 16
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe I",
+          "facts": {
+            "was": "Gruppe I",
+            "ergebnis": "Frankreich",
+            "treffer": 19,
+            "leer": 1,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "TorTippTeddy",
+                "tipp": "Senegal"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "Sa, 27.06.",
+          "edition": 16
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Sa, 27.06.",
+          "edition": 16,
+          "primary": "BenzEma",
+          "facts": {
+            "von": 13,
+            "auf": 10,
+            "plaetze": 3
+          },
+          "score": 0.7000000000000001
+        },
+        {
+          "type": "absteiger",
+          "date": "Sa, 27.06.",
+          "edition": 16,
+          "primary": "Matthias",
+          "facts": {
+            "von": 9,
+            "auf": 12,
+            "plaetze": 3
+          },
+          "score": 0.5700000000000001
+        },
+        {
+          "type": "pechvogel",
+          "date": "Fr, 26.06.",
+          "edition": 16,
+          "primary": "Weckenbauer",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
+          "type": "fuehrungsserie",
+          "date": "Sa, 27.06.",
+          "edition": 17,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "tage": 2,
+            "punkte": 152
+          },
+          "score": 0.8
+        },
+        {
           "type": "saison_aufsteiger",
-          "date": "Fr, 26.06.",
-          "edition": 16,
+          "date": "Sa, 27.06.",
+          "edition": 17,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -2185,7 +2365,7 @@
       "label": "3. Spieltag",
       "gruppenphase": true,
       "complete": false,
-      "end_date": "2026-06-25"
+      "end_date": "2026-06-26"
     },
     {
       "key": "g:2",
