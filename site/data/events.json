@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-27T09:35:32",
-  "latest": "Sa, 27.06.",
+  "generated_for": "2026-06-28T06:00:49",
+  "latest": "So, 28.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -553,18 +553,6 @@
           "score": 0.8
         },
         {
-          "type": "aufsteiger",
-          "date": "Di, 16.06.",
-          "edition": 5,
-          "primary": "Matthias",
-          "facts": {
-            "von": 17,
-            "auf": 14,
-            "plaetze": 3
-          },
-          "score": 0.7000000000000001
-        },
-        {
           "type": "unwahrscheinlicher_treffer",
           "date": "Mo, 15.06.",
           "edition": 5,
@@ -640,6 +628,18 @@
             "plaetze": 6
           },
           "score": 0.69
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Di, 16.06.",
+          "edition": 5,
+          "primary": "Stockfish91",
+          "facts": {
+            "von": 3,
+            "auf": 1,
+            "plaetze": 2
+          },
+          "score": 0.65
         },
         {
           "type": "pechvogel",
@@ -805,10 +805,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Kicklberger",
+          "primary": "Philipp_Flink",
           "facts": {
             "spiele": 4,
-            "punkte": 8
+            "punkte": 10
           },
           "score": 0.95
         },
@@ -816,10 +816,10 @@
           "type": "perfekter_spieltag",
           "date": "Di, 16.06.",
           "edition": 6,
-          "primary": "Philipp_Flink",
+          "primary": "Kicklberger",
           "facts": {
             "spiele": 4,
-            "punkte": 10
+            "punkte": 8
           },
           "score": 0.95
         },
@@ -840,11 +840,11 @@
           "edition": 6,
           "primary": "K_linsman_N",
           "facts": {
-            "jetzt_platz": 12,
-            "lage": "mittelfeld"
+            "jetzt_platz": 15,
+            "lage": "keller"
           },
           "score": 0.85,
-          "lage": "mittelfeld"
+          "lage": "keller"
         },
         {
           "type": "tagessieger",
@@ -934,13 +934,13 @@
           "type": "absteiger",
           "date": "Do, 18.06.",
           "edition": 7,
-          "primary": "K_linsman_N",
+          "primary": "GG",
           "facts": {
-            "von": 12,
-            "auf": 18,
-            "plaetze": 6
+            "von": 6,
+            "auf": 10,
+            "plaetze": 4
           },
-          "score": 0.69
+          "score": 0.61
         },
         {
           "type": "pechvogel",
@@ -1155,13 +1155,13 @@
           "type": "absteiger",
           "date": "Sa, 20.06.",
           "edition": 9,
-          "primary": "GG",
+          "primary": "salvanize",
           "facts": {
-            "von": 10,
-            "auf": 14,
-            "plaetze": 4
+            "von": 7,
+            "auf": 10,
+            "plaetze": 3
           },
-          "score": 0.61
+          "score": 0.5700000000000001
         },
         {
           "type": "mittelfeld_dauergast",
@@ -1553,6 +1553,17 @@
           "type": "perfekter_spieltag",
           "date": "Mo, 22.06.",
           "edition": 12,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "spiele": 4,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mo, 22.06.",
+          "edition": 12,
           "primary": "Don_Kuhbert",
           "facts": {
             "spiele": 4,
@@ -1572,17 +1583,6 @@
           "score": 0.95
         },
         {
-          "type": "perfekter_spieltag",
-          "date": "Mo, 22.06.",
-          "edition": 12,
-          "primary": "Philipp_Flink",
-          "facts": {
-            "spiele": 4,
-            "punkte": 12
-          },
-          "score": 0.95
-        },
-        {
           "type": "einsamer_volltreffer",
           "date": "Mo, 22.06.",
           "edition": 12,
@@ -1592,18 +1592,6 @@
             "ergebnis": "3:2"
           },
           "score": 0.9
-        },
-        {
-          "type": "aufsteiger",
-          "date": "Di, 23.06.",
-          "edition": 12,
-          "primary": "Matthias",
-          "facts": {
-            "von": 12,
-            "auf": 6,
-            "plaetze": 6
-          },
-          "score": 0.8500000000000001
         },
         {
           "type": "tagessieger",
@@ -1617,28 +1605,16 @@
           "score": 0.8
         },
         {
-          "type": "bonus_aufloesung",
-          "primary": "Gruppe J",
-          "facts": {
-            "was": "Gruppe J",
-            "ergebnis": "Argentinien",
-            "treffer": 18,
-            "leer": 2,
-            "gesamt": 20,
-            "leer_detail": [
-              {
-                "name": "Matthias",
-                "tipp": "Österreich"
-              },
-              {
-                "name": "Weckenbauer",
-                "tipp": "Österreich"
-              }
-            ]
-          },
-          "score": 0.72,
+          "type": "aufsteiger",
           "date": "Di, 23.06.",
-          "edition": 12
+          "edition": 12,
+          "primary": "Matthias",
+          "facts": {
+            "von": 11,
+            "auf": 6,
+            "plaetze": 5
+          },
+          "score": 0.8
         },
         {
           "type": "absteiger",
@@ -2331,23 +2307,197 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "label": "So, 28.06.",
+      "phase": "Gruppenphase · 3. Spieltag",
+      "span": "27.–28.06.",
+      "group_key": "g:3",
+      "group": "3. Spieltag",
+      "gruppenphase": true,
+      "games": [
+        {
+          "partie": "Kroatien–Ghana",
+          "ergebnis": "2:1"
+        },
+        {
+          "partie": "Panama–England",
+          "ergebnis": "0:2"
+        },
+        {
+          "partie": "DR Kongo–Usbekistan",
+          "ergebnis": "3:1"
+        },
+        {
+          "partie": "Kolumbien–Portugal",
+          "ergebnis": "0:0"
+        },
+        {
+          "partie": "Algerien–Österreich",
+          "ergebnis": "3:3"
+        },
+        {
+          "partie": "Jordanien–Argentinien",
+          "ergebnis": "1:3"
+        }
+      ],
+      "events": [
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 27.06.",
+          "edition": 17,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiel": "Kolumbien–Portugal",
+            "ergebnis": "0:0",
+            "quote": "nur 2 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.8447368421052631
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Sa, 27.06.",
+          "edition": 17,
+          "primary": "salvanize",
+          "facts": {
+            "spiel": "Kolumbien–Portugal",
+            "ergebnis": "0:0",
+            "quote": "nur 2 von 19 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.8447368421052631
+        },
+        {
+          "type": "tagessieger",
+          "date": "Sa, 27.06.",
+          "edition": 17,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 15,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "So, 28.06.",
+          "edition": 17,
+          "primary": "GG",
+          "facts": {
+            "von": 14,
+            "auf": 9,
+            "plaetze": 5
+          },
+          "score": 0.8
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe J",
+          "facts": {
+            "was": "Gruppe J",
+            "ergebnis": "Argentinien",
+            "treffer": 18,
+            "leer": 2,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "Matthias",
+                "tipp": "Österreich"
+              },
+              {
+                "name": "Weckenbauer",
+                "tipp": "Österreich"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "So, 28.06.",
+          "edition": 17
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe K",
+          "facts": {
+            "was": "Gruppe K",
+            "ergebnis": "KOL",
+            "treffer": 0,
+            "leer": 20,
+            "gesamt": 20
+          },
+          "score": 0.72,
+          "date": "So, 28.06.",
+          "edition": 17
+        },
+        {
+          "type": "bonus_aufloesung",
+          "primary": "Gruppe L",
+          "facts": {
+            "was": "Gruppe L",
+            "ergebnis": "England",
+            "treffer": 17,
+            "leer": 3,
+            "gesamt": 20,
+            "leer_detail": [
+              {
+                "name": "Don_Kuhbert",
+                "tipp": "Kroatien"
+              },
+              {
+                "name": "K_linsman_N",
+                "tipp": "Kroatien"
+              },
+              {
+                "name": "Kicklberger",
+                "tipp": "Kroatien"
+              }
+            ]
+          },
+          "score": 0.72,
+          "date": "So, 28.06.",
+          "edition": 17
+        },
+        {
+          "type": "absteiger",
+          "date": "So, 28.06.",
+          "edition": 17,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "von": 8,
+            "auf": 10,
+            "plaetze": 2
+          },
+          "score": 0.53
+        },
+        {
+          "type": "pechvogel",
+          "date": "Sa, 27.06.",
+          "edition": 17,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "punkte": 4
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "Sa, 27.06.",
-          "edition": 17,
+          "date": "So, 28.06.",
+          "edition": 18,
           "primary": "Schielotterbeck",
           "facts": {
-            "tage": 2,
-            "punkte": 152
+            "tage": 3,
+            "punkte": 165
           },
           "score": 0.8
         },
         {
           "type": "saison_aufsteiger",
-          "date": "Sa, 27.06.",
-          "edition": 17,
+          "date": "So, 28.06.",
+          "edition": 18,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -2364,8 +2514,22 @@
       "key": "g:3",
       "label": "3. Spieltag",
       "gruppenphase": true,
-      "complete": false,
-      "end_date": "2026-06-26"
+      "complete": true,
+      "end_date": "2026-06-27",
+      "fazit": {
+        "spieltag": "3. Spieltag",
+        "sieger": "Schielotterbeck",
+        "sieger_punkte": 49,
+        "fuehrender": "Schielotterbeck",
+        "groesster_aufsteiger": {
+          "name": "LinkeKlebe",
+          "plaetze": 3
+        },
+        "groesster_absteiger": {
+          "name": "Lochsocke",
+          "plaetze": 5
+        }
+      }
     },
     {
       "key": "g:2",
@@ -2384,7 +2548,7 @@
         },
         "groesster_absteiger": {
           "name": "Zidanima",
-          "plaetze": 5
+          "plaetze": 4
         }
       }
     },
