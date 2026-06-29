@@ -4,7 +4,8 @@
 > sauber weiterzuarbeiten — Architektur, Deploy-Runbook, Domänen-Logik, Stolperfallen.
 > Stand: 2026-06-25 (live & mehrfach iteriert; Frontend „Studio/Hipster" — weiß-blauer Bayern/BR-Look,
 > „PFM Kicktipp Daily", siehe §5. NEU 2026-06-25: **cron-job.org** als verlässlicher Primär-Trigger
-> eingerichtet, GitHub-`schedule` nur noch Fallback — siehe §2, Diagnose-Playbook in §2).
+> eingerichtet, GitHub-`schedule` nur noch Fallback — siehe §2, Diagnose-Playbook in §2.
+> NEU 2026-06-29: **K.-o.-Parsing gefixt** — Sechzehntelfinale lief in den Scraper, siehe §13 + §12).
 
 ---
 
@@ -242,6 +243,10 @@ Spieltag; „Tage" = ein Punkt pro Spielabend (Enden+Snapshots exakt, dazwischen
 - [ ] **Frontend-JS/CSS geändert?** → `?v=N` in `index.html` bumpen, sonst Cache-Leichen.
 - [ ] **Push deployt nicht** → danach „Run workflow" in Actions (oder auf den nächsten Auto-Lauf warten).
 - [ ] **Ausgabe kam morgens nicht** → Diagnose-Playbook in §2 (cron-job.org = Primär, GitHub-Cron = Fallback).
+      ⚠️ **Aber Workflow `success` ≠ Inhalt da:** ein leerer „Update"-Commit heißt, der Build fand keine neuen
+      Spiele. Dann liegt es NICHT am Trigger, sondern am Parsing — v.a. bei **Phasenwechseln** (Gruppe→K.-o.),
+      wenn Kicktipp die Tabellen-Struktur ändert. Check: lokal `python3 scrape.py` → zeigt ein Spieltag „0 Spiele",
+      obwohl Spiele da sind? → Parser. (So geschehen 2026-06-29 beim Sechzehntelfinale, siehe §13.)
 - [ ] **Determinismus** nicht brechen (kein `set`-Iterieren / untie-Sortieren über Tipper).
 - [ ] **Push ODER cron-job.org-Lauf schlägt fehl (401)** → Token abgelaufen (~22.07.) → an BEIDEN Orten regenerieren (§4).
 - [ ] **„Texten bei jedem Lauf"** → Determinismus kaputt (§8) ODER `ctx`-Feld geändert (invalidiert Cache).
@@ -253,7 +258,13 @@ Spieltag; „Tage" = ein Punkt pro Spielabend (Enden+Snapshots exakt, dazwischen
 
 - Chart-Modus „Tage" an die Schicht-Logik (Morgen-Datum) angleichen, falls Kevin Konsistenz auch dort will.
 - Optional SSH statt PAT (kein Ablauf mehr).
-- K.-o.-Phase mit echten Daten gegenprüfen (Spalten AF/VF/HF/FIN, Bonus berührt K.O. nicht).
+- ✅ **K.-o.-Phase mit echten Daten geprüft (2026-06-29, Sechzehntelfinal-Auftakt) — und ein Bug gefixt:**
+  Kicktipps K.-o.-Spielzeilen haben **keine Gruppe-Spalte (4 statt 5 Spalten)**. Die alte
+  `len(vals) >= 5`-Prüfung in `scrape.parse_tippuebersicht` übersprang deshalb JEDES K.-o.-Spiel → der
+  Morgen-Build war leer, obwohl der Workflow `success` meldete. Fix: ≥4 Spalten zulassen, Ergebnis aus der
+  **letzten** Zelle, Rundenname aus dem `dropdowntitle` als `group` einsetzen — damit greift die vorhandene
+  Build-Logik (`assign_official_md` → `_KO_ORDER`/`S16`). Achtel-/Viertel-/Halbfinale/Finale parsen ebenso
+  korrekt (im Trockenlauf verifiziert). Bonus berührt K.O. nicht.
 
 ---
 *Ergänzende Dateien: `README.md` (Kurzüberblick), `DEPLOY.md` (Erst-Setup-Schritte). Memory-Pointer:
