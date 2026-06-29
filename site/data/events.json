@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-06-28T10:09:17",
+  "generated_for": "2026-06-29T06:01:01",
   "latest": "So, 28.06.",
   "editions": [
     {
@@ -2446,11 +2446,11 @@
                 "tipp": "Kroatien"
               },
               {
-                "name": "K_linsman_N",
+                "name": "Kicklberger",
                 "tipp": "Kroatien"
               },
               {
-                "name": "Kicklberger",
+                "name": "K_linsman_N",
                 "tipp": "Kroatien"
               }
             ]
@@ -2485,19 +2485,19 @@
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "So, 28.06.",
-          "edition": 18,
+          "date": "Mo, 29.06.",
+          "edition": 19,
           "primary": "Schielotterbeck",
           "facts": {
-            "tage": 3,
+            "tage": 4,
             "punkte": 165
           },
           "score": 0.8
         },
         {
           "type": "saison_aufsteiger",
-          "date": "So, 28.06.",
-          "edition": 18,
+          "date": "Mo, 29.06.",
+          "edition": 19,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,

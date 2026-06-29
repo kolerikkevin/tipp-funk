@@ -746,70 +746,64 @@
     "published_at": "2026-06-28T06:00"
   },
   "2026-06-28": {
-    "sig": "e6bcb3d9acfffd8b",
+    "sig": "b78bed84455ae731",
     "headlines": [
       {
-        "text": "Salvanize zockt den Tag leer – 15 Punkte und zwei Volltreffer!",
-        "erklaerung": "Mit gleich zwei ergebnisgenauen Tipps und insgesamt 15 Zählern krönt sich salvanize zum Tagessieger dieser Spielnacht. Niemand sammelte an diesem Spieltag mehr Punkte ein.",
+        "text": "Salvanize knackt den Jackpot – 15 Punkte und keiner kommt mit!",
+        "erklaerung": "Mit gleich zwei ergebnisgenauen Tipps räumte salvanize an diesem Spieltag 15 Punkte ab und sicherte sich den Tagessieg. Damit setzte sich der Tagesheld klar an die Spitze der Tagesauswertung.",
         "type": "tagessieger",
         "tipper": "salvanize"
       },
       {
-        "text": "Null Bock auf Tore? Schrammadonna riecht das 0:0!",
-        "erklaerung": "Beim torlosen Remis zwischen Kolumbien und Portugal lagen nur 2 von 19 Tippern richtig – Schrammadonna war einer davon und sackte dafür 2 Punkte ein. Während fast alle auf Tore setzten, hatte er als Einer der wenigen das Remis auf dem Zettel.",
+        "text": "Das große Null-Wunder von Kolumbien!",
+        "erklaerung": "Beim torlosen 0:0 zwischen Kolumbien und Portugal hatten nur 2 von 19 Tippern die Nase vorn – Schrammadonna gehörte als einer von wenigen zu den Glücklichen. Für das richtig erkannte Remis gab es verdiente 2 Punkte.",
         "type": "unwahrscheinlicher_treffer",
         "tipper": "Schrammadonna"
       },
       {
-        "text": "Salvanize sieht, was 17 andere übersehen: das 0:0!",
-        "erklaerung": "Beim 0:0 zwischen Kolumbien und Portugal gehörte salvanize zu den nur 2 von 19 Tippern, die den Ausgang richtig hatten, und holte dafür 2 Punkte. Ein cleverer Riecher, der am Ende mit zum Tagessieg beitrug.",
+        "text": "Salvanize riecht die Null – Doppelschlag im Punkteregen",
+        "erklaerung": "Auch salvanize gehörte beim 0:0 in Kolumbien zum erlesenen Kreis von nur 2 aus 19 richtigen Tippern und kassierte dafür 2 Punkte. Das Remis-Gespür legte den Grundstein für den Tagessieg.",
         "type": "unwahrscheinlicher_treffer",
         "tipper": "salvanize"
       },
       {
-        "text": "GG klettert wie ein Bergziege – fünf Plätze nach oben!",
-        "erklaerung": "Mit einem starken Spieltag schiebt sich GG von Rang 14 auf Rang 9 vor. Ein satter Sprung um fünf Plätze, der die Aufholjagd richtig in Fahrt bringt.",
+        "text": "GG klettert die Leiter hoch – fünf Plätze in einer Nacht!",
+        "erklaerung": "Mit einem starken Spieltag schoss GG von Rang 14 auf Rang 9 nach vorne. Fünf Plätze gutgemacht – die Aufholjagd hat begonnen.",
         "type": "aufsteiger",
         "tipper": "GG"
       },
       {
-        "text": "Don Kuhbert muht im Rückwärtsgang – zwei Plätze runter!",
-        "erklaerung": "Don_Kuhbert rutscht von Platz 8 auf Platz 10 ab und verliert damit zwei Ränge. Den Gruppensieger der Gruppe L verschätzte er obendrein und setzte auf Kroatien statt auf England.",
+        "text": "Don_Kuhbert verzockt sich mit Kroatien – und rutscht ab!",
+        "erklaerung": "Beim Gruppensieger-Bonus L setzte Don_Kuhbert auf Kroatien, doch England machte das Rennen – 17 von 20 lagen richtig, er nicht. Prompt ging es in der Tabelle von Platz 8 auf Platz 10.",
         "type": "absteiger",
         "tipper": "Don_Kuhbert"
       },
       {
-        "text": "Philipp Flink war nicht flink genug – nur magere 4 Punkte!",
-        "erklaerung": "An diesem Spieltag lief für Philipp_Flink so gut wie gar nichts zusammen, am Ende blieben nur 4 Pünktchen hängen. Der Pechvogel des Tages, der bei nächster Gelegenheit zurückschlagen will.",
+        "text": "Pech-Flink: Philipp ackert und kriegt nur Krümel",
+        "erklaerung": "Philipp_Flink kam an diesem Spieltag über magere 4 Punkte nicht hinaus und ist damit der Pechvogel des Tages. Da war einfach mehr drin.",
         "type": "pechvogel",
         "tipper": "Philipp_Flink"
       },
       {
-        "text": "Schielotterbeck thront seit drei Tagen – vom Keller auf den Gipfel!",
-        "erklaerung": "Mit 165 Punkten führt Schielotterbeck den dritten Tag in Folge die Gesamtwertung an und hat sich von Rang 18 auf Platz 1 katapultiert – satte 17 Plätze nach oben. Verfolger Stockfish91 lauert mit 155 Zählern auf der Pirsch.",
-        "type": "fuehrungsserie",
-        "tipper": "Schielotterbeck"
-      },
-      {
-        "text": "Gruppe J: Argentinien marschiert – und 18 Tipper jubeln mit!",
-        "erklaerung": "Mit dem 3:1 gegen Jordanien sicherte sich Argentinien Gruppe J, was 18 von 20 Tippern korrekt vorhersahen. Nur Matthias und Weckenbauer gingen leer aus – beide hatten auf Österreich gesetzt.",
+        "text": "Gruppe J: Argentinien wie erwartet – nur zwei Österreich-Träumer gucken in die Röhre",
+        "erklaerung": "Beim Sieger der Gruppe J lagen 18 von 20 mit Argentinien goldrichtig. Nur Matthias und Weckenbauer setzten auf Österreich und gingen leer aus.",
         "type": "bonus_aufloesung",
         "tipper": "Gruppe J"
       },
       {
-        "text": "Gruppe K wird zum Totalschaden – alle 20 daneben!",
-        "erklaerung": "Kolumbien holte sich Gruppe K, doch ausgerechnet darauf hatte niemand getippt: 0 von 20 lagen richtig. Ein kollektiver Griff ins Klo, bei dem die komplette Belegschaft leer ausging.",
+        "text": "Gruppe K: das große Komplett-Versagen – 0 von 20!",
+        "erklaerung": "Kolumbien holte den Gruppensieg, doch darauf hatte niemand getippt: alle 20 Mitspieler gingen leer aus. Eine Bonusfrage zum Vergessen.",
         "type": "bonus_aufloesung",
         "tipper": "Gruppe K"
       },
       {
-        "text": "Gruppe L: England regiert – drei Kroatien-Träumer gehen baden!",
-        "erklaerung": "England krönte sich zum Sieger der Gruppe L, was 17 von 20 Tippern korrekt auf dem Zettel hatten. Don_Kuhbert, K_linsman_N und Kicklberger verzockten sich allesamt mit Kroatien.",
+        "text": "Gruppe L: England räumt ab – drei Kroatien-Fans schauen zu",
+        "erklaerung": "17 von 20 hatten England als Gruppensieger auf dem Zettel und lagen richtig. Don_Kuhbert, Kicklberger und K_linsman_N vertrauten auf Kroatien und gingen leer aus.",
         "type": "bonus_aufloesung",
         "tipper": "Gruppe L"
       }
     ],
-    "published_at": "2026-06-28T06:00"
+    "published_at": "2026-06-29T06:01"
   },
   "fazit:g:3": {
     "sig": "4823fc3728a4464f",
