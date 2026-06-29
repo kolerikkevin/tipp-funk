@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-29T06:01:01",
+  "scraped_at": "2026-06-29T08:19:03",
   "round": "portfolioundentwicklung",
   "total_matchdays": 15,
   "played_matchdays": [
@@ -12,7 +12,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "tippers": [
     {
@@ -96,7 +97,7 @@
       "rank": 20
     },
     {
-      "name": "LaraB",
+      "name": "LaranelMessi",
       "rank": 21
     }
   ]

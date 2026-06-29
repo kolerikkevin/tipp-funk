@@ -3,6 +3,49 @@
   "model": "claude-opus-4-8",
   "blocks": [
     {
+      "date": "2026-06-29",
+      "label": "Mo, 29.06.",
+      "phase": "Sechzehntelfinale",
+      "span": "28.06.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "published_at": "2026-06-29T08:19",
+      "complete": true,
+      "headlines": [
+        {
+          "text": "Sieben auf einen Streich – das Tippgipfel-Gedränge!",
+          "erklaerung": "Beim 0:1 Kanadas gegen Südafrika landeten gleich sieben Tipper mit je 3 Punkten ganz oben. BenzEma, LinkeKlebe, Lochsocke, Matthias, Schrammadonna, TippTommy und Toritz teilen sich den Tagessieg, exakt traf das Endergebnis allerdings keiner von ihnen.",
+          "type": "tagessieger",
+          "tipper": "BenzEma"
+        },
+        {
+          "text": "Schielotterbeck verpennt – und thront trotzdem!",
+          "erklaerung": "Ausgerechnet die Tabellenführerin vergaß diesmal ihren Tipp, behält mit 165 Punkten aber Platz 1. Seit vier Tagen an der Spitze und vom 18. auf den 1. Rang geklettert – da darf man sich ein Nickerchen leisten.",
+          "type": "tipp_vergessen",
+          "tipper": "Schielotterbeck"
+        },
+        {
+          "text": "Don_Kuhbert blank – null Punkte, vier Plätze weg!",
+          "erklaerung": "Beim einzigen Spiel des Tages ging Don_Kuhbert komplett leer aus und kassierte die runde Null. Vom 10. auf den 14. Platz durchgereicht, ist er der Pechvogel dieser Ausgabe.",
+          "type": "pechvogel",
+          "tipper": "Don_Kuhbert"
+        },
+        {
+          "text": "salvanize klettert flink – vier Plätze nach oben!",
+          "erklaerung": "Mit dem richtigen Riecher beim 0:1 schob sich salvanize von Rang 11 auf Rang 7. Ein satter Sprung, der die Verfolgerregion ordentlich aufmischt.",
+          "type": "aufsteiger",
+          "tipper": "salvanize"
+        },
+        {
+          "text": "Reinoldo verschläft im Keller – Aufholjagd vertagt!",
+          "erklaerung": "Reinoldo vergaß seinen Tipp und bleibt damit auf dem 16. Platz festgenagelt. Statt Boden gutzumachen, verschenkt er die nächste Chance auf den Befreiungsschlag.",
+          "type": "tipp_vergessen",
+          "tipper": "Reinoldo"
+        }
+      ]
+    },
+    {
       "date": "2026-06-28",
       "label": "So, 28.06.",
       "phase": "Gruppenphase · 3. Spieltag",
@@ -10,60 +53,54 @@
       "group_key": "g:3",
       "group": "3. Spieltag",
       "gruppenphase": true,
-      "published_at": "2026-06-29T06:01",
+      "published_at": "2026-06-29T08:19",
       "complete": true,
       "headlines": [
         {
-          "text": "Salvanize knackt den Jackpot – 15 Punkte und keiner kommt mit!",
-          "erklaerung": "Mit gleich zwei ergebnisgenauen Tipps räumte salvanize an diesem Spieltag 15 Punkte ab und sicherte sich den Tagessieg. Damit setzte sich der Tagesheld klar an die Spitze der Tagesauswertung.",
+          "text": "salvanize krönt sich zum Nacht-König!",
+          "erklaerung": "Mit 15 Punkten und gleich zwei ergebnisgenauen Tipps schnappt sich salvanize den Tagessieg dieser Spielnacht. Beim 0:0 zwischen Kolumbien und Portugal gehörte er zu den wenigen, die den Ausgang richtig hatten.",
           "type": "tagessieger",
           "tipper": "salvanize"
         },
         {
-          "text": "Das große Null-Wunder von Kolumbien!",
-          "erklaerung": "Beim torlosen 0:0 zwischen Kolumbien und Portugal hatten nur 2 von 19 Tippern die Nase vorn – Schrammadonna gehörte als einer von wenigen zu den Glücklichen. Für das richtig erkannte Remis gab es verdiente 2 Punkte.",
+          "text": "Schrammadonna roch das Nuller-Drama in Kolumbien!",
+          "erklaerung": "Beim torlosen 0:0 zwischen Kolumbien und Portugal lagen nur 2 von 19 Tippern richtig – Schrammadonna war einer davon. Der gemeinsame Riecher fürs Remis brachte ihm wertvolle 2 Punkte ein.",
           "type": "unwahrscheinlicher_treffer",
           "tipper": "Schrammadonna"
         },
         {
-          "text": "Salvanize riecht die Null – Doppelschlag im Punkteregen",
-          "erklaerung": "Auch salvanize gehörte beim 0:0 in Kolumbien zum erlesenen Kreis von nur 2 aus 19 richtigen Tippern und kassierte dafür 2 Punkte. Das Remis-Gespür legte den Grundstein für den Tagessieg.",
-          "type": "unwahrscheinlicher_treffer",
-          "tipper": "salvanize"
-        },
-        {
-          "text": "GG klettert die Leiter hoch – fünf Plätze in einer Nacht!",
-          "erklaerung": "Mit einem starken Spieltag schoss GG von Rang 14 auf Rang 9 nach vorne. Fünf Plätze gutgemacht – die Aufholjagd hat begonnen.",
+          "text": "GG turnt durch die Tabelle – fünf Plätze nach oben!",
+          "erklaerung": "Von Rang 14 katapultiert sich GG auf Platz 9 und macht den größten Sprung des Tages. Die Aufholjagd ist eröffnet, die Konkurrenz schaut staunend hinterher.",
           "type": "aufsteiger",
           "tipper": "GG"
         },
         {
-          "text": "Don_Kuhbert verzockt sich mit Kroatien – und rutscht ab!",
-          "erklaerung": "Beim Gruppensieger-Bonus L setzte Don_Kuhbert auf Kroatien, doch England machte das Rennen – 17 von 20 lagen richtig, er nicht. Prompt ging es in der Tabelle von Platz 8 auf Platz 10.",
+          "text": "Don_Kuhbert rutscht aus – zwei Plätze in den Keller!",
+          "erklaerung": "Don_Kuhbert verliert an diesem Spieltag den Anschluss und fällt von Platz 8 auf Rang 10. Beim Gruppen-K-Bonus setzte er obendrein auf Kroatien statt auf den richtigen Sieger England.",
           "type": "absteiger",
           "tipper": "Don_Kuhbert"
         },
         {
-          "text": "Pech-Flink: Philipp ackert und kriegt nur Krümel",
-          "erklaerung": "Philipp_Flink kam an diesem Spieltag über magere 4 Punkte nicht hinaus und ist damit der Pechvogel des Tages. Da war einfach mehr drin.",
+          "text": "Pech-Philipp Flink – flink war hier nur das Scheitern!",
+          "erklaerung": "Trotz vollem Spieltag bringt Philipp_Flink magere 4 Punkte mit nach Hause und ist der Pechvogel der Nacht. Aufstehen, abklopfen, weiter geht's beim nächsten Anstoß.",
           "type": "pechvogel",
           "tipper": "Philipp_Flink"
         },
         {
-          "text": "Gruppe J: Argentinien wie erwartet – nur zwei Österreich-Träumer gucken in die Röhre",
-          "erklaerung": "Beim Sieger der Gruppe J lagen 18 von 20 mit Argentinien goldrichtig. Nur Matthias und Weckenbauer setzten auf Österreich und gingen leer aus.",
+          "text": "Gruppe J: Argentinien räumt ab – zwei Österreich-Fans gucken in die Röhre!",
+          "erklaerung": "18 von 20 Tippern lagen mit Argentinien als Sieger der Gruppe J goldrichtig. Nur Matthias und Weckenbauer verzockten sich mit Österreich und gingen leer aus.",
           "type": "bonus_aufloesung",
           "tipper": "Gruppe J"
         },
         {
-          "text": "Gruppe K: das große Komplett-Versagen – 0 von 20!",
-          "erklaerung": "Kolumbien holte den Gruppensieg, doch darauf hatte niemand getippt: alle 20 Mitspieler gingen leer aus. Eine Bonusfrage zum Vergessen.",
+          "text": "Gruppe K: Kolumbien überrascht alle – komplettes Tippspiel auf dem Holzweg!",
+          "erklaerung": "Mit KOL als Gruppensieger hatte schlicht niemand gerechnet: 0 von 20 Tippern lagen richtig. Ein historischer Nuller, bei dem das ganze Feld leer ausging.",
           "type": "bonus_aufloesung",
           "tipper": "Gruppe K"
         },
         {
-          "text": "Gruppe L: England räumt ab – drei Kroatien-Fans schauen zu",
-          "erklaerung": "17 von 20 hatten England als Gruppensieger auf dem Zettel und lagen richtig. Don_Kuhbert, Kicklberger und K_linsman_N vertrauten auf Kroatien und gingen leer aus.",
+          "text": "Gruppe L: England marschiert – drei Kroatien-Träumer baden ab!",
+          "erklaerung": "17 von 20 Tippern hatten England als Gruppensieger auf dem Zettel und kassieren ab. Don_Kuhbert, Kicklberger und K_linsman_N setzten dagegen auf Kroatien und gingen leer aus.",
           "type": "bonus_aufloesung",
           "tipper": "Gruppe L"
         }
@@ -915,6 +952,13 @@
     }
   ],
   "spieltage": [
+    {
+      "key": "k:Sechzehntelfinale",
+      "label": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "complete": false,
+      "end_date": "2026-06-28"
+    },
     {
       "key": "g:3",
       "label": "3. Spieltag",

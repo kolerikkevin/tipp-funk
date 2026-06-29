@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-29T06:01:01",
-  "latest": "So, 28.06.",
+  "generated_for": "2026-06-29T08:19:03",
+  "latest": "Mo, 29.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -2481,6 +2481,291 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Mo, 29.06.",
+      "phase": "Sechzehntelfinale",
+      "span": "28.06.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "games": [
+        {
+          "partie": "Südafrika–Kanada",
+          "ergebnis": "0:1"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "BenzEma",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Matthias",
+          "facts": {
+            "spiele": 1,
+            "punkte": 3
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiele": 1,
+            "punkte": 2
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "Schielotterbeck",
+          "facts": {
+            "jetzt_platz": 1,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "Stockfish91",
+          "facts": {
+            "jetzt_platz": 2,
+            "lage": "war_oben"
+          },
+          "score": 0.85,
+          "lage": "war_oben"
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "Reinoldo",
+          "facts": {
+            "jetzt_platz": 16,
+            "lage": "keller"
+          },
+          "score": 0.85,
+          "lage": "keller"
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "BenzEma",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Lochsocke",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Matthias",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "TippTommy",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Toritz",
+          "facts": {
+            "punkte": 3,
+            "exakte_treffer": 0
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "salvanize",
+          "facts": {
+            "von": 11,
+            "auf": 7,
+            "plaetze": 4
+          },
+          "score": 0.75
+        },
+        {
+          "type": "absteiger",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "von": 10,
+            "auf": 14,
+            "plaetze": 4
+          },
+          "score": 0.61
+        },
+        {
+          "type": "mittelfeld_dauergast",
+          "date": "Mo, 29.06.",
+          "edition": 18,
+          "primary": "BenzEma",
+          "facts": {
+            "platz": 11,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
+          "type": "pechvogel",
+          "date": "So, 28.06.",
+          "edition": 18,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
@@ -2510,6 +2795,13 @@
     }
   ],
   "spieltage": [
+    {
+      "key": "k:Sechzehntelfinale",
+      "label": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "complete": false,
+      "end_date": "2026-06-28"
+    },
     {
       "key": "g:3",
       "label": "3. Spieltag",

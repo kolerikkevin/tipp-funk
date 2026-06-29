@@ -1743,7 +1743,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -3509,7 +3509,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -5299,7 +5299,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -7077,7 +7077,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -8858,7 +8858,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -10639,7 +10639,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -12042,7 +12042,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -13433,7 +13433,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -14824,7 +14824,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -16215,7 +16215,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -16266,8 +16266,156 @@
   },
   {
     "spieltag_index": 11,
-    "games": [],
-    "n_games": 0,
+    "games": [
+      {
+        "idx": 0,
+        "kickoff": "28.06.26 21:00",
+        "home": "Südafrika",
+        "away": "Kanada",
+        "group": "Sechzehntelfinale",
+        "result": {
+          "home": 0,
+          "away": 1
+        },
+        "played": true
+      },
+      {
+        "idx": 1,
+        "kickoff": "29.06.26 19:00",
+        "home": "Brasilien",
+        "away": "Japan",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 2,
+        "kickoff": "29.06.26 22:30",
+        "home": "Deutschland",
+        "away": "Paraguay",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 3,
+        "kickoff": "30.06.26 03:00",
+        "home": "Niederlande",
+        "away": "Marokko",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 4,
+        "kickoff": "30.06.26 19:00",
+        "home": "Elfenbeinküste",
+        "away": "Norwegen",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 5,
+        "kickoff": "30.06.26 23:00",
+        "home": "Frankreich",
+        "away": "Schweden",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 6,
+        "kickoff": "01.07.26 03:00",
+        "home": "Mexiko",
+        "away": "Ecuador",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 7,
+        "kickoff": "01.07.26 18:00",
+        "home": "England",
+        "away": "DR Kongo",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 8,
+        "kickoff": "01.07.26 22:00",
+        "home": "Belgien",
+        "away": "Senegal",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 9,
+        "kickoff": "02.07.26 02:00",
+        "home": "USA",
+        "away": "Bosnien-Herzegowina",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 10,
+        "kickoff": "02.07.26 21:00",
+        "home": "Spanien",
+        "away": "Österreich",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 11,
+        "kickoff": "03.07.26 01:00",
+        "home": "Portugal",
+        "away": "Kroatien",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 12,
+        "kickoff": "03.07.26 05:00",
+        "home": "Schweiz",
+        "away": "Algerien",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 13,
+        "kickoff": "03.07.26 20:00",
+        "home": "Australien",
+        "away": "Ägypten",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 14,
+        "kickoff": "04.07.26 00:00",
+        "home": "Argentinien",
+        "away": "Kap Verde",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 15,
+        "kickoff": "04.07.26 03:30",
+        "home": "Kolumbien",
+        "away": "Ghana",
+        "group": "Sechzehntelfinale",
+        "result": null,
+        "played": false
+      }
+    ],
+    "n_games": 16,
     "tips": [
       {
         "id": "79482631",
@@ -18439,7 +18587,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -18545,13 +18693,86 @@
       }
     ],
     "all_played": false,
-    "any_played": false,
-    "date": null
+    "any_played": true,
+    "date": "04.07.26"
   },
   {
     "spieltag_index": 12,
-    "games": [],
-    "n_games": 0,
+    "games": [
+      {
+        "idx": 0,
+        "kickoff": "04.07.26 19:00",
+        "home": "Kanada",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 1,
+        "kickoff": "04.07.26 23:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 2,
+        "kickoff": "05.07.26 22:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 3,
+        "kickoff": "06.07.26 02:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 4,
+        "kickoff": "06.07.26 21:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 5,
+        "kickoff": "07.07.26 02:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 6,
+        "kickoff": "07.07.26 18:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 7,
+        "kickoff": "07.07.26 22:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Achtelfinale",
+        "result": null,
+        "played": false
+      }
+    ],
+    "n_games": 8,
     "tips": [
       {
         "id": "79482631",
@@ -19715,7 +19936,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -19774,12 +19995,49 @@
     ],
     "all_played": false,
     "any_played": false,
-    "date": null
+    "date": "07.07.26"
   },
   {
     "spieltag_index": 13,
-    "games": [],
-    "n_games": 0,
+    "games": [
+      {
+        "idx": 0,
+        "kickoff": "09.07.26 22:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Viertelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 1,
+        "kickoff": "10.07.26 21:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Viertelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 2,
+        "kickoff": "11.07.26 23:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Viertelfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 3,
+        "kickoff": "12.07.26 03:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Viertelfinale",
+        "result": null,
+        "played": false
+      }
+    ],
+    "n_games": 4,
     "tips": [
       {
         "id": "79482631",
@@ -20463,7 +20721,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -20498,12 +20756,31 @@
     ],
     "all_played": false,
     "any_played": false,
-    "date": null
+    "date": "12.07.26"
   },
   {
     "spieltag_index": 14,
-    "games": [],
-    "n_games": 0,
+    "games": [
+      {
+        "idx": 0,
+        "kickoff": "14.07.26 21:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Halbfinale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 1,
+        "kickoff": "15.07.26 21:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Halbfinale",
+        "result": null,
+        "played": false
+      }
+    ],
+    "n_games": 2,
     "tips": [
       {
         "id": "79482631",
@@ -20947,7 +21224,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -20970,12 +21247,31 @@
     ],
     "all_played": false,
     "any_played": false,
-    "date": null
+    "date": "15.07.26"
   },
   {
     "spieltag_index": 15,
-    "games": [],
-    "n_games": 0,
+    "games": [
+      {
+        "idx": 0,
+        "kickoff": "18.07.26 23:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Finale",
+        "result": null,
+        "played": false
+      },
+      {
+        "idx": 1,
+        "kickoff": "19.07.26 21:00",
+        "home": "unbekannt",
+        "away": "unbekannt",
+        "group": "Finale",
+        "result": null,
+        "played": false
+      }
+    ],
+    "n_games": 2,
     "tips": [
       {
         "id": "79482631",
@@ -21419,7 +21715,7 @@
       },
       {
         "id": "74510295",
-        "name": "LaraB",
+        "name": "LaranelMessi",
         "position": 21,
         "matchday_winner": false,
         "spieltag_points": 0,
@@ -21442,6 +21738,6 @@
     ],
     "all_played": false,
     "any_played": false,
-    "date": null
+    "date": "19.07.26"
   }
 ]
