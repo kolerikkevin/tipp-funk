@@ -166,20 +166,30 @@ _TIP_RE = re.compile(r"(\d+)\s*:\s*(\d+)(?:\s+(\d+))?")
 def parse_tippuebersicht(doc: str, spieltag_index: int) -> dict:
     rows = _rows(doc)
 
+    # Rundenname der K.-o.-Phase steht im Spieltag-Auswähler ("dropdowntitle"),
+    # z.B. "Sechzehntelfinale" / "Achtelfinale". In der Gruppenphase steht dort
+    # Kicktipps interne Zählung ("10. Spieltag") – die brauchen wir nicht, weil
+    # Gruppenspiele die Gruppe in einer eigenen Spalte tragen.
+    dt_m = re.search(r'class="dropdowntitle"[^>]*>(.*?)</a>', doc, re.S)
+    round_name = _clean(dt_m.group(1)) if dt_m else None
+
     # ---- Tabelle A: Spiele + Ergebnisse ----------------------------------- #
     games = []
     for row in rows:
         vals = [_clean(inner) for _, inner in _cells(row)]
-        # Zeile: Termin | Heim | Gast | Gruppe | Ergebnis
-        if len(vals) >= 5 and re.match(r"\d{2}\.\d{2}\.\d{2}", vals[0]):
-            res = _RESULT_RE.search(vals[4])
+        # Spielzeile: Termin | Heim | Gast | [Gruppe] | Ergebnis.
+        # Gruppenphase = 5 Spalten (mit Gruppe), K.-o.-Phase = 4 (ohne Gruppe) –
+        # dort liefert der Spieltag-Titel den Rundennamen. Ergebnis = letzte Zelle.
+        if len(vals) >= 4 and re.match(r"\d{2}\.\d{2}\.\d{2}", vals[0]):
+            res = _RESULT_RE.search(vals[-1])
+            group = vals[3] if len(vals) >= 5 else round_name
             games.append(
                 {
                     "idx": len(games),
                     "kickoff": vals[0],
                     "home": vals[1],
                     "away": vals[2],
-                    "group": vals[3],
+                    "group": group,
                     "result": {"home": int(res.group(1)), "away": int(res.group(2))}
                     if res
                     else None,
