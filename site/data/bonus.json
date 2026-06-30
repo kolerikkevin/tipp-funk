@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-30T06:00:42",
+  "scraped_at": "2026-06-30T10:04:10",
   "n_questions": 18,
   "n_decided": 12,
   "points_each": 4,
@@ -1476,7 +1476,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -1875,7 +1875,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -1980,7 +1980,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -2414,7 +2414,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 4,
@@ -3471,7 +3471,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -3576,7 +3576,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -3604,7 +3604,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -3709,7 +3709,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -3737,7 +3737,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -3870,7 +3870,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -4003,7 +4003,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -4108,7 +4108,7 @@
           "abbr": "DEU",
           "full": "Deutschland",
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },

@@ -263,7 +263,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -662,7 +662,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -767,7 +767,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -1201,7 +1201,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 4,
@@ -2258,7 +2258,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -2363,7 +2363,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -2391,7 +2391,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -2496,7 +2496,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -2524,7 +2524,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -2657,7 +2657,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -2790,7 +2790,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         },
         {
           "slot": 3,
@@ -2895,7 +2895,7 @@
           "abbr": "DEU",
           "points": 0,
           "correct": false,
-          "wrong": false
+          "wrong": true
         }
       ]
     },
@@ -3065,5 +3065,5 @@
     "TUR": "Türkei",
     "USA": "USA"
   },
-  "scraped_at": "2026-06-30T06:00:42"
+  "scraped_at": "2026-06-30T10:04:10"
 }
