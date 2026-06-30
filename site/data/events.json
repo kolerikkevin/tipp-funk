@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-29T12:12:47",
-  "latest": "Mo, 29.06.",
+  "generated_for": "2026-06-30T06:00:53",
+  "latest": "Di, 30.06.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -861,9 +861,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Mi, 17.06.",
           "edition": 6,
-          "primary": "Schrammadonna",
+          "primary": "Reinoldo",
           "facts": {
-            "platz": 15,
+            "platz": 16,
             "tage": 4
           },
           "score": 0.5
@@ -1167,9 +1167,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Sa, 20.06.",
           "edition": 9,
-          "primary": "Schrammadonna",
+          "primary": "Matthias",
           "facts": {
-            "platz": 9,
+            "platz": 11,
             "tage": 4
           },
           "score": 0.5
@@ -1632,9 +1632,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Di, 23.06.",
           "edition": 12,
-          "primary": "salvanize",
+          "primary": "Philipp_Flink",
           "facts": {
-            "platz": 8,
+            "platz": 16,
             "tage": 4
           },
           "score": 0.5
@@ -1848,8 +1848,8 @@
             "was": "Gruppe A",
             "ergebnis": "Mexiko",
             "treffer": 14,
-            "leer": 6,
-            "gesamt": 20
+            "leer": 7,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "Do, 25.06.",
@@ -1862,8 +1862,8 @@
             "was": "Gruppe B",
             "ergebnis": "Schweiz",
             "treffer": 15,
-            "leer": 5,
-            "gesamt": 20
+            "leer": 6,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "Do, 25.06.",
@@ -1876,8 +1876,8 @@
             "was": "Gruppe C",
             "ergebnis": "Brasilien",
             "treffer": 14,
-            "leer": 6,
-            "gesamt": 20
+            "leer": 7,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "Do, 25.06.",
@@ -2047,8 +2047,8 @@
             "was": "Gruppe D",
             "ergebnis": "USA",
             "treffer": 3,
-            "leer": 17,
-            "gesamt": 20,
+            "leer": 18,
+            "gesamt": 21,
             "treffer_namen": [
               "Schielotterbeck",
               "Lochsocke",
@@ -2066,12 +2066,16 @@
             "was": "Gruppe E",
             "ergebnis": "Deutschland",
             "treffer": 19,
-            "leer": 1,
-            "gesamt": 20,
+            "leer": 2,
+            "gesamt": 21,
             "leer_detail": [
               {
                 "name": "LinkeKlebe",
                 "tipp": "Elfenbeinküste"
+              },
+              {
+                "name": "LaranelMessi",
+                "tipp": null
               }
             ]
           },
@@ -2086,8 +2090,8 @@
             "was": "Gruppe F",
             "ergebnis": "Niederlande",
             "treffer": 16,
-            "leer": 4,
-            "gesamt": 20
+            "leer": 5,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "Fr, 26.06.",
@@ -2121,9 +2125,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Fr, 26.06.",
           "edition": 15,
-          "primary": "Zidanima",
+          "primary": "Matthias",
           "facts": {
-            "platz": 12,
+            "platz": 9,
             "tage": 4
           },
           "score": 0.5
@@ -2226,12 +2230,16 @@
             "was": "Gruppe G",
             "ergebnis": "Belgien",
             "treffer": 19,
-            "leer": 1,
-            "gesamt": 20,
+            "leer": 2,
+            "gesamt": 21,
             "leer_detail": [
               {
                 "name": "Weckenbauer",
                 "tipp": "Iran"
+              },
+              {
+                "name": "LaranelMessi",
+                "tipp": null
               }
             ]
           },
@@ -2246,8 +2254,14 @@
             "was": "Gruppe H",
             "ergebnis": "Spanien",
             "treffer": 20,
-            "leer": 0,
-            "gesamt": 20
+            "leer": 1,
+            "gesamt": 21,
+            "leer_detail": [
+              {
+                "name": "LaranelMessi",
+                "tipp": null
+              }
+            ]
           },
           "score": 0.72,
           "date": "Sa, 27.06.",
@@ -2260,12 +2274,16 @@
             "was": "Gruppe I",
             "ergebnis": "Frankreich",
             "treffer": 19,
-            "leer": 1,
-            "gesamt": 20,
+            "leer": 2,
+            "gesamt": 21,
             "leer_detail": [
               {
                 "name": "TorTippTeddy",
                 "tipp": "Senegal"
+              },
+              {
+                "name": "LaranelMessi",
+                "tipp": null
               }
             ]
           },
@@ -2400,8 +2418,8 @@
             "was": "Gruppe J",
             "ergebnis": "Argentinien",
             "treffer": 18,
-            "leer": 2,
-            "gesamt": 20,
+            "leer": 3,
+            "gesamt": 21,
             "leer_detail": [
               {
                 "name": "Matthias",
@@ -2410,6 +2428,10 @@
               {
                 "name": "Weckenbauer",
                 "tipp": "Österreich"
+              },
+              {
+                "name": "LaranelMessi",
+                "tipp": null
               }
             ]
           },
@@ -2424,8 +2446,8 @@
             "was": "Gruppe K",
             "ergebnis": "KOL",
             "treffer": 0,
-            "leer": 20,
-            "gesamt": 20
+            "leer": 21,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "So, 28.06.",
@@ -2438,22 +2460,8 @@
             "was": "Gruppe L",
             "ergebnis": "England",
             "treffer": 17,
-            "leer": 3,
-            "gesamt": 20,
-            "leer_detail": [
-              {
-                "name": "Don_Kuhbert",
-                "tipp": "Kroatien"
-              },
-              {
-                "name": "Kicklberger",
-                "tipp": "Kroatien"
-              },
-              {
-                "name": "K_linsman_N",
-                "tipp": "Kroatien"
-              }
-            ]
+            "leer": 4,
+            "gesamt": 21
           },
           "score": 0.72,
           "date": "So, 28.06.",
@@ -2749,9 +2757,9 @@
           "type": "mittelfeld_dauergast",
           "date": "Mo, 29.06.",
           "edition": 18,
-          "primary": "BenzEma",
+          "primary": "Zidanima",
           "facts": {
-            "platz": 11,
+            "platz": 12,
             "tage": 4
           },
           "score": 0.5
@@ -2766,23 +2774,158 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Di, 30.06.",
+      "phase": "Sechzehntelfinale",
+      "span": "29.–30.06.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "games": [
+        {
+          "partie": "Brasilien–Japan",
+          "ergebnis": "2:1"
+        },
+        {
+          "partie": "Deutschland–Paraguay",
+          "ergebnis": "4:5"
+        },
+        {
+          "partie": "Niederlande–Marokko",
+          "ergebnis": "3:4"
+        }
+      ],
+      "events": [
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "Matthias",
+          "facts": {
+            "spiel": "Deutschland–Paraguay",
+            "ergebnis": "4:5",
+            "quote": "nur 1 von 20 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.8999999999999999
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 7,
+            "exakte_treffer": 1
+          },
+          "score": 0.8
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiel": "Niederlande–Marokko",
+            "ergebnis": "3:4",
+            "quote": "nur 4 von 20 lagen richtig",
+            "punkte": 2
+          },
+          "score": 0.75
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "salvanize",
+          "facts": {
+            "spiel": "Niederlande–Marokko",
+            "ergebnis": "3:4",
+            "quote": "nur 4 von 20 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.75
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "Matthias",
+          "facts": {
+            "spiel": "Niederlande–Marokko",
+            "ergebnis": "3:4",
+            "quote": "nur 4 von 20 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.75
+        },
+        {
+          "type": "unwahrscheinlicher_treffer",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "Weckenbauer",
+          "facts": {
+            "spiel": "Niederlande–Marokko",
+            "ergebnis": "3:4",
+            "quote": "nur 4 von 20 lagen richtig",
+            "punkte": 3
+          },
+          "score": 0.75
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Di, 30.06.",
+          "edition": 19,
+          "primary": "Kicklberger",
+          "facts": {
+            "von": 18,
+            "auf": 16,
+            "plaetze": 2
+          },
+          "score": 0.65
+        },
+        {
+          "type": "absteiger",
+          "date": "Di, 30.06.",
+          "edition": 19,
+          "primary": "GG",
+          "facts": {
+            "von": 10,
+            "auf": 12,
+            "plaetze": 2
+          },
+          "score": 0.53
+        },
+        {
+          "type": "pechvogel",
+          "date": "Mo, 29.06.",
+          "edition": 19,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "punkte": 0
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "Mo, 29.06.",
-          "edition": 19,
+          "date": "Di, 30.06.",
+          "edition": 20,
           "primary": "Schielotterbeck",
           "facts": {
-            "tage": 4,
-            "punkte": 165
+            "tage": 5,
+            "punkte": 167
           },
           "score": 0.8
         },
         {
           "type": "saison_aufsteiger",
-          "date": "Mo, 29.06.",
-          "edition": 19,
+          "date": "Di, 30.06.",
+          "edition": 20,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -2790,6 +2933,17 @@
             "plaetze": 17
           },
           "score": 0.6
+        },
+        {
+          "type": "rote_laterne",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "LaranelMessi",
+          "facts": {
+            "platz": 21,
+            "punkte": 4
+          },
+          "score": 0.35
         }
       ]
     }
@@ -2800,7 +2954,7 @@
       "label": "Sechzehntelfinale",
       "gruppenphase": false,
       "complete": false,
-      "end_date": "2026-06-28"
+      "end_date": "2026-06-29"
     },
     {
       "key": "g:3",
