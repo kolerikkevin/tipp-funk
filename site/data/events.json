@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-06-30T10:41:17",
-  "latest": "Di, 30.06.",
+  "generated_for": "2026-07-01T06:00:55",
+  "latest": "Mi, 01.07.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -2909,23 +2909,191 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "label": "Mi, 01.07.",
+      "phase": "Sechzehntelfinale",
+      "span": "30.–01.07.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "games": [
+        {
+          "partie": "Elfenbeinküste–Norwegen",
+          "ergebnis": "1:2"
+        },
+        {
+          "partie": "Frankreich–Schweden",
+          "ergebnis": "3:0"
+        },
+        {
+          "partie": "Mexiko–Ecuador",
+          "ergebnis": "2:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Tippmon",
+          "facts": {
+            "spiele": 3,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "GG",
+          "facts": {
+            "spiele": 3,
+            "punkte": 6
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "TippTommy",
+          "facts": {
+            "spiele": 3,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 3,
+            "punkte": 12
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Matthias",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 3,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "TorTippTeddy",
+          "facts": {
+            "spiele": 3,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Schrammadonna",
+          "facts": {
+            "punkte": 12,
+            "exakte_treffer": 3
+          },
+          "score": 0.8
+        },
+        {
+          "type": "tagessieger",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "Tippmon",
+          "facts": {
+            "punkte": 12,
+            "exakte_treffer": 3
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Mi, 01.07.",
+          "edition": 20,
+          "primary": "Matthias",
+          "facts": {
+            "von": 11,
+            "auf": 9,
+            "plaetze": 2
+          },
+          "score": 0.65
+        },
+        {
+          "type": "pechvogel",
+          "date": "Di, 30.06.",
+          "edition": 20,
+          "primary": "LaranelMessi",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "Di, 30.06.",
-          "edition": 20,
+          "date": "Mi, 01.07.",
+          "edition": 21,
           "primary": "Schielotterbeck",
           "facts": {
-            "tage": 5,
-            "punkte": 167
+            "tage": 6,
+            "punkte": 174
           },
           "score": 0.8
         },
         {
           "type": "saison_aufsteiger",
-          "date": "Di, 30.06.",
-          "edition": 20,
+          "date": "Mi, 01.07.",
+          "edition": 21,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -2936,12 +3104,12 @@
         },
         {
           "type": "rote_laterne",
-          "date": "Di, 30.06.",
-          "edition": 20,
+          "date": "Mi, 01.07.",
+          "edition": 21,
           "primary": "LaranelMessi",
           "facts": {
             "platz": 21,
-            "punkte": 4
+            "punkte": 6
           },
           "score": 0.35
         }
@@ -2954,7 +3122,7 @@
       "label": "Sechzehntelfinale",
       "gruppenphase": false,
       "complete": false,
-      "end_date": "2026-06-29"
+      "end_date": "2026-06-30"
     },
     {
       "key": "g:3",

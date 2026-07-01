@@ -843,69 +843,93 @@
     "published_at": "2026-06-30T06:00"
   },
   "2026-06-30": {
-    "sig": "067e4e27d18e5329",
+    "sig": "09ca6eab98d07664",
     "headlines": [
       {
-        "text": "Salva-Wahnsinn! salvanize krallt sich den Tagesthron",
-        "erklaerung": "Mit satten 7 Punkten holt salvanize an diesem Sechzehntelfinal-Tag den Tagessieg vor versammelter Konkurrenz. Ein ergebnisgenauer Volltreffer war dabei, dazu der goldene Riecher beim 3:4-Krimi Niederlande gegen Marokko.",
+        "text": "Salvanize kickt alle in die Tonne!",
+        "erklaerung": "Mit 7 Punkten und einem ergebnisgenauen Volltreffer schnappt sich salvanize souverän den Tagessieg. Beim Marokko-Wahnsinn (3:4) gehörte er zudem zu den nur vier von 20, die die Tendenz richtig hatten.",
         "type": "tagessieger",
         "tipper": "salvanize"
       },
       {
-        "text": "Matthias, der Hellseher von Deutschland gegen Paraguay",
-        "erklaerung": "Beim irren 4:5 der DFB-Elf gegen Paraguay lag nur einer von 20 Tippern richtig – und das war Matthias mit 3 Punkten. Der Mann hatte als Einziger den Ausgang dieses Torfestivals auf dem Zettel.",
+        "text": "Torfestival in Deutschland – Matthias der einsame Prophet!",
+        "erklaerung": "Beim irren 4:5 gegen Paraguay lag nur 1 von 20 Tippern richtig – und das war Matthias. Für den erkannten Ausgang gab es 3 verdiente Punkte, während der Rest ratlos zusah.",
         "type": "unwahrscheinlicher_treffer",
         "tipper": "Matthias"
       },
       {
-        "text": "Schrammadonna trifft beim Oranje-Drama ins Schwarze",
-        "erklaerung": "Beim 3:4 der Niederlande gegen Marokko gehörte Schrammadonna zu den nur vier von 20, die richtig lagen, und sackte 2 Punkte ein. Die Tendenz im Marokko-Wahnsinn hatte er goldrichtig.",
+        "text": "Schrammadonna trifft, wo andere baden gehen",
+        "erklaerung": "Beim spektakulären 3:4 der Niederlande gegen Marokko hatte Schrammadonna als einer von nur vier Tippern den Ausgang richtig auf dem Zettel. Dafür wandern 2 Punkte auf sein Konto.",
         "type": "unwahrscheinlicher_treffer",
         "tipper": "Schrammadonna"
       },
       {
-        "text": "Weckenbauer wittert das Oranje-Beben",
-        "erklaerung": "Auch Weckenbauer gehörte beim 3:4-Coup von Marokko gegen die Niederlande zu den wenigen Treffsicheren und holte 3 Punkte. Nur vier von 20 Tippern lagen bei diesem Außenseitersieg richtig.",
+        "text": "Weckenbauer im Marokko-Rausch mitgeritten",
+        "erklaerung": "Auch Weckenbauer gehörte beim 3:4-Krimi zu den seltenen vier von 20, die richtig lagen. Der clevere Riecher wird mit 3 Punkten belohnt.",
         "type": "unwahrscheinlicher_treffer",
         "tipper": "Weckenbauer"
       },
       {
-        "text": "Kicklberger klettert – zwei Plätze Rückenwind",
-        "erklaerung": "Kicklberger arbeitet sich von Rang 18 auf Rang 16 nach vorne. Zwei Plätze gutgemacht und Kurs Richtung Tabellenmitte aufgenommen.",
+        "text": "Kicklberger klettert – Aufholjagd im Anmarsch!",
+        "erklaerung": "Mit einem starken Spieltag schiebt sich Kicklberger von Platz 18 auf Platz 16 nach vorne. Zwei Ränge gutgemacht, das Ziel Mittelfeld rückt näher.",
         "type": "aufsteiger",
         "tipper": "Kicklberger"
       },
       {
-        "text": "GG rutscht ab – zwei Plätze in den Keller",
-        "erklaerung": "Für GG ging es an diesem Spieltag von Platz 10 auf Platz 12 abwärts. Zwei Ränge verloren, die Aufholjagd muss warten.",
+        "text": "GG rutscht ab – der Fahrstuhl geht nach unten",
+        "erklaerung": "Zwei Plätze verloren: GG fällt von Rang 10 auf Rang 12 zurück. An diesem Spieltag lief es für ihn nicht nach Plan.",
         "type": "absteiger",
         "tipper": "GG"
       },
       {
-        "text": "Don_Kuhbert geht baden: null Pünktchen",
-        "erklaerung": "An diesem Sechzehntelfinal-Tag bleibt Don_Kuhbert mit glatten 0 Punkten komplett ohne Ausbeute. Bei drei Torfestivals ausgerechnet alles daneben – das schmerzt.",
+        "text": "Don Kuhbert geht die Milch aus – null Zähler!",
+        "erklaerung": "An diesem Spieltag blieb Don_Kuhbert mit 0 Punkten komplett ohne Ausbeute. Kein Treffer, keine Tendenz – ein Abend zum Vergessen.",
         "type": "pechvogel",
         "tipper": "Don_Kuhbert"
+      }
+    ],
+    "published_at": "2026-07-01T06:00"
+  },
+  "2026-07-01": {
+    "sig": "fd71dab7e4646147",
+    "headlines": [
+      {
+        "text": "Doppel-Zwölfer! Schrammadonna und Tippmon zaubern den perfekten Abend",
+        "erklaerung": "Beide räumten an diesem Sechzehntelfinal-Spieltag die volle Punktzahl von 12 ab und tippten alle drei Partien ergebnisgenau. Elfenbeinküste–Norwegen 1:2, Frankreich–Schweden 3:0 und Mexiko–Ecuador 2:0 – dreimal ins Schwarze für das Traumduo.",
+        "type": "tagessieger",
+        "tipper": "Schrammadonna"
       },
       {
-        "text": "Schielotterbeck thront seit fünf Tagen wie eine Eins",
-        "erklaerung": "Mit 167 Punkten führt Schielotterbeck das Feld bereits den fünften Tag in Folge an. Die unfassbare Reise von Rang 18 auf Platz 1 – satte 17 Plätze nach oben – krönt diese Machtdemonstration.",
+        "text": "Tippmon hämmert die Hand Gottes des Tippspiels ins Netz",
+        "erklaerung": "Mit drei exakten Treffern und 12 Punkten teilt sich Tippmon den Tagessieg mit Schrammadonna. Auf der Jagd nach der Spitze fehlen jetzt nur noch sechs Zähler auf Dauerführende Schielotterbeck.",
+        "type": "tagessieger",
+        "tipper": "Tippmon"
+      },
+      {
+        "text": "Schielotterbeck thront weiter – Tag sechs an der Sonne",
+        "erklaerung": "Mit 174 Punkten führt Schielotterbeck den sechsten Tag in Folge das Klassement an. Der Sprung von Platz 18 auf Platz 1 bleibt die Aufsteiger-Sensation der Saison.",
         "type": "fuehrungsserie",
         "tipper": "Schielotterbeck"
       },
       {
-        "text": "Vom Keller auf den Gipfel: Schielotterbecks Raketenstart",
-        "erklaerung": "Schielotterbeck hat sich von Platz 18 bis ganz nach oben auf Rang 1 katapultiert. 17 Plätze Aufstieg – eine Aufholjagd für die Geschichtsbücher.",
+        "text": "Vom Keller auf den Thron: Schielotterbecks 17-Plätze-Rakete",
+        "erklaerung": "Einst auf Rang 18 abgeschlagen, klettert Schielotterbeck spektakulär bis ganz nach oben auf Platz 1. Ganze 17 Plätze gutgemacht – das nennt man eine echte Aufholjagd.",
         "type": "saison_aufsteiger",
         "tipper": "Schielotterbeck"
       },
       {
-        "text": "LaranelMessi und die rote Laterne als treue Begleiterin",
-        "erklaerung": "Mit mageren 4 Punkten ziert LaranelMessi weiterhin Platz 21 ganz am Tabellenende. Der große Name verpflichtet – die Punkteausbeute hinkt dem Vorbild noch gewaltig hinterher.",
-        "type": "rote_laterne",
+        "text": "Matthias schiebt sich nach vorn – zwei Plätze geklettert",
+        "erklaerung": "Mit 8 Punkten am Spieltag verbesserte sich Matthias von Rang 11 auf Rang 9. Ein solider Abend, der ihn in die einstelligen Ränge hievt.",
+        "type": "aufsteiger",
+        "tipper": "Matthias"
+      },
+      {
+        "text": "LaranelMessi im Pech: Nur mickrige 2 Punkte und die rote Laterne",
+        "erklaerung": "Am Tag der großen Volltreffer kam LaranelMessi über magere 2 Zähler nicht hinaus. Mit insgesamt 6 Punkten bleibt das Schlusslicht auf Platz 21 kleben.",
+        "type": "pechvogel",
         "tipper": "LaranelMessi"
       }
     ],
-    "published_at": "2026-06-30T06:00"
+    "published_at": "2026-07-01T06:00"
   }
 }
