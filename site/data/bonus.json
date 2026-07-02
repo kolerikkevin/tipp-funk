@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-01T10:50:23",
+  "scraped_at": "2026-07-02T06:00:51",
   "n_questions": 18,
   "n_decided": 12,
   "points_each": 4,
@@ -54,14 +54,14 @@
           "full": "Frankreich",
           "count": 11,
           "names": [
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Toritz",
             "GG",
-            "Zidanima",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer"
@@ -76,8 +76,8 @@
             "Schielotterbeck",
             "Tippmon",
             "Schrammadonna",
-            "salvanize",
-            "Matthias"
+            "Matthias",
+            "salvanize"
           ],
           "is_result": false
         },
@@ -132,11 +132,11 @@
             "Schielotterbeck",
             "Stockfish91",
             "TippTommy",
-            "BenzEma",
             "GG",
+            "BenzEma",
             "Zidanima",
-            "Kicklberger",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo"
           ],
@@ -151,8 +151,8 @@
             "LinkeKlebe",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Lochsocke",
+            "salvanize",
             "Don_Kuhbert",
             "TorTippTeddy"
           ],
@@ -214,8 +214,8 @@
             "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "BenzEma",
             "GG",
+            "BenzEma",
             "Philipp_Flink"
           ],
           "is_result": false
@@ -226,9 +226,9 @@
           "count": 5,
           "names": [
             "LinkeKlebe",
-            "salvanize",
             "Matthias",
             "TippTommy",
+            "salvanize",
             "Zidanima"
           ],
           "is_result": false
@@ -267,11 +267,11 @@
             "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "BenzEma",
             "GG",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer"
@@ -356,20 +356,20 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "Reinoldo"
           ],
           "is_result": false
@@ -423,14 +423,14 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
+            "salvanize",
             "GG",
             "Don_Kuhbert",
             "Kicklberger",
@@ -473,14 +473,14 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
+        "salvanize",
         "GG",
         "Don_Kuhbert",
         "Kicklberger",
@@ -516,16 +516,16 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
             "Matthias",
             "TippTommy",
             "Lochsocke",
             "BenzEma",
-            "Zidanima",
             "Don_Kuhbert",
+            "Zidanima",
             "Philipp_Flink",
             "K_linsman_N",
             "Reinoldo"
@@ -558,16 +558,16 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
         "Matthias",
         "TippTommy",
         "Lochsocke",
         "BenzEma",
-        "Zidanima",
         "Don_Kuhbert",
+        "Zidanima",
         "Philipp_Flink",
         "K_linsman_N",
         "Reinoldo"
@@ -601,14 +601,14 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Toritz",
-            "salvanize",
             "Matthias",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
+            "BenzEma",
             "Philipp_Flink",
             "K_linsman_N",
             "Reinoldo",
@@ -623,8 +623,8 @@
           "names": [
             "Schrammadonna",
             "TippTommy",
-            "Zidanima",
             "Don_Kuhbert",
+            "Zidanima",
             "TorTippTeddy"
           ],
           "is_result": false
@@ -643,14 +643,14 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Toritz",
-        "salvanize",
         "Matthias",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
+        "BenzEma",
         "Philipp_Flink",
         "K_linsman_N",
         "Reinoldo",
@@ -659,8 +659,8 @@
       "missed": [
         "Schrammadonna",
         "TippTommy",
-        "Zidanima",
         "Don_Kuhbert",
+        "Zidanima",
         "Kicklberger",
         "TorTippTeddy",
         "LaranelMessi"
@@ -688,12 +688,12 @@
             "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "TippTommy",
+            "salvanize",
             "BenzEma",
             "Zidanima",
-            "Kicklberger",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "TorTippTeddy"
           ],
@@ -740,18 +740,18 @@
       ],
       "missed": [
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
+        "salvanize",
         "BenzEma",
-        "Zidanima",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "Weckenbauer",
@@ -782,16 +782,16 @@
             "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer",
@@ -816,16 +816,16 @@
         "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "Weckenbauer",
@@ -856,19 +856,19 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "Reinoldo"
           ],
           "is_result": true
@@ -898,19 +898,19 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "Reinoldo"
       ],
       "missed": [
@@ -941,20 +941,20 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "TorTippTeddy"
@@ -975,20 +975,20 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "TorTippTeddy"
@@ -1018,20 +1018,20 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer",
@@ -1044,20 +1044,20 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "Weckenbauer",
@@ -1087,20 +1087,20 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer"
@@ -1121,20 +1121,20 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "Weckenbauer"
@@ -1164,19 +1164,19 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "TorTippTeddy"
@@ -1198,19 +1198,19 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "TorTippTeddy"
@@ -1241,20 +1241,20 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
-            "Zidanima",
+            "BenzEma",
             "Don_Kuhbert",
-            "Kicklberger",
+            "Zidanima",
             "Philipp_Flink",
+            "Kicklberger",
             "K_linsman_N",
             "Reinoldo",
             "Weckenbauer",
@@ -1268,20 +1268,20 @@
       "missed": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
-        "Zidanima",
+        "BenzEma",
         "Don_Kuhbert",
-        "Kicklberger",
+        "Zidanima",
         "Philipp_Flink",
+        "Kicklberger",
         "K_linsman_N",
         "Reinoldo",
         "Weckenbauer",
@@ -1309,16 +1309,16 @@
           "names": [
             "Schielotterbeck",
             "Tippmon",
-            "Stockfish91",
             "LinkeKlebe",
+            "Stockfish91",
             "Schrammadonna",
             "Toritz",
-            "salvanize",
             "Matthias",
             "TippTommy",
             "Lochsocke",
-            "BenzEma",
+            "salvanize",
             "GG",
+            "BenzEma",
             "Zidanima",
             "Philipp_Flink",
             "Reinoldo",
@@ -1343,16 +1343,16 @@
       "scorers": [
         "Schielotterbeck",
         "Tippmon",
-        "Stockfish91",
         "LinkeKlebe",
+        "Stockfish91",
         "Schrammadonna",
         "Toritz",
-        "salvanize",
         "Matthias",
         "TippTommy",
         "Lochsocke",
-        "BenzEma",
+        "salvanize",
         "GG",
+        "BenzEma",
         "Zidanima",
         "Philipp_Flink",
         "Reinoldo",
@@ -1719,141 +1719,8 @@
       ]
     },
     {
-      "name": "Stockfish91",
-      "position": 3,
-      "bonus_points": 40,
-      "picks": [
-        {
-          "slot": 0,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "BRA",
-          "full": "Brasilien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
-          "abbr": "ENG",
-          "full": "England",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 3,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 4,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 5,
-          "abbr": "MEX",
-          "full": "Mexiko",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "CH",
-          "full": "Schweiz",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 7,
-          "abbr": "BRA",
-          "full": "Brasilien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 8,
-          "abbr": "TUR",
-          "full": "Türkei",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 9,
-          "abbr": "DEU",
-          "full": "Deutschland",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 10,
-          "abbr": "NIE",
-          "full": "Niederlande",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 11,
-          "abbr": "BEL",
-          "full": "Belgien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 12,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 13,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 14,
-          "abbr": "ARG",
-          "full": "Argentinien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 15,
-          "abbr": "POR",
-          "full": "Portugal",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 16,
-          "abbr": "ENG",
-          "full": "England",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 17,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        }
-      ]
-    },
-    {
       "name": "LinkeKlebe",
-      "position": 4,
+      "position": 3,
       "bonus_points": 36,
       "picks": [
         {
@@ -1979,6 +1846,139 @@
           "slot": 17,
           "abbr": "SPA",
           "full": "Spanien",
+          "correct": false,
+          "wrong": false
+        }
+      ]
+    },
+    {
+      "name": "Stockfish91",
+      "position": 4,
+      "bonus_points": 40,
+      "picks": [
+        {
+          "slot": 0,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 1,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
+          "abbr": "ENG",
+          "full": "England",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 3,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 4,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 5,
+          "abbr": "MEX",
+          "full": "Mexiko",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "CH",
+          "full": "Schweiz",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 7,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 8,
+          "abbr": "TUR",
+          "full": "Türkei",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 9,
+          "abbr": "DEU",
+          "full": "Deutschland",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 10,
+          "abbr": "NIE",
+          "full": "Niederlande",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 11,
+          "abbr": "BEL",
+          "full": "Belgien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 12,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 13,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 14,
+          "abbr": "ARG",
+          "full": "Argentinien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 15,
+          "abbr": "POR",
+          "full": "Portugal",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 16,
+          "abbr": "ENG",
+          "full": "England",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 17,
+          "abbr": "FRA",
+          "full": "Frankreich",
           "correct": false,
           "wrong": false
         }
@@ -2251,141 +2251,8 @@
       ]
     },
     {
-      "name": "salvanize",
-      "position": 7,
-      "bonus_points": 36,
-      "picks": [
-        {
-          "slot": 0,
-          "abbr": "ENG",
-          "full": "England",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "ARG",
-          "full": "Argentinien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 3,
-          "abbr": "SEN",
-          "full": "Senegal",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 4,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 5,
-          "abbr": "MEX",
-          "full": "Mexiko",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "BIH",
-          "full": "Bosnien-Herz.",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 7,
-          "abbr": "BRA",
-          "full": "Brasilien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 8,
-          "abbr": "TUR",
-          "full": "Türkei",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 9,
-          "abbr": "DEU",
-          "full": "Deutschland",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 10,
-          "abbr": "NIE",
-          "full": "Niederlande",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 11,
-          "abbr": "BEL",
-          "full": "Belgien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 12,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 13,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 14,
-          "abbr": "ARG",
-          "full": "Argentinien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 15,
-          "abbr": "POR",
-          "full": "Portugal",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 16,
-          "abbr": "ENG",
-          "full": "England",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 17,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        }
-      ]
-    },
-    {
       "name": "Matthias",
-      "position": 8,
+      "position": 7,
       "bonus_points": 32,
       "picks": [
         {
@@ -2517,141 +2384,8 @@
       ]
     },
     {
-      "name": "TippTommy",
-      "position": 9,
-      "bonus_points": 36,
-      "picks": [
-        {
-          "slot": 0,
-          "abbr": "ARG",
-          "full": "Argentinien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "BRA",
-          "full": "Brasilien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 3,
-          "abbr": "POR",
-          "full": "Portugal",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 4,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 5,
-          "abbr": "MEX",
-          "full": "Mexiko",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "CH",
-          "full": "Schweiz",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 7,
-          "abbr": "MAR",
-          "full": "Marokko",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 8,
-          "abbr": "TUR",
-          "full": "Türkei",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 9,
-          "abbr": "DEU",
-          "full": "Deutschland",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 10,
-          "abbr": "NIE",
-          "full": "Niederlande",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 11,
-          "abbr": "BEL",
-          "full": "Belgien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 12,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 13,
-          "abbr": "FRA",
-          "full": "Frankreich",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 14,
-          "abbr": "ARG",
-          "full": "Argentinien",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 15,
-          "abbr": "POR",
-          "full": "Portugal",
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 16,
-          "abbr": "ENG",
-          "full": "England",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 17,
-          "abbr": "SPA",
-          "full": "Spanien",
-          "correct": false,
-          "wrong": false
-        }
-      ]
-    },
-    {
       "name": "Lochsocke",
-      "position": 10,
+      "position": 8,
       "bonus_points": 44,
       "picks": [
         {
@@ -2783,14 +2517,14 @@
       ]
     },
     {
-      "name": "BenzEma",
-      "position": 11,
+      "name": "TippTommy",
+      "position": 8,
       "bonus_points": 36,
       "picks": [
         {
           "slot": 0,
-          "abbr": "BRA",
-          "full": "Brasilien",
+          "abbr": "ARG",
+          "full": "Argentinien",
           "correct": false,
           "wrong": false
         },
@@ -2803,15 +2537,15 @@
         },
         {
           "slot": 2,
-          "abbr": "ENG",
-          "full": "England",
+          "abbr": "FRA",
+          "full": "Frankreich",
           "correct": false,
           "wrong": false
         },
         {
           "slot": 3,
-          "abbr": "FRA",
-          "full": "Frankreich",
+          "abbr": "POR",
+          "full": "Portugal",
           "correct": false,
           "wrong": false
         },
@@ -2824,10 +2558,10 @@
         },
         {
           "slot": 5,
-          "abbr": "SKOR",
-          "full": "Südkorea",
-          "correct": false,
-          "wrong": true
+          "abbr": "MEX",
+          "full": "Mexiko",
+          "correct": true,
+          "wrong": false
         },
         {
           "slot": 6,
@@ -2838,10 +2572,10 @@
         },
         {
           "slot": 7,
-          "abbr": "BRA",
-          "full": "Brasilien",
-          "correct": true,
-          "wrong": false
+          "abbr": "MAR",
+          "full": "Marokko",
+          "correct": false,
+          "wrong": true
         },
         {
           "slot": 8,
@@ -2908,8 +2642,8 @@
         },
         {
           "slot": 17,
-          "abbr": "FRA",
-          "full": "Frankreich",
+          "abbr": "SPA",
+          "full": "Spanien",
           "correct": false,
           "wrong": false
         }
@@ -2917,7 +2651,7 @@
     },
     {
       "name": "GG",
-      "position": 12,
+      "position": 10,
       "bonus_points": 40,
       "picks": [
         {
@@ -3049,21 +2783,21 @@
       ]
     },
     {
-      "name": "Zidanima",
-      "position": 13,
-      "bonus_points": 32,
+      "name": "salvanize",
+      "position": 10,
+      "bonus_points": 36,
       "picks": [
         {
           "slot": 0,
-          "abbr": "FRA",
-          "full": "Frankreich",
+          "abbr": "ENG",
+          "full": "England",
           "correct": false,
           "wrong": false
         },
         {
           "slot": 1,
-          "abbr": "BRA",
-          "full": "Brasilien",
+          "abbr": "ARG",
+          "full": "Argentinien",
           "correct": false,
           "wrong": false
         },
@@ -3076,8 +2810,141 @@
         },
         {
           "slot": 3,
+          "abbr": "SEN",
+          "full": "Senegal",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 4,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 5,
+          "abbr": "MEX",
+          "full": "Mexiko",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "BIH",
+          "full": "Bosnien-Herz.",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 7,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 8,
+          "abbr": "TUR",
+          "full": "Türkei",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 9,
+          "abbr": "DEU",
+          "full": "Deutschland",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 10,
+          "abbr": "NIE",
+          "full": "Niederlande",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 11,
+          "abbr": "BEL",
+          "full": "Belgien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 12,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 13,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 14,
+          "abbr": "ARG",
+          "full": "Argentinien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 15,
           "abbr": "POR",
           "full": "Portugal",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 16,
+          "abbr": "ENG",
+          "full": "England",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 17,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": false,
+          "wrong": false
+        }
+      ]
+    },
+    {
+      "name": "BenzEma",
+      "position": 12,
+      "bonus_points": 36,
+      "picks": [
+        {
+          "slot": 0,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 1,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
+          "abbr": "ENG",
+          "full": "England",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 3,
+          "abbr": "FRA",
+          "full": "Frankreich",
           "correct": false,
           "wrong": false
         },
@@ -3104,10 +2971,10 @@
         },
         {
           "slot": 7,
-          "abbr": "MAR",
-          "full": "Marokko",
-          "correct": false,
-          "wrong": true
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": true,
+          "wrong": false
         },
         {
           "slot": 8,
@@ -3183,7 +3050,7 @@
     },
     {
       "name": "Don_Kuhbert",
-      "position": 14,
+      "position": 13,
       "bonus_points": 32,
       "picks": [
         {
@@ -3315,9 +3182,9 @@
       ]
     },
     {
-      "name": "Kicklberger",
-      "position": 15,
-      "bonus_points": 28,
+      "name": "Zidanima",
+      "position": 14,
+      "bonus_points": 32,
       "picks": [
         {
           "slot": 0,
@@ -3335,15 +3202,15 @@
         },
         {
           "slot": 2,
-          "abbr": "DEU",
-          "full": "Deutschland",
+          "abbr": "FRA",
+          "full": "Frankreich",
           "correct": false,
-          "wrong": true
+          "wrong": false
         },
         {
           "slot": 3,
-          "abbr": "FRA",
-          "full": "Frankreich",
+          "abbr": "POR",
+          "full": "Portugal",
           "correct": false,
           "wrong": false
         },
@@ -3356,22 +3223,22 @@
         },
         {
           "slot": 5,
-          "abbr": "MEX",
-          "full": "Mexiko",
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "KAN",
-          "full": "Kanada",
+          "abbr": "SKOR",
+          "full": "Südkorea",
           "correct": false,
           "wrong": true
         },
         {
+          "slot": 6,
+          "abbr": "CH",
+          "full": "Schweiz",
+          "correct": true,
+          "wrong": false
+        },
+        {
           "slot": 7,
-          "abbr": "SCO",
-          "full": "Schottland",
+          "abbr": "MAR",
+          "full": "Marokko",
           "correct": false,
           "wrong": true
         },
@@ -3433,23 +3300,23 @@
         },
         {
           "slot": 16,
-          "abbr": "KRO",
-          "full": "Kroatien",
-          "correct": false,
-          "wrong": true
+          "abbr": "ENG",
+          "full": "England",
+          "correct": true,
+          "wrong": false
         },
         {
           "slot": 17,
-          "abbr": "DEU",
-          "full": "Deutschland",
+          "abbr": "FRA",
+          "full": "Frankreich",
           "correct": false,
-          "wrong": true
+          "wrong": false
         }
       ]
     },
     {
       "name": "Philipp_Flink",
-      "position": 16,
+      "position": 15,
       "bonus_points": 36,
       "picks": [
         {
@@ -3577,6 +3444,139 @@
           "full": "England",
           "correct": false,
           "wrong": false
+        }
+      ]
+    },
+    {
+      "name": "Kicklberger",
+      "position": 16,
+      "bonus_points": 28,
+      "picks": [
+        {
+          "slot": 0,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 1,
+          "abbr": "BRA",
+          "full": "Brasilien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
+          "abbr": "DEU",
+          "full": "Deutschland",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 3,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 4,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 5,
+          "abbr": "MEX",
+          "full": "Mexiko",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "KAN",
+          "full": "Kanada",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 7,
+          "abbr": "SCO",
+          "full": "Schottland",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 8,
+          "abbr": "TUR",
+          "full": "Türkei",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 9,
+          "abbr": "DEU",
+          "full": "Deutschland",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 10,
+          "abbr": "NIE",
+          "full": "Niederlande",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 11,
+          "abbr": "BEL",
+          "full": "Belgien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 12,
+          "abbr": "SPA",
+          "full": "Spanien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 13,
+          "abbr": "FRA",
+          "full": "Frankreich",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 14,
+          "abbr": "ARG",
+          "full": "Argentinien",
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 15,
+          "abbr": "POR",
+          "full": "Portugal",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 16,
+          "abbr": "KRO",
+          "full": "Kroatien",
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 17,
+          "abbr": "DEU",
+          "full": "Deutschland",
+          "correct": false,
+          "wrong": true
         }
       ]
     },
@@ -4323,14 +4323,14 @@
         "full": "Frankreich",
         "count": 11,
         "names": [
-          "Stockfish91",
           "LinkeKlebe",
+          "Stockfish91",
           "Toritz",
           "GG",
-          "Zidanima",
           "Don_Kuhbert",
-          "Kicklberger",
+          "Zidanima",
           "Philipp_Flink",
+          "Kicklberger",
           "K_linsman_N",
           "Reinoldo",
           "Weckenbauer"
@@ -4345,8 +4345,8 @@
           "Schielotterbeck",
           "Tippmon",
           "Schrammadonna",
-          "salvanize",
-          "Matthias"
+          "Matthias",
+          "salvanize"
         ],
         "is_result": false
       },

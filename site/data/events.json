@@ -1,6 +1,6 @@
 {
-  "generated_for": "2026-07-01T10:50:34",
-  "latest": "Mi, 01.07.",
+  "generated_for": "2026-07-02T06:01:05",
+  "latest": "Do, 02.07.",
   "editions": [
     {
       "date": "2026-06-12",
@@ -2840,7 +2840,7 @@
           "type": "unwahrscheinlicher_treffer",
           "date": "Mo, 29.06.",
           "edition": 19,
-          "primary": "salvanize",
+          "primary": "Matthias",
           "facts": {
             "spiel": "Niederlande–Marokko",
             "ergebnis": "3:4",
@@ -2853,7 +2853,7 @@
           "type": "unwahrscheinlicher_treffer",
           "date": "Mo, 29.06.",
           "edition": 19,
-          "primary": "Matthias",
+          "primary": "salvanize",
           "facts": {
             "spiel": "Niederlande–Marokko",
             "ergebnis": "3:4",
@@ -3077,23 +3077,226 @@
           },
           "score": 0.4
         }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "label": "Do, 02.07.",
+      "phase": "Sechzehntelfinale",
+      "span": "01.–02.07.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "games": [
+        {
+          "partie": "England–DR Kongo",
+          "ergebnis": "2:1"
+        },
+        {
+          "partie": "Belgien–Senegal",
+          "ergebnis": "3:2"
+        },
+        {
+          "partie": "USA–Bosnien-Herzegowina",
+          "ergebnis": "2:0"
+        }
+      ],
+      "events": [
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Lochsocke",
+          "facts": {
+            "spiele": 3,
+            "punkte": 7
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Stockfish91",
+          "facts": {
+            "spiele": 3,
+            "punkte": 6
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Toritz",
+          "facts": {
+            "spiele": 3,
+            "punkte": 10
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "GG",
+          "facts": {
+            "spiele": 3,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "LinkeKlebe",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Schrammadonna",
+          "facts": {
+            "spiele": 3,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Philipp_Flink",
+          "facts": {
+            "spiele": 3,
+            "punkte": 9
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "K_linsman_N",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Don_Kuhbert",
+          "facts": {
+            "spiele": 3,
+            "punkte": 8
+          },
+          "score": 0.95
+        },
+        {
+          "type": "perfekter_spieltag",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Kicklberger",
+          "facts": {
+            "spiele": 3,
+            "punkte": 6
+          },
+          "score": 0.95
+        },
+        {
+          "type": "tipp_vergessen",
+          "date": "Do, 02.07.",
+          "edition": 21,
+          "primary": "Zidanima",
+          "facts": {
+            "jetzt_platz": 13,
+            "lage": "mittelfeld"
+          },
+          "score": 0.85,
+          "lage": "mittelfeld"
+        },
+        {
+          "type": "tagessieger",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "Toritz",
+          "facts": {
+            "punkte": 10,
+            "exakte_treffer": 2
+          },
+          "score": 0.8
+        },
+        {
+          "type": "aufsteiger",
+          "date": "Do, 02.07.",
+          "edition": 21,
+          "primary": "Tippmon",
+          "facts": {
+            "von": 4,
+            "auf": 2,
+            "plaetze": 2
+          },
+          "score": 0.65
+        },
+        {
+          "type": "absteiger",
+          "date": "Do, 02.07.",
+          "edition": 21,
+          "primary": "Lochsocke",
+          "facts": {
+            "von": 8,
+            "auf": 10,
+            "plaetze": 2
+          },
+          "score": 0.53
+        },
+        {
+          "type": "mittelfeld_dauergast",
+          "date": "Do, 02.07.",
+          "edition": 21,
+          "primary": "Toritz",
+          "facts": {
+            "platz": 6,
+            "tage": 4
+          },
+          "score": 0.5
+        },
+        {
+          "type": "pechvogel",
+          "date": "Mi, 01.07.",
+          "edition": 21,
+          "primary": "salvanize",
+          "facts": {
+            "punkte": 2
+          },
+          "score": 0.4
+        }
       ],
       "season_events": [
         {
           "type": "fuehrungsserie",
-          "date": "Mi, 01.07.",
-          "edition": 21,
+          "date": "Do, 02.07.",
+          "edition": 22,
           "primary": "Schielotterbeck",
           "facts": {
-            "tage": 6,
-            "punkte": 174
+            "tage": 7,
+            "punkte": 180
           },
           "score": 0.8
         },
         {
           "type": "saison_aufsteiger",
-          "date": "Mi, 01.07.",
-          "edition": 21,
+          "date": "Do, 02.07.",
+          "edition": 22,
           "primary": "Schielotterbeck",
           "facts": {
             "von": 18,
@@ -3104,12 +3307,12 @@
         },
         {
           "type": "rote_laterne",
-          "date": "Mi, 01.07.",
-          "edition": 21,
+          "date": "Do, 02.07.",
+          "edition": 22,
           "primary": "LaranelMessi",
           "facts": {
             "platz": 21,
-            "punkte": 6
+            "punkte": 11
           },
           "score": 0.35
         }
@@ -3122,7 +3325,7 @@
       "label": "Sechzehntelfinale",
       "gruppenphase": false,
       "complete": false,
-      "end_date": "2026-06-30"
+      "end_date": "2026-07-01"
     },
     {
       "key": "g:3",

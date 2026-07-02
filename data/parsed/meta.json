@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-01T10:50:34",
+  "scraped_at": "2026-07-02T06:01:05",
   "round": "portfolioundentwicklung",
   "total_matchdays": 15,
   "played_matchdays": [
@@ -25,11 +25,11 @@
       "rank": 2
     },
     {
-      "name": "Stockfish91",
+      "name": "LinkeKlebe",
       "rank": 3
     },
     {
-      "name": "LinkeKlebe",
+      "name": "Stockfish91",
       "rank": 4
     },
     {
@@ -41,43 +41,43 @@
       "rank": 6
     },
     {
-      "name": "salvanize",
+      "name": "Matthias",
       "rank": 7
     },
     {
-      "name": "Matthias",
+      "name": "TippTommy",
       "rank": 8
     },
     {
-      "name": "TippTommy",
-      "rank": 9
+      "name": "Lochsocke",
+      "rank": 8
     },
     {
-      "name": "Lochsocke",
+      "name": "salvanize",
+      "rank": 10
+    },
+    {
+      "name": "GG",
       "rank": 10
     },
     {
       "name": "BenzEma",
-      "rank": 11
-    },
-    {
-      "name": "GG",
       "rank": 12
     },
     {
-      "name": "Zidanima",
+      "name": "Don_Kuhbert",
       "rank": 13
     },
     {
-      "name": "Don_Kuhbert",
+      "name": "Zidanima",
       "rank": 14
     },
     {
-      "name": "Kicklberger",
+      "name": "Philipp_Flink",
       "rank": 15
     },
     {
-      "name": "Philipp_Flink",
+      "name": "Kicklberger",
       "rank": 16
     },
     {

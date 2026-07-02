@@ -3,6 +3,61 @@
   "model": "claude-opus-4-8",
   "blocks": [
     {
+      "date": "2026-07-02",
+      "label": "Do, 02.07.",
+      "phase": "Sechzehntelfinale",
+      "span": "01.–02.07.",
+      "group_key": "k:Sechzehntelfinale",
+      "group": "Sechzehntelfinale",
+      "gruppenphase": false,
+      "published_at": "2026-07-02T06:01",
+      "complete": true,
+      "headlines": [
+        {
+          "text": "Toritz trifft ins Schwarze – Zehn-Punkte-Torpedo!",
+          "erklaerung": "Mit satten 10 Punkten und gleich zwei ergebnisgenauen Treffern krallt sich Toritz den Tagessieg des Sechzehntelfinales. England, Belgien und die USA – alle drei Partien perfekt gelesen.",
+          "type": "tagessieger",
+          "tipper": "Toritz"
+        },
+        {
+          "text": "Schielotterbeck thront – seit sieben Tagen unantastbar",
+          "erklaerung": "Mit 180 Punkten führt Schielotterbeck die Gesamtwertung an und verteidigt Platz eins bereits den siebten Tag in Folge. Von Rang 18 bis an die Spitze – ein Aufstieg über sagenhafte 17 Plätze.",
+          "type": "fuehrungsserie",
+          "tipper": "Schielotterbeck"
+        },
+        {
+          "text": "Tippmon schießt sich auf Platz zwei",
+          "erklaerung": "Mit einem starken Spieltag klettert Tippmon von Rang vier auf Rang zwei nach oben. Mit 174 Punkten sitzt er der Führenden Schielotterbeck nun im Nacken.",
+          "type": "aufsteiger",
+          "tipper": "Tippmon"
+        },
+        {
+          "text": "Lochsocke rutscht durch – trotz voller Punkte im Keller",
+          "erklaerung": "Lochsocke räumte an allen drei Partien ab und holte 7 Punkte, fällt in der Gesamtwertung aber dennoch von Platz acht auf Platz zehn. Die Konkurrenz war diesmal einfach noch treffsicherer.",
+          "type": "absteiger",
+          "tipper": "Lochsocke"
+        },
+        {
+          "text": "Zidanima verpennt das Sechzehntelfinale",
+          "erklaerung": "Beim großen Tipp-Feuerwerk fehlte ausgerechnet Zidanima – kein Tipp abgegeben. Auf Platz 13 im Mittelfeld bleibt so die Aufholjagd auf der Strecke.",
+          "type": "tipp_vergessen",
+          "tipper": "Zidanima"
+        },
+        {
+          "text": "salvanize erwischt den Elfmeter-Blues – nur mickrige 2 Punkte",
+          "erklaerung": "An einem Tag, an dem fast alle abräumten, ging für salvanize kaum etwas auf. Magere 2 Punkte machen ihn zum Pechvogel des Sechzehntelfinales.",
+          "type": "pechvogel",
+          "tipper": "salvanize"
+        },
+        {
+          "text": "LaranelMessi bleibt an der roten Laterne kleben",
+          "erklaerung": "Mit nur 11 Punkten ziert LaranelMessi weiterhin Platz 21 – das Tabellenende fest im Griff. Der Rückstand nach oben wird von Tag zu Tag größer.",
+          "type": "rote_laterne",
+          "tipper": "LaranelMessi"
+        }
+      ]
+    },
+    {
       "date": "2026-07-01",
       "label": "Mi, 01.07.",
       "phase": "Sechzehntelfinale",
@@ -10,42 +65,42 @@
       "group_key": "k:Sechzehntelfinale",
       "group": "Sechzehntelfinale",
       "gruppenphase": false,
-      "published_at": "2026-07-01T06:00",
+      "published_at": "2026-07-02T06:01",
       "complete": true,
       "headlines": [
         {
-          "text": "Doppel-Zwölfer! Schrammadonna und Tippmon zaubern den perfekten Abend",
-          "erklaerung": "Beide räumten an diesem Sechzehntelfinal-Spieltag die volle Punktzahl von 12 ab und tippten alle drei Partien ergebnisgenau. Elfenbeinküste–Norwegen 1:2, Frankreich–Schweden 3:0 und Mexiko–Ecuador 2:0 – dreimal ins Schwarze für das Traumduo.",
-          "type": "tagessieger",
-          "tipper": "Schrammadonna"
-        },
-        {
-          "text": "Tippmon hämmert die Hand Gottes des Tippspiels ins Netz",
-          "erklaerung": "Mit drei exakten Treffern und 12 Punkten teilt sich Tippmon den Tagessieg mit Schrammadonna. Auf der Jagd nach der Spitze fehlen jetzt nur noch sechs Zähler auf Dauerführende Schielotterbeck.",
+          "text": "Doppel-Diego und Tippmon räumen ab – alles exakt!",
+          "erklaerung": "Schrammadonna und Tippmon knallten mit 12 Punkten und drei ergebnisgenauen Treffern an die Tabellenspitze des Tages. Frankreichs 3:0, Mexikos 2:0 und Norwegens 1:2-Sieg – beide hatten jedes Resultat auf den Punkt.",
           "type": "tagessieger",
           "tipper": "Tippmon"
         },
         {
-          "text": "Schielotterbeck thront weiter – Tag sechs an der Sonne",
-          "erklaerung": "Mit 174 Punkten führt Schielotterbeck den sechsten Tag in Folge das Klassement an. Der Sprung von Platz 18 auf Platz 1 bleibt die Aufsteiger-Sensation der Saison.",
-          "type": "fuehrungsserie",
-          "tipper": "Schielotterbeck"
+          "text": "Schrammadonna dribbelt zum Maradona-Moment",
+          "erklaerung": "Mit drei exakten Ergebnissen und der vollen Punktzahl von 12 teilte sich Schrammadonna den Tagessieg. Elfenbeinküste, Frankreich und Mexiko – kein Spiel entkam dem Volltreffer.",
+          "type": "tagessieger",
+          "tipper": "Schrammadonna"
         },
         {
-          "text": "Vom Keller auf den Thron: Schielotterbecks 17-Plätze-Rakete",
-          "erklaerung": "Einst auf Rang 18 abgeschlagen, klettert Schielotterbeck spektakulär bis ganz nach oben auf Platz 1. Ganze 17 Plätze gutgemacht – das nennt man eine echte Aufholjagd.",
-          "type": "saison_aufsteiger",
-          "tipper": "Schielotterbeck"
+          "text": "Voll-Treffer-Tag: Das ganze Büro räumt ab!",
+          "erklaerung": "An diesem Sechzehntelfinal-Tag landete jeder Tipper alle drei Partien richtig – von Stockfish91 bis TorTippTeddy gab es nur volle Punktzahlen. Ein Spieltag ganz ohne Ausrutscher, angeführt von den 12-Punkte-Königen Tippmon und Schrammadonna.",
+          "type": "perfekter_spieltag",
+          "tipper": "Stockfish91"
         },
         {
-          "text": "Matthias schiebt sich nach vorn – zwei Plätze geklettert",
-          "erklaerung": "Mit 8 Punkten am Spieltag verbesserte sich Matthias von Rang 11 auf Rang 9. Ein solider Abend, der ihn in die einstelligen Ränge hievt.",
+          "text": "Kicklberger und Teddy schnuppern an der Spitze",
+          "erklaerung": "Mit jeweils 10 Punkten und drei richtigen Tendenzen fuhren Kicklberger und TorTippTeddy eine dicke Ausbeute ein. Zum ganz großen Tagescoup fehlte nur ein Quäntchen Ergebnisgenauigkeit.",
+          "type": "perfekter_spieltag",
+          "tipper": "Kicklberger"
+        },
+        {
+          "text": "Matthias klettert – zwei Plätze nach oben!",
+          "erklaerung": "Mit 8 Punkten und drei richtigen Tipps schob sich Matthias von Rang 11 auf Platz 9. Die Aufholjagd ist eröffnet.",
           "type": "aufsteiger",
           "tipper": "Matthias"
         },
         {
-          "text": "LaranelMessi im Pech: Nur mickrige 2 Punkte und die rote Laterne",
-          "erklaerung": "Am Tag der großen Volltreffer kam LaranelMessi über magere 2 Zähler nicht hinaus. Mit insgesamt 6 Punkten bleibt das Schlusslicht auf Platz 21 kleben.",
+          "text": "LaranelMessi rutscht aus – nur mageres Pünktchen-Duo",
+          "erklaerung": "Während rund herum alles jubelte, blieb für LaranelMessi bei diesem Traum-Tippspieltag nur 2 Punkte übrig. Der Name klingt nach Messi, der Ertrag leider nicht.",
           "type": "pechvogel",
           "tipper": "LaranelMessi"
         }
@@ -59,48 +114,48 @@
       "group_key": "k:Sechzehntelfinale",
       "group": "Sechzehntelfinale",
       "gruppenphase": false,
-      "published_at": "2026-07-01T06:00",
+      "published_at": "2026-07-02T06:01",
       "complete": true,
       "headlines": [
         {
-          "text": "Salvanize kickt alle in die Tonne!",
-          "erklaerung": "Mit 7 Punkten und einem ergebnisgenauen Volltreffer schnappt sich salvanize souverän den Tagessieg. Beim Marokko-Wahnsinn (3:4) gehörte er zudem zu den nur vier von 20, die die Tendenz richtig hatten.",
+          "text": "salvanize kickt alle in die Tonne!",
+          "erklaerung": "Mit satten 7 Punkten und einem ergebnisgenauen Volltreffer sichert sich salvanize an diesem Sechzehntelfinal-Tag souverän den Tagessieg. Kein anderer kam an diese Ausbeute heran.",
           "type": "tagessieger",
           "tipper": "salvanize"
         },
         {
-          "text": "Torfestival in Deutschland – Matthias der einsame Prophet!",
-          "erklaerung": "Beim irren 4:5 gegen Paraguay lag nur 1 von 20 Tippern richtig – und das war Matthias. Für den erkannten Ausgang gab es 3 verdiente Punkte, während der Rest ratlos zusah.",
+          "text": "Matthias, der Torfestival-Prophet!",
+          "erklaerung": "Beim irren 4:5 zwischen Deutschland und Paraguay lag nur 1 von 20 Tippern richtig – Matthias war dieser Eine und kassierte 3 Punkte für die Tendenz. Ein Torspektakel, das kaum jemand kommen sah.",
           "type": "unwahrscheinlicher_treffer",
           "tipper": "Matthias"
         },
         {
-          "text": "Schrammadonna trifft, wo andere baden gehen",
-          "erklaerung": "Beim spektakulären 3:4 der Niederlande gegen Marokko hatte Schrammadonna als einer von nur vier Tippern den Ausgang richtig auf dem Zettel. Dafür wandern 2 Punkte auf sein Konto.",
+          "text": "Schrammadonna ahnt den Marokko-Coup",
+          "erklaerung": "Beim 3:4 der Niederlande gegen Marokko lagen nur 4 von 20 richtig – Schrammadonna gehörte zu den wenigen mit der richtigen Tendenz und holte 2 Punkte. Ein Fingerspitzengefühl, das Diegos Erben würdig ist.",
           "type": "unwahrscheinlicher_treffer",
           "tipper": "Schrammadonna"
         },
         {
-          "text": "Weckenbauer im Marokko-Rausch mitgeritten",
-          "erklaerung": "Auch Weckenbauer gehörte beim 3:4-Krimi zu den seltenen vier von 20, die richtig lagen. Der clevere Riecher wird mit 3 Punkten belohnt.",
+          "text": "Weckenbauer sieht die Oranje-Blamage voraus",
+          "erklaerung": "Nur 4 von 20 hatten den 3:4-Ausgang der Niederlande gegen Marokko auf dem Zettel, Weckenbauer war eine davon und strich 3 Punkte ein. Freie Bahn für den nächsten Kombinierten.",
           "type": "unwahrscheinlicher_treffer",
           "tipper": "Weckenbauer"
         },
         {
-          "text": "Kicklberger klettert – Aufholjagd im Anmarsch!",
-          "erklaerung": "Mit einem starken Spieltag schiebt sich Kicklberger von Platz 18 auf Platz 16 nach vorne. Zwei Ränge gutgemacht, das Ziel Mittelfeld rückt näher.",
+          "text": "Kicklberger klettert die Leiter hoch!",
+          "erklaerung": "Zwei Plätze gutgemacht: Kicklberger schiebt sich von Rang 18 auf Rang 16 nach vorn. Die Aufholjagd im Tabellenkeller hat begonnen.",
           "type": "aufsteiger",
           "tipper": "Kicklberger"
         },
         {
-          "text": "GG rutscht ab – der Fahrstuhl geht nach unten",
-          "erklaerung": "Zwei Plätze verloren: GG fällt von Rang 10 auf Rang 12 zurück. An diesem Spieltag lief es für ihn nicht nach Plan.",
+          "text": "GG rutscht aus – zwei Plätze futsch!",
+          "erklaerung": "Vom zehnten auf den zwölften Rang: GG verliert an diesem Spieltag zwei Positionen. Da muss dringend die Handbremse gelöst werden.",
           "type": "absteiger",
           "tipper": "GG"
         },
         {
-          "text": "Don Kuhbert geht die Milch aus – null Zähler!",
-          "erklaerung": "An diesem Spieltag blieb Don_Kuhbert mit 0 Punkten komplett ohne Ausbeute. Kein Treffer, keine Tendenz – ein Abend zum Vergessen.",
+          "text": "Don Kuhbert geht die Milch aus – null Punkte!",
+          "erklaerung": "An diesem Sechzehntelfinal-Abend blieb Don Kuhbert komplett ohne Zähler und ging als Pechvogel des Tages leer aus. Bei diesem Torreigen kein einziger Treffer – bitter.",
           "type": "pechvogel",
           "tipper": "Don_Kuhbert"
         }
@@ -1061,7 +1116,7 @@
       "label": "Sechzehntelfinale",
       "gruppenphase": false,
       "complete": false,
-      "end_date": "2026-06-30"
+      "end_date": "2026-07-01"
     },
     {
       "key": "g:3",

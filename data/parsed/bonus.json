@@ -506,141 +506,8 @@
       ]
     },
     {
-      "name": "Stockfish91",
-      "position": 3,
-      "bonus_points": 40,
-      "picks": [
-        {
-          "slot": 0,
-          "abbr": "FRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "BRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
-          "abbr": "ENG",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 3,
-          "abbr": "FRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 4,
-          "abbr": "SPA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 5,
-          "abbr": "MEX",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "CH",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 7,
-          "abbr": "BRA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 8,
-          "abbr": "TUR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 9,
-          "abbr": "DEU",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 10,
-          "abbr": "NIE",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 11,
-          "abbr": "BEL",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 12,
-          "abbr": "SPA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 13,
-          "abbr": "FRA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 14,
-          "abbr": "ARG",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 15,
-          "abbr": "POR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 16,
-          "abbr": "ENG",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 17,
-          "abbr": "FRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        }
-      ]
-    },
-    {
       "name": "LinkeKlebe",
-      "position": 4,
+      "position": 3,
       "bonus_points": 36,
       "picks": [
         {
@@ -765,6 +632,139 @@
         {
           "slot": 17,
           "abbr": "SPA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        }
+      ]
+    },
+    {
+      "name": "Stockfish91",
+      "position": 4,
+      "bonus_points": 40,
+      "picks": [
+        {
+          "slot": 0,
+          "abbr": "FRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 1,
+          "abbr": "BRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
+          "abbr": "ENG",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 3,
+          "abbr": "FRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 4,
+          "abbr": "SPA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 5,
+          "abbr": "MEX",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "CH",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 7,
+          "abbr": "BRA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 8,
+          "abbr": "TUR",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 9,
+          "abbr": "DEU",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 10,
+          "abbr": "NIE",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 11,
+          "abbr": "BEL",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 12,
+          "abbr": "SPA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 13,
+          "abbr": "FRA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 14,
+          "abbr": "ARG",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 15,
+          "abbr": "POR",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 16,
+          "abbr": "ENG",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 17,
+          "abbr": "FRA",
           "points": 0,
           "correct": false,
           "wrong": false
@@ -1038,141 +1038,8 @@
       ]
     },
     {
-      "name": "salvanize",
-      "position": 7,
-      "bonus_points": 36,
-      "picks": [
-        {
-          "slot": 0,
-          "abbr": "ENG",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "ARG",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
-          "abbr": "FRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 3,
-          "abbr": "SEN",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 4,
-          "abbr": "SPA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 5,
-          "abbr": "MEX",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "BIH",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 7,
-          "abbr": "BRA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 8,
-          "abbr": "TUR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 9,
-          "abbr": "DEU",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 10,
-          "abbr": "NIE",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 11,
-          "abbr": "BEL",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 12,
-          "abbr": "SPA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 13,
-          "abbr": "FRA",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 14,
-          "abbr": "ARG",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 15,
-          "abbr": "POR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 16,
-          "abbr": "ENG",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 17,
-          "abbr": "FRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        }
-      ]
-    },
-    {
       "name": "Matthias",
-      "position": 8,
+      "position": 7,
       "bonus_points": 32,
       "picks": [
         {
@@ -1305,7 +1172,7 @@
     },
     {
       "name": "TippTommy",
-      "position": 9,
+      "position": 8,
       "bonus_points": 36,
       "picks": [
         {
@@ -1438,7 +1305,7 @@
     },
     {
       "name": "Lochsocke",
-      "position": 10,
+      "position": 8,
       "bonus_points": 44,
       "picks": [
         {
@@ -1570,37 +1437,37 @@
       ]
     },
     {
-      "name": "BenzEma",
-      "position": 11,
+      "name": "salvanize",
+      "position": 10,
       "bonus_points": 36,
       "picks": [
         {
           "slot": 0,
-          "abbr": "BRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 1,
-          "abbr": "BRA",
-          "points": 0,
-          "correct": false,
-          "wrong": false
-        },
-        {
-          "slot": 2,
           "abbr": "ENG",
           "points": 0,
           "correct": false,
           "wrong": false
         },
         {
-          "slot": 3,
+          "slot": 1,
+          "abbr": "ARG",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
           "abbr": "FRA",
           "points": 0,
           "correct": false,
           "wrong": false
+        },
+        {
+          "slot": 3,
+          "abbr": "SEN",
+          "points": 0,
+          "correct": false,
+          "wrong": true
         },
         {
           "slot": 4,
@@ -1611,17 +1478,17 @@
         },
         {
           "slot": 5,
-          "abbr": "SKOR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
-        },
-        {
-          "slot": 6,
-          "abbr": "CH",
+          "abbr": "MEX",
           "points": 4,
           "correct": true,
           "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "BIH",
+          "points": 0,
+          "correct": false,
+          "wrong": true
         },
         {
           "slot": 7,
@@ -1704,7 +1571,7 @@
     },
     {
       "name": "GG",
-      "position": 12,
+      "position": 10,
       "bonus_points": 40,
       "picks": [
         {
@@ -1836,13 +1703,13 @@
       ]
     },
     {
-      "name": "Zidanima",
-      "position": 13,
-      "bonus_points": 32,
+      "name": "BenzEma",
+      "position": 12,
+      "bonus_points": 36,
       "picks": [
         {
           "slot": 0,
-          "abbr": "FRA",
+          "abbr": "BRA",
           "points": 0,
           "correct": false,
           "wrong": false
@@ -1856,14 +1723,14 @@
         },
         {
           "slot": 2,
-          "abbr": "FRA",
+          "abbr": "ENG",
           "points": 0,
           "correct": false,
           "wrong": false
         },
         {
           "slot": 3,
-          "abbr": "POR",
+          "abbr": "FRA",
           "points": 0,
           "correct": false,
           "wrong": false
@@ -1891,10 +1758,10 @@
         },
         {
           "slot": 7,
-          "abbr": "MAR",
-          "points": 0,
-          "correct": false,
-          "wrong": true
+          "abbr": "BRA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
         },
         {
           "slot": 8,
@@ -1970,7 +1837,7 @@
     },
     {
       "name": "Don_Kuhbert",
-      "position": 14,
+      "position": 13,
       "bonus_points": 32,
       "picks": [
         {
@@ -2102,9 +1969,9 @@
       ]
     },
     {
-      "name": "Kicklberger",
-      "position": 15,
-      "bonus_points": 28,
+      "name": "Zidanima",
+      "position": 14,
+      "bonus_points": 32,
       "picks": [
         {
           "slot": 0,
@@ -2122,14 +1989,14 @@
         },
         {
           "slot": 2,
-          "abbr": "DEU",
+          "abbr": "FRA",
           "points": 0,
           "correct": false,
-          "wrong": true
+          "wrong": false
         },
         {
           "slot": 3,
-          "abbr": "FRA",
+          "abbr": "POR",
           "points": 0,
           "correct": false,
           "wrong": false
@@ -2143,21 +2010,21 @@
         },
         {
           "slot": 5,
-          "abbr": "MEX",
-          "points": 4,
-          "correct": true,
-          "wrong": false
-        },
-        {
-          "slot": 6,
-          "abbr": "KAN",
+          "abbr": "SKOR",
           "points": 0,
           "correct": false,
           "wrong": true
         },
         {
+          "slot": 6,
+          "abbr": "CH",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
           "slot": 7,
-          "abbr": "SCO",
+          "abbr": "MAR",
           "points": 0,
           "correct": false,
           "wrong": true
@@ -2220,23 +2087,23 @@
         },
         {
           "slot": 16,
-          "abbr": "KRO",
-          "points": 0,
-          "correct": false,
-          "wrong": true
+          "abbr": "ENG",
+          "points": 4,
+          "correct": true,
+          "wrong": false
         },
         {
           "slot": 17,
-          "abbr": "DEU",
+          "abbr": "FRA",
           "points": 0,
           "correct": false,
-          "wrong": true
+          "wrong": false
         }
       ]
     },
     {
       "name": "Philipp_Flink",
-      "position": 16,
+      "position": 15,
       "bonus_points": 36,
       "picks": [
         {
@@ -2364,6 +2231,139 @@
           "points": 0,
           "correct": false,
           "wrong": false
+        }
+      ]
+    },
+    {
+      "name": "Kicklberger",
+      "position": 16,
+      "bonus_points": 28,
+      "picks": [
+        {
+          "slot": 0,
+          "abbr": "FRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 1,
+          "abbr": "BRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 2,
+          "abbr": "DEU",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 3,
+          "abbr": "FRA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 4,
+          "abbr": "SPA",
+          "points": 0,
+          "correct": false,
+          "wrong": false
+        },
+        {
+          "slot": 5,
+          "abbr": "MEX",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 6,
+          "abbr": "KAN",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 7,
+          "abbr": "SCO",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 8,
+          "abbr": "TUR",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 9,
+          "abbr": "DEU",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 10,
+          "abbr": "NIE",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 11,
+          "abbr": "BEL",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 12,
+          "abbr": "SPA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 13,
+          "abbr": "FRA",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 14,
+          "abbr": "ARG",
+          "points": 4,
+          "correct": true,
+          "wrong": false
+        },
+        {
+          "slot": 15,
+          "abbr": "POR",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 16,
+          "abbr": "KRO",
+          "points": 0,
+          "correct": false,
+          "wrong": true
+        },
+        {
+          "slot": 17,
+          "abbr": "DEU",
+          "points": 0,
+          "correct": false,
+          "wrong": true
         }
       ]
     },
@@ -3065,5 +3065,5 @@
     "TUR": "Türkei",
     "USA": "USA"
   },
-  "scraped_at": "2026-07-01T10:50:23"
+  "scraped_at": "2026-07-02T06:00:51"
 }
